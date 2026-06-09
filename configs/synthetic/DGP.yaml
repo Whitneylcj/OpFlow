@@ -1,0 +1,86 @@
+suite: DGP
+
+N_o: 80
+N_d: 80
+tau: 0.7
+
+experiment:
+  regimes:
+    - DGP
+
+dgp:
+  N_o: 80
+  N_d: 80
+  K_mean: 25
+  K_std: 5
+  K_min: 15
+  K_max: 40
+  num_train_env: 8
+  num_val_env: 2
+  num_test_env: 4
+  tau: 0.7
+  eps: 0.000001
+  num_centers_min: 3
+  num_centers_max: 5
+  bandwidth_min: 0.08
+  bandwidth_max: 0.18
+  opportunity_background: 0.08
+  omega: 0.15
+  sigma_proxy: 0.35
+  beta_o: 1.15
+  beta_c: 0.35
+  beta_s: 0.65
+  beta_l: 0.45
+  beta_oc: 0.25
+  gamma_o: 0.25
+  gamma_c: 0.25
+  phi_scale: 0.7
+  sigma_delta: 0.03
+  scale_base: 4.4
+  origin_scale_x: 0.9
+  origin_scale_y: 0.5
+  env_scale_shift_std: 0.15
+  scale_noise_std: 0.18
+  shortcut_rho_train: 0.9
+  shortcut_rho_val: 0.4
+  shortcut_rho_test: 0.1
+  shortcut_eta_train: 0.8
+  shortcut_eta_val: 0.4
+  shortcut_eta_test: 0.2
+  poisson: true
+
+baseline:
+  topk: 5
+
+exposure_model:
+  device: cpu
+  hidden_dim: 64
+  epochs: 180
+  learning_rate: 0.002
+  patience: 25
+  alpha_smooth: 0.5
+  lambda_count: 0.05
+  lambda_scale: 0.1
+  lambda_vrex: 0.1
+  lambda_op: 0.01
+  groupdro_weight: 0.005
+  lambda_operator_anchor: 0.03
+  lambda_o_anchor: 1.0
+  lambda_c_anchor: 1.0
+  checkpoint_metric: alloc_loss
+  rank_prefix_mode: soft
+  rank_prefix_temperature: 0.05
+  benefit_skip: 1.15
+  deterrence_skip: -0.35
+  exposure_skip: -0.65
+  competition_skip: 0.45
+  use_crowding_shift_gate: false
+  use_groupdro: true
+  use_rank_exposure: true
+  use_competition: true
+  use_opportunity_field: true
+  use_row_center: true
+  detach_count_allocation: true
+  use_sit_operator_potential: true
+  use_monotone_penalty: true
+  use_vrex: true

@@ -1,0 +1,73 @@
+suite: realworld_upgrade
+stage: train
+seed: 2026
+seeds: [2026, 2027, 2028]
+dataset:
+  name: large_commuting_od
+  data_root: data/opflow_large_commuting_od
+  splits_file: splits.json
+prepare:
+  zip_path: /Users/liuchangjian/Downloads/CommutingODGen-Dataset-main.zip
+  raw_parent: data/raw
+splits:
+  - random
+  - opportunity_shift
+  - shortcut_shift
+  - scale_shift
+models:
+  - distance_only
+  - gravity
+  - intervening_opportunity
+  - pair_mlp
+  - scale_aware_mlp
+  - opflow_full
+  - opflow_no_rank_exposure
+  - opflow_no_competition
+  - opflow_no_opportunity_field
+  - opflow_no_scale_detach
+  - opflow_generic_potential_mlp
+  - opflow_no_groupdro
+  - opflow_no_vrex
+  - opflow_no_monotone_penalty
+training:
+  epochs: 20
+  lr: 0.001
+  weight_decay: 0.00001
+  lambda_count: 0.1
+  lambda_scale: 1.0
+  lambda_vrex: 0.1
+  lambda_op: 0.01
+  use_groupdro: true
+  use_rank_exposure: true
+  use_competition: true
+  use_opportunity_field: true
+  use_row_center: true
+  detach_count_allocation: true
+  use_sit_operator_potential: true
+  use_monotone_penalty: true
+  use_vrex: true
+  alpha: 1.0
+  tau: 1.0
+  omega_grid: [10000.0, 25000.0, 50000.0]
+  io_cache_max_mb: 256
+  rank_prefix_row_chunk_size: 128
+  hidden_dim: 32
+  area_batch_size: 4
+  row_chunk_size: 16
+  cache_area_tensors: false
+  cache_area_max_mb: 64
+  process_workers: 1
+  torch_num_threads_per_worker: 1
+  patience: 15
+  grad_clip: 5.0
+  device: auto
+  topk: 5
+reporting:
+  upgrade_output_root: results/realworld_upgrade
+  response_max_areas_per_part: 4
+  response_max_points_per_split: 20000
+area_limits:
+  max_regions:
+  max_train_areas:
+  max_val_areas:
+  max_test_areas:

@@ -1,0 +1,92 @@
+stage: train
+seed: 2026
+seeds: [2026, 2027, 2028]
+dataset:
+  name: large_commuting_od
+  data_root: data/opflow_large_commuting_od
+  splits_file: splits.json
+prepare:
+  zip_path: /Users/liuchangjian/Downloads/CommutingODGen-Dataset-main.zip
+  raw_parent: data/raw
+splits:
+  - random
+  - matched_shortcut_high_to_low
+  - matched_opportunity_low_to_high
+models:
+  - distance_only
+  - gravity
+  - intervening_opportunity
+  - pair_mlp
+  - scale_aware_mlp
+  - opflow_real
+  - official_gm_p
+  - official_gm_e
+  - official_svr
+  - official_rf
+  - official_gbrt
+  - official_dgm
+  - official_gmel
+  - official_netgan
+  - official_diffodgen
+  - official_wedan
+training:
+  epochs: 20
+  lr: 0.001
+  weight_decay: 0.00001
+  lambda_count: 0.1
+  lambda_scale: 1.0
+  lambda_gate: 0.0
+  lambda_inv: 0.1
+  lambda_min: 0.001
+  lambda_entropy: 0.001
+  lambda_split: 0.05
+  lambda_vrex: 0.1
+  lambda_op: 0.01
+  use_groupdro: true
+  use_rank_exposure: true
+  use_competition: true
+  use_opportunity_field: true
+  use_row_center: true
+  detach_count_allocation: true
+  use_sit_operator_potential: true
+  use_monotone_penalty: true
+  use_vrex: true
+  alpha: 1.0
+  tau: 1.0
+  omega_grid: [10000.0, 25000.0, 50000.0]
+  io_cache_max_mb: 256
+  rank_prefix_row_chunk_size: 128
+  hidden_dim: 32
+  area_batch_size: 4
+  row_chunk_size: 16
+  cache_area_tensors: false
+  cache_area_max_mb: 64
+  process_workers: auto
+  process_workers_auto_max: 4
+  process_workers_memory_fraction: 0.65
+  process_workers_reserved_memory_gb: 2.0
+  process_worker_memory_floor_gb: 1.25
+  torch_num_threads_per_worker: 1
+  deduplicate_seed_invariant_models: true
+  seed_invariant_models:
+    - distance_only
+    - gravity
+    - intervening_opportunity
+    - official_gm_p
+    - official_gm_e
+    - official_svr
+  patience: 15
+  grad_clip: 5.0
+  device: auto
+  topk: 5
+  official_runtime: auto
+  official_pair_row_chunk_size: auto
+  official_pair_chunk_target_mb: 64
+  official_pair_chunk_max_rows: 128
+reporting:
+  exposure_output_dir: results/real_opflow_exposure_potential
+area_limits:
+  max_regions:
+  max_train_areas:
+  max_val_areas:
+  max_test_areas:

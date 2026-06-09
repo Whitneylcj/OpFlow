@@ -1,0 +1,82 @@
+suite: constrained_si
+stage: train
+seed: 2026
+seeds: [2026, 2027, 2028]
+dataset:
+  name: large_commuting_od
+  data_root: data/opflow_large_commuting_od
+  splits_file: splits.json
+prepare:
+  zip_path: /Users/liuchangjian/Downloads/CommutingODGen-Dataset-main.zip
+  raw_parent: data/raw
+splits:
+  - random
+  - opportunity_shift
+  - shortcut_shift
+  - scale_shift
+models:
+  - gravity
+  - radiation
+  - scale_aware_mlp
+  - pair_mlp_sampled
+  - opflow_full
+  - opflow_full_softmax_local
+  - opflow_no_scale_branch
+  - opflow_no_rank_exposure
+  - opflow_no_competition
+  - opflow_generic_potential_mlp
+  - opflow_no_groupdro
+  - opflow_no_vrex
+  - opflow_no_monotone_penalty
+appendix_models:
+  - intervening_opportunity
+  - raw_count_mlp
+  - opflow_no_exposure_ops
+  - opflow_no_row_centering
+  - opflow_lite
+training:
+  epochs: 12
+  lr: 0.001
+  weight_decay: 0.00001
+  lambda_count: 0.1
+  lambda_scale: 2.0
+  lambda_vrex: 0.1
+  lambda_op: 0.01
+  use_groupdro: true
+  use_rank_exposure: true
+  use_competition: true
+  use_opportunity_field: true
+  use_row_center: true
+  detach_count_allocation: true
+  use_sit_operator_potential: true
+  use_monotone_penalty: true
+  use_vrex: true
+  alpha: 1.0
+  tau: 1.0
+  omega_grid: [10000.0, 25000.0, 50000.0]
+  local_exposure_mode: kernel_sum
+  scale_residual_weight: 0.1
+  io_cache_max_mb: 256
+  rank_prefix_row_chunk_size: 128
+  hidden_dim: 32
+  area_batch_size: 4
+  row_chunk_size: 16
+  cache_area_tensors: false
+  cache_area_max_mb: 64
+  process_workers: 1
+  torch_num_threads_per_worker: 1
+  patience: 8
+  grad_clip: 5.0
+  device: auto
+  topk: 5
+  max_pair_mlp_train_areas: 128
+  max_raw_count_train_areas: 128
+reporting:
+  constrained_si_output_root: results/real_world
+  exposure_full_arrays_max_areas: 3
+  exposure_signature_max_areas:
+area_limits:
+  max_regions:
+  max_train_areas:
+  max_val_areas:
+  max_test_areas:

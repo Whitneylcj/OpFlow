@@ -1,0 +1,42 @@
+stage: train
+seed: 2026
+seeds: [2026]
+dataset:
+  name: large_commuting_od
+  data_root: data/opflow_large_commuting_od
+  splits_file: splits.json
+prepare:
+  zip_path: /Users/liuchangjian/Downloads/CommutingODGen-Dataset-main.zip
+  raw_parent: data/raw
+splits:
+  - random
+models:
+  - official_gm_p
+  - official_gm_e
+  - official_svr
+  - official_rf
+  - official_gbrt
+  - official_dgm
+  - official_gmel
+  - official_netgan
+  - official_diffodgen
+  - official_wedan
+training:
+  epochs: 1
+  lr: 0.001
+  weight_decay: 0.00001
+  process_workers: 1
+  torch_num_threads_per_worker: 1
+  patience: 1
+  grad_clip: 5.0
+  device: auto
+  topk: 5
+  row_chunk_size: 16
+  official_runtime: auto
+reporting:
+  exposure_output_dir: results/real_opflow_exposure_potential
+area_limits:
+  max_regions:
+  max_train_areas:
+  max_val_areas:
+  max_test_areas:
