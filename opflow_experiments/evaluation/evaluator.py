@@ -97,6 +97,16 @@ def _potential_mse(true_score: np.ndarray, pred_score: np.ndarray) -> float:
     return float(np.mean((true_score[valid] - pred_score[valid]) ** 2))
 
 
+def _rowwise_potential_mse(frame: pd.DataFrame, true_score: np.ndarray, pred_score: np.ndarray) -> float:
+    valid = np.isfinite(true_score) & np.isfinite(pred_score)
+    if valid.sum() == 0:
+        return float("nan")
+    working = frame.loc[valid, ["env_id", "origin_id"]].copy()
+    working["_err"] = (true_score[valid] - pred_score[valid]) ** 2
+    per_row = working.groupby(["env_id", "origin_id"], sort=False)["_err"].mean()
+    return float(per_row.mean()) if not per_row.empty else float("nan")
+
+
 def evaluate_predictions(records: pd.DataFrame, prediction: dict, topk: int = 5) -> dict[str, dict[str, float]]:
     """Evaluate a prediction bundle by split with row-wise aggregation."""
     enriched = records.copy()
@@ -139,7 +149,7 @@ def evaluate_predictions(records: pd.DataFrame, prediction: dict, topk: int = 5)
             score_frame = frame.copy()
             score_frame["_qbar_hat"] = pred_centered
             split_report["score_mse"] = _score_mse_calibrated(true_centered, pred_centered)
-            split_report["pmse"] = _potential_mse(true_centered, pred_centered)
+            split_report["pmse"] = _rowwise_potential_mse(frame, true_centered, pred_centered)
             split_report["score_corr"] = mean_spearman_by_row(score_frame, true_col="psi_oracle", pred_col="_qbar_hat")
         else:
             split_report["score_mse"] = float("nan")

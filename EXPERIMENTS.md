@@ -18,26 +18,48 @@ outputs/runs/{run_id}/
 
 ## Synthetic Experiments
 
-Run the final DGP for paper-scale 30 seeds:
+`q1_scale` is a training/validation origin-scale heterogeneity experiment. It
+keeps the oracle allocation mechanism fixed across severity values, so Row-KL
+movement comes from raw-count supervision being dominated by high-scale rows,
+not from a pure test-time production shock. `RawCountMLP` uses raw-count MSE in
+the synthetic suite; allocation baselines use row-level allocation risk.
+
+Run the final four-question DGP suite for paper-scale 30 seeds:
 
 ```bash
 conda run --no-capture-output -n opflow python experiments/synthetic/run_synthetic_main.py \
   --config configs/synthetic/DGP.yaml \
   --mode full \
-  --run-id DGP_30seed
+  --run-id synthetic_four_30seed
 ```
 
-Run a quicker DGP smoke check:
+Run a quicker four-question DGP smoke check:
 
 ```bash
 conda run --no-capture-output -n opflow python experiments/synthetic/run_synthetic_main.py \
   --config configs/synthetic/DGP.yaml \
   --mode debug \
-  --run-id DGP_debug
+  --questions q1_scale q2_opportunity q3_component_corr q4_ablation \
+  --run-id synthetic_four_debug
 ```
 
-DGP outputs include per-run artifacts under `outputs/runs/{run_id}/` and
-paper-facing CSVs and summaries under `results/DGP/`.
+Run the opt-in appendix residual behavioral drift stress test:
+
+```bash
+conda run --no-capture-output -n opflow python experiments/synthetic/run_synthetic_main.py \
+  --config configs/synthetic/DGP.yaml \
+  --mode debug \
+  --questions stress_residual_drift \
+  --run-id stress_residual_drift_debug
+```
+
+DGP outputs include per-run artifacts under `outputs/runs/{run_id}/`,
+paper-facing CSVs under `results/q1_scale/`, `results/q2_opportunity/`,
+`results/q3_component_corr/`, and `results/q4_ablation/`, plus
+`figures/synthetic_main.*`, `tables/synthetic_endpoint.csv`, and
+`reports/synthetic_report.md`. The appendix stress writes
+`results/stress_residual_drift/metrics.csv` and
+`figures/stress_residual_drift.*` when explicitly requested.
 
 ## Real-World Experiments
 

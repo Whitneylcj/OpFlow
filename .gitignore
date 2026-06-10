@@ -1,6 +1,7 @@
 .idea/
 outputs/
 results/
+test/
 __pycache__/
 *.py[cod]
 .DS_Store

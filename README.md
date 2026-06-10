@@ -115,26 +115,44 @@ the `official_*` model names.
 
 ## Synthetic Experiment
 
-The active synthetic experiment is the single final `DGP`. It generates
-environment-specific opportunity fields, fits oracle standardizers on training
-environments only, and exposes only raw/proxy deployed features to OpFlow.
+The active synthetic suite uses the single final `DGP` regime and organizes the
+paper-facing simulations as four questions: `q1_scale`, `q2_opportunity`,
+`q3_component_corr`, and `q4_ablation`. It uses one shared origin/destination
+support, excludes self-loops, fits oracle standardizers on training
+environments only, and exposes only admissible deployed proxy features.
+`q1_scale` is a training/validation scale-heterogeneity sweep: it holds the
+oracle allocation law fixed and changes only origin production scale, generated
+counts, and implied count intensity in the training objective. `RawCountMLP`
+uses raw-count MSE for this suite, while allocation methods optimize
+row-level allocation risk.
 
-Full DGP run, 30 seeds:
+Full four-question DGP run, 30 seeds:
 
 ```bash
 conda run --no-capture-output -n opflow python experiments/synthetic/run_synthetic_main.py \
   --config configs/synthetic/DGP.yaml \
   --mode full \
-  --run-id DGP_30seed
+  --run-id synthetic_four_30seed
 ```
 
-Fast DGP smoke check:
+Fast four-question smoke check:
 
 ```bash
 conda run --no-capture-output -n opflow python experiments/synthetic/run_synthetic_main.py \
   --config configs/synthetic/DGP.yaml \
   --mode debug \
-  --run-id DGP_debug
+  --questions q1_scale q2_opportunity q3_component_corr q4_ablation \
+  --run-id synthetic_four_debug
+```
+
+Appendix residual behavioral drift stress test:
+
+```bash
+conda run --no-capture-output -n opflow python experiments/synthetic/run_synthetic_main.py \
+  --config configs/synthetic/DGP.yaml \
+  --mode debug \
+  --questions stress_residual_drift \
+  --run-id stress_residual_drift_debug
 ```
 
 Primary metrics are Row-KL, Row-CPC, rank correlation, top-k overlap, PMSE,
@@ -144,11 +162,18 @@ on origin-scale recovery.
 DGP outputs are written to:
 
 ```text
-results/DGP/metrics_by_seed.csv
-results/DGP/summary_mean_ci.csv
-results/DGP/diagnostics.csv
-results/DGP/summary.md
-outputs/reports/DGP_report.md
+results/q1_scale/metrics.csv
+results/q2_opportunity/metrics.csv
+results/q3_component_corr/metrics.csv
+results/q3_component_corr/correlation_checks.csv
+results/q4_ablation/metrics.csv
+results/stress_residual_drift/metrics.csv
+figures/synthetic_main.png
+figures/synthetic_main.pdf
+figures/stress_residual_drift.png
+figures/stress_residual_drift.pdf
+tables/synthetic_endpoint.csv
+reports/synthetic_report.md
 ```
 
 ## Real-World Experiment
@@ -230,9 +255,10 @@ Override any nested config key from the command line:
 
 ```bash
 conda run --no-capture-output -n opflow python experiments/synthetic/run_synthetic_main.py \
-  --config configs/synthetic/exposure_opflow_e1_e3.yaml \
+  --config configs/synthetic/DGP.yaml \
+  --questions q3_component_corr \
   --override exposure_model.epochs=150 \
-  --run-id exposure_opflow_epochs_150
+  --run-id q3_epochs_150
 ```
 
 For smoke tests only, add `--debug`; do not use debug outputs as paper evidence.

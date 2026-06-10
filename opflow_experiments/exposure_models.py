@@ -1,4 +1,4 @@
-"""Exposure-aware synthetic models for the upgraded OpFlow suite."""
+"""Exposure-aware synthetic models for the final DGP four-question suite."""
 
 from __future__ import annotations
 
@@ -27,6 +27,11 @@ def res_columns(records: pd.DataFrame) -> list[str]:
 
 def origin_columns(records: pd.DataFrame) -> list[str]:
     return sorted([col for col in records.columns if col.startswith("x_origin_")], key=lambda x: int(x.rsplit("_", 1)[1]))
+
+
+def deployed_pair_columns(records: pd.DataFrame, include_raw_cost: bool = True) -> list[str]:
+    """Admissible deployed pair features for non-OpFlow baselines."""
+    return origin_columns(records) + geo_columns(records, include_raw_cost=include_raw_cost)
 
 
 @dataclass
@@ -189,6 +194,7 @@ class ExposureBaselineModel:
         self.patience = int(cfg.get("patience", 15))
         self.lambda_count = float(cfg.get("lambda_count", 0.05))
         self.lambda_scale = float(cfg.get("lambda_scale", 0.1))
+        self.raw_count_loss = str(cfg.get("raw_count_loss", "mse")).lower()
         self.alpha = float(cfg.get("alpha_smooth", 0.5))
         self.tau = float(config.get("dgp", {}).get("tau", config.get("tau", 0.7)))
         self.device = resolve_device(cfg.get("device", "cpu"))
@@ -205,14 +211,17 @@ class ExposureBaselineModel:
 
     def _columns_for_method(self, records: pd.DataFrame) -> list[str]:
         if self.method == "ShortcutOnly":
-            return res_columns(records)
+            cols = res_columns(records)
+            if not cols:
+                raise ValueError("ShortcutOnly requires explicit x_res_* columns, which are not part of the main DGP.")
+            return cols
         if self.method in {"RawCountMLP", "RawCountGNN"}:
-            return geo_columns(records) + res_columns(records)
+            return deployed_pair_columns(records)
         if self.method in {"ScaleAllocationMLP", "ScaleAwareMLP"}:
-            return [col for col in geo_columns(records) if col not in {"x_geo_4"}]
+            return deployed_pair_columns(records)
         if self.method == "ExposureMLPNoS":
-            return [col for col in geo_columns(records) if col not in {"x_geo_2"}]
-        return geo_columns(records)
+            return origin_columns(records) + [col for col in geo_columns(records) if col not in {"x_geo_2"}]
+        return deployed_pair_columns(records)
 
     def fit(self, train_records: pd.DataFrame, val_records: pd.DataFrame) -> dict:
         row_scale = train_records.groupby(["env_id", "origin_id"], sort=False)["R_oracle"].first()
@@ -314,7 +323,12 @@ class ExposureBaselineModel:
                 raw_lam = raw_lam.masked_fill(~mask, 0.0)
                 pi = raw_lam / torch.clamp(raw_lam.sum(dim=1, keepdim=True), min=1e-8)
                 lam = raw_lam
-                loss = F.mse_loss(torch.log1p(raw_lam_flat), torch.log1p(tensors["y"]))
+                if self.raw_count_loss == "poisson_nll":
+                    loss = F.poisson_nll_loss(torch.clamp(raw_lam_flat, min=1e-8), tensors["y"], log_input=False, full=False)
+                elif self.raw_count_loss == "log_mse":
+                    loss = F.mse_loss(torch.log1p(raw_lam_flat), torch.log1p(tensors["y"]))
+                else:
+                    loss = F.mse_loss(raw_lam_flat, tensors["y"])
             else:
                 loss = alloc_loss + self.lambda_count * F.mse_loss(
                     torch.log1p(_gather_from_matrix(lam, flat_index)),
@@ -497,6 +511,8 @@ class ExposureOpFlowModel:
         self.lambda_o_anchor = float(cfg.get("lambda_o_anchor", 1.0))
         self.lambda_c_anchor = float(cfg.get("lambda_c_anchor", 1.0))
         self.checkpoint_metric = str(cfg.get("checkpoint_metric", "alloc_objective"))
+        self.selection_protocol = str(cfg.get("selection_protocol", "leo")).lower()
+        self.leo_selection_metric = str(cfg.get("leo_selection_metric", "alloc_loss"))
         self.rank_prefix_mode = str(cfg.get("rank_prefix_mode", "hard")).lower()
         if self.rank_prefix_mode not in {"hard", "soft"}:
             raise ValueError(f"Unknown rank_prefix_mode: {self.rank_prefix_mode}")
@@ -533,17 +549,13 @@ class ExposureOpFlowModel:
         self.origin_cols: list[str] = []
         self.dest_proxy_reference: pd.Series | None = None
         self.net: _ExposureOpFlowNet | None = None
+        self.seed = int(seed)
+        self.selected_epoch_: int | None = None
+        self.selection_summary_: dict = {}
         torch.manual_seed(seed)
 
-    def fit(self, train_records: pd.DataFrame, val_records: pd.DataFrame) -> dict:
-        self.geo_cols = geo_columns(train_records, include_raw_cost=True)
-        self.origin_cols = origin_columns(train_records)
-        self.dest_proxy_reference = train_records.groupby("dest_id", sort=False)["x_geo_3"].mean()
-        x_geo_train = self.geo_scaler.fit_transform(_frame_array(train_records[self.geo_cols]))
-        x_geo_val = self.geo_scaler.transform(_frame_array(val_records[self.geo_cols]))
-        origin_train = self.origin_scaler.fit_transform(_frame_array(train_records[self.origin_cols]))
-        origin_val = self.origin_scaler.transform(_frame_array(val_records[self.origin_cols]))
-        self.net = _ExposureOpFlowNet(
+    def _new_net(self) -> _ExposureOpFlowNet:
+        return _ExposureOpFlowNet(
             p_dest_dim=3,
             p_pair_dim=3,
             p_geo_dim=3,
@@ -554,13 +566,9 @@ class ExposureOpFlowModel:
             exposure_skip=self.exposure_skip,
             competition_skip=self.competition_skip,
         ).to(self.device)
-        optimizer = torch.optim.Adam(self.net.parameters(), lr=self.lr, weight_decay=1e-5)
-        train_tensors = self._make_tensors(train_records, x_geo_train, origin_train)
-        val_tensors = self._make_tensors(val_records, x_geo_val, origin_val)
-        best_state = copy.deepcopy(self.net.state_dict())
-        best_val = float("inf")
-        stale = 0
-        history = {
+
+    def _empty_history(self) -> dict[str, list[float]]:
+        return {
             "train_loss": [],
             "val_loss": [],
             "train_alloc_risk_max": [],
@@ -569,8 +577,52 @@ class ExposureOpFlowModel:
             "val_vrex_alloc_var": [],
             "train_operator_anchor_loss": [],
             "val_operator_anchor_loss": [],
+            "selection_score": [],
         }
-        for _ in range(self.epochs):
+
+    def _prepare_fit(self, train_records: pd.DataFrame, val_records: pd.DataFrame) -> tuple[torch.optim.Optimizer, dict, dict]:
+        self.geo_cols = geo_columns(train_records, include_raw_cost=True)
+        self.origin_cols = origin_columns(train_records)
+        self.dest_proxy_reference = train_records.groupby("dest_id", sort=False)["x_geo_3"].mean()
+        self.geo_scaler = StandardScaler()
+        self.origin_scaler = StandardScaler()
+        x_geo_train = self.geo_scaler.fit_transform(_frame_array(train_records[self.geo_cols]))
+        x_geo_val = self.geo_scaler.transform(_frame_array(val_records[self.geo_cols]))
+        origin_train = self.origin_scaler.fit_transform(_frame_array(train_records[self.origin_cols]))
+        origin_val = self.origin_scaler.transform(_frame_array(val_records[self.origin_cols]))
+        torch.manual_seed(self.seed)
+        self.net = self._new_net()
+        optimizer = torch.optim.Adam(self.net.parameters(), lr=self.lr, weight_decay=1e-5)
+        train_tensors = self._make_tensors(train_records, x_geo_train, origin_train)
+        val_tensors = self._make_tensors(val_records, x_geo_val, origin_val)
+        return optimizer, train_tensors, val_tensors
+
+    def _selection_score(self, train_loss: float, val_pred: dict, score_mode: str) -> float:
+        if score_mode == "train_loss":
+            return train_loss
+        metric = self.leo_selection_metric if score_mode == "leo" else self.checkpoint_metric
+        if metric not in val_pred:
+            raise KeyError(f"Unknown checkpoint metric: {metric}")
+        return float(val_pred[metric].item())
+
+    def _fit_once(
+        self,
+        train_records: pd.DataFrame,
+        val_records: pd.DataFrame,
+        *,
+        score_mode: str,
+        max_epochs: int | None = None,
+        use_patience: bool = True,
+        keep_final_state: bool = False,
+    ) -> tuple[dict, int, float]:
+        optimizer, train_tensors, val_tensors = self._prepare_fit(train_records, val_records)
+        best_state = copy.deepcopy(self.net.state_dict())
+        best_val = float("inf")
+        best_epoch = 0
+        stale = 0
+        history = self._empty_history()
+        total_epochs = int(max_epochs or self.epochs)
+        for epoch in range(total_epochs):
             self.net.train()
             loss, _ = self._loss(train_tensors)
             optimizer.zero_grad()
@@ -590,18 +642,83 @@ class ExposureOpFlowModel:
             history["val_vrex_alloc_var"].append(float(val_pred["vrex_alloc_var"].item()))
             history["train_operator_anchor_loss"].append(float(train_pred["operator_anchor_loss"].item()))
             history["val_operator_anchor_loss"].append(float(val_pred["operator_anchor_loss"].item()))
-            if self.checkpoint_metric not in val_pred:
-                raise KeyError(f"Unknown checkpoint_metric: {self.checkpoint_metric}")
-            val_score = float(val_pred[self.checkpoint_metric].item())
+            val_score = self._selection_score(train_loss, val_pred, score_mode)
+            history["selection_score"].append(val_score)
+            if keep_final_state:
+                best_val = val_score
+                best_epoch = epoch + 1
+                best_state = copy.deepcopy(self.net.state_dict())
+                continue
             if val_score < best_val - 1e-6:
                 best_val = val_score
+                best_epoch = epoch + 1
                 best_state = copy.deepcopy(self.net.state_dict())
                 stale = 0
             else:
                 stale += 1
-                if stale >= self.patience:
+                if use_patience and stale >= self.patience:
                     break
         self.net.load_state_dict(best_state)
+        return history, max(best_epoch, 1), best_val
+
+    def _use_leo_selection(self, train_records: pd.DataFrame) -> bool:
+        if self.method == "NoEnvSelection":
+            return False
+        if self.selection_protocol not in {"leo", "leave_one_env", "leave_one_environment_out"}:
+            return False
+        return int(train_records["env_id"].nunique()) >= 2
+
+    def _fit_with_leo_selection(self, train_records: pd.DataFrame, val_records: pd.DataFrame) -> dict:
+        env_ids = list(pd.unique(train_records["env_id"]))
+        fold_scores: list[list[float]] = []
+        for heldout_env in env_ids:
+            fold_train = train_records.loc[train_records["env_id"] != heldout_env].copy()
+            fold_val = train_records.loc[train_records["env_id"] == heldout_env].copy()
+            fold_history, _, _ = self._fit_once(
+                fold_train,
+                fold_val,
+                score_mode="leo",
+                max_epochs=self.epochs,
+                use_patience=False,
+            )
+            fold_scores.append(list(fold_history["selection_score"]))
+        score_matrix = np.asarray(fold_scores, dtype=float)
+        mean_scores = np.nanmean(score_matrix, axis=0)
+        selected_epoch = int(np.nanargmin(mean_scores)) + 1
+        history, _, final_score = self._fit_once(
+            train_records,
+            val_records,
+            score_mode="leo",
+            max_epochs=selected_epoch,
+            use_patience=False,
+            keep_final_state=True,
+        )
+        self.selected_epoch_ = selected_epoch
+        self.selection_summary_ = {
+            "selection_protocol": "leo",
+            "selection_metric": self.leo_selection_metric,
+            "selected_epoch": selected_epoch,
+            "num_folds": len(env_ids),
+            "fold_env_ids": [int(env) if isinstance(env, (int, np.integer)) else env for env in env_ids],
+            "mean_score_by_epoch": mean_scores.tolist(),
+            "final_val_score": float(final_score),
+            "retrained_on_all_train_envs": True,
+        }
+        return history
+
+    def fit(self, train_records: pd.DataFrame, val_records: pd.DataFrame) -> dict:
+        if self._use_leo_selection(train_records):
+            return self._fit_with_leo_selection(train_records, val_records)
+        score_mode = "train_loss" if self.method == "NoEnvSelection" else "validation"
+        history, selected_epoch, best_score = self._fit_once(train_records, val_records, score_mode=score_mode)
+        self.selected_epoch_ = selected_epoch
+        self.selection_summary_ = {
+            "selection_protocol": "train_loss" if self.method == "NoEnvSelection" else "validation",
+            "selection_metric": "train_loss" if self.method == "NoEnvSelection" else self.checkpoint_metric,
+            "selected_epoch": selected_epoch,
+            "best_score": float(best_score),
+            "retrained_on_all_train_envs": False,
+        }
         return history
 
     def _crowding_shift_gate(self, records: pd.DataFrame) -> np.ndarray:
@@ -1015,6 +1132,12 @@ class ExposureOpFlowModel:
 def build_exposure_model(method: str, config: dict, seed: int):
     aliases = {
         "FullOpFlow": "OpFlow",
+        "PairAllocMLP": "PairMLP",
+        "FixedShare": "ShareStable",
+        "NoRankPrefix": "NoRankExposure",
+        "NoLocalField": "NoCompetition",
+        "NoScaleIsolation": "NoScaleDetach",
+        "NoMonotonicity": "NoMonotonePenalty",
         "ScaleAwareMLP": "ScaleAwareMLP",
         "NoRankExposure": "NoRankExposure",
         "NoCompetition": "NoCompetition",
@@ -1049,6 +1172,7 @@ def build_exposure_model(method: str, config: dict, seed: int):
         "NoGroupDRO",
         "NoVREX",
         "NoMonotonePenalty",
+        "NoEnvSelection",
     }:
         return ExposureOpFlowModel(method, config, seed)
     if method in {

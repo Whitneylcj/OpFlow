@@ -249,7 +249,7 @@ def build_summary_payload(
             idx = valid[metric].idxmin() if direction == "min" else valid[metric].idxmax()
             best_methods[metric] = str(valid.loc[idx, "method"])
     main_metrics = summary.fillna("NA").to_dict(orient="records") if not summary.empty else []
-    return {
+    payload = {
         "experiment": experiment,
         "config_path": config_path,
         "run_id": run_id,
@@ -257,8 +257,10 @@ def build_summary_payload(
         "main_metrics": main_metrics,
         "best_methods": best_methods,
         "diagnostics": diagnostics or {},
-        "warnings": warnings or [],
     }
+    if warnings:
+        payload["warnings"] = warnings
+    return payload
 
 
 def write_standard_outputs(
@@ -322,7 +324,7 @@ def _write_summary_markdown(payload: dict[str, Any], path: Path) -> None:
             )
     else:
         lines.append("NA")
-    if payload["warnings"]:
+    if payload.get("warnings"):
         lines.extend(["", "## Warnings", ""])
         lines.extend(f"- {warning}" for warning in payload["warnings"])
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

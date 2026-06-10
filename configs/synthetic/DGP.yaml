@@ -1,5 +1,6 @@
 suite: DGP
 
+N: 80
 N_o: 80
 N_d: 80
 tau: 0.7
@@ -7,8 +8,27 @@ tau: 0.7
 experiment:
   regimes:
     - DGP
+  questions:
+    - q1_scale
+    - q2_opportunity
+    - q3_component_corr
+    - q4_ablation
+  methods:
+    - OpFlow
+    - RawCountMLP
+    - PairAllocMLP
+    - ScaleAwareMLP
+    - ShareStable
+  q4_methods:
+    - FullOpFlow
+    - NoRankPrefix
+    - NoLocalField
+    - NoScaleIsolation
+    - NoEnvSelection
+    - NoMonotonicity
 
 dgp:
+  N: 80
   N_o: 80
   N_d: 80
   K_mean: 25
@@ -31,23 +51,35 @@ dgp:
   beta_c: 0.35
   beta_s: 0.65
   beta_l: 0.45
-  beta_oc: 0.25
   gamma_o: 0.25
   gamma_c: 0.25
-  phi_scale: 0.7
   sigma_delta: 0.03
   scale_base: 4.4
   origin_scale_x: 0.9
   origin_scale_y: 0.5
   env_scale_shift_std: 0.15
   scale_noise_std: 0.18
-  shortcut_rho_train: 0.9
-  shortcut_rho_val: 0.4
-  shortcut_rho_test: 0.1
-  shortcut_eta_train: 0.8
-  shortcut_eta_val: 0.4
-  shortcut_eta_test: 0.2
   poisson: true
+
+synthetic_questions:
+  q1_scale:
+    scale_severity_list: [0.0, 0.5, 1.0, 1.5]
+  q2_opportunity:
+    opp_severity_list: [0.0, 0.3, 0.6, 0.9]
+  q3_component_corr:
+    alpha_train: 0.7
+    alpha_val: 0.5
+    alpha_test_list: [0.7, 0.3, 0.0, -0.3, -0.6]
+  q4_ablation:
+    stress_opp_severity: 0.9
+    stress_alpha_test: -0.6
+  stress_residual_drift:
+    kappa_list: [0.0, 0.1, 0.2, 0.3, 0.5]
+    methods:
+      - RawCountMLP
+      - PairAllocMLP
+      - ScaleAwareMLP
+      - OpFlow
 
 baseline:
   topk: 5
@@ -61,6 +93,7 @@ exposure_model:
   alpha_smooth: 0.5
   lambda_count: 0.05
   lambda_scale: 0.1
+  raw_count_loss: mse
   lambda_vrex: 0.1
   lambda_op: 0.01
   groupdro_weight: 0.005
@@ -68,6 +101,8 @@ exposure_model:
   lambda_o_anchor: 1.0
   lambda_c_anchor: 1.0
   checkpoint_metric: alloc_loss
+  selection_protocol: leo
+  leo_selection_metric: alloc_loss
   rank_prefix_mode: soft
   rank_prefix_temperature: 0.05
   benefit_skip: 1.15

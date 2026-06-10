@@ -1,8 +1,10 @@
-"""Final synthetic DGP for OpFlow."""
+"""Final synthetic DGP for the four OpFlow simulation questions."""
 
 from __future__ import annotations
 
 from dataclasses import dataclass
+import hashlib
+from typing import Any
 
 import numpy as np
 import pandas as pd
@@ -45,6 +47,31 @@ def _cfg(config: dict) -> dict:
 def _get(config: dict, key: str, default):
     dgp = _cfg(config)
     return dgp.get(key, config.get(key, default))
+
+
+def _entropy_part(part: Any) -> int:
+    if isinstance(part, (int, np.integer)):
+        return int(part) & 0xFFFFFFFF
+    digest = hashlib.blake2s(str(part).encode("utf-8"), digest_size=4).digest()
+    return int.from_bytes(digest, byteorder="little", signed=False)
+
+
+def _rng_from_parts(seed: int, *parts: Any) -> np.random.Generator:
+    entropy = [int(seed) & 0xFFFFFFFF]
+    entropy.extend(_entropy_part(part) for part in parts)
+    return np.random.default_rng(np.random.SeedSequence(entropy))
+
+
+def _scenario(config: dict[str, Any]) -> dict[str, Any]:
+    scenario = dict(config.get("scenario", {}))
+    scenario.update(dict(config.get("dgp", {}).get("scenario", {})))
+    scenario.setdefault("question", "base")
+    return scenario
+
+
+def _standardize_vector(values: np.ndarray) -> np.ndarray:
+    values = np.asarray(values, dtype=float)
+    return (values - values.mean()) / (values.std(ddof=0) + 1e-8)
 
 
 def row_center_masked(values: np.ndarray, mask: np.ndarray) -> np.ndarray:
@@ -105,16 +132,63 @@ def local_competition(destinations: np.ndarray, opportunity: np.ndarray, omega: 
     return weights @ np.asarray(opportunity, dtype=float)
 
 
-def _opportunity_field(rng: np.random.Generator, destinations: np.ndarray, cfg: dict) -> np.ndarray:
+def _mixture_field(
+    rng: np.random.Generator,
+    destinations: np.ndarray,
+    cfg: dict,
+    *,
+    bandwidth_scale: float = 1.0,
+    background_scale: float = 1.0,
+) -> np.ndarray:
     n_centers = int(rng.integers(int(cfg.get("num_centers_min", 3)), int(cfg.get("num_centers_max", 5)) + 1))
     centers = rng.uniform(0.0, 1.0, size=(n_centers, 2))
     weights = rng.dirichlet(np.ones(n_centers))
     bandwidth = rng.uniform(float(cfg.get("bandwidth_min", 0.08)), float(cfg.get("bandwidth_max", 0.18)), size=n_centers)
-    background = float(cfg.get("opportunity_background", 0.08))
+    bandwidth = np.maximum(bandwidth * float(bandwidth_scale), 1e-4)
+    background = float(cfg.get("opportunity_background", 0.08)) * float(background_scale)
     sq_dist = ((destinations[:, None, :] - centers[None, :, :]) ** 2).sum(axis=2)
     raw = background + (weights[None, :] * np.exp(-sq_dist / (2.0 * bandwidth[None, :] ** 2))).sum(axis=1)
-    raw = np.maximum(raw / np.maximum(raw.mean(), 1e-12), float(cfg.get("eps", 1e-6)))
-    return raw / np.maximum(raw.mean(), 1e-12)
+    return np.maximum(raw / np.maximum(raw.mean(), 1e-12), float(cfg.get("eps", 1e-6)))
+
+
+def _opportunity_for_env(
+    rng: np.random.Generator,
+    destinations: np.ndarray,
+    accessibility: np.ndarray,
+    cfg: dict,
+    scenario: dict[str, Any],
+    split: str,
+) -> tuple[np.ndarray, dict[str, float | str]]:
+    question = str(scenario.get("question", "base"))
+    eps = float(cfg.get("eps", 1e-6))
+    info: dict[str, float | str] = {
+        "question": question,
+        "opp_severity": float(scenario.get("opp_severity", 0.0)),
+        "alpha_target": float("nan"),
+    }
+    if question == "q2_opportunity":
+        severity = float(scenario.get("opp_severity", scenario.get("severity", 0.0))) if split == "test" else 0.0
+        severity = float(np.clip(severity, 0.0, 1.0))
+        diffuse = _mixture_field(rng, destinations, cfg, bandwidth_scale=1.8, background_scale=1.7)
+        concentrated = _mixture_field(rng, destinations, cfg, bandwidth_scale=0.55, background_scale=0.45)
+        opportunity = (1.0 - severity) * diffuse + severity * concentrated
+        info["opp_severity"] = severity
+    elif question == "q3_component_corr":
+        alpha_train = float(scenario.get("alpha_train", 0.7))
+        alpha_val = float(scenario.get("alpha_val", 0.5))
+        alpha_test = float(scenario.get("alpha_test", scenario.get("severity", -0.6)))
+        alpha = {"train": alpha_train, "val": alpha_val, "test": alpha_test}.get(split, alpha_train)
+        alpha = float(np.clip(alpha, -0.99, 0.99))
+        mixture = _mixture_field(rng, destinations, cfg)
+        noise_component = _standardize_vector(np.log(mixture + eps))
+        log_o = alpha * accessibility + np.sqrt(max(1.0 - alpha**2, 0.0)) * noise_component
+        opportunity = np.exp(log_o)
+        info["alpha_target"] = alpha
+    else:
+        opportunity = _mixture_field(rng, destinations, cfg)
+    opportunity = np.maximum(opportunity / np.maximum(opportunity.mean(), eps), eps)
+    info["empirical_corr_log_o_accessibility"] = safe_corr(np.log(opportunity + eps), accessibility)
+    return opportunity, info
 
 
 def _fit_standardizer(components: dict[str, list[np.ndarray]], eps: float) -> dict[str, dict[str, float]]:
@@ -141,8 +215,10 @@ def _build_candidates(rng: np.random.Generator, cost_full: np.ndarray, cfg: dict
     n_o, n_d = cost_full.shape
     k_mean = float(cfg.get("K_mean", 25))
     k_std = float(cfg.get("K_std", 5))
-    k_min = int(cfg.get("K_min", 15))
-    k_max = min(int(cfg.get("K_max", 40)), n_d)
+    k_min = min(int(cfg.get("K_min", 15)), max(n_d - 1, 1))
+    k_max = min(int(cfg.get("K_max", 40)), max(n_d - 1, 1))
+    if k_min > k_max:
+        k_min = k_max
     sizes = np.clip(np.rint(rng.normal(k_mean, k_std, size=n_o)).astype(int), k_min, k_max)
     candidate_lists = [np.argsort(cost_full[i], kind="mergesort")[: sizes[i]] for i in range(n_o)]
     candidate_indices = np.full((n_o, k_max), -1, dtype=int)
@@ -164,10 +240,12 @@ def _prepare_env_components(
     cost_full: np.ndarray,
     candidate_lists: list[np.ndarray],
     candidate_sizes: np.ndarray,
+    accessibility: np.ndarray,
     cfg: dict,
+    scenario: dict[str, Any],
 ) -> dict:
     eps = float(cfg.get("eps", 1e-6))
-    opportunity = _opportunity_field(rng, destinations, cfg)
+    opportunity, scenario_info = _opportunity_for_env(rng, destinations, accessibility, cfg, scenario, split)
     ell_dest = local_competition(destinations, opportunity, float(cfg.get("omega", 0.15)))
     proxy = np.exp(np.log(opportunity + eps) + float(cfg.get("sigma_proxy", 0.35)) * rng.normal(0.0, 1.0, size=len(destinations)))
     proxy = np.maximum(proxy / np.maximum(proxy.mean(), eps), eps)
@@ -210,15 +288,20 @@ def _prepare_env_components(
         "rows": rows,
         "raw_components": raw_components,
         "prefix_self_error": prefix_self_error,
+        "scenario_info": scenario_info,
     }
 
 
 def generate_dgp_data(config: dict, seed: int) -> DGPData:
     """Generate one synthetic dataset from the final DGP."""
     cfg = _cfg(config)
+    scenario = _scenario(config)
     rng = set_seed(seed)
-    n_o = int(_get(config, "N_o", 80))
-    n_d = int(_get(config, "N_d", 80))
+    n_o = int(_get(config, "N_o", _get(config, "N", 80)))
+    n_d = int(_get(config, "N_d", _get(config, "N", n_o)))
+    if n_o != n_d:
+        raise ValueError(f"The final DGP uses one shared support, so N_o must equal N_d; got {n_o} and {n_d}.")
+    n = n_o
     tau = float(_get(config, "tau", 0.7))
     eps = float(cfg.get("eps", 1e-6))
     splits = build_env_splits(
@@ -229,9 +312,14 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
     env_ids = splits["train"] + splits["val"] + splits["test"]
     split_by_env = {env: split for split, ids in splits.items() for env in ids}
 
-    origins = rng.uniform(0.0, 1.0, size=(n_o, 2))
-    destinations = rng.uniform(0.0, 1.0, size=(n_d, 2))
+    coords = rng.uniform(0.0, 1.0, size=(n, 2))
+    origins = coords.copy()
+    destinations = coords.copy()
     cost_full = np.linalg.norm(origins[:, None, :] - destinations[None, :, :], axis=2)
+    np.fill_diagonal(cost_full, np.inf)
+    finite_cost = np.where(np.isfinite(cost_full), cost_full, np.nan)
+    accessibility = -np.nanmean(finite_cost, axis=0)
+    accessibility = _standardize_vector(accessibility)
     candidate_lists, candidate_sizes, candidate_indices, candidate_mask = _build_candidates(rng, cost_full, cfg)
 
     env_components = []
@@ -248,7 +336,9 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
             cost_full,
             candidate_lists,
             candidate_sizes,
+            accessibility,
             cfg,
+            scenario,
         )
         env_components.append(env)
         if split == "train":
@@ -263,10 +353,8 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
         "beta_c": float(cfg.get("beta_c", 0.35)),
         "beta_s": float(cfg.get("beta_s", 0.65)),
         "beta_l": float(cfg.get("beta_l", 0.45)),
-        "beta_oc": float(cfg.get("beta_oc", 0.25)),
         "gamma_o": float(cfg.get("gamma_o", 0.25)),
         "gamma_c": float(cfg.get("gamma_c", 0.25)),
-        "phi_scale": float(cfg.get("phi_scale", 0.7)),
         "sigma_delta": float(cfg.get("sigma_delta", 0.03)),
     }
     scale_base = float(cfg.get("scale_base", 4.4))
@@ -274,16 +362,9 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
     origin_scale_y = float(cfg.get("origin_scale_y", 0.5))
     env_scale_shift_std = float(cfg.get("env_scale_shift_std", 0.15))
     scale_noise_std = float(cfg.get("scale_noise_std", 0.18))
-    rho_by_split = {
-        "train": float(cfg.get("shortcut_rho_train", 0.9)),
-        "val": float(cfg.get("shortcut_rho_val", 0.4)),
-        "test": float(cfg.get("shortcut_rho_test", 0.1)),
-    }
-    eta_by_split = {
-        "train": float(cfg.get("shortcut_eta_train", 0.8)),
-        "val": float(cfg.get("shortcut_eta_val", 0.4)),
-        "test": float(cfg.get("shortcut_eta_test", 0.2)),
-    }
+    q1_severity = float(scenario.get("scale_severity", scenario.get("severity", 0.0)))
+    question = str(scenario.get("question", "base"))
+    h_origin = origin_scale_x * origins[:, 0] - origin_scale_y * origins[:, 1]
 
     all_frames: list[pd.DataFrame] = []
     meta_rows: list[dict] = []
@@ -294,19 +375,18 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
         env_index = env["env_index"]
         split = env["split"]
         prefix_self_max = max(prefix_self_max, float(env["prefix_self_error"]))
-        env_shift = rng.normal(0.0, env_scale_shift_std)
-        log_r = (
-            scale_base
-            + origin_scale_x * origins[:, 0]
-            - origin_scale_y * origins[:, 1]
-            + env_shift
-            + rng.normal(0.0, scale_noise_std, size=n_o)
-        )
-        log_r_z = (log_r - log_r.mean()) / (log_r.std(ddof=0) + eps)
+        scale_rng = _rng_from_parts(seed, 2101, env_id)
+        env_shift = float(scale_rng.normal(0.0, env_scale_shift_std))
+        scale_sigma_applied = 0.0
+        if question == "q1_scale":
+            scale_sigma_applied = q1_severity if split in {"train", "val"} else 0.0
+            xi = scale_rng.normal(0.0, 1.0, size=n)
+            log_r = scale_base + env_shift + h_origin + scale_sigma_applied * xi - 0.5 * scale_sigma_applied**2
+        else:
+            base_noise = scale_rng.normal(0.0, scale_noise_std, size=n)
+            log_r = scale_base + h_origin + env_shift + base_noise
         r_oracle = np.exp(log_r)
         rows = []
-        rho_e = np.clip(rho_by_split.get(split, 0.0), -0.999, 0.999)
-        eta_e = np.clip(eta_by_split.get(split, 0.0), -0.999, 0.999)
         for row in env["rows"]:
             origin_id = int(row["origin_id"])
             candidates = row["candidates"]
@@ -325,24 +405,15 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
             y_i = float(origins[origin_id, 1])
             beta_o_i = params["beta_o"] * (1.0 + params["gamma_o"] * (2.0 * y_i - 1.0))
             beta_c_i = params["beta_c"] * (1.0 + params["gamma_c"] * (2.0 * x_i - 1.0))
-            c_decay = cost / median_train_cost
-            delta = rng.normal(0.0, params["sigma_delta"], size=k_i)
+            delta_rng = _rng_from_parts(seed, 3101, env_id, origin_id)
+            delta = delta_rng.normal(0.0, params["sigma_delta"], size=k_i)
             delta = delta - delta.mean()
-            g = (
-                beta_o_i * z_log_o
-                - beta_c_i * z_c
-                - params["beta_s"] * z_log_s
-                + params["beta_l"] * z_log_l
-                + params["beta_oc"] * z_log_o * np.exp(-c_decay / max(params["phi_scale"], eps))
-                + delta
-            )
+            g = beta_o_i * z_log_o - beta_c_i * z_c - params["beta_s"] * z_log_s + params["beta_l"] * z_log_l + delta
             psi = g - g.mean()
             pi = row_softmax_masked(psi[None, :], np.ones((1, k_i), dtype=bool), tau=tau)[0]
             lam = r_oracle[origin_id] * pi
-            y_obs = rng.poisson(lam) if bool(cfg.get("poisson", True)) else lam
-            score_z = _row_standardize(psi)
-            x_res_0 = rho_e * score_z + np.sqrt(max(1.0 - rho_e**2, 0.0)) * rng.normal(0.0, 1.0, size=k_i)
-            x_res_1 = eta_e * log_r_z[origin_id] + np.sqrt(max(1.0 - eta_e**2, 0.0)) * rng.normal(0.0, 1.0, size=k_i)
+            count_rng = _rng_from_parts(seed, 4101, env_id, origin_id)
+            y_obs = count_rng.poisson(lam) if bool(cfg.get("poisson", True)) else lam
             rank_frac = ranks / max(k_i - 1, 1)
             row_cost_z = _row_standardize(cost)
             dest = destinations[candidates]
@@ -355,11 +426,16 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
                         "env_index": env_index,
                         "split": split,
                         "regime": DGP_REGIME,
+                        "question": str(scenario.get("question", "base")),
                         "origin_id": origin_id,
                         "dest_id": candidates,
                         "candidate_slot": np.arange(k_i),
                         "candidate_mask": True,
                         "k_i": k_i,
+                        "origin_x": origins[origin_id, 0],
+                        "origin_y": origins[origin_id, 1],
+                        "dest_x": dest[:, 0],
+                        "dest_y": dest[:, 1],
                         "x_origin_0": origins[origin_id, 0],
                         "x_origin_1": origins[origin_id, 1],
                         "x_geo_0": dest[:, 0],
@@ -383,9 +459,6 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
                         "R_oracle": r_oracle[origin_id],
                         "lambda_oracle": lam,
                         "y_obs": y_obs,
-                        "x_res_0": x_res_0,
-                        "x_res_1": x_res_1,
-                        "shortcut_history": x_res_0,
                     }
                 )
             )
@@ -394,13 +467,15 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
         opportunity_by_env.append(env["opportunity"])
         row_totals = frame.groupby("origin_id", sort=False)["y_obs"].sum()
         entropy = frame.assign(_term=-(frame["pi_oracle"] * np.log(np.maximum(frame["pi_oracle"], eps)))).groupby("origin_id")["_term"].sum()
+        scenario_info = env["scenario_info"]
         meta_rows.append(
             {
                 "env_id": env_id,
                 "env_index": env_index,
                 "split": split,
-                "N_o": n_o,
-                "N_d": n_d,
+                "question": str(scenario.get("question", "base")),
+                "N_o": n,
+                "N_d": n,
                 "K_mean": float(candidate_sizes.mean()),
                 "K_std": float(candidate_sizes.std(ddof=0)),
                 "K_min": int(candidate_sizes.min()),
@@ -408,7 +483,6 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
                 "opportunity_mean": float(env["opportunity"].mean()),
                 "opportunity_std": float(env["opportunity"].std(ddof=0)),
                 "proxy_true_opp_corr": safe_corr(env["proxy"], env["opportunity"]),
-                "shortcut_psi_corr": safe_corr(frame["x_res_0"], frame["psi_oracle"]),
                 "prefix_self_exclusion_max_abs_error": prefix_self_max,
                 "psi_oracle_row_mean_abs": float(frame.groupby("origin_id")["psi_oracle"].mean().abs().mean()),
                 "pi_oracle_row_sum_error": float(np.max(np.abs(frame.groupby("origin_id")["pi_oracle"].sum().to_numpy(dtype=float) - 1.0))),
@@ -420,6 +494,12 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
                 "effective_destinations_mean": float(np.exp(entropy).mean()),
                 "standardizer_fit_split": "train",
                 "median_train_cost": median_train_cost,
+                "scale_severity": q1_severity if question == "q1_scale" else 0.0,
+                "scale_sigma_applied": scale_sigma_applied if question == "q1_scale" else 0.0,
+                "scale_severity_target_splits": "train,val" if question == "q1_scale" else "",
+                "opp_severity": float(scenario_info.get("opp_severity", 0.0)),
+                "alpha_target": float(scenario_info.get("alpha_target", float("nan"))),
+                "empirical_corr_log_o_accessibility": float(scenario_info.get("empirical_corr_log_o_accessibility", float("nan"))),
             }
         )
 
@@ -432,9 +512,13 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
     metadata = {
         "seed": seed,
         "regime": DGP_REGIME,
+        "question": str(scenario.get("question", "base")),
+        "scenario": scenario,
         "splits": splits,
-        "N_o": n_o,
-        "N_d": n_d,
+        "N_o": n,
+        "N_d": n,
+        "shared_support": True,
+        "self_loops_excluded": True,
         "candidate_sizes": candidate_sizes.tolist(),
         "candidate_size_mean": float(candidate_sizes.mean()),
         "candidate_size_std": float(candidate_sizes.std(ddof=0)),
@@ -454,6 +538,95 @@ def generate_dgp_data(config: dict, seed: int) -> DGPData:
         destinations=destinations,
         candidate_indices=candidate_indices,
         candidate_mask=candidate_mask,
+        metadata=metadata,
+    )
+
+
+def apply_residual_behavioral_drift(data: DGPData, config: dict, seed: int, kappa: float) -> DGPData:
+    """Return a copy with test-only oracle coefficient drift."""
+    cfg = _cfg(config)
+    eps = float(cfg.get("eps", 1e-6))
+    tau = float(_get(config, "tau", cfg.get("tau", 0.7)))
+    params = dict(data.metadata.get("mechanism_params", {}))
+    params.setdefault("beta_o", float(cfg.get("beta_o", 1.15)))
+    params.setdefault("beta_c", float(cfg.get("beta_c", 0.35)))
+    params.setdefault("beta_s", float(cfg.get("beta_s", 0.65)))
+    params.setdefault("beta_l", float(cfg.get("beta_l", 0.45)))
+    params.setdefault("gamma_o", float(cfg.get("gamma_o", 0.25)))
+    params.setdefault("gamma_c", float(cfg.get("gamma_c", 0.25)))
+    params.setdefault("sigma_delta", float(cfg.get("sigma_delta", 0.03)))
+    standardizer = data.metadata["standardizer"]
+    records = data.records.copy(deep=True)
+    kappa = float(kappa)
+    test_mask = records["split"].to_numpy() == "test"
+    if not test_mask.any():
+        raise ValueError("Residual drift requires at least one test environment.")
+
+    for (env_id, origin_id), group in records.loc[test_mask].groupby(["env_id", "origin_id"], sort=False):
+        ordered = group.sort_values("candidate_slot", kind="mergesort")
+        idx = ordered.index
+        k_i = len(ordered)
+        x_i = float(ordered["origin_x"].iloc[0])
+        y_i = float(ordered["origin_y"].iloc[0])
+        beta_o_i = float(params["beta_o"]) * (1.0 + float(params["gamma_o"]) * (2.0 * y_i - 1.0))
+        beta_c_i = float(params["beta_c"]) * (1.0 + float(params["gamma_c"]) * (2.0 * x_i - 1.0))
+        beta_o_i = beta_o_i * (1.0 - kappa)
+        beta_c_i = beta_c_i * (1.0 + kappa)
+        z_log_o = _standardize(np.log1p(ordered["o_true"].to_numpy(dtype=float)), standardizer["log_o"])
+        z_log_s = _standardize(np.log1p(ordered["s_true"].to_numpy(dtype=float)), standardizer["log_s"])
+        z_log_l = _standardize(np.log1p(ordered["ell_true"].to_numpy(dtype=float)), standardizer["log_l"])
+        z_c = _standardize(ordered["cost"].to_numpy(dtype=float), standardizer["cost"])
+        delta_rng = _rng_from_parts(seed, 3101, env_id, int(origin_id))
+        delta = delta_rng.normal(0.0, float(params["sigma_delta"]), size=k_i)
+        delta = delta - delta.mean()
+        g = beta_o_i * z_log_o - beta_c_i * z_c - float(params["beta_s"]) * z_log_s + float(params["beta_l"]) * z_log_l + delta
+        psi = g - g.mean()
+        pi = row_softmax_masked(psi[None, :], np.ones((1, k_i), dtype=bool), tau=tau)[0]
+        scale = float(ordered["R_oracle"].iloc[0])
+        lam = scale * pi
+        count_rng = _rng_from_parts(seed, 4101, env_id, int(origin_id))
+        y_obs = count_rng.poisson(lam) if bool(cfg.get("poisson", True)) else lam
+        records.loc[idx, "g_oracle"] = g
+        records.loc[idx, "psi_oracle"] = psi
+        records.loc[idx, "pi_oracle"] = pi
+        records.loc[idx, "lambda_oracle"] = lam
+        records.loc[idx, "y_obs"] = y_obs
+
+    env_meta = data.env_meta.copy(deep=True)
+    env_meta["behavior_kappa"] = 0.0
+    env_meta["behavior_drift_target_split"] = ""
+    for env_id, frame in records.loc[test_mask].groupby("env_id", sort=False):
+        env_mask = env_meta["env_id"] == env_id
+        row_totals = frame.groupby("origin_id", sort=False)["y_obs"].sum()
+        entropy = frame.assign(_term=-(frame["pi_oracle"] * np.log(np.maximum(frame["pi_oracle"], eps)))).groupby("origin_id")["_term"].sum()
+        env_meta.loc[env_mask, "question"] = "stress_residual_drift"
+        env_meta.loc[env_mask, "behavior_kappa"] = kappa
+        env_meta.loc[env_mask, "behavior_drift_target_split"] = "test"
+        env_meta.loc[env_mask, "psi_oracle_row_mean_abs"] = float(frame.groupby("origin_id")["psi_oracle"].mean().abs().mean())
+        env_meta.loc[env_mask, "pi_oracle_row_sum_error"] = float(np.max(np.abs(frame.groupby("origin_id")["pi_oracle"].sum().to_numpy(dtype=float) - 1.0)))
+        env_meta.loc[env_mask, "lambda_identity_max_abs_error"] = float(
+            np.max(np.abs(frame["lambda_oracle"].to_numpy(dtype=float) - frame["R_oracle"].to_numpy(dtype=float) * frame["pi_oracle"].to_numpy(dtype=float)))
+        )
+        env_meta.loc[env_mask, "row_total_mean"] = float(row_totals.mean())
+        env_meta.loc[env_mask, "row_total_std"] = float(row_totals.std(ddof=0))
+        env_meta.loc[env_mask, "zero_count_ratio"] = float((frame["y_obs"].to_numpy(dtype=float) == 0.0).mean())
+        env_meta.loc[env_mask, "allocation_entropy_mean"] = float(entropy.mean())
+        env_meta.loc[env_mask, "effective_destinations_mean"] = float(np.exp(entropy).mean())
+
+    metadata = dict(data.metadata)
+    metadata["question"] = "stress_residual_drift"
+    metadata["behavior_kappa"] = kappa
+    metadata["behavior_drift_target_split"] = "test"
+    row_sums = records.groupby(["env_id", "origin_id"], sort=False)["pi_oracle"].sum().to_numpy(dtype=float)
+    if not np.allclose(row_sums, 1.0, atol=1e-6):
+        raise AssertionError("Residual drift oracle allocation rows must sum to one.")
+    return DGPData(
+        records=records,
+        env_meta=env_meta,
+        origins=data.origins.copy(),
+        destinations=data.destinations.copy(),
+        candidate_indices=data.candidate_indices.copy(),
+        candidate_mask=data.candidate_mask.copy(),
         metadata=metadata,
     )
 
