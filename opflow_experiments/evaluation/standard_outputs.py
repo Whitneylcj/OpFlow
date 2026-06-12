@@ -34,6 +34,11 @@ STANDARD_METRIC_COLUMNS = [
     "score_mse",
     "pmse",
     "score_corr",
+    "scale_rmse",
+    "scale_mae",
+    "scale_corr",
+    "scale_hat_mean",
+    "scale_true_mean",
     "oie",
     "share_drift",
     "alloc_risk_max",
@@ -41,6 +46,7 @@ STANDARD_METRIC_COLUMNS = [
     "vrex_alloc_var",
     "scale_risk_max",
     "scale_risk_mean",
+    "eta_residual",
     "op_monotone_violation_D",
     "op_monotone_violation_S",
     "op_monotone_violation_B",
@@ -158,6 +164,11 @@ def metrics_frame_to_standard(
                 "score_mse": getattr(row, "score_mse", "NA"),
                 "pmse": getattr(row, "pmse", "NA"),
                 "score_corr": getattr(row, "score_corr", "NA"),
+                "scale_rmse": getattr(row, "scale_rmse", "NA"),
+                "scale_mae": getattr(row, "scale_mae", "NA"),
+                "scale_corr": getattr(row, "scale_corr", "NA"),
+                "scale_hat_mean": getattr(row, "scale_hat_mean", "NA"),
+                "scale_true_mean": getattr(row, "scale_true_mean", "NA"),
                 "oie": getattr(row, "oie", "NA"),
                 "share_drift": getattr(row, "share_drift", "NA"),
                 "alloc_risk_max": getattr(row, "alloc_risk_max", "NA"),
@@ -165,6 +176,7 @@ def metrics_frame_to_standard(
                 "vrex_alloc_var": getattr(row, "vrex_alloc_var", "NA"),
                 "scale_risk_max": getattr(row, "scale_risk_max", "NA"),
                 "scale_risk_mean": getattr(row, "scale_risk_mean", "NA"),
+                "eta_residual": getattr(row, "eta_residual", "NA"),
                 "op_monotone_violation_D": getattr(row, "op_monotone_violation_D", "NA"),
                 "op_monotone_violation_S": getattr(row, "op_monotone_violation_S", "NA"),
                 "op_monotone_violation_B": getattr(row, "op_monotone_violation_B", "NA"),
@@ -202,6 +214,11 @@ def aggregate_summary(standard_metrics: pd.DataFrame) -> pd.DataFrame:
         "score_mse",
         "pmse",
         "score_corr",
+        "scale_rmse",
+        "scale_mae",
+        "scale_corr",
+        "scale_hat_mean",
+        "scale_true_mean",
         "oie",
         "share_drift",
         "alloc_risk_max",
@@ -209,6 +226,7 @@ def aggregate_summary(standard_metrics: pd.DataFrame) -> pd.DataFrame:
         "vrex_alloc_var",
         "scale_risk_max",
         "scale_risk_mean",
+        "eta_residual",
         "op_monotone_violation_D",
         "op_monotone_violation_S",
         "op_monotone_violation_B",
@@ -242,7 +260,7 @@ def build_summary_payload(
     summary = aggregate_summary(standard_metrics)
     best_methods: dict[str, str] = {}
     if not summary.empty:
-        for metric, direction in (("ood_rmse", "min"), ("row_kl", "min"), ("rank_corr", "max"), ("topk_overlap", "max")):
+        for metric, direction in (("row_kl", "min"), ("row_cpc", "max"), ("ood_rmse", "min"), ("mae", "min"), ("pmse", "min")):
             valid = summary.dropna(subset=[metric])
             if valid.empty:
                 continue
@@ -314,13 +332,13 @@ def _write_summary_markdown(payload: dict[str, Any], path: Path) -> None:
     lines.extend(["", "## Main Metrics", ""])
     main_metrics = payload["main_metrics"]
     if main_metrics:
-        keys = ["method", "ood_rmse", "row_kl", "rank_corr", "topk_overlap"]
-        lines.append("| method | ood_rmse | row_kl | rank_corr | topk_overlap |")
-        lines.append("| --- | ---: | ---: | ---: | ---: |")
+        keys = ["method", "row_kl", "row_cpc", "ood_rmse", "mae", "pmse"]
+        lines.append("| method | row_kl | row_cpc | rmse | mae | pmse |")
+        lines.append("| --- | ---: | ---: | ---: | ---: | ---: |")
         for row in main_metrics:
             values = [row.get(key, "NA") for key in keys]
             lines.append(
-                f"| {values[0]} | {_fmt(values[1])} | {_fmt(values[2])} | {_fmt(values[3])} | {_fmt(values[4])} |"
+                f"| {values[0]} | {_fmt(values[1])} | {_fmt(values[2])} | {_fmt(values[3])} | {_fmt(values[4])} | {_fmt(values[5])} |"
             )
     else:
         lines.append("NA")

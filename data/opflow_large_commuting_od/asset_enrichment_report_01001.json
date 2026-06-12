@@ -1,0 +1,46 @@
+{
+  "n_failed": 0,
+  "n_geometry_match": 1,
+  "n_ok": 1,
+  "n_requested": 1,
+  "out_root": "data/opflow_large_commuting_od",
+  "rows": [
+    {
+      "area_id": "01001",
+      "bbox": [
+        -86.921196,
+        32.307573999999995,
+        -86.411172,
+        32.708213
+      ],
+      "demos_shape": [
+        12,
+        97
+      ],
+      "geometry_matches_matrix": true,
+      "has_geometry_source": true,
+      "n_dbf_records": 12,
+      "n_regions": 12,
+      "n_shapes": 12,
+      "official_aliases": {
+        "adj.npy": "hardlink",
+        "dis.npy": "hardlink",
+        "od.npy": "hardlink"
+      },
+      "pois_shape": [
+        12,
+        34
+      ],
+      "shape_type": 5,
+      "shapefile_files": [
+        "01001.cpg",
+        "01001.dbf",
+        "01001.prj",
+        "01001.shp",
+        "01001.shx"
+      ],
+      "status": "ok"
+    }
+  ],
+  "zip_path": "/Users/liuchangjian/Downloads/CommutingODGen-Dataset-main.zip"
+}

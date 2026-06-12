@@ -90,7 +90,7 @@ Responsibilities:
 - `opflow_benchmark/dataset.py`: loads one variable-size OD area from `data/opflow_large_commuting_od`.
 - `opflow_benchmark/baselines/`: real-world models and baselines, including `distance_only`, `gravity`, `intervening_opportunity`, `pair_mlp`, `scale_aware_mlp`, and `opflow_real`.
 - `opflow_benchmark/exposure.py`: opportunity/exposure feature construction used by real-world baselines and OpFlow-real.
-- `opflow_benchmark/metrics.py`: matrix-style OD metrics such as RMSE, log-RMSE, global CPC, Row-KL, Row-CPC, rank correlation, and top-k overlap.
+- `opflow_benchmark/metrics.py`: matrix-style OD metrics; report-facing synthetic metrics are Row-KL, Row-CPC, raw-domain RMSE, raw-domain MAE, and PMSE, with log-RMSE/global CPC/ranking metrics available as auxiliary diagnostics.
 - `scripts/build_opflow_dataset.py`, `scripts/inspect_large_commuting_od.py`, and `scripts/make_matched_splits.py`: preparation utilities only needed when rebuilding the converted dataset or splits.
 
 Current real-world evidence is:
@@ -124,7 +124,13 @@ environments only, and exposes only admissible deployed proxy features.
 oracle allocation law fixed and changes only origin production scale, generated
 counts, and implied count intensity in the training objective. `RawCountMLP`
 uses raw-count MSE for this suite, while allocation methods optimize
-row-level allocation risk.
+row-level allocation risk. Q1-Q3 and the appendix stress test use the same
+baseline roster: mechanism probes, DG allocation MLPs (`GroupDRO`, `VREx`,
+`IRM`, `DANN`), classical opportunity laws, validation-selected `BestDG` /
+`BestClassical`, and `OpFlow`; Q4 remains OpFlow ablation-only. The default
+synthetic OpFlow enables the opportunity-shift gate and a stronger operator
+anchor so Q2 redistribution uses opportunity-supported fallback structure
+instead of over-amplifying the learned local field.
 
 Full four-question DGP run, 30 seeds:
 
@@ -155,9 +161,8 @@ conda run --no-capture-output -n opflow python experiments/synthetic/run_synthet
   --run-id stress_residual_drift_debug
 ```
 
-Primary metrics are Row-KL, Row-CPC, rank correlation, top-k overlap, PMSE,
-log-RMSE, and global CPC. Raw-count RMSE is secondary because it also depends
-on origin-scale recovery.
+Reported synthetic metrics are Row-KL, Row-CPC, raw-domain RMSE,
+raw-domain MAE, and PMSE.
 
 DGP outputs are written to:
 

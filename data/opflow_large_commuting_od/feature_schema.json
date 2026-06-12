@@ -1,0 +1,2503 @@
+{
+  "arrays": {
+    "adj.npy": {
+      "meaning": "official pairwise adjacency matrix",
+      "shape": "[N, N]"
+    },
+    "adjacency.npy": {
+      "meaning": "converted alias of adj.npy used by OpFlow loaders",
+      "shape": "[N, N]"
+    },
+    "centroids.npy": {
+      "meaning": "computed centroid coordinates as [longitude, latitude]",
+      "shape": "[N, 2]"
+    },
+    "demos.npy": {
+      "axis_0": "node_index aligned with region_meta.csv and shapefile record order",
+      "axis_1": "demographic feature",
+      "feature_names": [
+        "Total Population",
+        "Male Population",
+        "Female Population",
+        "Under 5 Years - Total",
+        "Under 5 Years - Male",
+        "Under 5 Years - Female",
+        "5 to 9 Years - Total",
+        "5 to 9 Years - Male",
+        "5 to 9 Years - Female",
+        "10 to 14 Years - Total",
+        "10 to 14 Years - Male",
+        "10 to 14 Years - Female",
+        "15 to 19 Years - Total",
+        "15 to 19 Years - Male",
+        "15 to 19 Years - Female",
+        "20 to 24 Years - Total",
+        "20 to 24 Years - Male",
+        "20 to 24 Years - Female",
+        "25 to 29 Years - Total",
+        "25 to 29 Years - Male",
+        "25 to 29 Years - Female",
+        "30 to 34 Years - Total",
+        "30 to 34 Years - Male",
+        "30 to 34 Years - Female",
+        "35 to 39 Years - Total",
+        "35 to 39 Years - Male",
+        "35 to 39 Years - Female",
+        "40 to 44 Years - Total",
+        "40 to 44 Years - Male",
+        "40 to 44 Years - Female",
+        "45 to 49 Years - Total",
+        "45 to 49 Years - Male",
+        "45 to 49 Years - Female",
+        "50 to 54 Years - Total",
+        "50 to 54 Years - Male",
+        "50 to 54 Years - Female",
+        "55 to 59 Years - Total",
+        "55 to 59 Years - Male",
+        "55 to 59 Years - Female",
+        "60 to 64 Years - Total",
+        "60 to 64 Years - Male",
+        "60 to 64 Years - Female",
+        "65 to 69 Years - Total",
+        "65 to 69 Years - Male",
+        "65 to 69 Years - Female",
+        "70 to 74 Years - Total",
+        "70 to 74 Years - Male",
+        "70 to 74 Years - Female",
+        "75 to 79 Years - Total",
+        "75 to 79 Years - Male",
+        "75 to 79 Years - Female",
+        "80 to 84 Years - Total",
+        "80 to 84 Years - Male",
+        "80 to 84 Years - Female",
+        "85 Years and Over - Total",
+        "85 Years and Over - Male",
+        "85 Years and Over - Female",
+        "Median Age - Total",
+        "Median Age - Male",
+        "Median Age - Female",
+        "Median Earnings (Dollars)",
+        "Class of Worker - Private Wage and Salary Workers",
+        "Class of Worker - Government Workers",
+        "Class of Worker - Self-Employed Workers",
+        "Class of Worker - Unpaid Family Workers",
+        "Travel Time to Work - Mean Travel Time (Minutes)",
+        "Vehicles Available - No Vehicle Available",
+        "Vehicles Available - 1 Vehicle Available",
+        "Vehicles Available - 2 Vehicles Available",
+        "Vehicles Available - 3 or More Vehicles Available",
+        "Total Households",
+        "Average Household Size",
+        "Total Families",
+        "Average Family Size",
+        "Nursery School, Preschool",
+        "Kindergarten to 12th Grade",
+        "Kindergarten",
+        "Elementary: Grade 1 to Grade 4",
+        "Elementary: Grade 5 to Grade 8",
+        "High School: Grade 9 to Grade 12",
+        "College, Undergraduate",
+        "Graduate, Professional School",
+        "9th to 12th Grade, No Diploma",
+        "Associate's Degree",
+        "Bachelor's Degree",
+        "Bachelor's Degree or Higher",
+        "Graduate or Professional Degree",
+        "High School Graduate (Includes Equivalency)",
+        "High School Graduate or Higher",
+        "Less Than 9th Grade",
+        "Less Than High School Graduate",
+        "Population 25 to 34 Years - Bachelor's Degree or Higher",
+        "Population 25 to 34 Years - High School Graduate or Higher",
+        "Some College or Associate's Degree",
+        "Some College, No Degree",
+        "Poverty - Male",
+        "Poverty - Female"
+      ],
+      "n_features": 97
+    },
+    "dis.npy": {
+      "meaning": "official pairwise centroid Euclidean distance matrix",
+      "shape": "[N, N]"
+    },
+    "distance.npy": {
+      "meaning": "converted alias of dis.npy used by OpFlow loaders",
+      "shape": "[N, N]"
+    },
+    "geometry.geojson": {
+      "meaning": "convenience GeoJSON derived from the shapefile for quick visualization"
+    },
+    "node_feat.npy": {
+      "axis_0": "node_index aligned with region_meta.csv and shapefile record order",
+      "axis_1": "node feature",
+      "composition": [
+        {
+          "node_feat_index_end_inclusive": 96,
+          "node_feat_index_start": 0,
+          "source_array": "demos.npy"
+        },
+        {
+          "node_feat_index_end_inclusive": 130,
+          "node_feat_index_start": 97,
+          "source_array": "pois.npy"
+        }
+      ],
+      "feature_names": [
+        "Total Population",
+        "Male Population",
+        "Female Population",
+        "Under 5 Years - Total",
+        "Under 5 Years - Male",
+        "Under 5 Years - Female",
+        "5 to 9 Years - Total",
+        "5 to 9 Years - Male",
+        "5 to 9 Years - Female",
+        "10 to 14 Years - Total",
+        "10 to 14 Years - Male",
+        "10 to 14 Years - Female",
+        "15 to 19 Years - Total",
+        "15 to 19 Years - Male",
+        "15 to 19 Years - Female",
+        "20 to 24 Years - Total",
+        "20 to 24 Years - Male",
+        "20 to 24 Years - Female",
+        "25 to 29 Years - Total",
+        "25 to 29 Years - Male",
+        "25 to 29 Years - Female",
+        "30 to 34 Years - Total",
+        "30 to 34 Years - Male",
+        "30 to 34 Years - Female",
+        "35 to 39 Years - Total",
+        "35 to 39 Years - Male",
+        "35 to 39 Years - Female",
+        "40 to 44 Years - Total",
+        "40 to 44 Years - Male",
+        "40 to 44 Years - Female",
+        "45 to 49 Years - Total",
+        "45 to 49 Years - Male",
+        "45 to 49 Years - Female",
+        "50 to 54 Years - Total",
+        "50 to 54 Years - Male",
+        "50 to 54 Years - Female",
+        "55 to 59 Years - Total",
+        "55 to 59 Years - Male",
+        "55 to 59 Years - Female",
+        "60 to 64 Years - Total",
+        "60 to 64 Years - Male",
+        "60 to 64 Years - Female",
+        "65 to 69 Years - Total",
+        "65 to 69 Years - Male",
+        "65 to 69 Years - Female",
+        "70 to 74 Years - Total",
+        "70 to 74 Years - Male",
+        "70 to 74 Years - Female",
+        "75 to 79 Years - Total",
+        "75 to 79 Years - Male",
+        "75 to 79 Years - Female",
+        "80 to 84 Years - Total",
+        "80 to 84 Years - Male",
+        "80 to 84 Years - Female",
+        "85 Years and Over - Total",
+        "85 Years and Over - Male",
+        "85 Years and Over - Female",
+        "Median Age - Total",
+        "Median Age - Male",
+        "Median Age - Female",
+        "Median Earnings (Dollars)",
+        "Class of Worker - Private Wage and Salary Workers",
+        "Class of Worker - Government Workers",
+        "Class of Worker - Self-Employed Workers",
+        "Class of Worker - Unpaid Family Workers",
+        "Travel Time to Work - Mean Travel Time (Minutes)",
+        "Vehicles Available - No Vehicle Available",
+        "Vehicles Available - 1 Vehicle Available",
+        "Vehicles Available - 2 Vehicles Available",
+        "Vehicles Available - 3 or More Vehicles Available",
+        "Total Households",
+        "Average Household Size",
+        "Total Families",
+        "Average Family Size",
+        "Nursery School, Preschool",
+        "Kindergarten to 12th Grade",
+        "Kindergarten",
+        "Elementary: Grade 1 to Grade 4",
+        "Elementary: Grade 5 to Grade 8",
+        "High School: Grade 9 to Grade 12",
+        "College, Undergraduate",
+        "Graduate, Professional School",
+        "9th to 12th Grade, No Diploma",
+        "Associate's Degree",
+        "Bachelor's Degree",
+        "Bachelor's Degree or Higher",
+        "Graduate or Professional Degree",
+        "High School Graduate (Includes Equivalency)",
+        "High School Graduate or Higher",
+        "Less Than 9th Grade",
+        "Less Than High School Graduate",
+        "Population 25 to 34 Years - Bachelor's Degree or Higher",
+        "Population 25 to 34 Years - High School Graduate or Higher",
+        "Some College or Associate's Degree",
+        "Some College, No Degree",
+        "Poverty - Male",
+        "Poverty - Female",
+        "finance",
+        "public",
+        "transport",
+        "entertainment",
+        "health",
+        "service",
+        "education",
+        "government",
+        "religion",
+        "accommodation",
+        "food",
+        "cafe",
+        "fast_food",
+        "ice_cream",
+        "pub",
+        "restaurant",
+        "shop_beauty",
+        "shop_clothes",
+        "boutique",
+        "shop_transport",
+        "retail",
+        "commodity",
+        "marketplace",
+        "home-improvement",
+        "sport",
+        "public_transport",
+        "kindergarten",
+        "office",
+        "recycling",
+        "travel_agency",
+        "tourism",
+        "shop_livelihood",
+        "residential",
+        "dormitory"
+      ],
+      "n_features": 131
+    },
+    "od.npy": {
+      "meaning": "raw commuting OD counts; row is origin node_index, column is destination node_index",
+      "shape": "[N, N]"
+    },
+    "outflow.npy": {
+      "meaning": "origin production scale, equal to row sum of y_raw.npy",
+      "shape": "[N]"
+    },
+    "p_share.npy": {
+      "meaning": "row-normalized destination allocation from y_raw.npy",
+      "shape": "[N, N]"
+    },
+    "pois.npy": {
+      "axis_0": "node_index aligned with region_meta.csv and shapefile record order",
+      "axis_1": "POI category feature",
+      "feature_names": [
+        "finance",
+        "public",
+        "transport",
+        "entertainment",
+        "health",
+        "service",
+        "education",
+        "government",
+        "religion",
+        "accommodation",
+        "food",
+        "cafe",
+        "fast_food",
+        "ice_cream",
+        "pub",
+        "restaurant",
+        "shop_beauty",
+        "shop_clothes",
+        "boutique",
+        "shop_transport",
+        "retail",
+        "commodity",
+        "marketplace",
+        "home-improvement",
+        "sport",
+        "public_transport",
+        "kindergarten",
+        "office",
+        "recycling",
+        "travel_agency",
+        "tourism",
+        "shop_livelihood",
+        "residential",
+        "dormitory"
+      ],
+      "n_features": 34
+    },
+    "region_meta.csv": {
+      "columns": [
+        "node_index",
+        "STATEFP",
+        "COUNTYFP",
+        "TRACTCE",
+        "AFFGEOID",
+        "GEOID",
+        "NAME",
+        "LSAD",
+        "ALAND",
+        "AWATER",
+        "centroid_lon",
+        "centroid_lat",
+        "bbox_min_lon",
+        "bbox_min_lat",
+        "bbox_max_lon",
+        "bbox_max_lat",
+        "n_parts",
+        "n_points",
+        "shape_type"
+      ],
+      "shape": "[N, columns]"
+    },
+    "shapefile/*.shp": {
+      "meaning": "official region geometries with DBF attributes; use as source of truth for GIS plotting"
+    },
+    "valid_origin.npy": {
+      "meaning": "boolean mask for origins with positive outflow",
+      "shape": "[N]"
+    },
+    "y_raw.npy": {
+      "meaning": "converted alias of od.npy used by OpFlow loaders",
+      "shape": "[N, N]"
+    }
+  },
+  "feature_tables": {
+    "demos": [
+      {
+        "feature_id": "demo_000_total_population",
+        "feature_name": "Total Population",
+        "node_feat_index": 0,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 0
+      },
+      {
+        "feature_id": "demo_001_male_population",
+        "feature_name": "Male Population",
+        "node_feat_index": 1,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 1
+      },
+      {
+        "feature_id": "demo_002_female_population",
+        "feature_name": "Female Population",
+        "node_feat_index": 2,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 2
+      },
+      {
+        "feature_id": "demo_003_under_5_years_total",
+        "feature_name": "Under 5 Years - Total",
+        "node_feat_index": 3,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 3
+      },
+      {
+        "feature_id": "demo_004_under_5_years_male",
+        "feature_name": "Under 5 Years - Male",
+        "node_feat_index": 4,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 4
+      },
+      {
+        "feature_id": "demo_005_under_5_years_female",
+        "feature_name": "Under 5 Years - Female",
+        "node_feat_index": 5,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 5
+      },
+      {
+        "feature_id": "demo_006_5_to_9_years_total",
+        "feature_name": "5 to 9 Years - Total",
+        "node_feat_index": 6,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 6
+      },
+      {
+        "feature_id": "demo_007_5_to_9_years_male",
+        "feature_name": "5 to 9 Years - Male",
+        "node_feat_index": 7,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 7
+      },
+      {
+        "feature_id": "demo_008_5_to_9_years_female",
+        "feature_name": "5 to 9 Years - Female",
+        "node_feat_index": 8,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 8
+      },
+      {
+        "feature_id": "demo_009_10_to_14_years_total",
+        "feature_name": "10 to 14 Years - Total",
+        "node_feat_index": 9,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 9
+      },
+      {
+        "feature_id": "demo_010_10_to_14_years_male",
+        "feature_name": "10 to 14 Years - Male",
+        "node_feat_index": 10,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 10
+      },
+      {
+        "feature_id": "demo_011_10_to_14_years_female",
+        "feature_name": "10 to 14 Years - Female",
+        "node_feat_index": 11,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 11
+      },
+      {
+        "feature_id": "demo_012_15_to_19_years_total",
+        "feature_name": "15 to 19 Years - Total",
+        "node_feat_index": 12,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 12
+      },
+      {
+        "feature_id": "demo_013_15_to_19_years_male",
+        "feature_name": "15 to 19 Years - Male",
+        "node_feat_index": 13,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 13
+      },
+      {
+        "feature_id": "demo_014_15_to_19_years_female",
+        "feature_name": "15 to 19 Years - Female",
+        "node_feat_index": 14,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 14
+      },
+      {
+        "feature_id": "demo_015_20_to_24_years_total",
+        "feature_name": "20 to 24 Years - Total",
+        "node_feat_index": 15,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 15
+      },
+      {
+        "feature_id": "demo_016_20_to_24_years_male",
+        "feature_name": "20 to 24 Years - Male",
+        "node_feat_index": 16,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 16
+      },
+      {
+        "feature_id": "demo_017_20_to_24_years_female",
+        "feature_name": "20 to 24 Years - Female",
+        "node_feat_index": 17,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 17
+      },
+      {
+        "feature_id": "demo_018_25_to_29_years_total",
+        "feature_name": "25 to 29 Years - Total",
+        "node_feat_index": 18,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 18
+      },
+      {
+        "feature_id": "demo_019_25_to_29_years_male",
+        "feature_name": "25 to 29 Years - Male",
+        "node_feat_index": 19,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 19
+      },
+      {
+        "feature_id": "demo_020_25_to_29_years_female",
+        "feature_name": "25 to 29 Years - Female",
+        "node_feat_index": 20,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 20
+      },
+      {
+        "feature_id": "demo_021_30_to_34_years_total",
+        "feature_name": "30 to 34 Years - Total",
+        "node_feat_index": 21,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 21
+      },
+      {
+        "feature_id": "demo_022_30_to_34_years_male",
+        "feature_name": "30 to 34 Years - Male",
+        "node_feat_index": 22,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 22
+      },
+      {
+        "feature_id": "demo_023_30_to_34_years_female",
+        "feature_name": "30 to 34 Years - Female",
+        "node_feat_index": 23,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 23
+      },
+      {
+        "feature_id": "demo_024_35_to_39_years_total",
+        "feature_name": "35 to 39 Years - Total",
+        "node_feat_index": 24,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 24
+      },
+      {
+        "feature_id": "demo_025_35_to_39_years_male",
+        "feature_name": "35 to 39 Years - Male",
+        "node_feat_index": 25,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 25
+      },
+      {
+        "feature_id": "demo_026_35_to_39_years_female",
+        "feature_name": "35 to 39 Years - Female",
+        "node_feat_index": 26,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 26
+      },
+      {
+        "feature_id": "demo_027_40_to_44_years_total",
+        "feature_name": "40 to 44 Years - Total",
+        "node_feat_index": 27,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 27
+      },
+      {
+        "feature_id": "demo_028_40_to_44_years_male",
+        "feature_name": "40 to 44 Years - Male",
+        "node_feat_index": 28,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 28
+      },
+      {
+        "feature_id": "demo_029_40_to_44_years_female",
+        "feature_name": "40 to 44 Years - Female",
+        "node_feat_index": 29,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 29
+      },
+      {
+        "feature_id": "demo_030_45_to_49_years_total",
+        "feature_name": "45 to 49 Years - Total",
+        "node_feat_index": 30,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 30
+      },
+      {
+        "feature_id": "demo_031_45_to_49_years_male",
+        "feature_name": "45 to 49 Years - Male",
+        "node_feat_index": 31,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 31
+      },
+      {
+        "feature_id": "demo_032_45_to_49_years_female",
+        "feature_name": "45 to 49 Years - Female",
+        "node_feat_index": 32,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 32
+      },
+      {
+        "feature_id": "demo_033_50_to_54_years_total",
+        "feature_name": "50 to 54 Years - Total",
+        "node_feat_index": 33,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 33
+      },
+      {
+        "feature_id": "demo_034_50_to_54_years_male",
+        "feature_name": "50 to 54 Years - Male",
+        "node_feat_index": 34,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 34
+      },
+      {
+        "feature_id": "demo_035_50_to_54_years_female",
+        "feature_name": "50 to 54 Years - Female",
+        "node_feat_index": 35,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 35
+      },
+      {
+        "feature_id": "demo_036_55_to_59_years_total",
+        "feature_name": "55 to 59 Years - Total",
+        "node_feat_index": 36,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 36
+      },
+      {
+        "feature_id": "demo_037_55_to_59_years_male",
+        "feature_name": "55 to 59 Years - Male",
+        "node_feat_index": 37,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 37
+      },
+      {
+        "feature_id": "demo_038_55_to_59_years_female",
+        "feature_name": "55 to 59 Years - Female",
+        "node_feat_index": 38,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 38
+      },
+      {
+        "feature_id": "demo_039_60_to_64_years_total",
+        "feature_name": "60 to 64 Years - Total",
+        "node_feat_index": 39,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 39
+      },
+      {
+        "feature_id": "demo_040_60_to_64_years_male",
+        "feature_name": "60 to 64 Years - Male",
+        "node_feat_index": 40,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 40
+      },
+      {
+        "feature_id": "demo_041_60_to_64_years_female",
+        "feature_name": "60 to 64 Years - Female",
+        "node_feat_index": 41,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 41
+      },
+      {
+        "feature_id": "demo_042_65_to_69_years_total",
+        "feature_name": "65 to 69 Years - Total",
+        "node_feat_index": 42,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 42
+      },
+      {
+        "feature_id": "demo_043_65_to_69_years_male",
+        "feature_name": "65 to 69 Years - Male",
+        "node_feat_index": 43,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 43
+      },
+      {
+        "feature_id": "demo_044_65_to_69_years_female",
+        "feature_name": "65 to 69 Years - Female",
+        "node_feat_index": 44,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 44
+      },
+      {
+        "feature_id": "demo_045_70_to_74_years_total",
+        "feature_name": "70 to 74 Years - Total",
+        "node_feat_index": 45,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 45
+      },
+      {
+        "feature_id": "demo_046_70_to_74_years_male",
+        "feature_name": "70 to 74 Years - Male",
+        "node_feat_index": 46,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 46
+      },
+      {
+        "feature_id": "demo_047_70_to_74_years_female",
+        "feature_name": "70 to 74 Years - Female",
+        "node_feat_index": 47,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 47
+      },
+      {
+        "feature_id": "demo_048_75_to_79_years_total",
+        "feature_name": "75 to 79 Years - Total",
+        "node_feat_index": 48,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 48
+      },
+      {
+        "feature_id": "demo_049_75_to_79_years_male",
+        "feature_name": "75 to 79 Years - Male",
+        "node_feat_index": 49,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 49
+      },
+      {
+        "feature_id": "demo_050_75_to_79_years_female",
+        "feature_name": "75 to 79 Years - Female",
+        "node_feat_index": 50,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 50
+      },
+      {
+        "feature_id": "demo_051_80_to_84_years_total",
+        "feature_name": "80 to 84 Years - Total",
+        "node_feat_index": 51,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 51
+      },
+      {
+        "feature_id": "demo_052_80_to_84_years_male",
+        "feature_name": "80 to 84 Years - Male",
+        "node_feat_index": 52,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 52
+      },
+      {
+        "feature_id": "demo_053_80_to_84_years_female",
+        "feature_name": "80 to 84 Years - Female",
+        "node_feat_index": 53,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 53
+      },
+      {
+        "feature_id": "demo_054_85_years_and_over_total",
+        "feature_name": "85 Years and Over - Total",
+        "node_feat_index": 54,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 54
+      },
+      {
+        "feature_id": "demo_055_85_years_and_over_male",
+        "feature_name": "85 Years and Over - Male",
+        "node_feat_index": 55,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 55
+      },
+      {
+        "feature_id": "demo_056_85_years_and_over_female",
+        "feature_name": "85 Years and Over - Female",
+        "node_feat_index": 56,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 56
+      },
+      {
+        "feature_id": "demo_057_median_age_total",
+        "feature_name": "Median Age - Total",
+        "node_feat_index": 57,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 57
+      },
+      {
+        "feature_id": "demo_058_median_age_male",
+        "feature_name": "Median Age - Male",
+        "node_feat_index": 58,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 58
+      },
+      {
+        "feature_id": "demo_059_median_age_female",
+        "feature_name": "Median Age - Female",
+        "node_feat_index": 59,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 59
+      },
+      {
+        "feature_id": "demo_060_median_earnings_dollars",
+        "feature_name": "Median Earnings (Dollars)",
+        "node_feat_index": 60,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 60
+      },
+      {
+        "feature_id": "demo_061_class_of_worker_private_wage_and_salary_workers",
+        "feature_name": "Class of Worker - Private Wage and Salary Workers",
+        "node_feat_index": 61,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 61
+      },
+      {
+        "feature_id": "demo_062_class_of_worker_government_workers",
+        "feature_name": "Class of Worker - Government Workers",
+        "node_feat_index": 62,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 62
+      },
+      {
+        "feature_id": "demo_063_class_of_worker_self_employed_workers",
+        "feature_name": "Class of Worker - Self-Employed Workers",
+        "node_feat_index": 63,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 63
+      },
+      {
+        "feature_id": "demo_064_class_of_worker_unpaid_family_workers",
+        "feature_name": "Class of Worker - Unpaid Family Workers",
+        "node_feat_index": 64,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 64
+      },
+      {
+        "feature_id": "demo_065_travel_time_to_work_mean_travel_time_minutes",
+        "feature_name": "Travel Time to Work - Mean Travel Time (Minutes)",
+        "node_feat_index": 65,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 65
+      },
+      {
+        "feature_id": "demo_066_vehicles_available_no_vehicle_available",
+        "feature_name": "Vehicles Available - No Vehicle Available",
+        "node_feat_index": 66,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 66
+      },
+      {
+        "feature_id": "demo_067_vehicles_available_1_vehicle_available",
+        "feature_name": "Vehicles Available - 1 Vehicle Available",
+        "node_feat_index": 67,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 67
+      },
+      {
+        "feature_id": "demo_068_vehicles_available_2_vehicles_available",
+        "feature_name": "Vehicles Available - 2 Vehicles Available",
+        "node_feat_index": 68,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 68
+      },
+      {
+        "feature_id": "demo_069_vehicles_available_3_or_more_vehicles_available",
+        "feature_name": "Vehicles Available - 3 or More Vehicles Available",
+        "node_feat_index": 69,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 69
+      },
+      {
+        "feature_id": "demo_070_total_households",
+        "feature_name": "Total Households",
+        "node_feat_index": 70,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 70
+      },
+      {
+        "feature_id": "demo_071_average_household_size",
+        "feature_name": "Average Household Size",
+        "node_feat_index": 71,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 71
+      },
+      {
+        "feature_id": "demo_072_total_families",
+        "feature_name": "Total Families",
+        "node_feat_index": 72,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 72
+      },
+      {
+        "feature_id": "demo_073_average_family_size",
+        "feature_name": "Average Family Size",
+        "node_feat_index": 73,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 73
+      },
+      {
+        "feature_id": "demo_074_nursery_school_preschool",
+        "feature_name": "Nursery School, Preschool",
+        "node_feat_index": 74,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 74
+      },
+      {
+        "feature_id": "demo_075_kindergarten_to_12th_grade",
+        "feature_name": "Kindergarten to 12th Grade",
+        "node_feat_index": 75,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 75
+      },
+      {
+        "feature_id": "demo_076_kindergarten",
+        "feature_name": "Kindergarten",
+        "node_feat_index": 76,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 76
+      },
+      {
+        "feature_id": "demo_077_elementary_grade_1_to_grade_4",
+        "feature_name": "Elementary: Grade 1 to Grade 4",
+        "node_feat_index": 77,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 77
+      },
+      {
+        "feature_id": "demo_078_elementary_grade_5_to_grade_8",
+        "feature_name": "Elementary: Grade 5 to Grade 8",
+        "node_feat_index": 78,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 78
+      },
+      {
+        "feature_id": "demo_079_high_school_grade_9_to_grade_12",
+        "feature_name": "High School: Grade 9 to Grade 12",
+        "node_feat_index": 79,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 79
+      },
+      {
+        "feature_id": "demo_080_college_undergraduate",
+        "feature_name": "College, Undergraduate",
+        "node_feat_index": 80,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 80
+      },
+      {
+        "feature_id": "demo_081_graduate_professional_school",
+        "feature_name": "Graduate, Professional School",
+        "node_feat_index": 81,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 81
+      },
+      {
+        "feature_id": "demo_082_9th_to_12th_grade_no_diploma",
+        "feature_name": "9th to 12th Grade, No Diploma",
+        "node_feat_index": 82,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 82
+      },
+      {
+        "feature_id": "demo_083_associate_s_degree",
+        "feature_name": "Associate's Degree",
+        "node_feat_index": 83,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 83
+      },
+      {
+        "feature_id": "demo_084_bachelor_s_degree",
+        "feature_name": "Bachelor's Degree",
+        "node_feat_index": 84,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 84
+      },
+      {
+        "feature_id": "demo_085_bachelor_s_degree_or_higher",
+        "feature_name": "Bachelor's Degree or Higher",
+        "node_feat_index": 85,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 85
+      },
+      {
+        "feature_id": "demo_086_graduate_or_professional_degree",
+        "feature_name": "Graduate or Professional Degree",
+        "node_feat_index": 86,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 86
+      },
+      {
+        "feature_id": "demo_087_high_school_graduate_includes_equivalency",
+        "feature_name": "High School Graduate (Includes Equivalency)",
+        "node_feat_index": 87,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 87
+      },
+      {
+        "feature_id": "demo_088_high_school_graduate_or_higher",
+        "feature_name": "High School Graduate or Higher",
+        "node_feat_index": 88,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 88
+      },
+      {
+        "feature_id": "demo_089_less_than_9th_grade",
+        "feature_name": "Less Than 9th Grade",
+        "node_feat_index": 89,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 89
+      },
+      {
+        "feature_id": "demo_090_less_than_high_school_graduate",
+        "feature_name": "Less Than High School Graduate",
+        "node_feat_index": 90,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 90
+      },
+      {
+        "feature_id": "demo_091_population_25_to_34_years_bachelor_s_degree_or_higher",
+        "feature_name": "Population 25 to 34 Years - Bachelor's Degree or Higher",
+        "node_feat_index": 91,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 91
+      },
+      {
+        "feature_id": "demo_092_population_25_to_34_years_high_school_graduate_or_higher",
+        "feature_name": "Population 25 to 34 Years - High School Graduate or Higher",
+        "node_feat_index": 92,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 92
+      },
+      {
+        "feature_id": "demo_093_some_college_or_associate_s_degree",
+        "feature_name": "Some College or Associate's Degree",
+        "node_feat_index": 93,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 93
+      },
+      {
+        "feature_id": "demo_094_some_college_no_degree",
+        "feature_name": "Some College, No Degree",
+        "node_feat_index": 94,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 94
+      },
+      {
+        "feature_id": "demo_095_poverty_male",
+        "feature_name": "Poverty - Male",
+        "node_feat_index": 95,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 95
+      },
+      {
+        "feature_id": "demo_096_poverty_female",
+        "feature_name": "Poverty - Female",
+        "node_feat_index": 96,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 96
+      }
+    ],
+    "node_feat": [
+      {
+        "feature_id": "demo_000_total_population",
+        "feature_name": "Total Population",
+        "node_feat_index": 0,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 0
+      },
+      {
+        "feature_id": "demo_001_male_population",
+        "feature_name": "Male Population",
+        "node_feat_index": 1,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 1
+      },
+      {
+        "feature_id": "demo_002_female_population",
+        "feature_name": "Female Population",
+        "node_feat_index": 2,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 2
+      },
+      {
+        "feature_id": "demo_003_under_5_years_total",
+        "feature_name": "Under 5 Years - Total",
+        "node_feat_index": 3,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 3
+      },
+      {
+        "feature_id": "demo_004_under_5_years_male",
+        "feature_name": "Under 5 Years - Male",
+        "node_feat_index": 4,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 4
+      },
+      {
+        "feature_id": "demo_005_under_5_years_female",
+        "feature_name": "Under 5 Years - Female",
+        "node_feat_index": 5,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 5
+      },
+      {
+        "feature_id": "demo_006_5_to_9_years_total",
+        "feature_name": "5 to 9 Years - Total",
+        "node_feat_index": 6,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 6
+      },
+      {
+        "feature_id": "demo_007_5_to_9_years_male",
+        "feature_name": "5 to 9 Years - Male",
+        "node_feat_index": 7,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 7
+      },
+      {
+        "feature_id": "demo_008_5_to_9_years_female",
+        "feature_name": "5 to 9 Years - Female",
+        "node_feat_index": 8,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 8
+      },
+      {
+        "feature_id": "demo_009_10_to_14_years_total",
+        "feature_name": "10 to 14 Years - Total",
+        "node_feat_index": 9,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 9
+      },
+      {
+        "feature_id": "demo_010_10_to_14_years_male",
+        "feature_name": "10 to 14 Years - Male",
+        "node_feat_index": 10,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 10
+      },
+      {
+        "feature_id": "demo_011_10_to_14_years_female",
+        "feature_name": "10 to 14 Years - Female",
+        "node_feat_index": 11,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 11
+      },
+      {
+        "feature_id": "demo_012_15_to_19_years_total",
+        "feature_name": "15 to 19 Years - Total",
+        "node_feat_index": 12,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 12
+      },
+      {
+        "feature_id": "demo_013_15_to_19_years_male",
+        "feature_name": "15 to 19 Years - Male",
+        "node_feat_index": 13,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 13
+      },
+      {
+        "feature_id": "demo_014_15_to_19_years_female",
+        "feature_name": "15 to 19 Years - Female",
+        "node_feat_index": 14,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 14
+      },
+      {
+        "feature_id": "demo_015_20_to_24_years_total",
+        "feature_name": "20 to 24 Years - Total",
+        "node_feat_index": 15,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 15
+      },
+      {
+        "feature_id": "demo_016_20_to_24_years_male",
+        "feature_name": "20 to 24 Years - Male",
+        "node_feat_index": 16,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 16
+      },
+      {
+        "feature_id": "demo_017_20_to_24_years_female",
+        "feature_name": "20 to 24 Years - Female",
+        "node_feat_index": 17,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 17
+      },
+      {
+        "feature_id": "demo_018_25_to_29_years_total",
+        "feature_name": "25 to 29 Years - Total",
+        "node_feat_index": 18,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 18
+      },
+      {
+        "feature_id": "demo_019_25_to_29_years_male",
+        "feature_name": "25 to 29 Years - Male",
+        "node_feat_index": 19,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 19
+      },
+      {
+        "feature_id": "demo_020_25_to_29_years_female",
+        "feature_name": "25 to 29 Years - Female",
+        "node_feat_index": 20,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 20
+      },
+      {
+        "feature_id": "demo_021_30_to_34_years_total",
+        "feature_name": "30 to 34 Years - Total",
+        "node_feat_index": 21,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 21
+      },
+      {
+        "feature_id": "demo_022_30_to_34_years_male",
+        "feature_name": "30 to 34 Years - Male",
+        "node_feat_index": 22,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 22
+      },
+      {
+        "feature_id": "demo_023_30_to_34_years_female",
+        "feature_name": "30 to 34 Years - Female",
+        "node_feat_index": 23,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 23
+      },
+      {
+        "feature_id": "demo_024_35_to_39_years_total",
+        "feature_name": "35 to 39 Years - Total",
+        "node_feat_index": 24,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 24
+      },
+      {
+        "feature_id": "demo_025_35_to_39_years_male",
+        "feature_name": "35 to 39 Years - Male",
+        "node_feat_index": 25,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 25
+      },
+      {
+        "feature_id": "demo_026_35_to_39_years_female",
+        "feature_name": "35 to 39 Years - Female",
+        "node_feat_index": 26,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 26
+      },
+      {
+        "feature_id": "demo_027_40_to_44_years_total",
+        "feature_name": "40 to 44 Years - Total",
+        "node_feat_index": 27,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 27
+      },
+      {
+        "feature_id": "demo_028_40_to_44_years_male",
+        "feature_name": "40 to 44 Years - Male",
+        "node_feat_index": 28,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 28
+      },
+      {
+        "feature_id": "demo_029_40_to_44_years_female",
+        "feature_name": "40 to 44 Years - Female",
+        "node_feat_index": 29,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 29
+      },
+      {
+        "feature_id": "demo_030_45_to_49_years_total",
+        "feature_name": "45 to 49 Years - Total",
+        "node_feat_index": 30,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 30
+      },
+      {
+        "feature_id": "demo_031_45_to_49_years_male",
+        "feature_name": "45 to 49 Years - Male",
+        "node_feat_index": 31,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 31
+      },
+      {
+        "feature_id": "demo_032_45_to_49_years_female",
+        "feature_name": "45 to 49 Years - Female",
+        "node_feat_index": 32,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 32
+      },
+      {
+        "feature_id": "demo_033_50_to_54_years_total",
+        "feature_name": "50 to 54 Years - Total",
+        "node_feat_index": 33,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 33
+      },
+      {
+        "feature_id": "demo_034_50_to_54_years_male",
+        "feature_name": "50 to 54 Years - Male",
+        "node_feat_index": 34,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 34
+      },
+      {
+        "feature_id": "demo_035_50_to_54_years_female",
+        "feature_name": "50 to 54 Years - Female",
+        "node_feat_index": 35,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 35
+      },
+      {
+        "feature_id": "demo_036_55_to_59_years_total",
+        "feature_name": "55 to 59 Years - Total",
+        "node_feat_index": 36,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 36
+      },
+      {
+        "feature_id": "demo_037_55_to_59_years_male",
+        "feature_name": "55 to 59 Years - Male",
+        "node_feat_index": 37,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 37
+      },
+      {
+        "feature_id": "demo_038_55_to_59_years_female",
+        "feature_name": "55 to 59 Years - Female",
+        "node_feat_index": 38,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 38
+      },
+      {
+        "feature_id": "demo_039_60_to_64_years_total",
+        "feature_name": "60 to 64 Years - Total",
+        "node_feat_index": 39,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 39
+      },
+      {
+        "feature_id": "demo_040_60_to_64_years_male",
+        "feature_name": "60 to 64 Years - Male",
+        "node_feat_index": 40,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 40
+      },
+      {
+        "feature_id": "demo_041_60_to_64_years_female",
+        "feature_name": "60 to 64 Years - Female",
+        "node_feat_index": 41,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 41
+      },
+      {
+        "feature_id": "demo_042_65_to_69_years_total",
+        "feature_name": "65 to 69 Years - Total",
+        "node_feat_index": 42,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 42
+      },
+      {
+        "feature_id": "demo_043_65_to_69_years_male",
+        "feature_name": "65 to 69 Years - Male",
+        "node_feat_index": 43,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 43
+      },
+      {
+        "feature_id": "demo_044_65_to_69_years_female",
+        "feature_name": "65 to 69 Years - Female",
+        "node_feat_index": 44,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 44
+      },
+      {
+        "feature_id": "demo_045_70_to_74_years_total",
+        "feature_name": "70 to 74 Years - Total",
+        "node_feat_index": 45,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 45
+      },
+      {
+        "feature_id": "demo_046_70_to_74_years_male",
+        "feature_name": "70 to 74 Years - Male",
+        "node_feat_index": 46,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 46
+      },
+      {
+        "feature_id": "demo_047_70_to_74_years_female",
+        "feature_name": "70 to 74 Years - Female",
+        "node_feat_index": 47,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 47
+      },
+      {
+        "feature_id": "demo_048_75_to_79_years_total",
+        "feature_name": "75 to 79 Years - Total",
+        "node_feat_index": 48,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 48
+      },
+      {
+        "feature_id": "demo_049_75_to_79_years_male",
+        "feature_name": "75 to 79 Years - Male",
+        "node_feat_index": 49,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 49
+      },
+      {
+        "feature_id": "demo_050_75_to_79_years_female",
+        "feature_name": "75 to 79 Years - Female",
+        "node_feat_index": 50,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 50
+      },
+      {
+        "feature_id": "demo_051_80_to_84_years_total",
+        "feature_name": "80 to 84 Years - Total",
+        "node_feat_index": 51,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 51
+      },
+      {
+        "feature_id": "demo_052_80_to_84_years_male",
+        "feature_name": "80 to 84 Years - Male",
+        "node_feat_index": 52,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 52
+      },
+      {
+        "feature_id": "demo_053_80_to_84_years_female",
+        "feature_name": "80 to 84 Years - Female",
+        "node_feat_index": 53,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 53
+      },
+      {
+        "feature_id": "demo_054_85_years_and_over_total",
+        "feature_name": "85 Years and Over - Total",
+        "node_feat_index": 54,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 54
+      },
+      {
+        "feature_id": "demo_055_85_years_and_over_male",
+        "feature_name": "85 Years and Over - Male",
+        "node_feat_index": 55,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 55
+      },
+      {
+        "feature_id": "demo_056_85_years_and_over_female",
+        "feature_name": "85 Years and Over - Female",
+        "node_feat_index": 56,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 56
+      },
+      {
+        "feature_id": "demo_057_median_age_total",
+        "feature_name": "Median Age - Total",
+        "node_feat_index": 57,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 57
+      },
+      {
+        "feature_id": "demo_058_median_age_male",
+        "feature_name": "Median Age - Male",
+        "node_feat_index": 58,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 58
+      },
+      {
+        "feature_id": "demo_059_median_age_female",
+        "feature_name": "Median Age - Female",
+        "node_feat_index": 59,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 59
+      },
+      {
+        "feature_id": "demo_060_median_earnings_dollars",
+        "feature_name": "Median Earnings (Dollars)",
+        "node_feat_index": 60,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 60
+      },
+      {
+        "feature_id": "demo_061_class_of_worker_private_wage_and_salary_workers",
+        "feature_name": "Class of Worker - Private Wage and Salary Workers",
+        "node_feat_index": 61,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 61
+      },
+      {
+        "feature_id": "demo_062_class_of_worker_government_workers",
+        "feature_name": "Class of Worker - Government Workers",
+        "node_feat_index": 62,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 62
+      },
+      {
+        "feature_id": "demo_063_class_of_worker_self_employed_workers",
+        "feature_name": "Class of Worker - Self-Employed Workers",
+        "node_feat_index": 63,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 63
+      },
+      {
+        "feature_id": "demo_064_class_of_worker_unpaid_family_workers",
+        "feature_name": "Class of Worker - Unpaid Family Workers",
+        "node_feat_index": 64,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 64
+      },
+      {
+        "feature_id": "demo_065_travel_time_to_work_mean_travel_time_minutes",
+        "feature_name": "Travel Time to Work - Mean Travel Time (Minutes)",
+        "node_feat_index": 65,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 65
+      },
+      {
+        "feature_id": "demo_066_vehicles_available_no_vehicle_available",
+        "feature_name": "Vehicles Available - No Vehicle Available",
+        "node_feat_index": 66,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 66
+      },
+      {
+        "feature_id": "demo_067_vehicles_available_1_vehicle_available",
+        "feature_name": "Vehicles Available - 1 Vehicle Available",
+        "node_feat_index": 67,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 67
+      },
+      {
+        "feature_id": "demo_068_vehicles_available_2_vehicles_available",
+        "feature_name": "Vehicles Available - 2 Vehicles Available",
+        "node_feat_index": 68,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 68
+      },
+      {
+        "feature_id": "demo_069_vehicles_available_3_or_more_vehicles_available",
+        "feature_name": "Vehicles Available - 3 or More Vehicles Available",
+        "node_feat_index": 69,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 69
+      },
+      {
+        "feature_id": "demo_070_total_households",
+        "feature_name": "Total Households",
+        "node_feat_index": 70,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 70
+      },
+      {
+        "feature_id": "demo_071_average_household_size",
+        "feature_name": "Average Household Size",
+        "node_feat_index": 71,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 71
+      },
+      {
+        "feature_id": "demo_072_total_families",
+        "feature_name": "Total Families",
+        "node_feat_index": 72,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 72
+      },
+      {
+        "feature_id": "demo_073_average_family_size",
+        "feature_name": "Average Family Size",
+        "node_feat_index": 73,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 73
+      },
+      {
+        "feature_id": "demo_074_nursery_school_preschool",
+        "feature_name": "Nursery School, Preschool",
+        "node_feat_index": 74,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 74
+      },
+      {
+        "feature_id": "demo_075_kindergarten_to_12th_grade",
+        "feature_name": "Kindergarten to 12th Grade",
+        "node_feat_index": 75,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 75
+      },
+      {
+        "feature_id": "demo_076_kindergarten",
+        "feature_name": "Kindergarten",
+        "node_feat_index": 76,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 76
+      },
+      {
+        "feature_id": "demo_077_elementary_grade_1_to_grade_4",
+        "feature_name": "Elementary: Grade 1 to Grade 4",
+        "node_feat_index": 77,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 77
+      },
+      {
+        "feature_id": "demo_078_elementary_grade_5_to_grade_8",
+        "feature_name": "Elementary: Grade 5 to Grade 8",
+        "node_feat_index": 78,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 78
+      },
+      {
+        "feature_id": "demo_079_high_school_grade_9_to_grade_12",
+        "feature_name": "High School: Grade 9 to Grade 12",
+        "node_feat_index": 79,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 79
+      },
+      {
+        "feature_id": "demo_080_college_undergraduate",
+        "feature_name": "College, Undergraduate",
+        "node_feat_index": 80,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 80
+      },
+      {
+        "feature_id": "demo_081_graduate_professional_school",
+        "feature_name": "Graduate, Professional School",
+        "node_feat_index": 81,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 81
+      },
+      {
+        "feature_id": "demo_082_9th_to_12th_grade_no_diploma",
+        "feature_name": "9th to 12th Grade, No Diploma",
+        "node_feat_index": 82,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 82
+      },
+      {
+        "feature_id": "demo_083_associate_s_degree",
+        "feature_name": "Associate's Degree",
+        "node_feat_index": 83,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 83
+      },
+      {
+        "feature_id": "demo_084_bachelor_s_degree",
+        "feature_name": "Bachelor's Degree",
+        "node_feat_index": 84,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 84
+      },
+      {
+        "feature_id": "demo_085_bachelor_s_degree_or_higher",
+        "feature_name": "Bachelor's Degree or Higher",
+        "node_feat_index": 85,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 85
+      },
+      {
+        "feature_id": "demo_086_graduate_or_professional_degree",
+        "feature_name": "Graduate or Professional Degree",
+        "node_feat_index": 86,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 86
+      },
+      {
+        "feature_id": "demo_087_high_school_graduate_includes_equivalency",
+        "feature_name": "High School Graduate (Includes Equivalency)",
+        "node_feat_index": 87,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 87
+      },
+      {
+        "feature_id": "demo_088_high_school_graduate_or_higher",
+        "feature_name": "High School Graduate or Higher",
+        "node_feat_index": 88,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 88
+      },
+      {
+        "feature_id": "demo_089_less_than_9th_grade",
+        "feature_name": "Less Than 9th Grade",
+        "node_feat_index": 89,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 89
+      },
+      {
+        "feature_id": "demo_090_less_than_high_school_graduate",
+        "feature_name": "Less Than High School Graduate",
+        "node_feat_index": 90,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 90
+      },
+      {
+        "feature_id": "demo_091_population_25_to_34_years_bachelor_s_degree_or_higher",
+        "feature_name": "Population 25 to 34 Years - Bachelor's Degree or Higher",
+        "node_feat_index": 91,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 91
+      },
+      {
+        "feature_id": "demo_092_population_25_to_34_years_high_school_graduate_or_higher",
+        "feature_name": "Population 25 to 34 Years - High School Graduate or Higher",
+        "node_feat_index": 92,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 92
+      },
+      {
+        "feature_id": "demo_093_some_college_or_associate_s_degree",
+        "feature_name": "Some College or Associate's Degree",
+        "node_feat_index": 93,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 93
+      },
+      {
+        "feature_id": "demo_094_some_college_no_degree",
+        "feature_name": "Some College, No Degree",
+        "node_feat_index": 94,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 94
+      },
+      {
+        "feature_id": "demo_095_poverty_male",
+        "feature_name": "Poverty - Male",
+        "node_feat_index": 95,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 95
+      },
+      {
+        "feature_id": "demo_096_poverty_female",
+        "feature_name": "Poverty - Female",
+        "node_feat_index": 96,
+        "source_array": "demos.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 96
+      },
+      {
+        "feature_id": "poi_000_finance",
+        "feature_name": "finance",
+        "node_feat_index": 97,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 0
+      },
+      {
+        "feature_id": "poi_001_public",
+        "feature_name": "public",
+        "node_feat_index": 98,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 1
+      },
+      {
+        "feature_id": "poi_002_transport",
+        "feature_name": "transport",
+        "node_feat_index": 99,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 2
+      },
+      {
+        "feature_id": "poi_003_entertainment",
+        "feature_name": "entertainment",
+        "node_feat_index": 100,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 3
+      },
+      {
+        "feature_id": "poi_004_health",
+        "feature_name": "health",
+        "node_feat_index": 101,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 4
+      },
+      {
+        "feature_id": "poi_005_service",
+        "feature_name": "service",
+        "node_feat_index": 102,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 5
+      },
+      {
+        "feature_id": "poi_006_education",
+        "feature_name": "education",
+        "node_feat_index": 103,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 6
+      },
+      {
+        "feature_id": "poi_007_government",
+        "feature_name": "government",
+        "node_feat_index": 104,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 7
+      },
+      {
+        "feature_id": "poi_008_religion",
+        "feature_name": "religion",
+        "node_feat_index": 105,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 8
+      },
+      {
+        "feature_id": "poi_009_accommodation",
+        "feature_name": "accommodation",
+        "node_feat_index": 106,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 9
+      },
+      {
+        "feature_id": "poi_010_food",
+        "feature_name": "food",
+        "node_feat_index": 107,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 10
+      },
+      {
+        "feature_id": "poi_011_cafe",
+        "feature_name": "cafe",
+        "node_feat_index": 108,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 11
+      },
+      {
+        "feature_id": "poi_012_fast_food",
+        "feature_name": "fast_food",
+        "node_feat_index": 109,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 12
+      },
+      {
+        "feature_id": "poi_013_ice_cream",
+        "feature_name": "ice_cream",
+        "node_feat_index": 110,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 13
+      },
+      {
+        "feature_id": "poi_014_pub",
+        "feature_name": "pub",
+        "node_feat_index": 111,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 14
+      },
+      {
+        "feature_id": "poi_015_restaurant",
+        "feature_name": "restaurant",
+        "node_feat_index": 112,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 15
+      },
+      {
+        "feature_id": "poi_016_shop_beauty",
+        "feature_name": "shop_beauty",
+        "node_feat_index": 113,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 16
+      },
+      {
+        "feature_id": "poi_017_shop_clothes",
+        "feature_name": "shop_clothes",
+        "node_feat_index": 114,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 17
+      },
+      {
+        "feature_id": "poi_018_boutique",
+        "feature_name": "boutique",
+        "node_feat_index": 115,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 18
+      },
+      {
+        "feature_id": "poi_019_shop_transport",
+        "feature_name": "shop_transport",
+        "node_feat_index": 116,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 19
+      },
+      {
+        "feature_id": "poi_020_retail",
+        "feature_name": "retail",
+        "node_feat_index": 117,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 20
+      },
+      {
+        "feature_id": "poi_021_commodity",
+        "feature_name": "commodity",
+        "node_feat_index": 118,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 21
+      },
+      {
+        "feature_id": "poi_022_marketplace",
+        "feature_name": "marketplace",
+        "node_feat_index": 119,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 22
+      },
+      {
+        "feature_id": "poi_023_home_improvement",
+        "feature_name": "home-improvement",
+        "node_feat_index": 120,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 23
+      },
+      {
+        "feature_id": "poi_024_sport",
+        "feature_name": "sport",
+        "node_feat_index": 121,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 24
+      },
+      {
+        "feature_id": "poi_025_public_transport",
+        "feature_name": "public_transport",
+        "node_feat_index": 122,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 25
+      },
+      {
+        "feature_id": "poi_026_kindergarten",
+        "feature_name": "kindergarten",
+        "node_feat_index": 123,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 26
+      },
+      {
+        "feature_id": "poi_027_office",
+        "feature_name": "office",
+        "node_feat_index": 124,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 27
+      },
+      {
+        "feature_id": "poi_028_recycling",
+        "feature_name": "recycling",
+        "node_feat_index": 125,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 28
+      },
+      {
+        "feature_id": "poi_029_travel_agency",
+        "feature_name": "travel_agency",
+        "node_feat_index": 126,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 29
+      },
+      {
+        "feature_id": "poi_030_tourism",
+        "feature_name": "tourism",
+        "node_feat_index": 127,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 30
+      },
+      {
+        "feature_id": "poi_031_shop_livelihood",
+        "feature_name": "shop_livelihood",
+        "node_feat_index": 128,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 31
+      },
+      {
+        "feature_id": "poi_032_residential",
+        "feature_name": "residential",
+        "node_feat_index": 129,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 32
+      },
+      {
+        "feature_id": "poi_033_dormitory",
+        "feature_name": "dormitory",
+        "node_feat_index": 130,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 33
+      }
+    ],
+    "pois": [
+      {
+        "feature_id": "poi_000_finance",
+        "feature_name": "finance",
+        "node_feat_index": 97,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 0
+      },
+      {
+        "feature_id": "poi_001_public",
+        "feature_name": "public",
+        "node_feat_index": 98,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 1
+      },
+      {
+        "feature_id": "poi_002_transport",
+        "feature_name": "transport",
+        "node_feat_index": 99,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 2
+      },
+      {
+        "feature_id": "poi_003_entertainment",
+        "feature_name": "entertainment",
+        "node_feat_index": 100,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 3
+      },
+      {
+        "feature_id": "poi_004_health",
+        "feature_name": "health",
+        "node_feat_index": 101,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 4
+      },
+      {
+        "feature_id": "poi_005_service",
+        "feature_name": "service",
+        "node_feat_index": 102,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 5
+      },
+      {
+        "feature_id": "poi_006_education",
+        "feature_name": "education",
+        "node_feat_index": 103,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 6
+      },
+      {
+        "feature_id": "poi_007_government",
+        "feature_name": "government",
+        "node_feat_index": 104,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 7
+      },
+      {
+        "feature_id": "poi_008_religion",
+        "feature_name": "religion",
+        "node_feat_index": 105,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 8
+      },
+      {
+        "feature_id": "poi_009_accommodation",
+        "feature_name": "accommodation",
+        "node_feat_index": 106,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 9
+      },
+      {
+        "feature_id": "poi_010_food",
+        "feature_name": "food",
+        "node_feat_index": 107,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 10
+      },
+      {
+        "feature_id": "poi_011_cafe",
+        "feature_name": "cafe",
+        "node_feat_index": 108,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 11
+      },
+      {
+        "feature_id": "poi_012_fast_food",
+        "feature_name": "fast_food",
+        "node_feat_index": 109,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 12
+      },
+      {
+        "feature_id": "poi_013_ice_cream",
+        "feature_name": "ice_cream",
+        "node_feat_index": 110,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 13
+      },
+      {
+        "feature_id": "poi_014_pub",
+        "feature_name": "pub",
+        "node_feat_index": 111,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 14
+      },
+      {
+        "feature_id": "poi_015_restaurant",
+        "feature_name": "restaurant",
+        "node_feat_index": 112,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 15
+      },
+      {
+        "feature_id": "poi_016_shop_beauty",
+        "feature_name": "shop_beauty",
+        "node_feat_index": 113,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 16
+      },
+      {
+        "feature_id": "poi_017_shop_clothes",
+        "feature_name": "shop_clothes",
+        "node_feat_index": 114,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 17
+      },
+      {
+        "feature_id": "poi_018_boutique",
+        "feature_name": "boutique",
+        "node_feat_index": 115,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 18
+      },
+      {
+        "feature_id": "poi_019_shop_transport",
+        "feature_name": "shop_transport",
+        "node_feat_index": 116,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 19
+      },
+      {
+        "feature_id": "poi_020_retail",
+        "feature_name": "retail",
+        "node_feat_index": 117,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 20
+      },
+      {
+        "feature_id": "poi_021_commodity",
+        "feature_name": "commodity",
+        "node_feat_index": 118,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 21
+      },
+      {
+        "feature_id": "poi_022_marketplace",
+        "feature_name": "marketplace",
+        "node_feat_index": 119,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 22
+      },
+      {
+        "feature_id": "poi_023_home_improvement",
+        "feature_name": "home-improvement",
+        "node_feat_index": 120,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 23
+      },
+      {
+        "feature_id": "poi_024_sport",
+        "feature_name": "sport",
+        "node_feat_index": 121,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 24
+      },
+      {
+        "feature_id": "poi_025_public_transport",
+        "feature_name": "public_transport",
+        "node_feat_index": 122,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 25
+      },
+      {
+        "feature_id": "poi_026_kindergarten",
+        "feature_name": "kindergarten",
+        "node_feat_index": 123,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 26
+      },
+      {
+        "feature_id": "poi_027_office",
+        "feature_name": "office",
+        "node_feat_index": 124,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 27
+      },
+      {
+        "feature_id": "poi_028_recycling",
+        "feature_name": "recycling",
+        "node_feat_index": 125,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 28
+      },
+      {
+        "feature_id": "poi_029_travel_agency",
+        "feature_name": "travel_agency",
+        "node_feat_index": 126,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 29
+      },
+      {
+        "feature_id": "poi_030_tourism",
+        "feature_name": "tourism",
+        "node_feat_index": 127,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 30
+      },
+      {
+        "feature_id": "poi_031_shop_livelihood",
+        "feature_name": "shop_livelihood",
+        "node_feat_index": 128,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 31
+      },
+      {
+        "feature_id": "poi_032_residential",
+        "feature_name": "residential",
+        "node_feat_index": 129,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 32
+      },
+      {
+        "feature_id": "poi_033_dormitory",
+        "feature_name": "dormitory",
+        "node_feat_index": 130,
+        "source_array": "pois.npy",
+        "source_document": "CommutingODGen-Dataset-main/README.md",
+        "source_index": 33
+      }
+    ]
+  },
+  "notes": [
+    "Feature names are extracted from the official README table in the original archive.",
+    "node_feat.npy is the column-wise concatenation of demos.npy followed by pois.npy.",
+    "The README prose says POIs are divided into 36 categories, but the README table and observed pois.npy arrays contain 34 columns.",
+    "region_meta.csv columns come from the shapefile DBF fields plus computed geometry summaries."
+  ],
+  "observed_dimensions": {
+    "areas_checked": 2265,
+    "demos_feature_dims": [
+      97
+    ],
+    "node_feat_feature_dims": [
+      131
+    ],
+    "pois_feature_dims": [
+      34
+    ]
+  },
+  "readme_claims": {
+    "demographic_dimensions": 97,
+    "poi_dimensions_in_prose": 36,
+    "poi_names_listed": 34
+  },
+  "source_readme": "CommutingODGen-Dataset-main/README.md",
+  "source_zip": "/Users/liuchangjian/Downloads/CommutingODGen-Dataset-main.zip",
+  "validation": {
+    "demo_name_count_matches_arrays": true,
+    "node_feature_name_count_matches_arrays": true,
+    "poi_name_count_matches_arrays": true
+  }
+}

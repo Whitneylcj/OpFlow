@@ -1,27 +1,26 @@
 # Synthetic Four-Question Report
 
-Run directory: `outputs/runs/synthetic_four_debug`
+Run directory: `outputs/runs/q1_3seed_current`
 
 ## DGP Settings
 
 - suite/regime: `DGP`
-- N: `18` shared origin/destination units; self-loops excluded.
-- train/val/test envs: `2/1/1`
+- N: `80` shared origin/destination units; self-loops excluded.
+- train/val/test envs: `8/2/4`
 - oracle fields are diagnostics only; deployed models use coordinates, opportunity proxy, cost/rank, and row-standardized cost.
 - RawCountMLP objective: `mse` raw-count reconstruction.
 
 ## Metrics
 
-- Main: Row-KL against oracle allocation.
-- Secondary: PMSE after row-centering predicted and oracle potentials by origin row.
-- Appendix: log-RMSE, global CPC, Row-CPC, rank correlation, top-k overlap.
+- Reported metrics: Row-KL, Row-CPC, raw-domain RMSE, raw-domain MAE, and PMSE.
+- Row-KL/Row-CPC evaluate row-normalized allocation; RMSE/MAE evaluate raw OD counts; PMSE evaluates row-centered oracle potential.
 
 ## Main Findings
 
-- Q1 training scale heterogeneity: OpFlow Row-KL=0.6938.
-- Q2 opportunity redistribution: OpFlow Row-KL=0.7237.
-- Q3 component-correlation shift: OpFlow Row-KL=0.6703.
-- Q4 load-bearing ablation: NoLocalField Row-KL=0.7466.
+- Q1 training scale heterogeneity: ScaleAwareMLP Row-KL=0.3739.
+- Q2 opportunity redistribution: OpFlow Row-KL=0.2492.
+- Q3 component-correlation shift: OpFlow Row-KL=0.2539.
+- Q4 load-bearing ablation: NoEnvSelection Row-KL=0.4010.
 
 ## Interpretation Guardrails
 
@@ -33,9 +32,6 @@ Run directory: `outputs/runs/synthetic_four_debug`
 ## Deliverables
 
 - `q1_scale`: `results/q1_scale/metrics.csv`
-- `q2_opportunity`: `results/q2_opportunity/metrics.csv`
-- `q3_component_corr`: `results/q3_component_corr/metrics.csv`
-- `q4_ablation`: `results/q4_ablation/metrics.csv`
 - `figures/synthetic_main.png`
 - `figures/synthetic_main.pdf`
 - `tables/synthetic_endpoint.csv`

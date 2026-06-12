@@ -11,7 +11,17 @@ import pandas as pd
 
 from opflow_experiments.data.dgp import apply_residual_behavioral_drift, generate_dgp_data, local_competition, rank_prefix_exposure, row_softmax_masked
 from opflow_experiments.exposure_models import build_exposure_model
-from opflow_experiments.pipelines.run_dgp_main import STRESS_RESIDUAL_DRIFT, _run_one, _run_residual_drift, _write_four_question_outputs, load_exposure_config
+from opflow_experiments.pipelines.run_dgp_main import (
+    Q1_METHODS,
+    STRESS_RESIDUAL_DRIFT,
+    MAIN_METHODS,
+    _question_tasks,
+    _run_one,
+    _run_residual_drift,
+    _select_best_by_val_row_kl,
+    _write_four_question_outputs,
+    load_exposure_config,
+)
 
 
 def _small_config(n: int = 12) -> dict:
@@ -205,6 +215,7 @@ class DGPTests(unittest.TestCase):
         data = generate_dgp_data(_small_config(), seed=7)
         self.assertFalse(any(col.startswith("x_res_") for col in data.records.columns))
         self.assertEqual(build_exposure_model("RawCountMLP", _small_config(), seed=0).raw_count_loss, "mse")
+        self.assertEqual(build_exposure_model("RowCountMLP", _small_config(), seed=0).method, "RawCountMLP")
         self.assertEqual(build_exposure_model("PairAllocMLP", _small_config(), seed=0).method, "PairMLP")
         self.assertEqual(build_exposure_model("FixedShare", _small_config(), seed=0).method, "ShareStable")
         self.assertEqual(build_exposure_model("NoRankPrefix", _small_config(), seed=0).method, "NoRankExposure")
@@ -212,6 +223,23 @@ class DGPTests(unittest.TestCase):
         self.assertEqual(build_exposure_model("NoScaleIsolation", _small_config(), seed=0).method, "NoScaleDetach")
         self.assertEqual(build_exposure_model("NoMonotonicity", _small_config(), seed=0).method, "NoMonotonePenalty")
         self.assertEqual(build_exposure_model("NoEnvSelection", _small_config(), seed=0).method, "NoEnvSelection")
+        self.assertEqual(build_exposure_model("NoResidualInteraction", _small_config(), seed=0).method, "NoResidualInteraction")
+        self.assertEqual(build_exposure_model("OpFlow-JointSelected", _small_config(), seed=0).method, "OpFlow")
+        self.assertEqual(build_exposure_model("OpFlow-AllocSelected", _small_config(), seed=0).method, "OpFlowAllocSelected")
+        self.assertEqual(build_exposure_model("ScaleAwareMLP-JointSelected", _small_config(), seed=0).method, "ScaleAwareMLP")
+        self.assertEqual(build_exposure_model("ScaleAwareMLP-AllocSelected", _small_config(), seed=0).method, "ScaleAwareMLPAllocSelected")
+        self.assertEqual(build_exposure_model("Gravity", _small_config(), seed=0).method, "GravityOnly")
+        self.assertEqual(build_exposure_model("CompetingDestination", _small_config(), seed=0).method, "CompetingDestination")
+        self.assertEqual(build_exposure_model("GroupDRO-AllocMLP", _small_config(), seed=0).method, "GroupDRO-AllocMLP")
+        self.assertEqual(build_exposure_model("VREx-AllocMLP", _small_config(), seed=0).method, "VREx-AllocMLP")
+        self.assertEqual(build_exposure_model("IRM-AllocMLP", _small_config(), seed=0).method, "IRM-AllocMLP")
+        self.assertEqual(build_exposure_model("DANN-AllocMLP", _small_config(), seed=0).method, "DANN-AllocMLP")
+        opflow_erm = build_exposure_model("OpFlow-ERM", _small_config(), seed=0)
+        self.assertEqual(opflow_erm.method, "OpFlowERM")
+        self.assertFalse(opflow_erm.use_groupdro)
+        self.assertFalse(opflow_erm.use_vrex)
+        no_residual = build_exposure_model("NoResidualInteraction", _small_config(), seed=0)
+        self.assertFalse(no_residual.use_residual_interaction)
 
     def test_default_opflow_ignores_oracle_latents(self) -> None:
         config = _small_config()
@@ -228,6 +256,158 @@ class DGPTests(unittest.TestCase):
         changed = model.predict(mutated)["pi_hat"].numpy()
         self.assertTrue(np.allclose(base, changed, atol=1e-7))
 
+    def test_raw_count_mlp_selects_by_validation_raw_count_loss(self) -> None:
+        config = _small_config()
+        config["exposure_model"].update({"epochs": 3, "patience": 3, "raw_count_loss": "mse"})
+        data = generate_dgp_data(config, seed=21)
+        records = _sorted_records(data)
+        train = records.loc[records["split"] == "train"].copy()
+        val = records.loc[records["split"] == "val"].copy()
+        model = build_exposure_model("RawCountMLP", config, seed=21)
+        history = model.fit(train, val)
+        self.assertEqual(model.selection_summary_["selection_metric"], "raw_count_loss")
+        self.assertTrue(np.allclose(history["selection_score"], history["val_count_loss"], atol=1e-10))
+        self.assertAlmostEqual(model.selection_summary_["best_score"], min(history["val_count_loss"]), places=7)
+
+        x_val = model.feature_scaler.transform(val[model.columns].to_numpy(dtype=np.float32))
+        o_val = model.origin_scaler.transform(val[model.origin_cols].to_numpy(dtype=np.float32))
+        tensors = model._make_tensors(val, x_val, o_val)
+        _, pred = model._loss(tensors)
+        manual_raw_mse = float(np.mean((pred["lambda_hat"].detach().cpu().numpy() - val["y_obs"].to_numpy(dtype=float)) ** 2))
+        self.assertAlmostEqual(float(pred["count_loss"].detach().cpu().item()), manual_raw_mse, delta=1e-3)
+        bundle = model.predict(val)
+        self.assertEqual(bundle["extra"]["score_kind"], "raw_count_rate")
+        self.assertAlmostEqual(float(bundle["extra"]["tau"]), float(config["dgp"]["tau"]))
+
+    def test_pmse_uses_allocation_implied_potential_for_raw_count_scores(self) -> None:
+        from opflow_experiments.evaluation.evaluator import evaluate_predictions
+
+        tau = 0.7
+        pi = np.asarray([0.7, 0.3], dtype=float)
+        psi = tau * (np.log(pi) - np.log(pi).mean())
+        rows = []
+        for split, env_id in [("train", 0), ("test", 1)]:
+            for dest_id in range(2):
+                rows.append(
+                    {
+                        "split": split,
+                        "env_id": env_id,
+                        "origin_id": 0,
+                        "dest_id": dest_id,
+                        "y_obs": 10.0 * pi[dest_id],
+                        "R_oracle": 10.0,
+                        "lambda_oracle": 10.0 * pi[dest_id],
+                        "pi_oracle": pi[dest_id],
+                        "psi_oracle": psi[dest_id],
+                    }
+                )
+        records = pd.DataFrame(rows)
+        prediction = {
+            "lambda_hat": records["lambda_oracle"].to_numpy(dtype=float),
+            "pi_hat": records["pi_oracle"].to_numpy(dtype=float),
+            "extra": {
+                "score_hat": np.asarray([100.0, -100.0, 100.0, -100.0], dtype=float),
+                "score_kind": "raw_count_rate",
+                "tau": tau,
+            },
+        }
+        metrics = evaluate_predictions(records, prediction)
+        self.assertAlmostEqual(metrics["test"]["pmse"], 0.0, places=10)
+        self.assertTrue(np.isnan(metrics["test"]["score_mse"]))
+        self.assertTrue(np.isnan(metrics["test"]["score_pmse"]))
+
+    def test_scale_diagnostics_use_row_scale_hat(self) -> None:
+        from opflow_experiments.evaluation.evaluator import evaluate_predictions
+
+        rows = []
+        scales = {("train", 0): 10.0, ("test", 1): 20.0}
+        for split, env_id in [("train", 0), ("test", 1)]:
+            for origin_id in [0, 1]:
+                scale = scales[(split, env_id)] + origin_id
+                for dest_id in [0, 1]:
+                    rows.append(
+                        {
+                            "split": split,
+                            "env_id": env_id,
+                            "origin_id": origin_id,
+                            "dest_id": dest_id,
+                            "y_obs": scale / 2.0,
+                            "R_oracle": scale,
+                            "lambda_oracle": scale / 2.0,
+                            "pi_oracle": 0.5,
+                            "psi_oracle": 0.0,
+                        }
+                    )
+        records = pd.DataFrame(rows)
+        row_scale_hat = np.asarray([10.0, 11.0, 20.0, 21.0], dtype=float)
+        prediction = {
+            "lambda_hat": records["lambda_oracle"].to_numpy(dtype=float),
+            "pi_hat": records["pi_oracle"].to_numpy(dtype=float),
+            "extra": {"score_hat": records["psi_oracle"].to_numpy(dtype=float), "tau": 0.7, "row_scale_hat": row_scale_hat},
+        }
+        metrics = evaluate_predictions(records, prediction)
+        self.assertAlmostEqual(metrics["test"]["scale_rmse"], 0.0, places=10)
+        self.assertAlmostEqual(metrics["test"]["scale_mae"], 0.0, places=10)
+        self.assertAlmostEqual(metrics["test"]["scale_hat_mean"], 20.5, places=10)
+        self.assertAlmostEqual(metrics["test"]["scale_true_mean"], 20.5, places=10)
+
+    def test_new_baselines_do_not_read_oracle_or_shortcut_columns(self) -> None:
+        config = _small_config()
+        data = generate_dgp_data(config, seed=12)
+        records = _sorted_records(data)
+        train = records.loc[records["split"] == "train"].copy()
+        val = records.loc[records["split"] == "val"].copy()
+        methods = [
+            "GroupDRO-AllocMLP",
+            "VREx-AllocMLP",
+            "IRM-AllocMLP",
+            "DANN-AllocMLP",
+            "Gravity",
+            "CompetingDestination",
+            "InterveningOpportunity",
+            "Radiation",
+        ]
+        mutated = records.copy()
+        for col in ["o_true", "s_true", "ell_true", "g_oracle", "psi_oracle", "pi_oracle", "lambda_oracle", "R_oracle"]:
+            mutated[col] = np.linspace(-1000.0, 1000.0, len(mutated))
+        for method in methods:
+            model = build_exposure_model(method, config, seed=12)
+            model.fit(train, val)
+            base = model.predict(records)["pi_hat"].numpy()
+            changed = model.predict(mutated)["pi_hat"].numpy()
+            self.assertTrue(np.allclose(base, changed, atol=1e-7), method)
+            mutated_model = build_exposure_model(method, config, seed=12)
+            mutated_model.fit(
+                mutated.loc[mutated["split"] == "train"].copy(),
+                mutated.loc[mutated["split"] == "val"].copy(),
+            )
+            changed_fit = mutated_model.predict(records)["pi_hat"].numpy()
+            self.assertTrue(np.allclose(base, changed_fit, atol=1e-6), method)
+
+    def test_irm_and_dann_smoke_valid_row_allocations(self) -> None:
+        config = _small_config()
+        data = generate_dgp_data(config, seed=13)
+        records = _sorted_records(data)
+        train = records.loc[records["split"] == "train"].copy()
+        val = records.loc[records["split"] == "val"].copy()
+        for method in ["IRM-AllocMLP", "DANN-AllocMLP"]:
+            model = build_exposure_model(method, config, seed=13)
+            model.fit(train, val)
+            pred = model.predict(records)
+            frame = records.copy()
+            frame["pi_hat"] = pred["pi_hat"].numpy()
+            row_sums = frame.groupby(["env_id", "origin_id"], sort=False)["pi_hat"].sum().to_numpy(dtype=float)
+            self.assertTrue(np.allclose(row_sums, 1.0, atol=1e-6), method)
+
+    def test_best_selectors_use_validation_row_kl(self) -> None:
+        cache = {
+            "bad_test_good_val": {"metrics": {"val": {"row_kl": 0.1}, "test": {"row_kl": 10.0}}},
+            "good_test_bad_val": {"metrics": {"val": {"row_kl": 0.5}, "test": {"row_kl": 0.01}}},
+        }
+        selected, scores = _select_best_by_val_row_kl(cache, ["bad_test_good_val", "good_test_bad_val"])
+        self.assertEqual(selected, "bad_test_good_val")
+        self.assertEqual(scores["bad_test_good_val"], 0.1)
+
     def test_opflow_uses_leo_selection_and_no_env_selection_only_changes_protocol(self) -> None:
         config = _small_config()
         data = generate_dgp_data(config, seed=8)
@@ -238,12 +418,19 @@ class DGPTests(unittest.TestCase):
         full.fit(train, val)
         no_env = build_exposure_model("NoEnvSelection", config, seed=8)
         no_env.fit(train, val)
+        alloc_selected = build_exposure_model("OpFlow-AllocSelected", config, seed=8)
+        alloc_selected.fit(train, val)
+        scale_alloc_selected = build_exposure_model("ScaleAwareMLP-AllocSelected", config, seed=8)
+        scale_alloc_selected.fit(train, val)
         self.assertEqual(full.selection_summary_["selection_protocol"], "leo")
-        self.assertEqual(full.selection_summary_["selection_metric"], "alloc_loss")
+        self.assertEqual(full.selection_summary_["selection_metric"], "joint_selection_score")
+        self.assertAlmostEqual(full.selection_summary_["lambda_selection_scale"], 0.1)
         self.assertEqual(full.selection_summary_["num_folds"], train["env_id"].nunique())
         self.assertEqual(len(full.selection_summary_["mean_score_by_epoch"]), config["exposure_model"]["epochs"])
         self.assertTrue(full.selection_summary_["retrained_on_all_train_envs"])
         self.assertIn(full.selected_epoch_, range(1, config["exposure_model"]["epochs"] + 1))
+        self.assertEqual(alloc_selected.selection_summary_["selection_metric"], "alloc_loss")
+        self.assertEqual(scale_alloc_selected.selection_summary_["selection_metric"], "alloc_loss")
         self.assertEqual(no_env.selection_summary_["selection_protocol"], "train_loss")
         self.assertFalse(no_env.selection_summary_["retrained_on_all_train_envs"])
         for attr in (
@@ -258,6 +445,33 @@ class DGPTests(unittest.TestCase):
             "use_sit_operator_potential",
         ):
             self.assertEqual(getattr(full, attr), getattr(no_env, attr), attr)
+
+    def test_q2_shift_gate_keeps_full_opflow_above_no_local_field(self) -> None:
+        from opflow_experiments.evaluation.evaluator import evaluate_predictions
+
+        config = _small_config(n=18)
+        config["scenario"] = {"question": "q2_opportunity", "opp_severity": 0.9}
+        self.assertTrue(config["exposure_model"]["use_crowding_shift_gate"])
+        self.assertGreaterEqual(config["exposure_model"]["lambda_operator_anchor"], 0.3)
+        data = generate_dgp_data(config, seed=21)
+        records = _sorted_records(data)
+        train = records.loc[records["split"] == "train"].copy()
+        val = records.loc[records["split"] == "val"].copy()
+        scores = {}
+        for method in ["OpFlow", "NoLocalField"]:
+            model = build_exposure_model(method, config, seed=21)
+            model.fit(train, val)
+            pred = model.predict(records)
+            scores[method] = evaluate_predictions(records, pred)["test"]["row_kl"]
+        self.assertLess(scores["OpFlow"], scores["NoLocalField"])
+
+    def test_q1_uses_reduced_default_method_roster(self) -> None:
+        config = load_exposure_config("configs/synthetic/DGP.yaml")
+        tasks = _question_tasks(config, ["q1_scale", "q2_opportunity"], debug=True, requested_methods=None)
+        q1_methods = {tuple(task["methods"]) for task in tasks if task["question"] == "q1_scale"}
+        q2_methods = {tuple(task["methods"]) for task in tasks if task["question"] == "q2_opportunity"}
+        self.assertEqual(q1_methods, {tuple(Q1_METHODS)})
+        self.assertEqual(q2_methods, {tuple(MAIN_METHODS)})
 
     def test_pipeline_smoke_writes_question_artifacts(self) -> None:
         config = _small_config()
@@ -309,7 +523,7 @@ class DGPTests(unittest.TestCase):
             stress_metrics = Path(tmp) / "results" / STRESS_RESIDUAL_DRIFT / "metrics.csv"
             self.assertTrue(stress_metrics.exists())
             frame = pd.read_csv(stress_metrics)
-            self.assertEqual(frame.columns.tolist(), ["seed", "kappa", "model", "row_kl", "row_cpc", "pmse", "log_rmse", "global_cpc"])
+            self.assertEqual(frame.columns.tolist(), ["seed", "kappa", "model", "row_kl", "row_cpc", "rmse", "mae", "pmse"])
             self.assertTrue(Path("figures/stress_residual_drift.png").exists())
             self.assertTrue(Path("figures/stress_residual_drift.pdf").exists())
 

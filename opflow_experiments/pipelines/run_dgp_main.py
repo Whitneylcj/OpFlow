@@ -32,9 +32,29 @@ REGIME_LABELS = {DGP_REGIME: DGP_REGIME}
 MAIN_QUESTION_CHOICES = ("q1_scale", "q2_opportunity", "q3_component_corr", "q4_ablation")
 STRESS_RESIDUAL_DRIFT = "stress_residual_drift"
 QUESTION_CHOICES = (*MAIN_QUESTION_CHOICES, STRESS_RESIDUAL_DRIFT)
-MAIN_METHODS = ["OpFlow", "RawCountMLP", "PairAllocMLP", "ScaleAwareMLP", "ShareStable"]
-STRESS_METHODS = ["RawCountMLP", "PairAllocMLP", "ScaleAwareMLP", "OpFlow"]
-Q4_METHODS = ["FullOpFlow", "NoRankPrefix", "NoLocalField", "NoScaleIsolation", "NoEnvSelection", "NoMonotonicity"]
+DG_BASELINE_METHODS = ["GroupDRO-AllocMLP", "VREx-AllocMLP", "IRM-AllocMLP", "DANN-AllocMLP"]
+CLASSICAL_BASELINE_METHODS = ["Gravity", "CompetingDestination", "InterveningOpportunity", "Radiation"]
+BEST_DG_METHOD = "BestDG-AllocMLP"
+BEST_CLASSICAL_METHOD = "BestClassical"
+BEST_SELECTOR_POOLS = {
+    BEST_DG_METHOD: DG_BASELINE_METHODS,
+    BEST_CLASSICAL_METHOD: CLASSICAL_BASELINE_METHODS,
+}
+Q1_METHODS = ["RawCountMLP", "PairAllocMLP", "ScaleAwareMLP", "OpFlow"]
+MAIN_METHODS = [
+    "RawCountMLP",
+    "PairAllocMLP",
+    "ScaleAwareMLP",
+    "ShareStable",
+    *DG_BASELINE_METHODS,
+    *CLASSICAL_BASELINE_METHODS,
+    BEST_DG_METHOD,
+    BEST_CLASSICAL_METHOD,
+    "OpFlow",
+]
+MAIN_PLOT_METHODS = ["RawCountMLP", "PairAllocMLP", "ScaleAwareMLP", BEST_DG_METHOD, BEST_CLASSICAL_METHOD, "OpFlow"]
+STRESS_METHODS = list(MAIN_METHODS)
+Q4_METHODS = ["FullOpFlow", "OpFlow-ERM", "NoRankPrefix", "NoLocalField", "NoScaleIsolation", "NoEnvSelection", "NoMonotonicity"]
 DEFAULT_METHODS = {DGP_REGIME: MAIN_METHODS}
 
 
@@ -92,6 +112,7 @@ def _ensure_defaults(config: dict[str, Any]) -> dict[str, Any]:
     out["dgp"] = dgp
     out.setdefault("synthetic_questions", {})
     out["synthetic_questions"].setdefault("q1_scale", {"scale_severity_list": [0.0, 0.5, 1.0, 1.5]})
+    out["synthetic_questions"]["q1_scale"].setdefault("methods", list(Q1_METHODS))
     out["synthetic_questions"].setdefault("q2_opportunity", {"opp_severity_list": [0.0, 0.3, 0.6, 0.9]})
     out["synthetic_questions"].setdefault(
         "q3_component_corr",
@@ -110,20 +131,29 @@ def _ensure_defaults(config: dict[str, Any]) -> dict[str, Any]:
     model.setdefault("lambda_scale", 0.1)
     model.setdefault("raw_count_loss", "mse")
     model.setdefault("lambda_vrex", 0.1)
+    model.setdefault("lambda_irm", 0.1)
+    model.setdefault("lambda_dann", 0.1)
+    model.setdefault("baseline_groupdro_eta", 0.05)
+    model.setdefault("dann_warmup_epochs", 0)
+    model.setdefault("dann_grl_max", 1.0)
     model.setdefault("lambda_op", 0.01)
     model.setdefault("groupdro_weight", 0.005)
-    model.setdefault("lambda_operator_anchor", 0.03)
+    model.setdefault("lambda_operator_anchor", 0.3)
     model.setdefault("lambda_o_anchor", 1.0)
     model.setdefault("lambda_c_anchor", 1.0)
-    model.setdefault("checkpoint_metric", "alloc_loss")
+    model.setdefault("checkpoint_metric", "joint_selection_score")
     model.setdefault("selection_protocol", "leo")
-    model.setdefault("leo_selection_metric", "alloc_loss")
+    model.setdefault("leo_selection_metric", "joint_selection_score")
+    model.setdefault("lambda_selection_scale", 0.1)
+    model.setdefault("eta_residual", 0.2)
+    model.setdefault("residual_hidden_dim", max(int(model.get("hidden_dim", 64)) // 4, 4))
     model.setdefault("rank_prefix_mode", "soft")
     model.setdefault("rank_prefix_temperature", 0.05)
     model.setdefault("benefit_skip", float(dgp.get("beta_o", 1.15)))
     model.setdefault("deterrence_skip", -float(dgp.get("beta_c", 0.35)))
     model.setdefault("exposure_skip", -float(dgp.get("beta_s", 0.65)))
     model.setdefault("competition_skip", float(dgp.get("beta_l", 0.45)))
+    model.setdefault("use_crowding_shift_gate", True)
     model.setdefault("use_groupdro", True)
     model.setdefault("use_rank_exposure", True)
     model.setdefault("use_competition", True)
@@ -131,6 +161,7 @@ def _ensure_defaults(config: dict[str, Any]) -> dict[str, Any]:
     model.setdefault("use_row_center", True)
     model.setdefault("detach_count_allocation", True)
     model.setdefault("use_sit_operator_potential", True)
+    model.setdefault("use_residual_interaction", True)
     model.setdefault("use_monotone_penalty", True)
     model.setdefault("use_vrex", True)
     out["exposure_model"] = model
@@ -229,8 +260,15 @@ def _metric_rows(
                 "rank_corr": split_metrics["rank_corr"],
                 "topk_overlap": split_metrics["topk_overlap"],
                 "score_mse": split_metrics.get("score_mse"),
+                "score_pmse": split_metrics.get("score_pmse"),
                 "pmse": split_metrics.get("pmse"),
+                "potential_corr": split_metrics.get("potential_corr"),
                 "score_corr": split_metrics.get("score_corr"),
+                "scale_rmse": split_metrics.get("scale_rmse"),
+                "scale_mae": split_metrics.get("scale_mae"),
+                "scale_corr": split_metrics.get("scale_corr"),
+                "scale_hat_mean": split_metrics.get("scale_hat_mean"),
+                "scale_true_mean": split_metrics.get("scale_true_mean"),
                 "exposure_alignment": extra.get("exposure_alignment", np.nan) if split == "test" else np.nan,
                 "o_hat_within_dest_std_max": extra.get("o_hat_within_dest_std_max", np.nan) if split == "test" else np.nan,
                 "o_hat_within_dest_std_mean": extra.get("o_hat_within_dest_std_mean", np.nan) if split == "test" else np.nan,
@@ -240,6 +278,7 @@ def _metric_rows(
                 "vrex_alloc_var": extra.get("vrex_alloc_var", np.nan) if split == "test" else np.nan,
                 "scale_risk_max": extra.get("scale_risk_max", np.nan) if split == "test" else np.nan,
                 "scale_risk_mean": extra.get("scale_risk_mean", np.nan) if split == "test" else np.nan,
+                "eta_residual": extra.get("eta_residual", np.nan) if split == "test" else np.nan,
                 "op_monotone_violation_D": extra.get("op_monotone_violation_D", np.nan) if split == "test" else np.nan,
                 "op_monotone_violation_S": extra.get("op_monotone_violation_S", np.nan) if split == "test" else np.nan,
                 "op_monotone_violation_B": extra.get("op_monotone_violation_B", np.nan) if split == "test" else np.nan,
@@ -278,11 +317,12 @@ def _extra_metrics(model, records: pd.DataFrame, prediction: dict) -> dict[str, 
         "operator_mean_o_tilde": float("nan"),
         "operator_mean_c_tilde": float("nan"),
         "psi_bar_row_mean_abs": float("nan"),
+        "eta_residual": float("nan"),
     }
     pred_extra = prediction.get("extra", {})
     score = pred_extra.get("score_hat")
     test_mask = records["split"].to_numpy() == "test"
-    if score is not None:
+    if score is not None and str(pred_extra.get("score_kind", "choice_potential")) == "choice_potential":
         extra["exposure_alignment"] = _safe_corr(
             _row_center(records.loc[test_mask], _as_numpy(score)[test_mask]),
             records.loc[test_mask, "psi_oracle"].to_numpy(dtype=float),
@@ -302,7 +342,7 @@ def _extra_metrics(model, records: pd.DataFrame, prediction: dict) -> dict[str, 
     ell_hat = pred_extra.get("ell_hat")
     if ell_hat is not None:
         extra["ell_hat_vs_true_corr"] = _safe_corr(_as_numpy(ell_hat)[test_mask], records.loc[test_mask, "ell_true"].to_numpy(dtype=float))
-    for key in ("alloc_risk_max", "alloc_risk_mean", "vrex_alloc_var", "scale_risk_max", "scale_risk_mean"):
+    for key in ("alloc_risk_max", "alloc_risk_mean", "vrex_alloc_var", "scale_risk_max", "scale_risk_mean", "eta_residual"):
         if key in pred_extra:
             extra[key] = float(pred_extra[key])
     return extra
@@ -344,6 +384,7 @@ def _operator_diagnostic_row(question: str, scenario: str, regime: str, method: 
         "vrex_alloc_var",
         "scale_risk_max",
         "scale_risk_mean",
+        "eta_residual",
         "op_monotone_violation_D",
         "op_monotone_violation_S",
         "op_monotone_violation_B",
@@ -408,6 +449,39 @@ def _scenario_config(config: dict[str, Any], scenario: dict[str, Any]) -> dict[s
     return out
 
 
+def _unique_preserve_order(methods: list[str]) -> list[str]:
+    seen: set[str] = set()
+    out: list[str] = []
+    for method in methods:
+        if method not in seen:
+            out.append(method)
+            seen.add(method)
+    return out
+
+
+def _fit_methods_for_selectors(methods: list[str]) -> tuple[list[str], set[str], list[str]]:
+    reported = {method for method in methods if method not in BEST_SELECTOR_POOLS}
+    aliases = [method for method in methods if method in BEST_SELECTOR_POOLS]
+    fit_methods = [method for method in methods if method not in BEST_SELECTOR_POOLS]
+    for alias in aliases:
+        fit_methods.extend(BEST_SELECTOR_POOLS[alias])
+    return _unique_preserve_order(fit_methods), reported, _unique_preserve_order(aliases)
+
+
+def _select_best_by_val_row_kl(method_cache: dict[str, dict], candidates: list[str]) -> tuple[str | None, dict[str, float]]:
+    scores: dict[str, float] = {}
+    for method in candidates:
+        metrics = method_cache.get(method, {}).get("metrics")
+        if not metrics or "val" not in metrics:
+            continue
+        score = float(metrics["val"].get("row_kl", float("nan")))
+        scores[method] = score
+    finite = {method: score for method, score in scores.items() if np.isfinite(score)}
+    if not finite:
+        return None, scores
+    return min(finite, key=finite.get), scores
+
+
 def _run_one(
     config: dict,
     regime: str,
@@ -438,7 +512,9 @@ def _run_one(
     env_risk_rows: list[dict] = []
     operator_rows: list[dict] = []
     selection_rows: list[dict] = []
-    method_iter = tqdm(methods, desc=f"{question} {scenario_name} seed {seed}", leave=False) if show_progress else methods
+    fit_methods, reported_methods, selector_aliases = _fit_methods_for_selectors(methods)
+    method_cache: dict[str, dict] = {}
+    method_iter = tqdm(fit_methods, desc=f"{question} {scenario_name} seed {seed}", leave=False) if show_progress else fit_methods
     for method in method_iter:
         model = build_exposure_model(method, config, seed)
         model.fit(train, val)
@@ -465,8 +541,47 @@ def _run_one(
             audit_rows.append({"question": question, "scenario": scenario_name, "regime": regime, "seed": seed, "method": method, **audit})
             for key in ("op_monotone_violation_D", "op_monotone_violation_S", "op_monotone_violation_B"):
                 extra[key] = float(audit[key])
-        env_risk_rows.extend(_env_risk_rows(records, pred, question=question, scenario=scenario_name, regime=regime, method=method, seed=seed))
-        operator_rows.append(_operator_diagnostic_row(question, scenario_name, regime, method, seed, extra))
+        method_cache[method] = {"model": model, "prediction": pred, "metrics": metrics, "extra": extra}
+        if method in reported_methods:
+            env_risk_rows.extend(_env_risk_rows(records, pred, question=question, scenario=scenario_name, regime=regime, method=method, seed=seed))
+            operator_rows.append(_operator_diagnostic_row(question, scenario_name, regime, method, seed, extra))
+            rows.extend(
+                _metric_rows(
+                    question=question,
+                    scenario_name=scenario_name,
+                    scenario_value_name=scenario_value_name,
+                    scenario_value=scenario_value,
+                    stress_type=stress_type,
+                    regime=regime,
+                    method=method,
+                    seed=seed,
+                    metrics=metrics,
+                    extra=extra,
+                )
+            )
+    for alias in selector_aliases:
+        selected, scores = _select_best_by_val_row_kl(method_cache, BEST_SELECTOR_POOLS[alias])
+        selection_rows.append(
+            {
+                "question": question,
+                "scenario": scenario_name,
+                "regime": regime,
+                "seed": seed,
+                "method": alias,
+                "selection_protocol": "validation_alias",
+                "selection_metric": "row_kl",
+                "selected_method": selected or "",
+                "candidate_val_row_kl": json.dumps(scores, sort_keys=True),
+            }
+        )
+        if selected is None:
+            continue
+        cached = method_cache[selected]
+        pred = cached["prediction"]
+        metrics = cached["metrics"]
+        extra = cached["extra"]
+        env_risk_rows.extend(_env_risk_rows(records, pred, question=question, scenario=scenario_name, regime=regime, method=alias, seed=seed))
+        operator_rows.append(_operator_diagnostic_row(question, scenario_name, regime, alias, seed, extra))
         rows.extend(
             _metric_rows(
                 question=question,
@@ -475,7 +590,7 @@ def _run_one(
                 scenario_value=scenario_value,
                 stress_type=stress_type,
                 regime=regime,
-                method=method,
+                method=alias,
                 seed=seed,
                 metrics=metrics,
                 extra=extra,
@@ -537,7 +652,24 @@ def _run_residual_drift(
     env_risk_rows: list[dict] = []
     operator_rows: list[dict] = []
     selection_rows: list[dict] = []
-    method_iter = tqdm(methods, desc=f"{STRESS_RESIDUAL_DRIFT} seed {seed}", leave=False) if show_progress else methods
+    drifted_records: dict[float, pd.DataFrame] = {}
+    for kappa in kappa_values:
+        drifted = apply_residual_behavioral_drift(data, base_config, seed=seed, kappa=float(kappa))
+        records = _sort_records(drifted.records)
+        drifted_records[float(kappa)] = records
+        diag = drifted.env_meta.copy()
+        diag["regime"] = regime
+        diag["seed"] = seed
+        diag["scenario"] = f"kappa_{float(kappa):g}"
+        diag["scenario_value_name"] = "kappa"
+        diag["scenario_value"] = float(kappa)
+        diag["stress_type"] = "residual_behavioral_drift"
+        diag["diagnostic_note"] = "; ".join(warnings)
+        diag_frames.append(diag)
+    fit_methods, reported_methods, selector_aliases = _fit_methods_for_selectors(methods)
+    method_cache: dict[str, dict] = {}
+    method_kappa_cache: dict[tuple[str, float], dict] = {}
+    method_iter = tqdm(fit_methods, desc=f"{STRESS_RESIDUAL_DRIFT} seed {seed}", leave=False) if show_progress else fit_methods
     for method in method_iter:
         model = build_exposure_model(method, base_config, seed)
         model.fit(train, val)
@@ -559,18 +691,61 @@ def _run_residual_drift(
         audit = _check_opflow_acceptance(model, train, method)
         if audit:
             audit_rows.append({"question": STRESS_RESIDUAL_DRIFT, "scenario": "kappa_sweep", "regime": regime, "seed": seed, "method": method, **audit})
-        for kappa in kappa_values:
+        base_pred = model.predict(base_records)
+        base_metrics = evaluate_predictions(base_records, base_pred, topk=int(base_config.get("baseline", {}).get("topk", 5)))
+        method_cache[method] = {"model": model, "metrics": base_metrics}
+        for kappa, records in drifted_records.items():
             scenario_name = f"kappa_{float(kappa):g}"
-            drifted = apply_residual_behavioral_drift(data, base_config, seed=seed, kappa=float(kappa))
-            records = _sort_records(drifted.records)
             pred = model.predict(records)
             metrics = evaluate_predictions(records, pred, topk=int(base_config.get("baseline", {}).get("topk", 5)))
             extra = _extra_metrics(model, records, pred)
             for key in ("op_monotone_violation_D", "op_monotone_violation_S", "op_monotone_violation_B"):
                 if key in audit:
                     extra[key] = float(audit[key])
-            env_risk_rows.extend(_env_risk_rows(records, pred, question=STRESS_RESIDUAL_DRIFT, scenario=scenario_name, regime=regime, method=method, seed=seed))
-            operator_rows.append(_operator_diagnostic_row(STRESS_RESIDUAL_DRIFT, scenario_name, regime, method, seed, extra))
+            method_kappa_cache[(method, float(kappa))] = {"records": records, "prediction": pred, "metrics": metrics, "extra": extra}
+            if method in reported_methods:
+                env_risk_rows.extend(_env_risk_rows(records, pred, question=STRESS_RESIDUAL_DRIFT, scenario=scenario_name, regime=regime, method=method, seed=seed))
+                operator_rows.append(_operator_diagnostic_row(STRESS_RESIDUAL_DRIFT, scenario_name, regime, method, seed, extra))
+                for row in _metric_rows(
+                    question=STRESS_RESIDUAL_DRIFT,
+                    scenario_name=scenario_name,
+                    scenario_value_name="kappa",
+                    scenario_value=float(kappa),
+                    stress_type="residual_behavioral_drift",
+                    regime=regime,
+                    method=method,
+                    seed=seed,
+                    metrics=metrics,
+                    extra=extra,
+                ):
+                    if row["split"] == "test":
+                        rows.append(row)
+    for alias in selector_aliases:
+        selected, scores = _select_best_by_val_row_kl(method_cache, BEST_SELECTOR_POOLS[alias])
+        selection_rows.append(
+            {
+                "question": STRESS_RESIDUAL_DRIFT,
+                "scenario": "kappa_sweep",
+                "regime": regime,
+                "seed": seed,
+                "method": alias,
+                "selection_protocol": "validation_alias",
+                "selection_metric": "row_kl",
+                "selected_method": selected or "",
+                "candidate_val_row_kl": json.dumps(scores, sort_keys=True),
+            }
+        )
+        if selected is None:
+            continue
+        for kappa in kappa_values:
+            scenario_name = f"kappa_{float(kappa):g}"
+            cached = method_kappa_cache[(selected, float(kappa))]
+            records = cached["records"]
+            pred = cached["prediction"]
+            metrics = cached["metrics"]
+            extra = cached["extra"]
+            env_risk_rows.extend(_env_risk_rows(records, pred, question=STRESS_RESIDUAL_DRIFT, scenario=scenario_name, regime=regime, method=alias, seed=seed))
+            operator_rows.append(_operator_diagnostic_row(STRESS_RESIDUAL_DRIFT, scenario_name, regime, alias, seed, extra))
             for row in _metric_rows(
                 question=STRESS_RESIDUAL_DRIFT,
                 scenario_name=scenario_name,
@@ -578,22 +753,13 @@ def _run_residual_drift(
                 scenario_value=float(kappa),
                 stress_type="residual_behavioral_drift",
                 regime=regime,
-                method=method,
+                method=alias,
                 seed=seed,
                 metrics=metrics,
                 extra=extra,
             ):
                 if row["split"] == "test":
                     rows.append(row)
-            diag = drifted.env_meta.copy()
-            diag["regime"] = regime
-            diag["seed"] = seed
-            diag["scenario"] = scenario_name
-            diag["scenario_value_name"] = "kappa"
-            diag["scenario_value"] = float(kappa)
-            diag["stress_type"] = "residual_behavioral_drift"
-            diag["diagnostic_note"] = "; ".join(warnings)
-            diag_frames.append(diag)
     if audit_rows:
         pd.DataFrame(audit_rows).to_csv(artifacts / "gradient_audit.csv", index=False)
     if env_risk_rows:
@@ -624,13 +790,14 @@ def _debug_values(values: list[float]) -> list[float]:
 def _question_tasks(config: dict[str, Any], questions: list[str], debug: bool, requested_methods: list[str] | None) -> list[dict[str, Any]]:
     qcfg = config.get("synthetic_questions", {})
     main_methods = requested_methods or list(config.get("experiment", {}).get("methods", MAIN_METHODS))
+    q1_methods = requested_methods or list(qcfg.get("q1_scale", {}).get("methods", Q1_METHODS))
     q4_methods = requested_methods or list(config.get("experiment", {}).get("q4_methods", Q4_METHODS))
     tasks: list[dict[str, Any]] = []
     if "q1_scale" in questions:
         values = [float(v) for v in qcfg.get("q1_scale", {}).get("scale_severity_list", [0.0, 0.5, 1.0, 1.5])]
         for value in (_debug_values(values) if debug else values):
             scenario = {"question": "q1_scale", "scale_severity": value}
-            tasks.append({"question": "q1_scale", "scenario": scenario, "name": f"scale_{value:g}", "value_name": "severity", "value": value, "stress_type": "", "methods": main_methods})
+            tasks.append({"question": "q1_scale", "scenario": scenario, "name": f"scale_{value:g}", "value_name": "severity", "value": value, "stress_type": "", "methods": q1_methods})
     if "q2_opportunity" in questions:
         values = [float(v) for v in qcfg.get("q2_opportunity", {}).get("opp_severity_list", [0.0, 0.3, 0.6, 0.9])]
         for value in (_debug_values(values) if debug else values):
@@ -686,7 +853,7 @@ def _test_rows(metrics: pd.DataFrame, question: str) -> pd.DataFrame:
 def _write_question_metrics(metrics: pd.DataFrame, diagnostics: pd.DataFrame, results_root: str | Path) -> dict[str, Path]:
     written: dict[str, Path] = {}
     root = Path(results_root)
-    common_metrics = ["row_kl", "row_cpc", "pmse", "log_rmse", "global_cpc", "rank_corr", "topk_overlap"]
+    common_metrics = ["row_kl", "row_cpc", "rmse", "mae", "pmse"]
     q1 = _test_rows(metrics, "q1_scale")
     if not q1.empty:
         out = ensure_dir(root / "q1_scale")
@@ -718,7 +885,7 @@ def _write_question_metrics(metrics: pd.DataFrame, diagnostics: pd.DataFrame, re
     if not stress.empty:
         out = ensure_dir(root / STRESS_RESIDUAL_DRIFT)
         frame = stress.rename(columns={"method": "model", "scenario_value": "kappa"})[
-            ["seed", "kappa", "model", "row_kl", "row_cpc", "pmse", "log_rmse", "global_cpc"]
+            ["seed", "kappa", "model", "row_kl", "row_cpc", "rmse", "mae", "pmse"]
         ]
         frame.to_csv(out / "metrics.csv", index=False)
         written[STRESS_RESIDUAL_DRIFT] = out / "metrics.csv"
@@ -738,11 +905,17 @@ def _mean_ci(frame: pd.DataFrame, group_cols: list[str], value_col: str = "row_k
     return pd.DataFrame(rows)
 
 
-def _plot_line(ax, frame: pd.DataFrame, x_col: str, title: str, ylabel: str = "Row-KL") -> None:
+def _plot_line(ax, frame: pd.DataFrame, x_col: str, title: str, ylabel: str = "Row-KL", methods: list[str] | None = None) -> None:
     if frame.empty:
         ax.set_title(title)
         ax.text(0.5, 0.5, "No data", ha="center", va="center")
         return
+    if methods is not None:
+        frame = frame.loc[frame["model"].isin(methods)].copy()
+        if frame.empty:
+            ax.set_title(title)
+            ax.text(0.5, 0.5, "No plotted models", ha="center", va="center")
+            return
     summary = _mean_ci(frame, [x_col, "model"], "row_kl")
     for model, group in summary.groupby("model", sort=False):
         group = group.sort_values(x_col)
@@ -762,15 +935,15 @@ def _write_main_figure(results_root: str | Path) -> None:
     root = Path(results_root)
     fig, axes = plt.subplots(2, 2, figsize=(12, 8))
     if (root / "q1_scale" / "metrics.csv").exists():
-        _plot_line(axes[0, 0], pd.read_csv(root / "q1_scale" / "metrics.csv"), "severity", "A. Training scale heterogeneity")
+        _plot_line(axes[0, 0], pd.read_csv(root / "q1_scale" / "metrics.csv"), "severity", "A. Training scale heterogeneity", methods=MAIN_PLOT_METHODS)
     else:
         _plot_line(axes[0, 0], pd.DataFrame(), "severity", "A. Training scale heterogeneity")
     if (root / "q2_opportunity" / "metrics.csv").exists():
-        _plot_line(axes[0, 1], pd.read_csv(root / "q2_opportunity" / "metrics.csv"), "severity", "B. Opportunity redistribution")
+        _plot_line(axes[0, 1], pd.read_csv(root / "q2_opportunity" / "metrics.csv"), "severity", "B. Opportunity redistribution", methods=MAIN_PLOT_METHODS)
     else:
         _plot_line(axes[0, 1], pd.DataFrame(), "severity", "B. Opportunity redistribution")
     if (root / "q3_component_corr" / "metrics.csv").exists():
-        _plot_line(axes[1, 0], pd.read_csv(root / "q3_component_corr" / "metrics.csv"), "alpha_test", "C. Component-correlation shift")
+        _plot_line(axes[1, 0], pd.read_csv(root / "q3_component_corr" / "metrics.csv"), "alpha_test", "C. Component-correlation shift", methods=MAIN_PLOT_METHODS)
     else:
         _plot_line(axes[1, 0], pd.DataFrame(), "alpha_test", "C. Component-correlation shift")
     ax = axes[1, 1]
@@ -810,7 +983,7 @@ def _write_stress_figure(results_root: str | Path) -> tuple[Path, Path] | None:
     if frame.empty:
         return None
     fig, ax = plt.subplots(figsize=(6, 4))
-    _plot_line(ax, frame, "kappa", "Residual Behavioral Drift")
+    _plot_line(ax, frame, "kappa", "Residual Behavioral Drift", methods=MAIN_PLOT_METHODS)
     handles, labels = ax.get_legend_handles_labels()
     if handles:
         ax.legend(handles, labels, frameon=False)
@@ -830,7 +1003,13 @@ def _value_at_endpoint(frame: pd.DataFrame, value_col: str, endpoint) -> pd.Data
     view = frame.loc[np.isclose(pd.to_numeric(frame[value_col], errors="coerce"), float(endpoint))].copy()
     if view.empty:
         return pd.DataFrame()
-    return view.groupby("model", as_index=False).agg(row_kl=("row_kl", "mean"), pmse=("pmse", "mean"))
+    return view.groupby("model", as_index=False).agg(
+        row_kl=("row_kl", "mean"),
+        row_cpc=("row_cpc", "mean"),
+        rmse=("rmse", "mean"),
+        mae=("mae", "mean"),
+        pmse=("pmse", "mean"),
+    )
 
 
 def _write_endpoint_table(results_root: str | Path, config: dict[str, Any]) -> Path:
@@ -855,14 +1034,20 @@ def _write_endpoint_table(results_root: str | Path, config: dict[str, Any]) -> P
     ):
         for row in frame.itertuples(index=False):
             item = rows.setdefault(str(row.model), {"model_or_ablation": str(row.model)})
-            item[f"{label}_row_kl"] = float(row.row_kl)
-            item[f"{label}_pmse"] = float(row.pmse)
+            for metric in ("row_kl", "row_cpc", "rmse", "mae", "pmse"):
+                item[f"{label}_{metric}"] = float(getattr(row, metric))
     if not q4.empty:
-        per_seed = q4.groupby(["seed", "ablation"], as_index=False)[["row_kl", "pmse"]].mean()
-        for row in per_seed.groupby("ablation", as_index=False).agg(row_kl=("row_kl", "mean"), pmse=("pmse", "mean")).itertuples(index=False):
+        per_seed = q4.groupby(["seed", "ablation"], as_index=False)[["row_kl", "row_cpc", "rmse", "mae", "pmse"]].mean()
+        for row in per_seed.groupby("ablation", as_index=False).agg(
+            row_kl=("row_kl", "mean"),
+            row_cpc=("row_cpc", "mean"),
+            rmse=("rmse", "mean"),
+            mae=("mae", "mean"),
+            pmse=("pmse", "mean"),
+        ).itertuples(index=False):
             item = rows.setdefault(str(row.ablation), {"model_or_ablation": str(row.ablation)})
-            item["avg_ood_row_kl"] = float(row.row_kl)
-            item["avg_ood_pmse"] = float(row.pmse)
+            for metric in ("row_kl", "row_cpc", "rmse", "mae", "pmse"):
+                item[f"avg_ood_{metric}"] = float(getattr(row, metric))
     out = pd.DataFrame(rows.values())
     path = ensure_dir("tables") / "synthetic_endpoint.csv"
     out.to_csv(path, index=False)
@@ -897,9 +1082,8 @@ def _write_report(results_root: str | Path, config: dict[str, Any], run_dir: Pat
         "",
         "## Metrics",
         "",
-        "- Main: Row-KL against oracle allocation.",
-        "- Secondary: PMSE after row-centering predicted and oracle potentials by origin row.",
-        "- Appendix: log-RMSE, global CPC, Row-CPC, rank correlation, top-k overlap.",
+        "- Reported metrics: Row-KL, Row-CPC, raw-domain RMSE, raw-domain MAE, and PMSE.",
+        "- Row-KL/Row-CPC evaluate row-normalized allocation; RMSE/MAE evaluate raw OD counts; PMSE evaluates row-centered oracle potential.",
         "",
         "## Main Findings",
         "",

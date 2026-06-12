@@ -1,0 +1,98 @@
+source_array,source_index,node_feat_index,feature_id,feature_name,source_document
+demos.npy,0,0,demo_000_total_population,Total Population,CommutingODGen-Dataset-main/README.md
+demos.npy,1,1,demo_001_male_population,Male Population,CommutingODGen-Dataset-main/README.md
+demos.npy,2,2,demo_002_female_population,Female Population,CommutingODGen-Dataset-main/README.md
+demos.npy,3,3,demo_003_under_5_years_total,Under 5 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,4,4,demo_004_under_5_years_male,Under 5 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,5,5,demo_005_under_5_years_female,Under 5 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,6,6,demo_006_5_to_9_years_total,5 to 9 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,7,7,demo_007_5_to_9_years_male,5 to 9 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,8,8,demo_008_5_to_9_years_female,5 to 9 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,9,9,demo_009_10_to_14_years_total,10 to 14 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,10,10,demo_010_10_to_14_years_male,10 to 14 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,11,11,demo_011_10_to_14_years_female,10 to 14 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,12,12,demo_012_15_to_19_years_total,15 to 19 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,13,13,demo_013_15_to_19_years_male,15 to 19 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,14,14,demo_014_15_to_19_years_female,15 to 19 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,15,15,demo_015_20_to_24_years_total,20 to 24 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,16,16,demo_016_20_to_24_years_male,20 to 24 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,17,17,demo_017_20_to_24_years_female,20 to 24 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,18,18,demo_018_25_to_29_years_total,25 to 29 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,19,19,demo_019_25_to_29_years_male,25 to 29 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,20,20,demo_020_25_to_29_years_female,25 to 29 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,21,21,demo_021_30_to_34_years_total,30 to 34 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,22,22,demo_022_30_to_34_years_male,30 to 34 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,23,23,demo_023_30_to_34_years_female,30 to 34 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,24,24,demo_024_35_to_39_years_total,35 to 39 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,25,25,demo_025_35_to_39_years_male,35 to 39 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,26,26,demo_026_35_to_39_years_female,35 to 39 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,27,27,demo_027_40_to_44_years_total,40 to 44 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,28,28,demo_028_40_to_44_years_male,40 to 44 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,29,29,demo_029_40_to_44_years_female,40 to 44 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,30,30,demo_030_45_to_49_years_total,45 to 49 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,31,31,demo_031_45_to_49_years_male,45 to 49 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,32,32,demo_032_45_to_49_years_female,45 to 49 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,33,33,demo_033_50_to_54_years_total,50 to 54 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,34,34,demo_034_50_to_54_years_male,50 to 54 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,35,35,demo_035_50_to_54_years_female,50 to 54 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,36,36,demo_036_55_to_59_years_total,55 to 59 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,37,37,demo_037_55_to_59_years_male,55 to 59 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,38,38,demo_038_55_to_59_years_female,55 to 59 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,39,39,demo_039_60_to_64_years_total,60 to 64 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,40,40,demo_040_60_to_64_years_male,60 to 64 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,41,41,demo_041_60_to_64_years_female,60 to 64 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,42,42,demo_042_65_to_69_years_total,65 to 69 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,43,43,demo_043_65_to_69_years_male,65 to 69 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,44,44,demo_044_65_to_69_years_female,65 to 69 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,45,45,demo_045_70_to_74_years_total,70 to 74 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,46,46,demo_046_70_to_74_years_male,70 to 74 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,47,47,demo_047_70_to_74_years_female,70 to 74 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,48,48,demo_048_75_to_79_years_total,75 to 79 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,49,49,demo_049_75_to_79_years_male,75 to 79 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,50,50,demo_050_75_to_79_years_female,75 to 79 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,51,51,demo_051_80_to_84_years_total,80 to 84 Years - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,52,52,demo_052_80_to_84_years_male,80 to 84 Years - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,53,53,demo_053_80_to_84_years_female,80 to 84 Years - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,54,54,demo_054_85_years_and_over_total,85 Years and Over - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,55,55,demo_055_85_years_and_over_male,85 Years and Over - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,56,56,demo_056_85_years_and_over_female,85 Years and Over - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,57,57,demo_057_median_age_total,Median Age - Total,CommutingODGen-Dataset-main/README.md
+demos.npy,58,58,demo_058_median_age_male,Median Age - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,59,59,demo_059_median_age_female,Median Age - Female,CommutingODGen-Dataset-main/README.md
+demos.npy,60,60,demo_060_median_earnings_dollars,Median Earnings (Dollars),CommutingODGen-Dataset-main/README.md
+demos.npy,61,61,demo_061_class_of_worker_private_wage_and_salary_workers,Class of Worker - Private Wage and Salary Workers,CommutingODGen-Dataset-main/README.md
+demos.npy,62,62,demo_062_class_of_worker_government_workers,Class of Worker - Government Workers,CommutingODGen-Dataset-main/README.md
+demos.npy,63,63,demo_063_class_of_worker_self_employed_workers,Class of Worker - Self-Employed Workers,CommutingODGen-Dataset-main/README.md
+demos.npy,64,64,demo_064_class_of_worker_unpaid_family_workers,Class of Worker - Unpaid Family Workers,CommutingODGen-Dataset-main/README.md
+demos.npy,65,65,demo_065_travel_time_to_work_mean_travel_time_minutes,Travel Time to Work - Mean Travel Time (Minutes),CommutingODGen-Dataset-main/README.md
+demos.npy,66,66,demo_066_vehicles_available_no_vehicle_available,Vehicles Available - No Vehicle Available,CommutingODGen-Dataset-main/README.md
+demos.npy,67,67,demo_067_vehicles_available_1_vehicle_available,Vehicles Available - 1 Vehicle Available,CommutingODGen-Dataset-main/README.md
+demos.npy,68,68,demo_068_vehicles_available_2_vehicles_available,Vehicles Available - 2 Vehicles Available,CommutingODGen-Dataset-main/README.md
+demos.npy,69,69,demo_069_vehicles_available_3_or_more_vehicles_available,Vehicles Available - 3 or More Vehicles Available,CommutingODGen-Dataset-main/README.md
+demos.npy,70,70,demo_070_total_households,Total Households,CommutingODGen-Dataset-main/README.md
+demos.npy,71,71,demo_071_average_household_size,Average Household Size,CommutingODGen-Dataset-main/README.md
+demos.npy,72,72,demo_072_total_families,Total Families,CommutingODGen-Dataset-main/README.md
+demos.npy,73,73,demo_073_average_family_size,Average Family Size,CommutingODGen-Dataset-main/README.md
+demos.npy,74,74,demo_074_nursery_school_preschool,"Nursery School, Preschool",CommutingODGen-Dataset-main/README.md
+demos.npy,75,75,demo_075_kindergarten_to_12th_grade,Kindergarten to 12th Grade,CommutingODGen-Dataset-main/README.md
+demos.npy,76,76,demo_076_kindergarten,Kindergarten,CommutingODGen-Dataset-main/README.md
+demos.npy,77,77,demo_077_elementary_grade_1_to_grade_4,Elementary: Grade 1 to Grade 4,CommutingODGen-Dataset-main/README.md
+demos.npy,78,78,demo_078_elementary_grade_5_to_grade_8,Elementary: Grade 5 to Grade 8,CommutingODGen-Dataset-main/README.md
+demos.npy,79,79,demo_079_high_school_grade_9_to_grade_12,High School: Grade 9 to Grade 12,CommutingODGen-Dataset-main/README.md
+demos.npy,80,80,demo_080_college_undergraduate,"College, Undergraduate",CommutingODGen-Dataset-main/README.md
+demos.npy,81,81,demo_081_graduate_professional_school,"Graduate, Professional School",CommutingODGen-Dataset-main/README.md
+demos.npy,82,82,demo_082_9th_to_12th_grade_no_diploma,"9th to 12th Grade, No Diploma",CommutingODGen-Dataset-main/README.md
+demos.npy,83,83,demo_083_associate_s_degree,Associate's Degree,CommutingODGen-Dataset-main/README.md
+demos.npy,84,84,demo_084_bachelor_s_degree,Bachelor's Degree,CommutingODGen-Dataset-main/README.md
+demos.npy,85,85,demo_085_bachelor_s_degree_or_higher,Bachelor's Degree or Higher,CommutingODGen-Dataset-main/README.md
+demos.npy,86,86,demo_086_graduate_or_professional_degree,Graduate or Professional Degree,CommutingODGen-Dataset-main/README.md
+demos.npy,87,87,demo_087_high_school_graduate_includes_equivalency,High School Graduate (Includes Equivalency),CommutingODGen-Dataset-main/README.md
+demos.npy,88,88,demo_088_high_school_graduate_or_higher,High School Graduate or Higher,CommutingODGen-Dataset-main/README.md
+demos.npy,89,89,demo_089_less_than_9th_grade,Less Than 9th Grade,CommutingODGen-Dataset-main/README.md
+demos.npy,90,90,demo_090_less_than_high_school_graduate,Less Than High School Graduate,CommutingODGen-Dataset-main/README.md
+demos.npy,91,91,demo_091_population_25_to_34_years_bachelor_s_degree_or_higher,Population 25 to 34 Years - Bachelor's Degree or Higher,CommutingODGen-Dataset-main/README.md
+demos.npy,92,92,demo_092_population_25_to_34_years_high_school_graduate_or_higher,Population 25 to 34 Years - High School Graduate or Higher,CommutingODGen-Dataset-main/README.md
+demos.npy,93,93,demo_093_some_college_or_associate_s_degree,Some College or Associate's Degree,CommutingODGen-Dataset-main/README.md
+demos.npy,94,94,demo_094_some_college_no_degree,"Some College, No Degree",CommutingODGen-Dataset-main/README.md
+demos.npy,95,95,demo_095_poverty_male,Poverty - Male,CommutingODGen-Dataset-main/README.md
+demos.npy,96,96,demo_096_poverty_female,Poverty - Female,CommutingODGen-Dataset-main/README.md

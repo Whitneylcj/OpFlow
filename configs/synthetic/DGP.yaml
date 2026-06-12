@@ -14,13 +14,24 @@ experiment:
     - q3_component_corr
     - q4_ablation
   methods:
-    - OpFlow
     - RawCountMLP
     - PairAllocMLP
     - ScaleAwareMLP
     - ShareStable
+    - GroupDRO-AllocMLP
+    - VREx-AllocMLP
+    - IRM-AllocMLP
+    - DANN-AllocMLP
+    - Gravity
+    - CompetingDestination
+    - InterveningOpportunity
+    - Radiation
+    - BestDG-AllocMLP
+    - BestClassical
+    - OpFlow
   q4_methods:
     - FullOpFlow
+    - OpFlow-ERM
     - NoRankPrefix
     - NoLocalField
     - NoScaleIsolation
@@ -64,6 +75,11 @@ dgp:
 synthetic_questions:
   q1_scale:
     scale_severity_list: [0.0, 0.5, 1.0, 1.5]
+    methods:
+      - RawCountMLP
+      - PairAllocMLP
+      - ScaleAwareMLP
+      - OpFlow
   q2_opportunity:
     opp_severity_list: [0.0, 0.3, 0.6, 0.9]
   q3_component_corr:
@@ -79,6 +95,17 @@ synthetic_questions:
       - RawCountMLP
       - PairAllocMLP
       - ScaleAwareMLP
+      - ShareStable
+      - GroupDRO-AllocMLP
+      - VREx-AllocMLP
+      - IRM-AllocMLP
+      - DANN-AllocMLP
+      - Gravity
+      - CompetingDestination
+      - InterveningOpportunity
+      - Radiation
+      - BestDG-AllocMLP
+      - BestClassical
       - OpFlow
 
 baseline:
@@ -95,21 +122,29 @@ exposure_model:
   lambda_scale: 0.1
   raw_count_loss: mse
   lambda_vrex: 0.1
+  lambda_irm: 0.1
+  lambda_dann: 0.1
+  baseline_groupdro_eta: 0.05
+  dann_warmup_epochs: 10
+  dann_grl_max: 1.0
   lambda_op: 0.01
   groupdro_weight: 0.005
-  lambda_operator_anchor: 0.03
+  lambda_operator_anchor: 0.3
   lambda_o_anchor: 1.0
   lambda_c_anchor: 1.0
-  checkpoint_metric: alloc_loss
+  checkpoint_metric: joint_selection_score
   selection_protocol: leo
-  leo_selection_metric: alloc_loss
+  leo_selection_metric: joint_selection_score
+  lambda_selection_scale: 0.1
+  eta_residual: 0.2
+  residual_hidden_dim: 16
   rank_prefix_mode: soft
   rank_prefix_temperature: 0.05
   benefit_skip: 1.15
   deterrence_skip: -0.35
   exposure_skip: -0.65
   competition_skip: 0.45
-  use_crowding_shift_gate: false
+  use_crowding_shift_gate: true
   use_groupdro: true
   use_rank_exposure: true
   use_competition: true
@@ -117,5 +152,6 @@ exposure_model:
   use_row_center: true
   detach_count_allocation: true
   use_sit_operator_potential: true
+  use_residual_interaction: true
   use_monotone_penalty: true
   use_vrex: true

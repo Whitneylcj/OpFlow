@@ -43,6 +43,58 @@ def _row_share_sum_error(frame: pd.DataFrame) -> float:
     return float(np.max(np.abs(row_sums - 1.0))) if len(row_sums) else float("nan")
 
 
+def _row_ids(frame: pd.DataFrame) -> np.ndarray:
+    keys = pd.MultiIndex.from_frame(frame[["env_id", "origin_id"]])
+    row_ids, _ = pd.factorize(keys, sort=False)
+    return row_ids.astype(int, copy=False)
+
+
+def _expand_row_scale_hat(frame: pd.DataFrame, row_scale_hat) -> np.ndarray:
+    values = np.asarray(_to_numpy(row_scale_hat), dtype=float).reshape(-1)
+    if len(values) == len(frame):
+        return values
+    row_ids = _row_ids(frame)
+    n_rows = int(row_ids.max()) + 1 if len(row_ids) else 0
+    if len(values) != n_rows:
+        return np.full(len(frame), np.nan, dtype=float)
+    return values[row_ids]
+
+
+def _scale_diagnostics(frame: pd.DataFrame) -> dict[str, float]:
+    if "row_scale_hat" not in frame or "R_oracle" not in frame:
+        return {
+            "scale_rmse": float("nan"),
+            "scale_mae": float("nan"),
+            "scale_corr": float("nan"),
+            "scale_hat_mean": float("nan"),
+            "scale_true_mean": float("nan"),
+        }
+    rows = (
+        frame.groupby(["env_id", "origin_id"], sort=False)
+        .agg(scale_hat=("row_scale_hat", "first"), scale_true=("R_oracle", "first"))
+        .reset_index(drop=True)
+    )
+    scale_hat = rows["scale_hat"].to_numpy(dtype=float)
+    scale_true = rows["scale_true"].to_numpy(dtype=float)
+    valid = np.isfinite(scale_hat) & np.isfinite(scale_true)
+    if valid.sum() == 0:
+        return {
+            "scale_rmse": float("nan"),
+            "scale_mae": float("nan"),
+            "scale_corr": float("nan"),
+            "scale_hat_mean": float("nan"),
+            "scale_true_mean": float("nan"),
+        }
+    err = scale_hat[valid] - scale_true[valid]
+    return {
+        "scale_rmse": float(np.sqrt(np.mean(err**2))),
+        "scale_mae": float(np.mean(np.abs(err))),
+        "scale_corr": _safe_corr(scale_hat[valid], scale_true[valid]),
+        "scale_hat_mean": float(np.mean(scale_hat[valid])),
+        "scale_true_mean": float(np.mean(scale_true[valid])),
+    }
+
+
 def _log_rmse(true, pred) -> float:
     true_arr = np.asarray(true, dtype=float)
     pred_arr = np.asarray(pred, dtype=float)
@@ -65,6 +117,11 @@ def _to_numpy(value):
 def _center_by_row(frame: pd.DataFrame, values: np.ndarray) -> np.ndarray:
     out = pd.Series(values, index=frame.index, dtype=float)
     return (out - out.groupby([frame["env_id"], frame["origin_id"]]).transform("mean")).to_numpy(dtype=float)
+
+
+def _allocation_implied_potential(frame: pd.DataFrame, pi_hat: np.ndarray, tau: float) -> np.ndarray:
+    log_pi = np.log(np.clip(np.asarray(pi_hat, dtype=float), 1e-12, 1.0))
+    return float(tau) * _center_by_row(frame, log_pi)
 
 
 def _score_mse_calibrated(true_score: np.ndarray, pred_score: np.ndarray) -> float:
@@ -112,9 +169,15 @@ def evaluate_predictions(records: pd.DataFrame, prediction: dict, topk: int = 5)
     enriched = records.copy()
     enriched["lambda_hat"] = _to_numpy(prediction["lambda_hat"])
     enriched["pi_hat"] = _to_numpy(prediction["pi_hat"])
-    score_hat = prediction.get("extra", {}).get("score_hat")
+    pred_extra = prediction.get("extra", {})
+    score_hat = pred_extra.get("score_hat")
+    score_kind = str(pred_extra.get("score_kind", "choice_potential"))
+    tau = float(pred_extra.get("tau", 1.0))
     if score_hat is not None:
         enriched["score_hat"] = _to_numpy(score_hat)
+    row_scale_hat = pred_extra.get("row_scale_hat")
+    if row_scale_hat is not None:
+        enriched["row_scale_hat"] = _expand_row_scale_hat(enriched, row_scale_hat)
     report: dict[str, dict[str, float]] = {}
     for split, frame in enriched.groupby("split"):
         if {"distance", "shortcut_history"}.issubset(frame.columns):
@@ -142,18 +205,31 @@ def evaluate_predictions(records: pd.DataFrame, prediction: dict, topk: int = 5)
             "history_sensitivity": history_sensitivity,
             "origin_scale_error": _origin_scale_error(frame),
             "row_share_sum_error": _row_share_sum_error(frame),
+            **_scale_diagnostics(frame),
         }
-        if "psi_oracle" in frame and "score_hat" in frame:
+        if "psi_oracle" in frame:
             true_centered = frame["psi_oracle"].to_numpy(dtype=float)
-            pred_centered = _center_by_row(frame, frame["score_hat"].to_numpy(dtype=float))
-            score_frame = frame.copy()
-            score_frame["_qbar_hat"] = pred_centered
-            split_report["score_mse"] = _score_mse_calibrated(true_centered, pred_centered)
-            split_report["pmse"] = _rowwise_potential_mse(frame, true_centered, pred_centered)
-            split_report["score_corr"] = mean_spearman_by_row(score_frame, true_col="psi_oracle", pred_col="_qbar_hat")
+            potential_hat = _allocation_implied_potential(frame, frame["pi_hat"].to_numpy(dtype=float), tau)
+            potential_frame = frame.copy()
+            potential_frame["_potential_hat"] = potential_hat
+            split_report["pmse"] = _rowwise_potential_mse(frame, true_centered, potential_hat)
+            split_report["potential_corr"] = mean_spearman_by_row(potential_frame, true_col="psi_oracle", pred_col="_potential_hat")
+            if "score_hat" in frame and score_kind == "choice_potential":
+                pred_centered = _center_by_row(frame, frame["score_hat"].to_numpy(dtype=float))
+                score_frame = frame.copy()
+                score_frame["_qbar_hat"] = pred_centered
+                split_report["score_mse"] = _score_mse_calibrated(true_centered, pred_centered)
+                split_report["score_pmse"] = _rowwise_potential_mse(frame, true_centered, pred_centered)
+                split_report["score_corr"] = mean_spearman_by_row(score_frame, true_col="psi_oracle", pred_col="_qbar_hat")
+            else:
+                split_report["score_mse"] = float("nan")
+                split_report["score_pmse"] = float("nan")
+                split_report["score_corr"] = float("nan")
         else:
             split_report["score_mse"] = float("nan")
+            split_report["score_pmse"] = float("nan")
             split_report["pmse"] = float("nan")
+            split_report["potential_corr"] = float("nan")
             split_report["score_corr"] = float("nan")
         report[split] = split_report
     report["ood_id_gap"] = {
