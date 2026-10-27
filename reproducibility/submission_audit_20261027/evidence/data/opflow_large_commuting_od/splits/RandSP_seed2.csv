@@ -1,0 +1,2266 @@
+split_name,seed,fold_id,area_id,role,STATEFP,COUNTYFP,census_division,n_nodes
+RandSP,2,2,01005,test,01,005,East South Central,9
+RandSP,2,2,01013,test,01,013,East South Central,9
+RandSP,2,2,01017,test,01,017,East South Central,9
+RandSP,2,2,01025,test,01,025,East South Central,9
+RandSP,2,2,01029,test,01,029,East South Central,4
+RandSP,2,2,01035,test,01,035,East South Central,5
+RandSP,2,2,01047,test,01,047,East South Central,15
+RandSP,2,2,01055,test,01,055,East South Central,30
+RandSP,2,2,01059,test,01,059,East South Central,9
+RandSP,2,2,01083,test,01,083,East South Central,16
+RandSP,2,2,01085,test,01,085,East South Central,4
+RandSP,2,2,01091,test,01,091,East South Central,6
+RandSP,2,2,01101,test,01,101,East South Central,65
+RandSP,2,2,01103,test,01,103,East South Central,27
+RandSP,2,2,01119,test,01,119,East South Central,4
+RandSP,2,2,01123,test,01,123,East South Central,10
+RandSP,2,2,01133,test,01,133,East South Central,7
+RandSP,2,2,02110,test,02,110,Pacific,6
+RandSP,2,2,02122,test,02,122,Pacific,13
+RandSP,2,2,04005,test,04,005,Mountain,28
+RandSP,2,2,04025,test,04,025,Mountain,42
+RandSP,2,2,05007,test,05,007,West South Central,49
+RandSP,2,2,05031,test,05,031,West South Central,17
+RandSP,2,2,05057,test,05,057,West South Central,5
+RandSP,2,2,05059,test,05,059,West South Central,7
+RandSP,2,2,05063,test,05,063,West South Central,8
+RandSP,2,2,05065,test,05,065,West South Central,4
+RandSP,2,2,05075,test,05,075,West South Central,6
+RandSP,2,2,05083,test,05,083,West South Central,6
+RandSP,2,2,05089,test,05,089,West South Central,4
+RandSP,2,2,05111,test,05,111,West South Central,7
+RandSP,2,2,05123,test,05,123,West South Central,6
+RandSP,2,2,05135,test,05,135,West South Central,4
+RandSP,2,2,05143,test,05,143,West South Central,32
+RandSP,2,2,06009,test,06,009,Pacific,10
+RandSP,2,2,06021,test,06,021,Pacific,6
+RandSP,2,2,06031,test,06,031,Pacific,27
+RandSP,2,2,06063,test,06,063,Pacific,7
+RandSP,2,2,06075,test,06,075,Pacific,196
+RandSP,2,2,06079,test,06,079,Pacific,53
+RandSP,2,2,06083,test,06,083,Pacific,90
+RandSP,2,2,06087,test,06,087,Pacific,52
+RandSP,2,2,06089,test,06,089,Pacific,48
+RandSP,2,2,06101,test,06,101,Pacific,21
+RandSP,2,2,08013,test,08,013,Mountain,68
+RandSP,2,2,08045,test,08,045,Mountain,11
+RandSP,2,2,08069,test,08,069,Mountain,73
+RandSP,2,2,08077,test,08,077,Mountain,29
+RandSP,2,2,08081,test,08,081,Mountain,4
+RandSP,2,2,08089,test,08,089,Mountain,7
+RandSP,2,2,08097,test,08,097,Mountain,4
+RandSP,2,2,08113,test,08,113,Mountain,4
+RandSP,2,2,08117,test,08,117,Mountain,5
+RandSP,2,2,09009,test,09,009,New England,189
+RandSP,2,2,10005,test,10,005,South Atlantic,53
+RandSP,2,2,12005,test,12,005,South Atlantic,43
+RandSP,2,2,12009,test,12,009,South Atlantic,113
+RandSP,2,2,12027,test,12,027,South Atlantic,9
+RandSP,2,2,12049,test,12,049,South Atlantic,6
+RandSP,2,2,12063,test,12,063,South Atlantic,11
+RandSP,2,2,12069,test,12,069,South Atlantic,56
+RandSP,2,2,12079,test,12,079,South Atlantic,5
+RandSP,2,2,12087,test,12,087,South Atlantic,31
+RandSP,2,2,12097,test,12,097,South Atlantic,41
+RandSP,2,2,12101,test,12,101,South Atlantic,133
+RandSP,2,2,12111,test,12,111,South Atlantic,44
+RandSP,2,2,13001,test,13,001,South Atlantic,5
+RandSP,2,2,13013,test,13,013,South Atlantic,18
+RandSP,2,2,13027,test,13,027,South Atlantic,5
+RandSP,2,2,13071,test,13,071,South Atlantic,10
+RandSP,2,2,13095,test,13,095,South Atlantic,27
+RandSP,2,2,13133,test,13,133,South Atlantic,7
+RandSP,2,2,13151,test,13,151,South Atlantic,25
+RandSP,2,2,13169,test,13,169,South Atlantic,6
+RandSP,2,2,13175,test,13,175,South Atlantic,13
+RandSP,2,2,13177,test,13,177,South Atlantic,5
+RandSP,2,2,13211,test,13,211,South Atlantic,5
+RandSP,2,2,13215,test,13,215,South Atlantic,53
+RandSP,2,2,13217,test,13,217,South Atlantic,13
+RandSP,2,2,13221,test,13,221,South Atlantic,4
+RandSP,2,2,13245,test,13,245,South Atlantic,47
+RandSP,2,2,13277,test,13,277,South Atlantic,9
+RandSP,2,2,13305,test,13,305,South Atlantic,6
+RandSP,2,2,13315,test,13,315,South Atlantic,4
+RandSP,2,2,15003,test,15,003,Pacific,244
+RandSP,2,2,15009,test,15,009,Pacific,36
+RandSP,2,2,16051,test,16,051,Mountain,4
+RandSP,2,2,16069,test,16,069,Mountain,10
+RandSP,2,2,17007,test,17,007,East North Central,7
+RandSP,2,2,17023,test,17,023,East North Central,4
+RandSP,2,2,17039,test,17,039,East North Central,5
+RandSP,2,2,17057,test,17,057,East North Central,12
+RandSP,2,2,17067,test,17,067,East North Central,7
+RandSP,2,2,17077,test,17,077,East North Central,14
+RandSP,2,2,17119,test,17,119,East North Central,61
+RandSP,2,2,17133,test,17,133,East North Central,6
+RandSP,2,2,17143,test,17,143,East North Central,48
+RandSP,2,2,17167,test,17,167,East North Central,53
+RandSP,2,2,17191,test,17,191,East North Central,5
+RandSP,2,2,17197,test,17,197,East North Central,152
+RandSP,2,2,18003,test,18,003,East North Central,96
+RandSP,2,2,18011,test,18,011,East North Central,10
+RandSP,2,2,18013,test,18,013,East North Central,4
+RandSP,2,2,18023,test,18,023,East North Central,8
+RandSP,2,2,18035,test,18,035,East North Central,30
+RandSP,2,2,18037,test,18,037,East North Central,7
+RandSP,2,2,18041,test,18,041,East North Central,7
+RandSP,2,2,18045,test,18,045,East North Central,5
+RandSP,2,2,18047,test,18,047,East North Central,5
+RandSP,2,2,18049,test,18,049,East North Central,6
+RandSP,2,2,18065,test,18,065,East North Central,13
+RandSP,2,2,18067,test,18,067,East North Central,20
+RandSP,2,2,18083,test,18,083,East North Central,10
+RandSP,2,2,18097,test,18,097,East North Central,224
+RandSP,2,2,18099,test,18,099,East North Central,12
+RandSP,2,2,18103,test,18,103,East North Central,10
+RandSP,2,2,18107,test,18,107,East North Central,9
+RandSP,2,2,18111,test,18,111,East North Central,4
+RandSP,2,2,18125,test,18,125,East North Central,4
+RandSP,2,2,18127,test,18,127,East North Central,32
+RandSP,2,2,18137,test,18,137,East North Central,6
+RandSP,2,2,18143,test,18,143,East North Central,5
+RandSP,2,2,18179,test,18,179,East North Central,7
+RandSP,2,2,18181,test,18,181,East North Central,8
+RandSP,2,2,19037,test,19,037,West North Central,4
+RandSP,2,2,19063,test,19,063,West North Central,4
+RandSP,2,2,19079,test,19,079,West North Central,5
+RandSP,2,2,19091,test,19,091,West North Central,4
+RandSP,2,2,19105,test,19,105,West North Central,5
+RandSP,2,2,19123,test,19,123,West North Central,7
+RandSP,2,2,19157,test,19,157,West North Central,5
+RandSP,2,2,19175,test,19,175,West North Central,4
+RandSP,2,2,19197,test,19,197,West North Central,5
+RandSP,2,2,20011,test,20,011,West North Central,5
+RandSP,2,2,20021,test,20,021,West North Central,6
+RandSP,2,2,20055,test,20,055,West North Central,12
+RandSP,2,2,20103,test,20,103,West North Central,16
+RandSP,2,2,20113,test,20,113,West North Central,7
+RandSP,2,2,20121,test,20,121,West North Central,8
+RandSP,2,2,20125,test,20,125,West North Central,13
+RandSP,2,2,20149,test,20,149,West North Central,4
+RandSP,2,2,20155,test,20,155,West North Central,17
+RandSP,2,2,20161,test,20,161,West North Central,14
+RandSP,2,2,20169,test,20,169,West North Central,12
+RandSP,2,2,20177,test,20,177,West North Central,43
+RandSP,2,2,21029,test,21,029,East South Central,18
+RandSP,2,2,21045,test,21,045,East South Central,5
+RandSP,2,2,21055,test,21,055,East South Central,4
+RandSP,2,2,21073,test,21,073,East South Central,11
+RandSP,2,2,21095,test,21,095,East South Central,11
+RandSP,2,2,21097,test,21,097,East South Central,5
+RandSP,2,2,21119,test,21,119,East South Central,5
+RandSP,2,2,21151,test,21,151,East South Central,19
+RandSP,2,2,21157,test,21,157,East South Central,6
+RandSP,2,2,21163,test,21,163,East South Central,8
+RandSP,2,2,21193,test,21,193,East South Central,8
+RandSP,2,2,21231,test,21,231,East South Central,5
+RandSP,2,2,22011,test,22,011,West South Central,7
+RandSP,2,2,22013,test,22,013,West South Central,5
+RandSP,2,2,22019,test,22,019,West South Central,44
+RandSP,2,2,22041,test,22,041,West South Central,6
+RandSP,2,2,22045,test,22,045,West South Central,15
+RandSP,2,2,22047,test,22,047,West South Central,7
+RandSP,2,2,22067,test,22,067,West South Central,8
+RandSP,2,2,22071,test,22,071,West South Central,177
+RandSP,2,2,22075,test,22,075,West South Central,9
+RandSP,2,2,22085,test,22,085,West South Central,7
+RandSP,2,2,22087,test,22,087,West South Central,17
+RandSP,2,2,22103,test,22,103,West South Central,43
+RandSP,2,2,22117,test,22,117,West South Central,11
+RandSP,2,2,22121,test,22,121,West South Central,5
+RandSP,2,2,23009,test,23,009,New England,17
+RandSP,2,2,23013,test,23,013,New England,10
+RandSP,2,2,23029,test,23,029,New England,14
+RandSP,2,2,24011,test,24,011,South Atlantic,9
+RandSP,2,2,24027,test,24,027,South Atlantic,55
+RandSP,2,2,24035,test,24,035,South Atlantic,12
+RandSP,2,2,24045,test,24,045,South Atlantic,19
+RandSP,2,2,25001,test,25,001,New England,57
+RandSP,2,2,25009,test,25,009,New England,163
+RandSP,2,2,25023,test,25,023,New England,100
+RandSP,2,2,25025,test,25,025,New England,204
+RandSP,2,2,26005,test,26,005,East North Central,24
+RandSP,2,2,26015,test,26,015,East North Central,11
+RandSP,2,2,26037,test,26,037,East North Central,22
+RandSP,2,2,26053,test,26,053,East North Central,7
+RandSP,2,2,26055,test,26,055,East North Central,16
+RandSP,2,2,26057,test,26,057,East North Central,10
+RandSP,2,2,26063,test,26,063,East North Central,12
+RandSP,2,2,26065,test,26,065,East North Central,81
+RandSP,2,2,26067,test,26,067,East North Central,13
+RandSP,2,2,26075,test,26,075,East North Central,38
+RandSP,2,2,26085,test,26,085,East North Central,4
+RandSP,2,2,26101,test,26,101,East North Central,9
+RandSP,2,2,26105,test,26,105,East North Central,8
+RandSP,2,2,26111,test,26,111,East North Central,19
+RandSP,2,2,26119,test,26,119,East North Central,5
+RandSP,2,2,27001,test,27,001,West North Central,6
+RandSP,2,2,27007,test,27,007,West North Central,10
+RandSP,2,2,27021,test,27,021,West North Central,10
+RandSP,2,2,27035,test,27,035,West North Central,16
+RandSP,2,2,27049,test,27,049,West North Central,10
+RandSP,2,2,27067,test,27,067,West North Central,12
+RandSP,2,2,27071,test,27,071,West North Central,4
+RandSP,2,2,27089,test,27,089,West North Central,4
+RandSP,2,2,27103,test,27,103,West North Central,7
+RandSP,2,2,27113,test,27,113,West North Central,5
+RandSP,2,2,27117,test,27,117,West North Central,5
+RandSP,2,2,27119,test,27,119,West North Central,10
+RandSP,2,2,27157,test,27,157,West North Central,6
+RandSP,2,2,27161,test,27,161,West North Central,5
+RandSP,2,2,28003,test,28,003,East South Central,7
+RandSP,2,2,28049,test,28,049,East South Central,64
+RandSP,2,2,28057,test,28,057,East South Central,5
+RandSP,2,2,28059,test,28,059,East South Central,28
+RandSP,2,2,28073,test,28,073,East South Central,8
+RandSP,2,2,28087,test,28,087,East South Central,14
+RandSP,2,2,28127,test,28,127,East South Central,5
+RandSP,2,2,28139,test,28,139,East South Central,4
+RandSP,2,2,28145,test,28,145,East South Central,6
+RandSP,2,2,28153,test,28,153,East South Central,4
+RandSP,2,2,28163,test,28,163,East South Central,6
+RandSP,2,2,29003,test,29,003,West North Central,4
+RandSP,2,2,29007,test,29,007,West North Central,7
+RandSP,2,2,29015,test,29,015,West North Central,6
+RandSP,2,2,29019,test,29,019,West North Central,29
+RandSP,2,2,29047,test,29,047,West North Central,44
+RandSP,2,2,29055,test,29,055,West North Central,6
+RandSP,2,2,29065,test,29,065,West North Central,4
+RandSP,2,2,29083,test,29,083,West North Central,6
+RandSP,2,2,29095,test,29,095,West North Central,199
+RandSP,2,2,29107,test,29,107,West North Central,7
+RandSP,2,2,29115,test,29,115,West North Central,5
+RandSP,2,2,29117,test,29,117,West North Central,5
+RandSP,2,2,29139,test,29,139,West North Central,4
+RandSP,2,2,29183,test,29,183,West North Central,79
+RandSP,2,2,29187,test,29,187,West North Central,11
+RandSP,2,2,29195,test,29,195,West North Central,8
+RandSP,2,2,29215,test,29,215,West North Central,4
+RandSP,2,2,29219,test,29,219,West North Central,5
+RandSP,2,2,30029,test,30,029,Mountain,19
+RandSP,2,2,30041,test,30,041,Mountain,6
+RandSP,2,2,31053,test,31,053,West North Central,9
+RandSP,2,2,31055,test,31,055,West North Central,156
+RandSP,2,2,31079,test,31,079,West North Central,14
+RandSP,2,2,31109,test,31,109,West North Central,74
+RandSP,2,2,31111,test,31,111,West North Central,8
+RandSP,2,2,31119,test,31,119,West North Central,9
+RandSP,2,2,31177,test,31,177,West North Central,5
+RandSP,2,2,31185,test,31,185,West North Central,4
+RandSP,2,2,32001,test,32,001,Mountain,7
+RandSP,2,2,32510,test,32,510,Mountain,14
+RandSP,2,2,33011,test,33,011,New England,86
+RandSP,2,2,33017,test,33,017,New England,25
+RandSP,2,2,34005,test,34,005,Middle Atlantic,114
+RandSP,2,2,34017,test,34,017,Middle Atlantic,166
+RandSP,2,2,34021,test,34,021,Middle Atlantic,77
+RandSP,2,2,34025,test,34,025,Middle Atlantic,144
+RandSP,2,2,35005,test,35,005,Mountain,16
+RandSP,2,2,35017,test,35,017,Mountain,8
+RandSP,2,2,35025,test,35,025,Mountain,18
+RandSP,2,2,35041,test,35,041,Mountain,5
+RandSP,2,2,35045,test,35,045,Mountain,33
+RandSP,2,2,35049,test,35,049,Mountain,50
+RandSP,2,2,35061,test,35,061,Mountain,18
+RandSP,2,2,36019,test,36,019,Middle Atlantic,19
+RandSP,2,2,36027,test,36,027,Middle Atlantic,79
+RandSP,2,2,36031,test,36,031,Middle Atlantic,13
+RandSP,2,2,36033,test,36,033,Middle Atlantic,14
+RandSP,2,2,36045,test,36,045,Middle Atlantic,26
+RandSP,2,2,36055,test,36,055,Middle Atlantic,192
+RandSP,2,2,36059,test,36,059,Middle Atlantic,279
+RandSP,2,2,36063,test,36,063,Middle Atlantic,61
+RandSP,2,2,36093,test,36,093,Middle Atlantic,43
+RandSP,2,2,36101,test,36,101,Middle Atlantic,30
+RandSP,2,2,36103,test,36,103,Middle Atlantic,323
+RandSP,2,2,36107,test,36,107,Middle Atlantic,10
+RandSP,2,2,36111,test,36,111,Middle Atlantic,47
+RandSP,2,2,36115,test,36,115,Middle Atlantic,17
+RandSP,2,2,37007,test,37,007,South Atlantic,6
+RandSP,2,2,37011,test,37,011,South Atlantic,5
+RandSP,2,2,37033,test,37,033,South Atlantic,6
+RandSP,2,2,37039,test,37,039,South Atlantic,7
+RandSP,2,2,37049,test,37,049,South Atlantic,21
+RandSP,2,2,37053,test,37,053,South Atlantic,8
+RandSP,2,2,37055,test,37,055,South Atlantic,11
+RandSP,2,2,37057,test,37,057,South Atlantic,34
+RandSP,2,2,37067,test,37,067,South Atlantic,93
+RandSP,2,2,37077,test,37,077,South Atlantic,13
+RandSP,2,2,37081,test,37,081,South Atlantic,119
+RandSP,2,2,37093,test,37,093,South Atlantic,9
+RandSP,2,2,37099,test,37,099,South Atlantic,9
+RandSP,2,2,37101,test,37,101,South Atlantic,25
+RandSP,2,2,37111,test,37,111,South Atlantic,10
+RandSP,2,2,37119,test,37,119,South Atlantic,233
+RandSP,2,2,37139,test,37,139,South Atlantic,10
+RandSP,2,2,37149,test,37,149,South Atlantic,7
+RandSP,2,2,37153,test,37,153,South Atlantic,11
+RandSP,2,2,37157,test,37,157,South Atlantic,21
+RandSP,2,2,37159,test,37,159,South Atlantic,30
+RandSP,2,2,37167,test,37,167,South Atlantic,13
+RandSP,2,2,37171,test,37,171,South Atlantic,22
+RandSP,2,2,37183,test,37,183,South Atlantic,187
+RandSP,2,2,37199,test,37,199,South Atlantic,5
+RandSP,2,2,38059,test,38,059,West North Central,5
+RandSP,2,2,39013,test,39,013,East North Central,20
+RandSP,2,2,39031,test,39,031,East North Central,10
+RandSP,2,2,39043,test,39,043,East North Central,19
+RandSP,2,2,39045,test,39,045,East North Central,28
+RandSP,2,2,39047,test,39,047,East North Central,7
+RandSP,2,2,39049,test,39,049,East North Central,284
+RandSP,2,2,39073,test,39,073,East North Central,7
+RandSP,2,2,39087,test,39,087,East North Central,16
+RandSP,2,2,39103,test,39,103,East North Central,37
+RandSP,2,2,39105,test,39,105,East North Central,6
+RandSP,2,2,39157,test,39,157,East North Central,21
+RandSP,2,2,39169,test,39,169,East North Central,32
+RandSP,2,2,39173,test,39,173,East North Central,28
+RandSP,2,2,39175,test,39,175,East North Central,6
+RandSP,2,2,40023,test,40,023,West South Central,5
+RandSP,2,2,40035,test,40,035,West South Central,5
+RandSP,2,2,40049,test,40,049,West South Central,9
+RandSP,2,2,40117,test,40,117,West South Central,5
+RandSP,2,2,40137,test,40,137,West South Central,11
+RandSP,2,2,40141,test,40,141,West South Central,5
+RandSP,2,2,41001,test,41,001,Pacific,6
+RandSP,2,2,41017,test,41,017,Pacific,24
+RandSP,2,2,41019,test,41,019,Pacific,22
+RandSP,2,2,41035,test,41,035,Pacific,20
+RandSP,2,2,41057,test,41,057,Pacific,8
+RandSP,2,2,41067,test,41,067,Pacific,104
+RandSP,2,2,42015,test,42,015,Middle Atlantic,14
+RandSP,2,2,42025,test,42,025,Middle Atlantic,12
+RandSP,2,2,42035,test,42,035,Middle Atlantic,9
+RandSP,2,2,42051,test,42,051,Middle Atlantic,36
+RandSP,2,2,42063,test,42,063,Middle Atlantic,23
+RandSP,2,2,42081,test,42,081,Middle Atlantic,29
+RandSP,2,2,42093,test,42,093,Middle Atlantic,4
+RandSP,2,2,42099,test,42,099,Middle Atlantic,10
+RandSP,2,2,42115,test,42,115,Middle Atlantic,11
+RandSP,2,2,42121,test,42,121,Middle Atlantic,16
+RandSP,2,2,42129,test,42,129,Middle Atlantic,100
+RandSP,2,2,45003,test,45,003,South Atlantic,33
+RandSP,2,2,45009,test,45,009,South Atlantic,4
+RandSP,2,2,45027,test,45,027,South Atlantic,12
+RandSP,2,2,45055,test,45,055,South Atlantic,15
+RandSP,2,2,45063,test,45,063,South Atlantic,74
+RandSP,2,2,45073,test,45,073,South Atlantic,15
+RandSP,2,2,45089,test,45,089,South Atlantic,11
+RandSP,2,2,46011,test,46,011,West North Central,6
+RandSP,2,2,47003,test,47,003,East South Central,9
+RandSP,2,2,47035,test,47,035,East South Central,14
+RandSP,2,2,47039,test,47,039,East South Central,4
+RandSP,2,2,47043,test,47,043,East South Central,10
+RandSP,2,2,47049,test,47,049,East South Central,4
+RandSP,2,2,47059,test,47,059,East South Central,15
+RandSP,2,2,47061,test,47,061,East South Central,4
+RandSP,2,2,47063,test,47,063,East South Central,12
+RandSP,2,2,47071,test,47,071,East South Central,6
+RandSP,2,2,47087,test,47,087,East South Central,4
+RandSP,2,2,47105,test,47,105,East South Central,10
+RandSP,2,2,47117,test,47,117,East South Central,6
+RandSP,2,2,47119,test,47,119,East South Central,17
+RandSP,2,2,47145,test,47,145,East South Central,11
+RandSP,2,2,47163,test,47,163,East South Central,39
+RandSP,2,2,47171,test,47,171,East South Central,4
+RandSP,2,2,47183,test,47,183,East South Central,11
+RandSP,2,2,48001,test,48,001,West South Central,11
+RandSP,2,2,48027,test,48,027,West South Central,65
+RandSP,2,2,48029,test,48,029,West South Central,366
+RandSP,2,2,48099,test,48,099,West South Central,19
+RandSP,2,2,48141,test,48,141,West South Central,161
+RandSP,2,2,48147,test,48,147,West South Central,9
+RandSP,2,2,48149,test,48,149,West South Central,7
+RandSP,2,2,48177,test,48,177,West South Central,6
+RandSP,2,2,48185,test,48,185,West South Central,6
+RandSP,2,2,48189,test,48,189,West South Central,9
+RandSP,2,2,48201,test,48,201,West South Central,786
+RandSP,2,2,48213,test,48,213,West South Central,17
+RandSP,2,2,48233,test,48,233,West South Central,7
+RandSP,2,2,48257,test,48,257,West South Central,18
+RandSP,2,2,48281,test,48,281,West South Central,5
+RandSP,2,2,48291,test,48,291,West South Central,14
+RandSP,2,2,48303,test,48,303,West South Central,68
+RandSP,2,2,48331,test,48,331,West South Central,7
+RandSP,2,2,48341,test,48,341,West South Central,4
+RandSP,2,2,48361,test,48,361,West South Central,21
+RandSP,2,2,48367,test,48,367,West South Central,19
+RandSP,2,2,48381,test,48,381,West South Central,29
+RandSP,2,2,48387,test,48,387,West South Central,4
+RandSP,2,2,48407,test,48,407,West South Central,4
+RandSP,2,2,48457,test,48,457,West South Central,5
+RandSP,2,2,48471,test,48,471,West South Central,10
+RandSP,2,2,48477,test,48,477,West South Central,6
+RandSP,2,2,48479,test,48,479,West South Central,61
+RandSP,2,2,48497,test,48,497,West South Central,11
+RandSP,2,2,48503,test,48,503,West South Central,4
+RandSP,2,2,48507,test,48,507,West South Central,4
+RandSP,2,2,49021,test,49,021,Mountain,8
+RandSP,2,2,49047,test,49,047,Mountain,6
+RandSP,2,2,50005,test,50,005,New England,10
+RandSP,2,2,50027,test,50,027,New England,18
+RandSP,2,2,51005,test,51,005,South Atlantic,6
+RandSP,2,2,51015,test,51,015,South Atlantic,13
+RandSP,2,2,51029,test,51,029,South Atlantic,4
+RandSP,2,2,51035,test,51,035,South Atlantic,7
+RandSP,2,2,51041,test,51,041,South Atlantic,71
+RandSP,2,2,51051,test,51,051,South Atlantic,4
+RandSP,2,2,51067,test,51,067,South Atlantic,10
+RandSP,2,2,51069,test,51,069,South Atlantic,14
+RandSP,2,2,51105,test,51,105,South Atlantic,6
+RandSP,2,2,51135,test,51,135,South Atlantic,4
+RandSP,2,2,51141,test,51,141,South Atlantic,4
+RandSP,2,2,51165,test,51,165,South Atlantic,19
+RandSP,2,2,51191,test,51,191,South Atlantic,13
+RandSP,2,2,51540,test,51,540,South Atlantic,12
+RandSP,2,2,51570,test,51,570,South Atlantic,5
+RandSP,2,2,51600,test,51,600,South Atlantic,5
+RandSP,2,2,51650,test,51,650,South Atlantic,33
+RandSP,2,2,51683,test,51,683,South Atlantic,7
+RandSP,2,2,51735,test,51,735,South Atlantic,4
+RandSP,2,2,51760,test,51,760,South Atlantic,66
+RandSP,2,2,51790,test,51,790,South Atlantic,6
+RandSP,2,2,51840,test,51,840,South Atlantic,5
+RandSP,2,2,53005,test,53,005,Pacific,37
+RandSP,2,2,53029,test,53,029,Pacific,22
+RandSP,2,2,53041,test,53,041,Pacific,20
+RandSP,2,2,53055,test,53,055,Pacific,5
+RandSP,2,2,53071,test,53,071,Pacific,12
+RandSP,2,2,54003,test,54,003,South Atlantic,14
+RandSP,2,2,54035,test,54,035,South Atlantic,6
+RandSP,2,2,54053,test,54,053,South Atlantic,6
+RandSP,2,2,54059,test,54,059,South Atlantic,7
+RandSP,2,2,54107,test,54,107,South Atlantic,26
+RandSP,2,2,55003,test,55,003,East North Central,7
+RandSP,2,2,55009,test,55,009,East North Central,54
+RandSP,2,2,55013,test,55,013,East North Central,6
+RandSP,2,2,55021,test,55,021,East North Central,12
+RandSP,2,2,55035,test,55,035,East North Central,20
+RandSP,2,2,55043,test,55,043,East North Central,12
+RandSP,2,2,55053,test,55,053,East North Central,5
+RandSP,2,2,55063,test,55,063,East North Central,25
+RandSP,2,2,55081,test,55,081,East North Central,9
+RandSP,2,2,55089,test,55,089,East North Central,18
+RandSP,2,2,55099,test,55,099,East North Central,6
+RandSP,2,2,55111,test,55,111,East North Central,13
+RandSP,2,2,55117,test,55,117,East North Central,26
+RandSP,2,2,55121,test,55,121,East North Central,8
+RandSP,2,2,55125,test,55,125,East North Central,5
+RandSP,2,2,56005,test,56,005,Mountain,7
+RandSP,2,2,56007,test,56,007,Mountain,5
+RandSP,2,2,56009,test,56,009,Mountain,4
+RandSP,2,2,56029,test,56,029,Mountain,5
+RandSP,2,2,01001,train,01,001,East South Central,12
+RandSP,2,2,01003,train,01,003,East South Central,31
+RandSP,2,2,01007,train,01,007,East South Central,4
+RandSP,2,2,01009,train,01,009,East South Central,9
+RandSP,2,2,01015,train,01,015,East South Central,31
+RandSP,2,2,01019,train,01,019,East South Central,6
+RandSP,2,2,01021,train,01,021,East South Central,9
+RandSP,2,2,01023,train,01,023,East South Central,4
+RandSP,2,2,01031,train,01,031,East South Central,14
+RandSP,2,2,01033,train,01,033,East South Central,14
+RandSP,2,2,01039,train,01,039,East South Central,14
+RandSP,2,2,01041,train,01,041,East South Central,6
+RandSP,2,2,01043,train,01,043,East South Central,18
+RandSP,2,2,01045,train,01,045,East South Central,14
+RandSP,2,2,01049,train,01,049,East South Central,14
+RandSP,2,2,01051,train,01,051,East South Central,15
+RandSP,2,2,01053,train,01,053,East South Central,9
+RandSP,2,2,01057,train,01,057,East South Central,5
+RandSP,2,2,01061,train,01,061,East South Central,6
+RandSP,2,2,01065,train,01,065,East South Central,6
+RandSP,2,2,01067,train,01,067,East South Central,6
+RandSP,2,2,01069,train,01,069,East South Central,22
+RandSP,2,2,01071,train,01,071,East South Central,11
+RandSP,2,2,01073,train,01,073,East South Central,163
+RandSP,2,2,01077,train,01,077,East South Central,22
+RandSP,2,2,01079,train,01,079,East South Central,9
+RandSP,2,2,01081,train,01,081,East South Central,27
+RandSP,2,2,01087,train,01,087,East South Central,12
+RandSP,2,2,01089,train,01,089,East South Central,73
+RandSP,2,2,01093,train,01,093,East South Central,8
+RandSP,2,2,01097,train,01,097,East South Central,115
+RandSP,2,2,01099,train,01,099,East South Central,7
+RandSP,2,2,01107,train,01,107,East South Central,5
+RandSP,2,2,01111,train,01,111,East South Central,6
+RandSP,2,2,01115,train,01,115,East South Central,13
+RandSP,2,2,01117,train,01,117,East South Central,48
+RandSP,2,2,01121,train,01,121,East South Central,22
+RandSP,2,2,01125,train,01,125,East South Central,47
+RandSP,2,2,01127,train,01,127,East South Central,18
+RandSP,2,2,01129,train,01,129,East South Central,5
+RandSP,2,2,01131,train,01,131,East South Central,4
+RandSP,2,2,02020,train,02,020,Pacific,55
+RandSP,2,2,02090,train,02,090,Pacific,19
+RandSP,2,2,02130,train,02,130,Pacific,4
+RandSP,2,2,02150,train,02,150,Pacific,5
+RandSP,2,2,02170,train,02,170,Pacific,24
+RandSP,2,2,02290,train,02,290,Pacific,4
+RandSP,2,2,04001,train,04,001,Mountain,16
+RandSP,2,2,04003,train,04,003,Mountain,32
+RandSP,2,2,04007,train,04,007,Mountain,16
+RandSP,2,2,04009,train,04,009,Mountain,9
+RandSP,2,2,04012,train,04,012,Mountain,9
+RandSP,2,2,04013,train,04,013,Mountain,916
+RandSP,2,2,04015,train,04,015,Mountain,43
+RandSP,2,2,04017,train,04,017,Mountain,31
+RandSP,2,2,04023,train,04,023,Mountain,10
+RandSP,2,2,04027,train,04,027,Mountain,55
+RandSP,2,2,05001,train,05,001,West South Central,8
+RandSP,2,2,05003,train,05,003,West South Central,7
+RandSP,2,2,05005,train,05,005,West South Central,9
+RandSP,2,2,05009,train,05,009,West South Central,7
+RandSP,2,2,05011,train,05,011,West South Central,5
+RandSP,2,2,05015,train,05,015,West South Central,5
+RandSP,2,2,05017,train,05,017,West South Central,4
+RandSP,2,2,05021,train,05,021,West South Central,6
+RandSP,2,2,05023,train,05,023,West South Central,7
+RandSP,2,2,05033,train,05,033,West South Central,11
+RandSP,2,2,05035,train,05,035,West South Central,20
+RandSP,2,2,05037,train,05,037,West South Central,6
+RandSP,2,2,05041,train,05,041,West South Central,5
+RandSP,2,2,05043,train,05,043,West South Central,5
+RandSP,2,2,05045,train,05,045,West South Central,25
+RandSP,2,2,05051,train,05,051,West South Central,20
+RandSP,2,2,05055,train,05,055,West South Central,9
+RandSP,2,2,05067,train,05,067,West South Central,5
+RandSP,2,2,05069,train,05,069,West South Central,24
+RandSP,2,2,05071,train,05,071,West South Central,6
+RandSP,2,2,05077,train,05,077,West South Central,4
+RandSP,2,2,05085,train,05,085,West South Central,16
+RandSP,2,2,05087,train,05,087,West South Central,4
+RandSP,2,2,05091,train,05,091,West South Central,12
+RandSP,2,2,05093,train,05,093,West South Central,12
+RandSP,2,2,05103,train,05,103,West South Central,6
+RandSP,2,2,05107,train,05,107,West South Central,6
+RandSP,2,2,05113,train,05,113,West South Central,6
+RandSP,2,2,05115,train,05,115,West South Central,11
+RandSP,2,2,05119,train,05,119,West South Central,95
+RandSP,2,2,05121,train,05,121,West South Central,4
+RandSP,2,2,05125,train,05,125,West South Central,21
+RandSP,2,2,05131,train,05,131,West South Central,26
+RandSP,2,2,05141,train,05,141,West South Central,5
+RandSP,2,2,05145,train,05,145,West South Central,13
+RandSP,2,2,05149,train,05,149,West South Central,6
+RandSP,2,2,06001,train,06,001,Pacific,361
+RandSP,2,2,06005,train,06,005,Pacific,9
+RandSP,2,2,06007,train,06,007,Pacific,51
+RandSP,2,2,06011,train,06,011,Pacific,5
+RandSP,2,2,06013,train,06,013,Pacific,207
+RandSP,2,2,06015,train,06,015,Pacific,7
+RandSP,2,2,06017,train,06,017,Pacific,43
+RandSP,2,2,06019,train,06,019,Pacific,199
+RandSP,2,2,06023,train,06,023,Pacific,30
+RandSP,2,2,06025,train,06,025,Pacific,31
+RandSP,2,2,06027,train,06,027,Pacific,6
+RandSP,2,2,06029,train,06,029,Pacific,151
+RandSP,2,2,06033,train,06,033,Pacific,15
+RandSP,2,2,06035,train,06,035,Pacific,9
+RandSP,2,2,06039,train,06,039,Pacific,23
+RandSP,2,2,06041,train,06,041,Pacific,55
+RandSP,2,2,06045,train,06,045,Pacific,20
+RandSP,2,2,06047,train,06,047,Pacific,49
+RandSP,2,2,06049,train,06,049,Pacific,4
+RandSP,2,2,06053,train,06,053,Pacific,93
+RandSP,2,2,06057,train,06,057,Pacific,20
+RandSP,2,2,06061,train,06,061,Pacific,85
+RandSP,2,2,06067,train,06,067,Pacific,317
+RandSP,2,2,06069,train,06,069,Pacific,11
+RandSP,2,2,06071,train,06,071,Pacific,369
+RandSP,2,2,06073,train,06,073,Pacific,627
+RandSP,2,2,06077,train,06,077,Pacific,139
+RandSP,2,2,06085,train,06,085,Pacific,372
+RandSP,2,2,06093,train,06,093,Pacific,14
+RandSP,2,2,06095,train,06,095,Pacific,96
+RandSP,2,2,06099,train,06,099,Pacific,94
+RandSP,2,2,06103,train,06,103,Pacific,11
+RandSP,2,2,06105,train,06,105,Pacific,5
+RandSP,2,2,06107,train,06,107,Pacific,78
+RandSP,2,2,06109,train,06,109,Pacific,11
+RandSP,2,2,06111,train,06,111,Pacific,174
+RandSP,2,2,06113,train,06,113,Pacific,41
+RandSP,2,2,06115,train,06,115,Pacific,14
+RandSP,2,2,08001,train,08,001,Mountain,97
+RandSP,2,2,08003,train,08,003,Mountain,4
+RandSP,2,2,08005,train,08,005,Mountain,147
+RandSP,2,2,08007,train,08,007,Mountain,4
+RandSP,2,2,08014,train,08,014,Mountain,18
+RandSP,2,2,08015,train,08,015,Mountain,5
+RandSP,2,2,08029,train,08,029,Mountain,7
+RandSP,2,2,08031,train,08,031,Mountain,144
+RandSP,2,2,08035,train,08,035,Mountain,61
+RandSP,2,2,08039,train,08,039,Mountain,7
+RandSP,2,2,08041,train,08,041,Mountain,130
+RandSP,2,2,08043,train,08,043,Mountain,14
+RandSP,2,2,08067,train,08,067,Mountain,10
+RandSP,2,2,08071,train,08,071,Mountain,6
+RandSP,2,2,08075,train,08,075,Mountain,6
+RandSP,2,2,08083,train,08,083,Mountain,7
+RandSP,2,2,08085,train,08,085,Mountain,10
+RandSP,2,2,08087,train,08,087,Mountain,8
+RandSP,2,2,08093,train,08,093,Mountain,5
+RandSP,2,2,08099,train,08,099,Mountain,5
+RandSP,2,2,08101,train,08,101,Mountain,55
+RandSP,2,2,08107,train,08,107,Mountain,8
+RandSP,2,2,08119,train,08,119,Mountain,6
+RandSP,2,2,08123,train,08,123,Mountain,77
+RandSP,2,2,09001,train,09,001,New England,210
+RandSP,2,2,09003,train,09,003,New England,224
+RandSP,2,2,09005,train,09,005,New England,51
+RandSP,2,2,09007,train,09,007,New England,36
+RandSP,2,2,09011,train,09,011,New England,66
+RandSP,2,2,09013,train,09,013,New England,29
+RandSP,2,2,10003,train,10,003,South Atlantic,131
+RandSP,2,2,12001,train,12,001,South Atlantic,56
+RandSP,2,2,12003,train,12,003,South Atlantic,4
+RandSP,2,2,12007,train,12,007,South Atlantic,4
+RandSP,2,2,12011,train,12,011,South Atlantic,361
+RandSP,2,2,12015,train,12,015,South Atlantic,38
+RandSP,2,2,12019,train,12,019,South Atlantic,30
+RandSP,2,2,12021,train,12,021,South Atlantic,74
+RandSP,2,2,12023,train,12,023,South Atlantic,12
+RandSP,2,2,12031,train,12,031,South Atlantic,173
+RandSP,2,2,12033,train,12,033,South Atlantic,71
+RandSP,2,2,12037,train,12,037,South Atlantic,4
+RandSP,2,2,12041,train,12,041,South Atlantic,5
+RandSP,2,2,12051,train,12,051,South Atlantic,7
+RandSP,2,2,12053,train,12,053,South Atlantic,45
+RandSP,2,2,12055,train,12,055,South Atlantic,27
+RandSP,2,2,12059,train,12,059,South Atlantic,4
+RandSP,2,2,12061,train,12,061,South Atlantic,30
+RandSP,2,2,12071,train,12,071,South Atlantic,167
+RandSP,2,2,12073,train,12,073,South Atlantic,68
+RandSP,2,2,12075,train,12,075,South Atlantic,10
+RandSP,2,2,12081,train,12,081,South Atlantic,78
+RandSP,2,2,12083,train,12,083,South Atlantic,63
+RandSP,2,2,12085,train,12,085,South Atlantic,35
+RandSP,2,2,12086,train,12,086,South Atlantic,518
+RandSP,2,2,12089,train,12,089,South Atlantic,12
+RandSP,2,2,12091,train,12,091,South Atlantic,42
+RandSP,2,2,12093,train,12,093,South Atlantic,12
+RandSP,2,2,12095,train,12,095,South Atlantic,207
+RandSP,2,2,12099,train,12,099,South Atlantic,337
+RandSP,2,2,12103,train,12,103,South Atlantic,245
+RandSP,2,2,12105,train,12,105,South Atlantic,154
+RandSP,2,2,12107,train,12,107,South Atlantic,17
+RandSP,2,2,12109,train,12,109,South Atlantic,40
+RandSP,2,2,12113,train,12,113,South Atlantic,25
+RandSP,2,2,12115,train,12,115,South Atlantic,94
+RandSP,2,2,12117,train,12,117,South Atlantic,86
+RandSP,2,2,12121,train,12,121,South Atlantic,7
+RandSP,2,2,12123,train,12,123,South Atlantic,4
+RandSP,2,2,12127,train,12,127,South Atlantic,113
+RandSP,2,2,12129,train,12,129,South Atlantic,4
+RandSP,2,2,12131,train,12,131,South Atlantic,11
+RandSP,2,2,12133,train,12,133,South Atlantic,7
+RandSP,2,2,13009,train,13,009,South Atlantic,9
+RandSP,2,2,13011,train,13,011,South Atlantic,4
+RandSP,2,2,13017,train,13,017,South Atlantic,5
+RandSP,2,2,13019,train,13,019,South Atlantic,6
+RandSP,2,2,13021,train,13,021,South Atlantic,44
+RandSP,2,2,13031,train,13,031,South Atlantic,12
+RandSP,2,2,13033,train,13,033,South Atlantic,6
+RandSP,2,2,13039,train,13,039,South Atlantic,10
+RandSP,2,2,13045,train,13,045,South Atlantic,17
+RandSP,2,2,13047,train,13,047,South Atlantic,11
+RandSP,2,2,13053,train,13,053,South Atlantic,5
+RandSP,2,2,13055,train,13,055,South Atlantic,6
+RandSP,2,2,13057,train,13,057,South Atlantic,26
+RandSP,2,2,13059,train,13,059,South Atlantic,30
+RandSP,2,2,13063,train,13,063,South Atlantic,50
+RandSP,2,2,13067,train,13,067,South Atlantic,120
+RandSP,2,2,13073,train,13,073,South Atlantic,20
+RandSP,2,2,13075,train,13,075,South Atlantic,4
+RandSP,2,2,13077,train,13,077,South Atlantic,20
+RandSP,2,2,13081,train,13,081,South Atlantic,6
+RandSP,2,2,13083,train,13,083,South Atlantic,4
+RandSP,2,2,13087,train,13,087,South Atlantic,7
+RandSP,2,2,13089,train,13,089,South Atlantic,145
+RandSP,2,2,13091,train,13,091,South Atlantic,6
+RandSP,2,2,13097,train,13,097,South Atlantic,20
+RandSP,2,2,13099,train,13,099,South Atlantic,5
+RandSP,2,2,13103,train,13,103,South Atlantic,10
+RandSP,2,2,13105,train,13,105,South Atlantic,5
+RandSP,2,2,13107,train,13,107,South Atlantic,6
+RandSP,2,2,13113,train,13,113,South Atlantic,20
+RandSP,2,2,13115,train,13,115,South Atlantic,20
+RandSP,2,2,13117,train,13,117,South Atlantic,45
+RandSP,2,2,13119,train,13,119,South Atlantic,5
+RandSP,2,2,13121,train,13,121,South Atlantic,204
+RandSP,2,2,13123,train,13,123,South Atlantic,5
+RandSP,2,2,13129,train,13,129,South Atlantic,9
+RandSP,2,2,13131,train,13,131,South Atlantic,6
+RandSP,2,2,13135,train,13,135,South Atlantic,113
+RandSP,2,2,13137,train,13,137,South Atlantic,8
+RandSP,2,2,13139,train,13,139,South Atlantic,36
+RandSP,2,2,13143,train,13,143,South Atlantic,5
+RandSP,2,2,13145,train,13,145,South Atlantic,5
+RandSP,2,2,13147,train,13,147,South Atlantic,5
+RandSP,2,2,13157,train,13,157,South Atlantic,11
+RandSP,2,2,13163,train,13,163,South Atlantic,4
+RandSP,2,2,13179,train,13,179,South Atlantic,15
+RandSP,2,2,13185,train,13,185,South Atlantic,25
+RandSP,2,2,13187,train,13,187,South Atlantic,4
+RandSP,2,2,13189,train,13,189,South Atlantic,5
+RandSP,2,2,13193,train,13,193,South Atlantic,4
+RandSP,2,2,13195,train,13,195,South Atlantic,6
+RandSP,2,2,13199,train,13,199,South Atlantic,4
+RandSP,2,2,13205,train,13,205,South Atlantic,5
+RandSP,2,2,13223,train,13,223,South Atlantic,19
+RandSP,2,2,13225,train,13,225,South Atlantic,6
+RandSP,2,2,13227,train,13,227,South Atlantic,6
+RandSP,2,2,13229,train,13,229,South Atlantic,4
+RandSP,2,2,13231,train,13,231,South Atlantic,4
+RandSP,2,2,13233,train,13,233,South Atlantic,7
+RandSP,2,2,13237,train,13,237,South Atlantic,5
+RandSP,2,2,13241,train,13,241,South Atlantic,5
+RandSP,2,2,13247,train,13,247,South Atlantic,15
+RandSP,2,2,13251,train,13,251,South Atlantic,5
+RandSP,2,2,13255,train,13,255,South Atlantic,12
+RandSP,2,2,13261,train,13,261,South Atlantic,8
+RandSP,2,2,13267,train,13,267,South Atlantic,5
+RandSP,2,2,13273,train,13,273,South Atlantic,4
+RandSP,2,2,13275,train,13,275,South Atlantic,11
+RandSP,2,2,13279,train,13,279,South Atlantic,6
+RandSP,2,2,13285,train,13,285,South Atlantic,14
+RandSP,2,2,13293,train,13,293,South Atlantic,7
+RandSP,2,2,13295,train,13,295,South Atlantic,13
+RandSP,2,2,13297,train,13,297,South Atlantic,15
+RandSP,2,2,13299,train,13,299,South Atlantic,9
+RandSP,2,2,13303,train,13,303,South Atlantic,5
+RandSP,2,2,13311,train,13,311,South Atlantic,5
+RandSP,2,2,13317,train,13,317,South Atlantic,4
+RandSP,2,2,13321,train,13,321,South Atlantic,5
+RandSP,2,2,15001,train,15,001,Pacific,34
+RandSP,2,2,15007,train,15,007,Pacific,17
+RandSP,2,2,16001,train,16,001,Mountain,59
+RandSP,2,2,16005,train,16,005,Mountain,22
+RandSP,2,2,16011,train,16,011,Mountain,8
+RandSP,2,2,16013,train,16,013,Mountain,4
+RandSP,2,2,16019,train,16,019,Mountain,21
+RandSP,2,2,16027,train,16,027,Mountain,29
+RandSP,2,2,16031,train,16,031,Mountain,6
+RandSP,2,2,16039,train,16,039,Mountain,5
+RandSP,2,2,16053,train,16,053,Mountain,5
+RandSP,2,2,16055,train,16,055,Mountain,25
+RandSP,2,2,16065,train,16,065,Mountain,6
+RandSP,2,2,16067,train,16,067,Mountain,5
+RandSP,2,2,16083,train,16,083,Mountain,14
+RandSP,2,2,17001,train,17,001,East North Central,18
+RandSP,2,2,17003,train,17,003,East North Central,4
+RandSP,2,2,17005,train,17,005,East North Central,4
+RandSP,2,2,17011,train,17,011,East North Central,10
+RandSP,2,2,17015,train,17,015,East North Central,6
+RandSP,2,2,17019,train,17,019,East North Central,43
+RandSP,2,2,17021,train,17,021,East North Central,10
+RandSP,2,2,17025,train,17,025,East North Central,4
+RandSP,2,2,17027,train,17,027,East North Central,8
+RandSP,2,2,17029,train,17,029,East North Central,12
+RandSP,2,2,17031,train,17,031,East North Central,1318
+RandSP,2,2,17033,train,17,033,East North Central,6
+RandSP,2,2,17043,train,17,043,East North Central,216
+RandSP,2,2,17045,train,17,045,East North Central,5
+RandSP,2,2,17049,train,17,049,East North Central,8
+RandSP,2,2,17051,train,17,051,East North Central,7
+RandSP,2,2,17053,train,17,053,East North Central,5
+RandSP,2,2,17055,train,17,055,East North Central,12
+RandSP,2,2,17063,train,17,063,East North Central,10
+RandSP,2,2,17073,train,17,073,East North Central,13
+RandSP,2,2,17075,train,17,075,East North Central,9
+RandSP,2,2,17081,train,17,081,East North Central,11
+RandSP,2,2,17083,train,17,083,East North Central,6
+RandSP,2,2,17085,train,17,085,East North Central,6
+RandSP,2,2,17087,train,17,087,East North Central,4
+RandSP,2,2,17089,train,17,089,East North Central,82
+RandSP,2,2,17091,train,17,091,East North Central,29
+RandSP,2,2,17095,train,17,095,East North Central,16
+RandSP,2,2,17097,train,17,097,East North Central,153
+RandSP,2,2,17099,train,17,099,East North Central,28
+RandSP,2,2,17101,train,17,101,East North Central,5
+RandSP,2,2,17105,train,17,105,East North Central,10
+RandSP,2,2,17109,train,17,109,East North Central,10
+RandSP,2,2,17111,train,17,111,East North Central,52
+RandSP,2,2,17117,train,17,117,East North Central,13
+RandSP,2,2,17121,train,17,121,East North Central,12
+RandSP,2,2,17123,train,17,123,East North Central,5
+RandSP,2,2,17125,train,17,125,East North Central,6
+RandSP,2,2,17127,train,17,127,East North Central,4
+RandSP,2,2,17131,train,17,131,East North Central,4
+RandSP,2,2,17135,train,17,135,East North Central,8
+RandSP,2,2,17137,train,17,137,East North Central,10
+RandSP,2,2,17139,train,17,139,East North Central,4
+RandSP,2,2,17141,train,17,141,East North Central,11
+RandSP,2,2,17145,train,17,145,East North Central,6
+RandSP,2,2,17147,train,17,147,East North Central,4
+RandSP,2,2,17149,train,17,149,East North Central,5
+RandSP,2,2,17157,train,17,157,East North Central,9
+RandSP,2,2,17159,train,17,159,East North Central,5
+RandSP,2,2,17161,train,17,161,East North Central,40
+RandSP,2,2,17163,train,17,163,East North Central,60
+RandSP,2,2,17165,train,17,165,East North Central,9
+RandSP,2,2,17173,train,17,173,East North Central,6
+RandSP,2,2,17177,train,17,177,East North Central,13
+RandSP,2,2,17179,train,17,179,East North Central,30
+RandSP,2,2,17183,train,17,183,East North Central,24
+RandSP,2,2,17185,train,17,185,East North Central,4
+RandSP,2,2,17187,train,17,187,East North Central,5
+RandSP,2,2,17189,train,17,189,East North Central,4
+RandSP,2,2,17193,train,17,193,East North Central,5
+RandSP,2,2,17195,train,17,195,East North Central,18
+RandSP,2,2,17199,train,17,199,East North Central,15
+RandSP,2,2,17201,train,17,201,East North Central,77
+RandSP,2,2,18001,train,18,001,East North Central,7
+RandSP,2,2,18009,train,18,009,East North Central,4
+RandSP,2,2,18015,train,18,015,East North Central,7
+RandSP,2,2,18017,train,18,017,East North Central,11
+RandSP,2,2,18019,train,18,019,East North Central,26
+RandSP,2,2,18021,train,18,021,East North Central,6
+RandSP,2,2,18027,train,18,027,East North Central,7
+RandSP,2,2,18029,train,18,029,East North Central,10
+RandSP,2,2,18031,train,18,031,East North Central,6
+RandSP,2,2,18033,train,18,033,East North Central,9
+RandSP,2,2,18039,train,18,039,East North Central,36
+RandSP,2,2,18043,train,18,043,East North Central,20
+RandSP,2,2,18053,train,18,053,East North Central,16
+RandSP,2,2,18055,train,18,055,East North Central,9
+RandSP,2,2,18057,train,18,057,East North Central,39
+RandSP,2,2,18061,train,18,061,East North Central,6
+RandSP,2,2,18063,train,18,063,East North Central,21
+RandSP,2,2,18069,train,18,069,East North Central,9
+RandSP,2,2,18071,train,18,071,East North Central,10
+RandSP,2,2,18073,train,18,073,East North Central,8
+RandSP,2,2,18075,train,18,075,East North Central,7
+RandSP,2,2,18077,train,18,077,East North Central,7
+RandSP,2,2,18081,train,18,081,East North Central,22
+RandSP,2,2,18085,train,18,085,East North Central,19
+RandSP,2,2,18087,train,18,087,East North Central,8
+RandSP,2,2,18091,train,18,091,East North Central,28
+RandSP,2,2,18093,train,18,093,East North Central,10
+RandSP,2,2,18095,train,18,095,East North Central,37
+RandSP,2,2,18109,train,18,109,East North Central,13
+RandSP,2,2,18113,train,18,113,East North Central,10
+RandSP,2,2,18117,train,18,117,East North Central,6
+RandSP,2,2,18119,train,18,119,East North Central,5
+RandSP,2,2,18123,train,18,123,East North Central,5
+RandSP,2,2,18129,train,18,129,East North Central,7
+RandSP,2,2,18131,train,18,131,East North Central,4
+RandSP,2,2,18133,train,18,133,East North Central,7
+RandSP,2,2,18135,train,18,135,East North Central,8
+RandSP,2,2,18139,train,18,139,East North Central,5
+RandSP,2,2,18141,train,18,141,East North Central,75
+RandSP,2,2,18145,train,18,145,East North Central,10
+RandSP,2,2,18147,train,18,147,East North Central,5
+RandSP,2,2,18149,train,18,149,East North Central,7
+RandSP,2,2,18151,train,18,151,East North Central,9
+RandSP,2,2,18153,train,18,153,East North Central,5
+RandSP,2,2,18157,train,18,157,East North Central,37
+RandSP,2,2,18159,train,18,159,East North Central,4
+RandSP,2,2,18163,train,18,163,East North Central,49
+RandSP,2,2,18165,train,18,165,East North Central,5
+RandSP,2,2,18167,train,18,167,East North Central,28
+RandSP,2,2,18169,train,18,169,East North Central,8
+RandSP,2,2,18173,train,18,173,East North Central,11
+RandSP,2,2,18175,train,18,175,East North Central,6
+RandSP,2,2,18177,train,18,177,East North Central,17
+RandSP,2,2,18183,train,18,183,East North Central,7
+RandSP,2,2,19005,train,19,005,West North Central,5
+RandSP,2,2,19007,train,19,007,West North Central,5
+RandSP,2,2,19011,train,19,011,West North Central,7
+RandSP,2,2,19013,train,19,013,West North Central,38
+RandSP,2,2,19015,train,19,015,West North Central,7
+RandSP,2,2,19019,train,19,019,West North Central,6
+RandSP,2,2,19021,train,19,021,West North Central,6
+RandSP,2,2,19023,train,19,023,West North Central,5
+RandSP,2,2,19025,train,19,025,West North Central,4
+RandSP,2,2,19029,train,19,029,West North Central,5
+RandSP,2,2,19031,train,19,031,West North Central,5
+RandSP,2,2,19033,train,19,033,West North Central,11
+RandSP,2,2,19035,train,19,035,West North Central,4
+RandSP,2,2,19041,train,19,041,West North Central,4
+RandSP,2,2,19043,train,19,043,West North Central,6
+RandSP,2,2,19045,train,19,045,West North Central,12
+RandSP,2,2,19047,train,19,047,West North Central,5
+RandSP,2,2,19055,train,19,055,West North Central,4
+RandSP,2,2,19057,train,19,057,West North Central,11
+RandSP,2,2,19059,train,19,059,West North Central,5
+RandSP,2,2,19061,train,19,061,West North Central,26
+RandSP,2,2,19065,train,19,065,West North Central,7
+RandSP,2,2,19073,train,19,073,West North Central,4
+RandSP,2,2,19075,train,19,075,West North Central,4
+RandSP,2,2,19081,train,19,081,West North Central,4
+RandSP,2,2,19083,train,19,083,West North Central,6
+RandSP,2,2,19085,train,19,085,West North Central,5
+RandSP,2,2,19087,train,19,087,West North Central,5
+RandSP,2,2,19095,train,19,095,West North Central,4
+RandSP,2,2,19097,train,19,097,West North Central,6
+RandSP,2,2,19099,train,19,099,West North Central,9
+RandSP,2,2,19101,train,19,101,West North Central,4
+RandSP,2,2,19107,train,19,107,West North Central,4
+RandSP,2,2,19109,train,19,109,West North Central,6
+RandSP,2,2,19111,train,19,111,West North Central,11
+RandSP,2,2,19113,train,19,113,West North Central,45
+RandSP,2,2,19117,train,19,117,West North Central,4
+RandSP,2,2,19125,train,19,125,West North Central,8
+RandSP,2,2,19137,train,19,137,West North Central,4
+RandSP,2,2,19139,train,19,139,West North Central,10
+RandSP,2,2,19141,train,19,141,West North Central,4
+RandSP,2,2,19145,train,19,145,West North Central,6
+RandSP,2,2,19147,train,19,147,West North Central,4
+RandSP,2,2,19149,train,19,149,West North Central,6
+RandSP,2,2,19155,train,19,155,West North Central,30
+RandSP,2,2,19161,train,19,161,West North Central,4
+RandSP,2,2,19163,train,19,163,West North Central,47
+RandSP,2,2,19165,train,19,165,West North Central,4
+RandSP,2,2,19167,train,19,167,West North Central,7
+RandSP,2,2,19169,train,19,169,West North Central,20
+RandSP,2,2,19179,train,19,179,West North Central,11
+RandSP,2,2,19181,train,19,181,West North Central,12
+RandSP,2,2,19183,train,19,183,West North Central,5
+RandSP,2,2,19191,train,19,191,West North Central,5
+RandSP,2,2,19193,train,19,193,West North Central,26
+RandSP,2,2,20001,train,20,001,West North Central,5
+RandSP,2,2,20005,train,20,005,West North Central,4
+RandSP,2,2,20009,train,20,009,West North Central,8
+RandSP,2,2,20015,train,20,015,West North Central,13
+RandSP,2,2,20029,train,20,029,West North Central,4
+RandSP,2,2,20035,train,20,035,West North Central,11
+RandSP,2,2,20037,train,20,037,West North Central,11
+RandSP,2,2,20041,train,20,041,West North Central,6
+RandSP,2,2,20045,train,20,045,West North Central,22
+RandSP,2,2,20051,train,20,051,West North Central,6
+RandSP,2,2,20057,train,20,057,West North Central,7
+RandSP,2,2,20059,train,20,059,West North Central,5
+RandSP,2,2,20061,train,20,061,West North Central,8
+RandSP,2,2,20079,train,20,079,West North Central,6
+RandSP,2,2,20087,train,20,087,West North Central,4
+RandSP,2,2,20091,train,20,091,West North Central,130
+RandSP,2,2,20099,train,20,099,West North Central,8
+RandSP,2,2,20111,train,20,111,West North Central,8
+RandSP,2,2,20115,train,20,115,West North Central,4
+RandSP,2,2,20117,train,20,117,West North Central,4
+RandSP,2,2,20139,train,20,139,West North Central,5
+RandSP,2,2,20175,train,20,175,West North Central,5
+RandSP,2,2,20191,train,20,191,West North Central,6
+RandSP,2,2,20205,train,20,205,West North Central,4
+RandSP,2,2,20209,train,20,209,West North Central,70
+RandSP,2,2,21001,train,21,001,East South Central,7
+RandSP,2,2,21005,train,21,005,East South Central,5
+RandSP,2,2,21009,train,21,009,East South Central,10
+RandSP,2,2,21013,train,21,013,East South Central,9
+RandSP,2,2,21019,train,21,019,East South Central,13
+RandSP,2,2,21021,train,21,021,East South Central,7
+RandSP,2,2,21025,train,21,025,East South Central,7
+RandSP,2,2,21027,train,21,027,East South Central,6
+RandSP,2,2,21031,train,21,031,East South Central,5
+RandSP,2,2,21035,train,21,035,East South Central,9
+RandSP,2,2,21037,train,21,037,East South Central,25
+RandSP,2,2,21047,train,21,047,East South Central,19
+RandSP,2,2,21049,train,21,049,East South Central,10
+RandSP,2,2,21051,train,21,051,East South Central,6
+RandSP,2,2,21059,train,21,059,East South Central,23
+RandSP,2,2,21061,train,21,061,East South Central,4
+RandSP,2,2,21065,train,21,065,East South Central,4
+RandSP,2,2,21067,train,21,067,East South Central,82
+RandSP,2,2,21069,train,21,069,East South Central,4
+RandSP,2,2,21071,train,21,071,East South Central,10
+RandSP,2,2,21079,train,21,079,East South Central,4
+RandSP,2,2,21081,train,21,081,East South Central,4
+RandSP,2,2,21083,train,21,083,East South Central,9
+RandSP,2,2,21085,train,21,085,East South Central,7
+RandSP,2,2,21087,train,21,087,East South Central,4
+RandSP,2,2,21089,train,21,089,East South Central,9
+RandSP,2,2,21093,train,21,093,East South Central,22
+RandSP,2,2,21099,train,21,099,East South Central,5
+RandSP,2,2,21101,train,21,101,East South Central,11
+RandSP,2,2,21103,train,21,103,East South Central,5
+RandSP,2,2,21107,train,21,107,East South Central,12
+RandSP,2,2,21111,train,21,111,East South Central,191
+RandSP,2,2,21115,train,21,115,East South Central,6
+RandSP,2,2,21117,train,21,117,East South Central,41
+RandSP,2,2,21121,train,21,121,East South Central,8
+RandSP,2,2,21123,train,21,123,East South Central,4
+RandSP,2,2,21125,train,21,125,East South Central,13
+RandSP,2,2,21127,train,21,127,East South Central,5
+RandSP,2,2,21133,train,21,133,East South Central,7
+RandSP,2,2,21135,train,21,135,East South Central,4
+RandSP,2,2,21137,train,21,137,East South Central,6
+RandSP,2,2,21141,train,21,141,East South Central,6
+RandSP,2,2,21153,train,21,153,East South Central,4
+RandSP,2,2,21155,train,21,155,East South Central,6
+RandSP,2,2,21161,train,21,161,East South Central,5
+RandSP,2,2,21167,train,21,167,East South Central,5
+RandSP,2,2,21173,train,21,173,East South Central,6
+RandSP,2,2,21175,train,21,175,East South Central,5
+RandSP,2,2,21177,train,21,177,East South Central,9
+RandSP,2,2,21179,train,21,179,East South Central,9
+RandSP,2,2,21185,train,21,185,East South Central,14
+RandSP,2,2,21195,train,21,195,East South Central,19
+RandSP,2,2,21203,train,21,203,East South Central,4
+RandSP,2,2,21205,train,21,205,East South Central,4
+RandSP,2,2,21207,train,21,207,East South Central,5
+RandSP,2,2,21209,train,21,209,East South Central,14
+RandSP,2,2,21211,train,21,211,East South Central,9
+RandSP,2,2,21213,train,21,213,East South Central,4
+RandSP,2,2,21215,train,21,215,East South Central,4
+RandSP,2,2,21217,train,21,217,East South Central,5
+RandSP,2,2,21221,train,21,221,East South Central,5
+RandSP,2,2,21225,train,21,225,East South Central,4
+RandSP,2,2,21227,train,21,227,East South Central,24
+RandSP,2,2,21233,train,21,233,East South Central,4
+RandSP,2,2,21235,train,21,235,East South Central,8
+RandSP,2,2,21239,train,21,239,East South Central,8
+RandSP,2,2,22001,train,22,001,West South Central,12
+RandSP,2,2,22003,train,22,003,West South Central,5
+RandSP,2,2,22005,train,22,005,West South Central,14
+RandSP,2,2,22007,train,22,007,West South Central,6
+RandSP,2,2,22015,train,22,015,West South Central,22
+RandSP,2,2,22017,train,22,017,West South Central,64
+RandSP,2,2,22027,train,22,027,West South Central,5
+RandSP,2,2,22029,train,22,029,West South Central,5
+RandSP,2,2,22031,train,22,031,West South Central,7
+RandSP,2,2,22033,train,22,033,West South Central,92
+RandSP,2,2,22037,train,22,037,West South Central,5
+RandSP,2,2,22039,train,22,039,West South Central,8
+RandSP,2,2,22043,train,22,043,West South Central,5
+RandSP,2,2,22049,train,22,049,West South Central,5
+RandSP,2,2,22051,train,22,051,West South Central,126
+RandSP,2,2,22053,train,22,053,West South Central,7
+RandSP,2,2,22057,train,22,057,West South Central,23
+RandSP,2,2,22061,train,22,061,West South Central,10
+RandSP,2,2,22063,train,22,063,West South Central,17
+RandSP,2,2,22065,train,22,065,West South Central,5
+RandSP,2,2,22069,train,22,069,West South Central,9
+RandSP,2,2,22073,train,22,073,West South Central,40
+RandSP,2,2,22079,train,22,079,West South Central,33
+RandSP,2,2,22083,train,22,083,West South Central,6
+RandSP,2,2,22089,train,22,089,West South Central,13
+RandSP,2,2,22093,train,22,093,West South Central,7
+RandSP,2,2,22095,train,22,095,West South Central,11
+RandSP,2,2,22101,train,22,101,West South Central,16
+RandSP,2,2,22105,train,22,105,West South Central,20
+RandSP,2,2,22109,train,22,109,West South Central,21
+RandSP,2,2,22111,train,22,111,West South Central,6
+RandSP,2,2,22115,train,22,115,West South Central,12
+RandSP,2,2,22119,train,22,119,West South Central,11
+RandSP,2,2,22127,train,22,127,West South Central,4
+RandSP,2,2,23001,train,23,001,New England,28
+RandSP,2,2,23003,train,23,003,New England,24
+RandSP,2,2,23005,train,23,005,New England,66
+RandSP,2,2,23015,train,23,015,New England,10
+RandSP,2,2,23017,train,23,017,New England,17
+RandSP,2,2,23019,train,23,019,New England,46
+RandSP,2,2,23021,train,23,021,New England,8
+RandSP,2,2,23025,train,23,025,New England,17
+RandSP,2,2,23027,train,23,027,New England,8
+RandSP,2,2,23031,train,23,031,New England,41
+RandSP,2,2,24001,train,24,001,South Atlantic,23
+RandSP,2,2,24003,train,24,003,South Atlantic,104
+RandSP,2,2,24015,train,24,015,South Atlantic,19
+RandSP,2,2,24017,train,24,017,South Atlantic,31
+RandSP,2,2,24019,train,24,019,South Atlantic,9
+RandSP,2,2,24021,train,24,021,South Atlantic,61
+RandSP,2,2,24023,train,24,023,South Atlantic,7
+RandSP,2,2,24025,train,24,025,South Atlantic,57
+RandSP,2,2,24029,train,24,029,South Atlantic,5
+RandSP,2,2,24031,train,24,031,South Atlantic,215
+RandSP,2,2,24033,train,24,033,South Atlantic,218
+RandSP,2,2,24037,train,24,037,South Atlantic,17
+RandSP,2,2,24039,train,24,039,South Atlantic,7
+RandSP,2,2,24041,train,24,041,South Atlantic,10
+RandSP,2,2,24043,train,24,043,South Atlantic,32
+RandSP,2,2,24047,train,24,047,South Atlantic,16
+RandSP,2,2,24510,train,24,510,South Atlantic,200
+RandSP,2,2,25003,train,25,003,New England,39
+RandSP,2,2,25005,train,25,005,New England,126
+RandSP,2,2,25007,train,25,007,New England,4
+RandSP,2,2,25011,train,25,011,New England,18
+RandSP,2,2,25015,train,25,015,New England,36
+RandSP,2,2,25017,train,25,017,New England,318
+RandSP,2,2,25019,train,25,019,New England,5
+RandSP,2,2,25021,train,25,021,New England,130
+RandSP,2,2,25027,train,25,027,New England,172
+RandSP,2,2,26001,train,26,001,East North Central,5
+RandSP,2,2,26007,train,26,007,East North Central,9
+RandSP,2,2,26009,train,26,009,East North Central,7
+RandSP,2,2,26011,train,26,011,East North Central,5
+RandSP,2,2,26019,train,26,019,East North Central,5
+RandSP,2,2,26021,train,26,021,East North Central,48
+RandSP,2,2,26023,train,26,023,East North Central,12
+RandSP,2,2,26025,train,26,025,East North Central,39
+RandSP,2,2,26027,train,26,027,East North Central,11
+RandSP,2,2,26029,train,26,029,East North Central,13
+RandSP,2,2,26031,train,26,031,East North Central,8
+RandSP,2,2,26035,train,26,035,East North Central,11
+RandSP,2,2,26039,train,26,039,East North Central,5
+RandSP,2,2,26041,train,26,041,East North Central,11
+RandSP,2,2,26043,train,26,043,East North Central,7
+RandSP,2,2,26045,train,26,045,East North Central,28
+RandSP,2,2,26047,train,26,047,East North Central,8
+RandSP,2,2,26049,train,26,049,East North Central,131
+RandSP,2,2,26059,train,26,059,East North Central,12
+RandSP,2,2,26061,train,26,061,East North Central,10
+RandSP,2,2,26069,train,26,069,East North Central,9
+RandSP,2,2,26071,train,26,071,East North Central,5
+RandSP,2,2,26077,train,26,077,East North Central,57
+RandSP,2,2,26081,train,26,081,East North Central,128
+RandSP,2,2,26087,train,26,087,East North Central,24
+RandSP,2,2,26089,train,26,089,East North Central,6
+RandSP,2,2,26091,train,26,091,East North Central,23
+RandSP,2,2,26093,train,26,093,East North Central,61
+RandSP,2,2,26097,train,26,097,East North Central,5
+RandSP,2,2,26099,train,26,099,East North Central,216
+RandSP,2,2,26107,train,26,107,East North Central,11
+RandSP,2,2,26109,train,26,109,East North Central,7
+RandSP,2,2,26113,train,26,113,East North Central,4
+RandSP,2,2,26115,train,26,115,East North Central,39
+RandSP,2,2,26117,train,26,117,East North Central,13
+RandSP,2,2,26121,train,26,121,East North Central,42
+RandSP,2,2,26123,train,26,123,East North Central,11
+RandSP,2,2,26127,train,26,127,East North Central,7
+RandSP,2,2,26129,train,26,129,East North Central,7
+RandSP,2,2,26131,train,26,131,East North Central,4
+RandSP,2,2,26135,train,26,135,East North Central,5
+RandSP,2,2,26137,train,26,137,East North Central,6
+RandSP,2,2,26139,train,26,139,East North Central,53
+RandSP,2,2,26141,train,26,141,East North Central,6
+RandSP,2,2,26143,train,26,143,East North Central,10
+RandSP,2,2,26145,train,26,145,East North Central,56
+RandSP,2,2,26147,train,26,147,East North Central,49
+RandSP,2,2,26149,train,26,149,East North Central,17
+RandSP,2,2,26151,train,26,151,East North Central,12
+RandSP,2,2,26157,train,26,157,East North Central,13
+RandSP,2,2,26159,train,26,159,East North Central,15
+RandSP,2,2,26161,train,26,161,East North Central,100
+RandSP,2,2,26165,train,26,165,East North Central,8
+RandSP,2,2,27003,train,27,003,West North Central,83
+RandSP,2,2,27005,train,27,005,West North Central,10
+RandSP,2,2,27009,train,27,009,West North Central,9
+RandSP,2,2,27013,train,27,013,West North Central,16
+RandSP,2,2,27015,train,27,015,West North Central,8
+RandSP,2,2,27017,train,27,017,West North Central,7
+RandSP,2,2,27019,train,27,019,West North Central,19
+RandSP,2,2,27023,train,27,023,West North Central,4
+RandSP,2,2,27025,train,27,025,West North Central,10
+RandSP,2,2,27033,train,27,033,West North Central,4
+RandSP,2,2,27037,train,27,037,West North Central,95
+RandSP,2,2,27039,train,27,039,West North Central,5
+RandSP,2,2,27041,train,27,041,West North Central,9
+RandSP,2,2,27045,train,27,045,West North Central,6
+RandSP,2,2,27053,train,27,053,West North Central,299
+RandSP,2,2,27055,train,27,055,West North Central,5
+RandSP,2,2,27057,train,27,057,West North Central,7
+RandSP,2,2,27059,train,27,059,West North Central,8
+RandSP,2,2,27061,train,27,061,West North Central,11
+RandSP,2,2,27065,train,27,065,West North Central,4
+RandSP,2,2,27079,train,27,079,West North Central,6
+RandSP,2,2,27083,train,27,083,West North Central,7
+RandSP,2,2,27085,train,27,085,West North Central,7
+RandSP,2,2,27091,train,27,091,West North Central,6
+RandSP,2,2,27093,train,27,093,West North Central,6
+RandSP,2,2,27097,train,27,097,West North Central,8
+RandSP,2,2,27099,train,27,099,West North Central,11
+RandSP,2,2,27109,train,27,109,West North Central,33
+RandSP,2,2,27111,train,27,111,West North Central,17
+RandSP,2,2,27115,train,27,115,West North Central,8
+RandSP,2,2,27121,train,27,121,West North Central,4
+RandSP,2,2,27123,train,27,123,West North Central,137
+RandSP,2,2,27127,train,27,127,West North Central,6
+RandSP,2,2,27129,train,27,129,West North Central,6
+RandSP,2,2,27131,train,27,131,West North Central,13
+RandSP,2,2,27137,train,27,137,West North Central,66
+RandSP,2,2,27139,train,27,139,West North Central,21
+RandSP,2,2,27141,train,27,141,West North Central,11
+RandSP,2,2,27143,train,27,143,West North Central,4
+RandSP,2,2,27145,train,27,145,West North Central,29
+RandSP,2,2,27147,train,27,147,West North Central,8
+RandSP,2,2,27151,train,27,151,West North Central,4
+RandSP,2,2,27153,train,27,153,West North Central,8
+RandSP,2,2,27163,train,27,163,West North Central,50
+RandSP,2,2,27169,train,27,169,West North Central,10
+RandSP,2,2,27171,train,27,171,West North Central,17
+RandSP,2,2,27173,train,27,173,West North Central,4
+RandSP,2,2,28001,train,28,001,East South Central,9
+RandSP,2,2,28007,train,28,007,East South Central,6
+RandSP,2,2,28011,train,28,011,East South Central,8
+RandSP,2,2,28013,train,28,013,East South Central,5
+RandSP,2,2,28025,train,28,025,East South Central,5
+RandSP,2,2,28027,train,28,027,East South Central,7
+RandSP,2,2,28029,train,28,029,East South Central,6
+RandSP,2,2,28031,train,28,031,East South Central,4
+RandSP,2,2,28035,train,28,035,East South Central,17
+RandSP,2,2,28039,train,28,039,East South Central,5
+RandSP,2,2,28043,train,28,043,East South Central,5
+RandSP,2,2,28045,train,28,045,East South Central,7
+RandSP,2,2,28047,train,28,047,East South Central,45
+RandSP,2,2,28051,train,28,051,East South Central,5
+RandSP,2,2,28061,train,28,061,East South Central,4
+RandSP,2,2,28067,train,28,067,East South Central,14
+RandSP,2,2,28071,train,28,071,East South Central,10
+RandSP,2,2,28075,train,28,075,East South Central,19
+RandSP,2,2,28079,train,28,079,East South Central,5
+RandSP,2,2,28081,train,28,081,East South Central,19
+RandSP,2,2,28083,train,28,083,East South Central,8
+RandSP,2,2,28089,train,28,089,East South Central,21
+RandSP,2,2,28091,train,28,091,East South Central,6
+RandSP,2,2,28093,train,28,093,East South Central,6
+RandSP,2,2,28095,train,28,095,East South Central,9
+RandSP,2,2,28099,train,28,099,East South Central,7
+RandSP,2,2,28105,train,28,105,East South Central,8
+RandSP,2,2,28107,train,28,107,East South Central,6
+RandSP,2,2,28109,train,28,109,East South Central,9
+RandSP,2,2,28113,train,28,113,East South Central,8
+RandSP,2,2,28115,train,28,115,East South Central,6
+RandSP,2,2,28117,train,28,117,East South Central,5
+RandSP,2,2,28121,train,28,121,East South Central,27
+RandSP,2,2,28123,train,28,123,East South Central,6
+RandSP,2,2,28133,train,28,133,East South Central,7
+RandSP,2,2,28135,train,28,135,East South Central,4
+RandSP,2,2,28137,train,28,137,East South Central,5
+RandSP,2,2,28141,train,28,141,East South Central,4
+RandSP,2,2,28149,train,28,149,East South Central,12
+RandSP,2,2,28151,train,28,151,East South Central,19
+RandSP,2,2,28159,train,28,159,East South Central,5
+RandSP,2,2,29001,train,29,001,West North Central,7
+RandSP,2,2,29009,train,29,009,West North Central,7
+RandSP,2,2,29013,train,29,013,West North Central,4
+RandSP,2,2,29021,train,29,021,West North Central,25
+RandSP,2,2,29027,train,29,027,West North Central,8
+RandSP,2,2,29031,train,29,031,West North Central,16
+RandSP,2,2,29037,train,29,037,West North Central,20
+RandSP,2,2,29043,train,29,043,West North Central,14
+RandSP,2,2,29049,train,29,049,West North Central,4
+RandSP,2,2,29051,train,29,051,West North Central,15
+RandSP,2,2,29053,train,29,053,West North Central,5
+RandSP,2,2,29069,train,29,069,West North Central,10
+RandSP,2,2,29071,train,29,071,West North Central,17
+RandSP,2,2,29073,train,29,073,West North Central,5
+RandSP,2,2,29077,train,29,077,West North Central,62
+RandSP,2,2,29079,train,29,079,West North Central,4
+RandSP,2,2,29091,train,29,091,West North Central,8
+RandSP,2,2,29093,train,29,093,West North Central,4
+RandSP,2,2,29097,train,29,097,West North Central,22
+RandSP,2,2,29099,train,29,099,West North Central,42
+RandSP,2,2,29105,train,29,105,West North Central,6
+RandSP,2,2,29111,train,29,111,West North Central,4
+RandSP,2,2,29113,train,29,113,West North Central,7
+RandSP,2,2,29119,train,29,119,West North Central,4
+RandSP,2,2,29121,train,29,121,West North Central,5
+RandSP,2,2,29127,train,29,127,West North Central,8
+RandSP,2,2,29131,train,29,131,West North Central,5
+RandSP,2,2,29135,train,29,135,West North Central,4
+RandSP,2,2,29141,train,29,141,West North Central,5
+RandSP,2,2,29143,train,29,143,West North Central,6
+RandSP,2,2,29145,train,29,145,West North Central,12
+RandSP,2,2,29147,train,29,147,West North Central,5
+RandSP,2,2,29151,train,29,151,West North Central,4
+RandSP,2,2,29155,train,29,155,West North Central,6
+RandSP,2,2,29157,train,29,157,West North Central,5
+RandSP,2,2,29159,train,29,159,West North Central,11
+RandSP,2,2,29161,train,29,161,West North Central,10
+RandSP,2,2,29165,train,29,165,West North Central,20
+RandSP,2,2,29167,train,29,167,West North Central,4
+RandSP,2,2,29169,train,29,169,West North Central,9
+RandSP,2,2,29175,train,29,175,West North Central,6
+RandSP,2,2,29177,train,29,177,West North Central,4
+RandSP,2,2,29186,train,29,186,West North Central,4
+RandSP,2,2,29189,train,29,189,West North Central,199
+RandSP,2,2,29201,train,29,201,West North Central,10
+RandSP,2,2,29207,train,29,207,West North Central,8
+RandSP,2,2,29209,train,29,209,West North Central,6
+RandSP,2,2,29213,train,29,213,West North Central,10
+RandSP,2,2,29217,train,29,217,West North Central,6
+RandSP,2,2,29221,train,29,221,West North Central,5
+RandSP,2,2,29223,train,29,223,West North Central,4
+RandSP,2,2,29225,train,29,225,West North Central,8
+RandSP,2,2,29229,train,29,229,West North Central,4
+RandSP,2,2,29510,train,29,510,West North Central,106
+RandSP,2,2,30003,train,30,003,Mountain,5
+RandSP,2,2,30005,train,30,005,Mountain,4
+RandSP,2,2,30009,train,30,009,Mountain,5
+RandSP,2,2,30013,train,30,013,Mountain,22
+RandSP,2,2,30017,train,30,017,Mountain,6
+RandSP,2,2,30031,train,30,031,Mountain,22
+RandSP,2,2,30035,train,30,035,Mountain,4
+RandSP,2,2,30047,train,30,047,Mountain,8
+RandSP,2,2,30053,train,30,053,Mountain,5
+RandSP,2,2,30063,train,30,063,Mountain,20
+RandSP,2,2,30067,train,30,067,Mountain,6
+RandSP,2,2,30083,train,30,083,Mountain,4
+RandSP,2,2,30087,train,30,087,Mountain,4
+RandSP,2,2,30093,train,30,093,Mountain,8
+RandSP,2,2,30111,train,30,111,Mountain,32
+RandSP,2,2,31001,train,31,001,West North Central,9
+RandSP,2,2,31019,train,31,019,West North Central,11
+RandSP,2,2,31025,train,31,025,West North Central,6
+RandSP,2,2,31041,train,31,041,West North Central,4
+RandSP,2,2,31047,train,31,047,West North Central,7
+RandSP,2,2,31067,train,31,067,West North Central,7
+RandSP,2,2,31089,train,31,089,West North Central,4
+RandSP,2,2,31131,train,31,131,West North Central,5
+RandSP,2,2,31141,train,31,141,West North Central,7
+RandSP,2,2,31151,train,31,151,West North Central,4
+RandSP,2,2,31153,train,31,153,West North Central,43
+RandSP,2,2,31155,train,31,155,West North Central,5
+RandSP,2,2,31157,train,31,157,West North Central,11
+RandSP,2,2,31159,train,31,159,West North Central,4
+RandSP,2,2,32003,train,32,003,Mountain,487
+RandSP,2,2,32005,train,32,005,Mountain,17
+RandSP,2,2,32007,train,32,007,Mountain,14
+RandSP,2,2,32013,train,32,013,Mountain,4
+RandSP,2,2,32019,train,32,019,Mountain,10
+RandSP,2,2,32023,train,32,023,Mountain,10
+RandSP,2,2,32031,train,32,031,Mountain,112
+RandSP,2,2,33001,train,33,001,New England,15
+RandSP,2,2,33003,train,33,003,New England,11
+RandSP,2,2,33007,train,33,007,New England,11
+RandSP,2,2,33009,train,33,009,New England,19
+RandSP,2,2,33013,train,33,013,New England,36
+RandSP,2,2,33015,train,33,015,New England,65
+RandSP,2,2,33019,train,33,019,New England,10
+RandSP,2,2,34001,train,34,001,Middle Atlantic,69
+RandSP,2,2,34003,train,34,003,Middle Atlantic,179
+RandSP,2,2,34007,train,34,007,Middle Atlantic,127
+RandSP,2,2,34009,train,34,009,Middle Atlantic,33
+RandSP,2,2,34011,train,34,011,Middle Atlantic,35
+RandSP,2,2,34013,train,34,013,Middle Atlantic,210
+RandSP,2,2,34015,train,34,015,Middle Atlantic,63
+RandSP,2,2,34019,train,34,019,Middle Atlantic,26
+RandSP,2,2,34023,train,34,023,Middle Atlantic,175
+RandSP,2,2,34029,train,34,029,Middle Atlantic,126
+RandSP,2,2,34031,train,34,031,Middle Atlantic,100
+RandSP,2,2,34033,train,34,033,Middle Atlantic,24
+RandSP,2,2,34035,train,34,035,Middle Atlantic,68
+RandSP,2,2,34037,train,34,037,Middle Atlantic,41
+RandSP,2,2,34039,train,34,039,Middle Atlantic,108
+RandSP,2,2,34041,train,34,041,Middle Atlantic,23
+RandSP,2,2,35001,train,35,001,Mountain,153
+RandSP,2,2,35006,train,35,006,Mountain,7
+RandSP,2,2,35009,train,35,009,Mountain,12
+RandSP,2,2,35013,train,35,013,Mountain,41
+RandSP,2,2,35015,train,35,015,Mountain,12
+RandSP,2,2,35027,train,35,027,Mountain,5
+RandSP,2,2,35029,train,35,029,Mountain,6
+RandSP,2,2,35031,train,35,031,Mountain,17
+RandSP,2,2,35039,train,35,039,Mountain,9
+RandSP,2,2,35043,train,35,043,Mountain,28
+RandSP,2,2,35047,train,35,047,Mountain,7
+RandSP,2,2,35051,train,35,051,Mountain,4
+RandSP,2,2,35053,train,35,053,Mountain,6
+RandSP,2,2,35055,train,35,055,Mountain,6
+RandSP,2,2,35057,train,35,057,Mountain,4
+RandSP,2,2,36001,train,36,001,Middle Atlantic,75
+RandSP,2,2,36003,train,36,003,Middle Atlantic,13
+RandSP,2,2,36005,train,36,005,Middle Atlantic,339
+RandSP,2,2,36007,train,36,007,Middle Atlantic,55
+RandSP,2,2,36009,train,36,009,Middle Atlantic,21
+RandSP,2,2,36011,train,36,011,Middle Atlantic,19
+RandSP,2,2,36017,train,36,017,Middle Atlantic,12
+RandSP,2,2,36021,train,36,021,Middle Atlantic,21
+RandSP,2,2,36023,train,36,023,Middle Atlantic,12
+RandSP,2,2,36029,train,36,029,Middle Atlantic,237
+RandSP,2,2,36035,train,36,035,Middle Atlantic,15
+RandSP,2,2,36037,train,36,037,Middle Atlantic,15
+RandSP,2,2,36043,train,36,043,Middle Atlantic,19
+RandSP,2,2,36047,train,36,047,Middle Atlantic,761
+RandSP,2,2,36049,train,36,049,Middle Atlantic,7
+RandSP,2,2,36051,train,36,051,Middle Atlantic,15
+RandSP,2,2,36057,train,36,057,Middle Atlantic,16
+RandSP,2,2,36061,train,36,061,Middle Atlantic,288
+RandSP,2,2,36067,train,36,067,Middle Atlantic,140
+RandSP,2,2,36069,train,36,069,Middle Atlantic,25
+RandSP,2,2,36071,train,36,071,Middle Atlantic,79
+RandSP,2,2,36073,train,36,073,Middle Atlantic,10
+RandSP,2,2,36075,train,36,075,Middle Atlantic,29
+RandSP,2,2,36077,train,36,077,Middle Atlantic,17
+RandSP,2,2,36079,train,36,079,Middle Atlantic,19
+RandSP,2,2,36081,train,36,081,Middle Atlantic,669
+RandSP,2,2,36083,train,36,083,Middle Atlantic,42
+RandSP,2,2,36085,train,36,085,Middle Atlantic,109
+RandSP,2,2,36087,train,36,087,Middle Atlantic,65
+RandSP,2,2,36095,train,36,095,Middle Atlantic,8
+RandSP,2,2,36097,train,36,097,Middle Atlantic,5
+RandSP,2,2,36099,train,36,099,Middle Atlantic,10
+RandSP,2,2,36105,train,36,105,Middle Atlantic,24
+RandSP,2,2,36109,train,36,109,Middle Atlantic,23
+RandSP,2,2,36113,train,36,113,Middle Atlantic,19
+RandSP,2,2,36117,train,36,117,Middle Atlantic,23
+RandSP,2,2,36119,train,36,119,Middle Atlantic,223
+RandSP,2,2,36121,train,36,121,Middle Atlantic,11
+RandSP,2,2,36123,train,36,123,Middle Atlantic,5
+RandSP,2,2,37001,train,37,001,South Atlantic,36
+RandSP,2,2,37009,train,37,009,South Atlantic,6
+RandSP,2,2,37013,train,37,013,South Atlantic,11
+RandSP,2,2,37015,train,37,015,South Atlantic,4
+RandSP,2,2,37017,train,37,017,South Atlantic,6
+RandSP,2,2,37019,train,37,019,South Atlantic,33
+RandSP,2,2,37021,train,37,021,South Atlantic,56
+RandSP,2,2,37023,train,37,023,South Atlantic,18
+RandSP,2,2,37025,train,37,025,South Atlantic,37
+RandSP,2,2,37031,train,37,031,South Atlantic,38
+RandSP,2,2,37035,train,37,035,South Atlantic,31
+RandSP,2,2,37037,train,37,037,South Atlantic,13
+RandSP,2,2,37045,train,37,045,South Atlantic,22
+RandSP,2,2,37047,train,37,047,South Atlantic,13
+RandSP,2,2,37051,train,37,051,South Atlantic,68
+RandSP,2,2,37059,train,37,059,South Atlantic,7
+RandSP,2,2,37061,train,37,061,South Atlantic,11
+RandSP,2,2,37063,train,37,063,South Atlantic,60
+RandSP,2,2,37065,train,37,065,South Atlantic,14
+RandSP,2,2,37069,train,37,069,South Atlantic,12
+RandSP,2,2,37071,train,37,071,South Atlantic,65
+RandSP,2,2,37079,train,37,079,South Atlantic,4
+RandSP,2,2,37083,train,37,083,South Atlantic,12
+RandSP,2,2,37085,train,37,085,South Atlantic,27
+RandSP,2,2,37087,train,37,087,South Atlantic,16
+RandSP,2,2,37089,train,37,089,South Atlantic,27
+RandSP,2,2,37091,train,37,091,South Atlantic,5
+RandSP,2,2,37097,train,37,097,South Atlantic,44
+RandSP,2,2,37105,train,37,105,South Atlantic,13
+RandSP,2,2,37107,train,37,107,South Atlantic,15
+RandSP,2,2,37109,train,37,109,South Atlantic,18
+RandSP,2,2,37113,train,37,113,South Atlantic,9
+RandSP,2,2,37115,train,37,115,South Atlantic,6
+RandSP,2,2,37117,train,37,117,South Atlantic,6
+RandSP,2,2,37121,train,37,121,South Atlantic,4
+RandSP,2,2,37125,train,37,125,South Atlantic,18
+RandSP,2,2,37129,train,37,129,South Atlantic,45
+RandSP,2,2,37131,train,37,131,South Atlantic,5
+RandSP,2,2,37133,train,37,133,South Atlantic,32
+RandSP,2,2,37135,train,37,135,South Atlantic,28
+RandSP,2,2,37137,train,37,137,South Atlantic,4
+RandSP,2,2,37141,train,37,141,South Atlantic,16
+RandSP,2,2,37145,train,37,145,South Atlantic,7
+RandSP,2,2,37147,train,37,147,South Atlantic,32
+RandSP,2,2,37151,train,37,151,South Atlantic,28
+RandSP,2,2,37155,train,37,155,South Atlantic,31
+RandSP,2,2,37161,train,37,161,South Atlantic,13
+RandSP,2,2,37163,train,37,163,South Atlantic,11
+RandSP,2,2,37169,train,37,169,South Atlantic,9
+RandSP,2,2,37173,train,37,173,South Atlantic,5
+RandSP,2,2,37175,train,37,175,South Atlantic,7
+RandSP,2,2,37179,train,37,179,South Atlantic,41
+RandSP,2,2,37181,train,37,181,South Atlantic,10
+RandSP,2,2,37185,train,37,185,South Atlantic,6
+RandSP,2,2,37189,train,37,189,South Atlantic,13
+RandSP,2,2,37191,train,37,191,South Atlantic,26
+RandSP,2,2,37193,train,37,193,South Atlantic,14
+RandSP,2,2,37195,train,37,195,South Atlantic,19
+RandSP,2,2,37197,train,37,197,South Atlantic,7
+RandSP,2,2,38003,train,38,003,West North Central,4
+RandSP,2,2,38005,train,38,005,West North Central,4
+RandSP,2,2,38015,train,38,015,West North Central,19
+RandSP,2,2,38017,train,38,017,West North Central,33
+RandSP,2,2,38035,train,38,035,West North Central,18
+RandSP,2,2,38053,train,38,053,West North Central,4
+RandSP,2,2,38067,train,38,067,West North Central,5
+RandSP,2,2,38077,train,38,077,West North Central,6
+RandSP,2,2,38079,train,38,079,West North Central,4
+RandSP,2,2,38089,train,38,089,West North Central,8
+RandSP,2,2,38093,train,38,093,West North Central,6
+RandSP,2,2,38097,train,38,097,West North Central,4
+RandSP,2,2,38099,train,38,099,West North Central,6
+RandSP,2,2,38101,train,38,101,West North Central,13
+RandSP,2,2,38105,train,38,105,West North Central,7
+RandSP,2,2,39001,train,39,001,East North Central,6
+RandSP,2,2,39003,train,39,003,East North Central,33
+RandSP,2,2,39005,train,39,005,East North Central,11
+RandSP,2,2,39007,train,39,007,East North Central,25
+RandSP,2,2,39009,train,39,009,East North Central,15
+RandSP,2,2,39011,train,39,011,East North Central,11
+RandSP,2,2,39017,train,39,017,East North Central,80
+RandSP,2,2,39019,train,39,019,East North Central,7
+RandSP,2,2,39021,train,39,021,East North Central,10
+RandSP,2,2,39023,train,39,023,East North Central,44
+RandSP,2,2,39025,train,39,025,East North Central,40
+RandSP,2,2,39027,train,39,027,East North Central,9
+RandSP,2,2,39029,train,39,029,East North Central,24
+RandSP,2,2,39033,train,39,033,East North Central,13
+RandSP,2,2,39035,train,39,035,East North Central,446
+RandSP,2,2,39037,train,39,037,East North Central,12
+RandSP,2,2,39039,train,39,039,East North Central,9
+RandSP,2,2,39041,train,39,041,East North Central,35
+RandSP,2,2,39053,train,39,053,East North Central,7
+RandSP,2,2,39055,train,39,055,East North Central,21
+RandSP,2,2,39057,train,39,057,East North Central,35
+RandSP,2,2,39059,train,39,059,East North Central,10
+RandSP,2,2,39061,train,39,061,East North Central,222
+RandSP,2,2,39063,train,39,063,East North Central,13
+RandSP,2,2,39065,train,39,065,East North Central,7
+RandSP,2,2,39067,train,39,067,East North Central,5
+RandSP,2,2,39069,train,39,069,East North Central,7
+RandSP,2,2,39071,train,39,071,East North Central,9
+RandSP,2,2,39075,train,39,075,East North Central,8
+RandSP,2,2,39077,train,39,077,East North Central,13
+RandSP,2,2,39079,train,39,079,East North Central,7
+RandSP,2,2,39081,train,39,081,East North Central,23
+RandSP,2,2,39083,train,39,083,East North Central,12
+RandSP,2,2,39085,train,39,085,East North Central,59
+RandSP,2,2,39089,train,39,089,East North Central,32
+RandSP,2,2,39093,train,39,093,East North Central,73
+RandSP,2,2,39097,train,39,097,East North Central,12
+RandSP,2,2,39099,train,39,099,East North Central,70
+RandSP,2,2,39101,train,39,101,East North Central,18
+RandSP,2,2,39107,train,39,107,East North Central,9
+RandSP,2,2,39109,train,39,109,East North Central,21
+RandSP,2,2,39111,train,39,111,East North Central,4
+RandSP,2,2,39113,train,39,113,East North Central,153
+RandSP,2,2,39115,train,39,115,East North Central,4
+RandSP,2,2,39117,train,39,117,East North Central,6
+RandSP,2,2,39119,train,39,119,East North Central,19
+RandSP,2,2,39123,train,39,123,East North Central,13
+RandSP,2,2,39125,train,39,125,East North Central,5
+RandSP,2,2,39129,train,39,129,East North Central,13
+RandSP,2,2,39131,train,39,131,East North Central,6
+RandSP,2,2,39133,train,39,133,East North Central,35
+RandSP,2,2,39135,train,39,135,East North Central,12
+RandSP,2,2,39137,train,39,137,East North Central,7
+RandSP,2,2,39139,train,39,139,East North Central,30
+RandSP,2,2,39143,train,39,143,East North Central,15
+RandSP,2,2,39145,train,39,145,East North Central,20
+RandSP,2,2,39147,train,39,147,East North Central,14
+RandSP,2,2,39149,train,39,149,East North Central,10
+RandSP,2,2,39151,train,39,151,East North Central,86
+RandSP,2,2,39153,train,39,153,East North Central,135
+RandSP,2,2,39155,train,39,155,East North Central,55
+RandSP,2,2,39159,train,39,159,East North Central,10
+RandSP,2,2,39161,train,39,161,East North Central,9
+RandSP,2,2,39165,train,39,165,East North Central,33
+RandSP,2,2,39167,train,39,167,East North Central,16
+RandSP,2,2,39171,train,39,171,East North Central,9
+RandSP,2,2,40001,train,40,001,West South Central,5
+RandSP,2,2,40005,train,40,005,West South Central,4
+RandSP,2,2,40009,train,40,009,West South Central,4
+RandSP,2,2,40011,train,40,011,West South Central,5
+RandSP,2,2,40013,train,40,013,West South Central,11
+RandSP,2,2,40017,train,40,017,West South Central,29
+RandSP,2,2,40019,train,40,019,West South Central,11
+RandSP,2,2,40021,train,40,021,West South Central,9
+RandSP,2,2,40027,train,40,027,West South Central,62
+RandSP,2,2,40037,train,40,037,West South Central,21
+RandSP,2,2,40039,train,40,039,West South Central,5
+RandSP,2,2,40041,train,40,041,West South Central,9
+RandSP,2,2,40047,train,40,047,West South Central,12
+RandSP,2,2,40051,train,40,051,West South Central,10
+RandSP,2,2,40061,train,40,061,West South Central,4
+RandSP,2,2,40065,train,40,065,West South Central,8
+RandSP,2,2,40071,train,40,071,West South Central,11
+RandSP,2,2,40073,train,40,073,West South Central,4
+RandSP,2,2,40079,train,40,079,West South Central,12
+RandSP,2,2,40081,train,40,081,West South Central,7
+RandSP,2,2,40087,train,40,087,West South Central,6
+RandSP,2,2,40089,train,40,089,West South Central,8
+RandSP,2,2,40091,train,40,091,West South Central,6
+RandSP,2,2,40095,train,40,095,West South Central,4
+RandSP,2,2,40097,train,40,097,West South Central,9
+RandSP,2,2,40101,train,40,101,West South Central,16
+RandSP,2,2,40103,train,40,103,West South Central,4
+RandSP,2,2,40105,train,40,105,West South Central,4
+RandSP,2,2,40107,train,40,107,West South Central,4
+RandSP,2,2,40109,train,40,109,West South Central,241
+RandSP,2,2,40111,train,40,111,West South Central,10
+RandSP,2,2,40115,train,40,115,West South Central,9
+RandSP,2,2,40119,train,40,119,West South Central,17
+RandSP,2,2,40121,train,40,121,West South Central,13
+RandSP,2,2,40123,train,40,123,West South Central,10
+RandSP,2,2,40131,train,40,131,West South Central,28
+RandSP,2,2,40133,train,40,133,West South Central,9
+RandSP,2,2,40135,train,40,135,West South Central,9
+RandSP,2,2,40139,train,40,139,West South Central,5
+RandSP,2,2,40143,train,40,143,West South Central,175
+RandSP,2,2,40145,train,40,145,West South Central,22
+RandSP,2,2,40149,train,40,149,West South Central,4
+RandSP,2,2,40153,train,40,153,West South Central,5
+RandSP,2,2,41003,train,41,003,Pacific,18
+RandSP,2,2,41005,train,41,005,Pacific,80
+RandSP,2,2,41009,train,41,009,Pacific,10
+RandSP,2,2,41011,train,41,011,Pacific,13
+RandSP,2,2,41013,train,41,013,Pacific,4
+RandSP,2,2,41015,train,41,015,Pacific,5
+RandSP,2,2,41027,train,41,027,Pacific,4
+RandSP,2,2,41029,train,41,029,Pacific,41
+RandSP,2,2,41031,train,41,031,Pacific,6
+RandSP,2,2,41033,train,41,033,Pacific,16
+RandSP,2,2,41041,train,41,041,Pacific,18
+RandSP,2,2,41043,train,41,043,Pacific,21
+RandSP,2,2,41045,train,41,045,Pacific,8
+RandSP,2,2,41047,train,41,047,Pacific,58
+RandSP,2,2,41051,train,41,051,Pacific,171
+RandSP,2,2,41053,train,41,053,Pacific,12
+RandSP,2,2,41059,train,41,059,Pacific,15
+RandSP,2,2,41061,train,41,061,Pacific,8
+RandSP,2,2,41065,train,41,065,Pacific,8
+RandSP,2,2,41071,train,41,071,Pacific,17
+RandSP,2,2,42001,train,42,001,Middle Atlantic,23
+RandSP,2,2,42003,train,42,003,Middle Atlantic,402
+RandSP,2,2,42005,train,42,005,Middle Atlantic,19
+RandSP,2,2,42007,train,42,007,Middle Atlantic,51
+RandSP,2,2,42011,train,42,011,Middle Atlantic,90
+RandSP,2,2,42013,train,42,013,Middle Atlantic,34
+RandSP,2,2,42017,train,42,017,Middle Atlantic,143
+RandSP,2,2,42019,train,42,019,Middle Atlantic,44
+RandSP,2,2,42021,train,42,021,Middle Atlantic,42
+RandSP,2,2,42031,train,42,031,Middle Atlantic,10
+RandSP,2,2,42033,train,42,033,Middle Atlantic,20
+RandSP,2,2,42037,train,42,037,Middle Atlantic,15
+RandSP,2,2,42039,train,42,039,Middle Atlantic,23
+RandSP,2,2,42041,train,42,041,Middle Atlantic,49
+RandSP,2,2,42043,train,42,043,Middle Atlantic,65
+RandSP,2,2,42045,train,42,045,Middle Atlantic,144
+RandSP,2,2,42047,train,42,047,Middle Atlantic,9
+RandSP,2,2,42049,train,42,049,Middle Atlantic,71
+RandSP,2,2,42055,train,42,055,Middle Atlantic,27
+RandSP,2,2,42061,train,42,061,Middle Atlantic,12
+RandSP,2,2,42065,train,42,065,Middle Atlantic,13
+RandSP,2,2,42067,train,42,067,Middle Atlantic,5
+RandSP,2,2,42069,train,42,069,Middle Atlantic,59
+RandSP,2,2,42071,train,42,071,Middle Atlantic,98
+RandSP,2,2,42075,train,42,075,Middle Atlantic,31
+RandSP,2,2,42077,train,42,077,Middle Atlantic,76
+RandSP,2,2,42079,train,42,079,Middle Atlantic,104
+RandSP,2,2,42083,train,42,083,Middle Atlantic,12
+RandSP,2,2,42085,train,42,085,Middle Atlantic,30
+RandSP,2,2,42087,train,42,087,Middle Atlantic,12
+RandSP,2,2,42089,train,42,089,Middle Atlantic,33
+RandSP,2,2,42091,train,42,091,Middle Atlantic,211
+RandSP,2,2,42095,train,42,095,Middle Atlantic,68
+RandSP,2,2,42097,train,42,097,Middle Atlantic,24
+RandSP,2,2,42103,train,42,103,Middle Atlantic,18
+RandSP,2,2,42105,train,42,105,Middle Atlantic,5
+RandSP,2,2,42107,train,42,107,Middle Atlantic,40
+RandSP,2,2,42109,train,42,109,Middle Atlantic,8
+RandSP,2,2,42111,train,42,111,Middle Atlantic,21
+RandSP,2,2,42117,train,42,117,Middle Atlantic,10
+RandSP,2,2,42119,train,42,119,Middle Atlantic,10
+RandSP,2,2,42123,train,42,123,Middle Atlantic,13
+RandSP,2,2,42125,train,42,125,Middle Atlantic,59
+RandSP,2,2,42127,train,42,127,Middle Atlantic,14
+RandSP,2,2,42131,train,42,131,Middle Atlantic,7
+RandSP,2,2,42133,train,42,133,Middle Atlantic,90
+RandSP,2,2,44003,train,44,003,New England,39
+RandSP,2,2,44005,train,44,005,New England,23
+RandSP,2,2,44007,train,44,007,New England,141
+RandSP,2,2,44009,train,44,009,New England,29
+RandSP,2,2,45001,train,45,001,South Atlantic,6
+RandSP,2,2,45007,train,45,007,South Atlantic,39
+RandSP,2,2,45011,train,45,011,South Atlantic,6
+RandSP,2,2,45013,train,45,013,South Atlantic,41
+RandSP,2,2,45015,train,45,015,South Atlantic,45
+RandSP,2,2,45019,train,45,019,South Atlantic,86
+RandSP,2,2,45021,train,45,021,South Atlantic,13
+RandSP,2,2,45023,train,45,023,South Atlantic,11
+RandSP,2,2,45025,train,45,025,South Atlantic,10
+RandSP,2,2,45029,train,45,029,South Atlantic,10
+RandSP,2,2,45031,train,45,031,South Atlantic,16
+RandSP,2,2,45033,train,45,033,South Atlantic,6
+RandSP,2,2,45035,train,45,035,South Atlantic,25
+RandSP,2,2,45037,train,45,037,South Atlantic,6
+RandSP,2,2,45039,train,45,039,South Atlantic,5
+RandSP,2,2,45043,train,45,043,South Atlantic,15
+RandSP,2,2,45047,train,45,047,South Atlantic,14
+RandSP,2,2,45049,train,45,049,South Atlantic,5
+RandSP,2,2,45051,train,45,051,South Atlantic,72
+RandSP,2,2,45053,train,45,053,South Atlantic,5
+RandSP,2,2,45057,train,45,057,South Atlantic,14
+RandSP,2,2,45059,train,45,059,South Atlantic,17
+RandSP,2,2,45061,train,45,061,South Atlantic,7
+RandSP,2,2,45067,train,45,067,South Atlantic,8
+RandSP,2,2,45069,train,45,069,South Atlantic,7
+RandSP,2,2,45071,train,45,071,South Atlantic,8
+RandSP,2,2,45075,train,45,075,South Atlantic,20
+RandSP,2,2,45077,train,45,077,South Atlantic,28
+RandSP,2,2,45079,train,45,079,South Atlantic,89
+RandSP,2,2,45081,train,45,081,South Atlantic,5
+RandSP,2,2,45083,train,45,083,South Atlantic,69
+RandSP,2,2,45085,train,45,085,South Atlantic,23
+RandSP,2,2,45087,train,45,087,South Atlantic,9
+RandSP,2,2,45091,train,45,091,South Atlantic,46
+RandSP,2,2,46013,train,46,013,West North Central,8
+RandSP,2,2,46029,train,46,029,West North Central,7
+RandSP,2,2,46035,train,46,035,West North Central,4
+RandSP,2,2,46065,train,46,065,West North Central,4
+RandSP,2,2,46081,train,46,081,West North Central,5
+RandSP,2,2,46099,train,46,099,West North Central,42
+RandSP,2,2,46103,train,46,103,West North Central,23
+RandSP,2,2,46109,train,46,109,West North Central,4
+RandSP,2,2,46135,train,46,135,West North Central,5
+RandSP,2,2,47001,train,47,001,East South Central,18
+RandSP,2,2,47005,train,47,005,East South Central,5
+RandSP,2,2,47009,train,47,009,East South Central,28
+RandSP,2,2,47011,train,47,011,East South Central,19
+RandSP,2,2,47013,train,47,013,East South Central,11
+RandSP,2,2,47017,train,47,017,East South Central,8
+RandSP,2,2,47019,train,47,019,East South Central,17
+RandSP,2,2,47021,train,47,021,East South Central,9
+RandSP,2,2,47025,train,47,025,East South Central,9
+RandSP,2,2,47029,train,47,029,East South Central,9
+RandSP,2,2,47031,train,47,031,East South Central,12
+RandSP,2,2,47033,train,47,033,East South Central,5
+RandSP,2,2,47037,train,47,037,East South Central,161
+RandSP,2,2,47041,train,47,041,East South Central,4
+RandSP,2,2,47047,train,47,047,East South Central,11
+RandSP,2,2,47051,train,47,051,East South Central,9
+RandSP,2,2,47053,train,47,053,East South Central,14
+RandSP,2,2,47055,train,47,055,East South Central,8
+RandSP,2,2,47057,train,47,057,East South Central,5
+RandSP,2,2,47065,train,47,065,East South Central,82
+RandSP,2,2,47069,train,47,069,East South Central,6
+RandSP,2,2,47073,train,47,073,East South Central,13
+RandSP,2,2,47075,train,47,075,East South Central,6
+RandSP,2,2,47077,train,47,077,East South Central,6
+RandSP,2,2,47079,train,47,079,East South Central,9
+RandSP,2,2,47081,train,47,081,East South Central,6
+RandSP,2,2,47085,train,47,085,East South Central,5
+RandSP,2,2,47089,train,47,089,East South Central,9
+RandSP,2,2,47091,train,47,091,East South Central,5
+RandSP,2,2,47093,train,47,093,East South Central,112
+RandSP,2,2,47097,train,47,097,East South Central,9
+RandSP,2,2,47103,train,47,103,East South Central,9
+RandSP,2,2,47107,train,47,107,East South Central,10
+RandSP,2,2,47111,train,47,111,East South Central,4
+RandSP,2,2,47115,train,47,115,East South Central,6
+RandSP,2,2,47123,train,47,123,East South Central,7
+RandSP,2,2,47125,train,47,125,East South Central,39
+RandSP,2,2,47131,train,47,131,East South Central,10
+RandSP,2,2,47139,train,47,139,East South Central,5
+RandSP,2,2,47141,train,47,141,East South Central,15
+RandSP,2,2,47143,train,47,143,East South Central,6
+RandSP,2,2,47149,train,47,149,East South Central,49
+RandSP,2,2,47151,train,47,151,East South Central,5
+RandSP,2,2,47155,train,47,155,East South Central,18
+RandSP,2,2,47157,train,47,157,East South Central,221
+RandSP,2,2,47159,train,47,159,East South Central,5
+RandSP,2,2,47167,train,47,167,East South Central,13
+RandSP,2,2,47177,train,47,177,East South Central,9
+RandSP,2,2,47179,train,47,179,East South Central,23
+RandSP,2,2,47181,train,47,181,East South Central,4
+RandSP,2,2,47185,train,47,185,East South Central,6
+RandSP,2,2,47187,train,47,187,East South Central,37
+RandSP,2,2,47189,train,47,189,East South Central,21
+RandSP,2,2,48003,train,48,003,West South Central,4
+RandSP,2,2,48005,train,48,005,West South Central,17
+RandSP,2,2,48007,train,48,007,West South Central,5
+RandSP,2,2,48013,train,48,013,West South Central,8
+RandSP,2,2,48015,train,48,015,West South Central,6
+RandSP,2,2,48019,train,48,019,West South Central,5
+RandSP,2,2,48021,train,48,021,West South Central,10
+RandSP,2,2,48025,train,48,025,West South Central,7
+RandSP,2,2,48037,train,48,037,West South Central,18
+RandSP,2,2,48039,train,48,039,West South Central,51
+RandSP,2,2,48041,train,48,041,West South Central,42
+RandSP,2,2,48049,train,48,049,West South Central,12
+RandSP,2,2,48051,train,48,051,West South Central,5
+RandSP,2,2,48053,train,48,053,West South Central,8
+RandSP,2,2,48057,train,48,057,West South Central,5
+RandSP,2,2,48061,train,48,061,West South Central,86
+RandSP,2,2,48067,train,48,067,West South Central,7
+RandSP,2,2,48071,train,48,071,West South Central,6
+RandSP,2,2,48073,train,48,073,West South Central,12
+RandSP,2,2,48085,train,48,085,West South Central,152
+RandSP,2,2,48089,train,48,089,West South Central,5
+RandSP,2,2,48093,train,48,093,West South Central,4
+RandSP,2,2,48097,train,48,097,West South Central,8
+RandSP,2,2,48113,train,48,113,West South Central,529
+RandSP,2,2,48115,train,48,115,West South Central,4
+RandSP,2,2,48117,train,48,117,West South Central,4
+RandSP,2,2,48121,train,48,121,West South Central,137
+RandSP,2,2,48123,train,48,123,West South Central,5
+RandSP,2,2,48133,train,48,133,West South Central,5
+RandSP,2,2,48135,train,48,135,West South Central,28
+RandSP,2,2,48139,train,48,139,West South Central,31
+RandSP,2,2,48143,train,48,143,West South Central,8
+RandSP,2,2,48161,train,48,161,West South Central,7
+RandSP,2,2,48167,train,48,167,West South Central,66
+RandSP,2,2,48171,train,48,171,West South Central,5
+RandSP,2,2,48179,train,48,179,West South Central,7
+RandSP,2,2,48181,train,48,181,West South Central,26
+RandSP,2,2,48183,train,48,183,West South Central,25
+RandSP,2,2,48187,train,48,187,West South Central,29
+RandSP,2,2,48199,train,48,199,West South Central,11
+RandSP,2,2,48203,train,48,203,West South Central,14
+RandSP,2,2,48209,train,48,209,West South Central,25
+RandSP,2,2,48215,train,48,215,West South Central,113
+RandSP,2,2,48217,train,48,217,West South Central,11
+RandSP,2,2,48219,train,48,219,West South Central,7
+RandSP,2,2,48221,train,48,221,West South Central,10
+RandSP,2,2,48223,train,48,223,West South Central,9
+RandSP,2,2,48225,train,48,225,West South Central,7
+RandSP,2,2,48227,train,48,227,West South Central,10
+RandSP,2,2,48241,train,48,241,West South Central,8
+RandSP,2,2,48249,train,48,249,West South Central,7
+RandSP,2,2,48253,train,48,253,West South Central,6
+RandSP,2,2,48255,train,48,255,West South Central,4
+RandSP,2,2,48259,train,48,259,West South Central,6
+RandSP,2,2,48273,train,48,273,West South Central,5
+RandSP,2,2,48277,train,48,277,West South Central,12
+RandSP,2,2,48279,train,48,279,West South Central,5
+RandSP,2,2,48285,train,48,285,West South Central,6
+RandSP,2,2,48287,train,48,287,West South Central,4
+RandSP,2,2,48293,train,48,293,West South Central,8
+RandSP,2,2,48297,train,48,297,West South Central,4
+RandSP,2,2,48299,train,48,299,West South Central,6
+RandSP,2,2,48309,train,48,309,West South Central,51
+RandSP,2,2,48313,train,48,313,West South Central,4
+RandSP,2,2,48315,train,48,315,West South Central,4
+RandSP,2,2,48321,train,48,321,West South Central,10
+RandSP,2,2,48323,train,48,323,West South Central,9
+RandSP,2,2,48325,train,48,325,West South Central,8
+RandSP,2,2,48329,train,48,329,West South Central,27
+RandSP,2,2,48337,train,48,337,West South Central,6
+RandSP,2,2,48339,train,48,339,West South Central,59
+RandSP,2,2,48347,train,48,347,West South Central,13
+RandSP,2,2,48349,train,48,349,West South Central,10
+RandSP,2,2,48351,train,48,351,West South Central,4
+RandSP,2,2,48353,train,48,353,West South Central,5
+RandSP,2,2,48355,train,48,355,West South Central,81
+RandSP,2,2,48363,train,48,363,West South Central,9
+RandSP,2,2,48371,train,48,371,West South Central,4
+RandSP,2,2,48373,train,48,373,West South Central,10
+RandSP,2,2,48375,train,48,375,West South Central,34
+RandSP,2,2,48389,train,48,389,West South Central,5
+RandSP,2,2,48395,train,48,395,West South Central,5
+RandSP,2,2,48397,train,48,397,West South Central,11
+RandSP,2,2,48401,train,48,401,West South Central,13
+RandSP,2,2,48409,train,48,409,West South Central,16
+RandSP,2,2,48415,train,48,415,West South Central,4
+RandSP,2,2,48419,train,48,419,West South Central,6
+RandSP,2,2,48423,train,48,423,West South Central,41
+RandSP,2,2,48427,train,48,427,West South Central,15
+RandSP,2,2,48439,train,48,439,West South Central,357
+RandSP,2,2,48441,train,48,441,West South Central,38
+RandSP,2,2,48449,train,48,449,West South Central,8
+RandSP,2,2,48451,train,48,451,West South Central,25
+RandSP,2,2,48453,train,48,453,West South Central,218
+RandSP,2,2,48455,train,48,455,West South Central,5
+RandSP,2,2,48459,train,48,459,West South Central,7
+RandSP,2,2,48463,train,48,463,West South Central,5
+RandSP,2,2,48465,train,48,465,West South Central,10
+RandSP,2,2,48467,train,48,467,West South Central,10
+RandSP,2,2,48469,train,48,469,West South Central,23
+RandSP,2,2,48473,train,48,473,West South Central,6
+RandSP,2,2,48481,train,48,481,West South Central,11
+RandSP,2,2,48485,train,48,485,West South Central,37
+RandSP,2,2,48487,train,48,487,West South Central,4
+RandSP,2,2,48489,train,48,489,West South Central,5
+RandSP,2,2,48491,train,48,491,West South Central,89
+RandSP,2,2,48493,train,48,493,West South Central,11
+RandSP,2,2,48499,train,48,499,West South Central,10
+RandSP,2,2,49003,train,49,003,Mountain,11
+RandSP,2,2,49005,train,49,005,Mountain,26
+RandSP,2,2,49007,train,49,007,Mountain,5
+RandSP,2,2,49037,train,49,037,Mountain,4
+RandSP,2,2,49039,train,49,039,Mountain,5
+RandSP,2,2,49041,train,49,041,Mountain,5
+RandSP,2,2,49043,train,49,043,Mountain,13
+RandSP,2,2,49045,train,49,045,Mountain,11
+RandSP,2,2,49049,train,49,049,Mountain,128
+RandSP,2,2,49051,train,49,051,Mountain,4
+RandSP,2,2,49053,train,49,053,Mountain,21
+RandSP,2,2,49057,train,49,057,Mountain,50
+RandSP,2,2,50001,train,50,001,New England,10
+RandSP,2,2,50003,train,50,003,New England,12
+RandSP,2,2,50007,train,50,007,New England,35
+RandSP,2,2,50011,train,50,011,New England,10
+RandSP,2,2,50015,train,50,015,New England,7
+RandSP,2,2,50017,train,50,017,New England,10
+RandSP,2,2,50019,train,50,019,New England,10
+RandSP,2,2,50021,train,50,021,New England,20
+RandSP,2,2,50023,train,50,023,New England,19
+RandSP,2,2,50025,train,50,025,New England,18
+RandSP,2,2,51001,train,51,001,South Atlantic,11
+RandSP,2,2,51003,train,51,003,South Atlantic,22
+RandSP,2,2,51009,train,51,009,South Atlantic,9
+RandSP,2,2,51013,train,51,013,South Atlantic,59
+RandSP,2,2,51023,train,51,023,South Atlantic,8
+RandSP,2,2,51025,train,51,025,South Atlantic,5
+RandSP,2,2,51027,train,51,027,South Atlantic,7
+RandSP,2,2,51033,train,51,033,South Atlantic,7
+RandSP,2,2,51059,train,51,059,South Atlantic,258
+RandSP,2,2,51061,train,51,061,South Atlantic,17
+RandSP,2,2,51065,train,51,065,South Atlantic,4
+RandSP,2,2,51071,train,51,071,South Atlantic,4
+RandSP,2,2,51073,train,51,073,South Atlantic,8
+RandSP,2,2,51077,train,51,077,South Atlantic,5
+RandSP,2,2,51083,train,51,083,South Atlantic,9
+RandSP,2,2,51085,train,51,085,South Atlantic,23
+RandSP,2,2,51087,train,51,087,South Atlantic,64
+RandSP,2,2,51089,train,51,089,South Atlantic,14
+RandSP,2,2,51093,train,51,093,South Atlantic,8
+RandSP,2,2,51095,train,51,095,South Atlantic,11
+RandSP,2,2,51099,train,51,099,South Atlantic,5
+RandSP,2,2,51101,train,51,101,South Atlantic,4
+RandSP,2,2,51107,train,51,107,South Atlantic,65
+RandSP,2,2,51117,train,51,117,South Atlantic,9
+RandSP,2,2,51119,train,51,119,South Atlantic,4
+RandSP,2,2,51121,train,51,121,South Atlantic,16
+RandSP,2,2,51137,train,51,137,South Atlantic,5
+RandSP,2,2,51139,train,51,139,South Atlantic,5
+RandSP,2,2,51143,train,51,143,South Atlantic,16
+RandSP,2,2,51145,train,51,145,South Atlantic,5
+RandSP,2,2,51147,train,51,147,South Atlantic,5
+RandSP,2,2,51153,train,51,153,South Atlantic,83
+RandSP,2,2,51161,train,51,161,South Atlantic,18
+RandSP,2,2,51163,train,51,163,South Atlantic,4
+RandSP,2,2,51167,train,51,167,South Atlantic,7
+RandSP,2,2,51171,train,51,171,South Atlantic,9
+RandSP,2,2,51173,train,51,173,South Atlantic,9
+RandSP,2,2,51175,train,51,175,South Atlantic,5
+RandSP,2,2,51177,train,51,177,South Atlantic,30
+RandSP,2,2,51183,train,51,183,South Atlantic,5
+RandSP,2,2,51185,train,51,185,South Atlantic,11
+RandSP,2,2,51187,train,51,187,South Atlantic,8
+RandSP,2,2,51193,train,51,193,South Atlantic,4
+RandSP,2,2,51195,train,51,195,South Atlantic,11
+RandSP,2,2,51197,train,51,197,South Atlantic,6
+RandSP,2,2,51199,train,51,199,South Atlantic,14
+RandSP,2,2,51510,train,51,510,South Atlantic,38
+RandSP,2,2,51550,train,51,550,South Atlantic,41
+RandSP,2,2,51590,train,51,590,South Atlantic,16
+RandSP,2,2,51630,train,51,630,South Atlantic,6
+RandSP,2,2,51660,train,51,660,South Atlantic,11
+RandSP,2,2,51670,train,51,670,South Atlantic,7
+RandSP,2,2,51680,train,51,680,South Atlantic,19
+RandSP,2,2,51690,train,51,690,South Atlantic,5
+RandSP,2,2,51700,train,51,700,South Atlantic,44
+RandSP,2,2,51730,train,51,730,South Atlantic,11
+RandSP,2,2,51770,train,51,770,South Atlantic,23
+RandSP,2,2,51775,train,51,775,South Atlantic,5
+RandSP,2,2,51800,train,51,800,South Atlantic,28
+RandSP,2,2,51810,train,51,810,South Atlantic,100
+RandSP,2,2,53001,train,53,001,Pacific,5
+RandSP,2,2,53003,train,53,003,Pacific,6
+RandSP,2,2,53009,train,53,009,Pacific,22
+RandSP,2,2,53011,train,53,011,Pacific,104
+RandSP,2,2,53015,train,53,015,Pacific,24
+RandSP,2,2,53025,train,53,025,Pacific,16
+RandSP,2,2,53027,train,53,027,Pacific,16
+RandSP,2,2,53031,train,53,031,Pacific,7
+RandSP,2,2,53033,train,53,033,Pacific,397
+RandSP,2,2,53035,train,53,035,Pacific,55
+RandSP,2,2,53043,train,53,043,Pacific,4
+RandSP,2,2,53045,train,53,045,Pacific,14
+RandSP,2,2,53047,train,53,047,Pacific,10
+RandSP,2,2,53049,train,53,049,Pacific,8
+RandSP,2,2,53051,train,53,051,Pacific,5
+RandSP,2,2,53053,train,53,053,Pacific,172
+RandSP,2,2,53057,train,53,057,Pacific,30
+RandSP,2,2,53059,train,53,059,Pacific,5
+RandSP,2,2,53061,train,53,061,Pacific,150
+RandSP,2,2,53063,train,53,063,Pacific,105
+RandSP,2,2,53065,train,53,065,Pacific,12
+RandSP,2,2,53067,train,53,067,Pacific,50
+RandSP,2,2,53073,train,53,073,Pacific,34
+RandSP,2,2,53075,train,53,075,Pacific,10
+RandSP,2,2,53077,train,53,077,Pacific,45
+RandSP,2,2,54001,train,54,001,South Atlantic,4
+RandSP,2,2,54005,train,54,005,South Atlantic,8
+RandSP,2,2,54009,train,54,009,South Atlantic,6
+RandSP,2,2,54019,train,54,019,South Atlantic,12
+RandSP,2,2,54025,train,54,025,South Atlantic,7
+RandSP,2,2,54027,train,54,027,South Atlantic,5
+RandSP,2,2,54033,train,54,033,South Atlantic,22
+RandSP,2,2,54037,train,54,037,South Atlantic,15
+RandSP,2,2,54039,train,54,039,South Atlantic,53
+RandSP,2,2,54041,train,54,041,South Atlantic,5
+RandSP,2,2,54043,train,54,043,South Atlantic,5
+RandSP,2,2,54045,train,54,045,South Atlantic,9
+RandSP,2,2,54047,train,54,047,South Atlantic,8
+RandSP,2,2,54049,train,54,049,South Atlantic,18
+RandSP,2,2,54051,train,54,051,South Atlantic,9
+RandSP,2,2,54055,train,54,055,South Atlantic,16
+RandSP,2,2,54057,train,54,057,South Atlantic,7
+RandSP,2,2,54061,train,54,061,South Atlantic,24
+RandSP,2,2,54067,train,54,067,South Atlantic,7
+RandSP,2,2,54075,train,54,075,South Atlantic,4
+RandSP,2,2,54077,train,54,077,South Atlantic,8
+RandSP,2,2,54079,train,54,079,South Atlantic,10
+RandSP,2,2,54081,train,54,081,South Atlantic,17
+RandSP,2,2,54083,train,54,083,South Atlantic,7
+RandSP,2,2,54087,train,54,087,South Atlantic,4
+RandSP,2,2,54089,train,54,089,South Atlantic,4
+RandSP,2,2,54099,train,54,099,South Atlantic,11
+RandSP,2,2,54103,train,54,103,South Atlantic,5
+RandSP,2,2,54109,train,54,109,South Atlantic,6
+RandSP,2,2,55001,train,55,001,East North Central,7
+RandSP,2,2,55005,train,55,005,East North Central,10
+RandSP,2,2,55007,train,55,007,East North Central,5
+RandSP,2,2,55011,train,55,011,East North Central,5
+RandSP,2,2,55015,train,55,015,East North Central,11
+RandSP,2,2,55017,train,55,017,East North Central,11
+RandSP,2,2,55025,train,55,025,East North Central,107
+RandSP,2,2,55027,train,55,027,East North Central,20
+RandSP,2,2,55029,train,55,029,East North Central,9
+RandSP,2,2,55033,train,55,033,East North Central,8
+RandSP,2,2,55039,train,55,039,East North Central,20
+RandSP,2,2,55041,train,55,041,East North Central,4
+RandSP,2,2,55045,train,55,045,East North Central,8
+RandSP,2,2,55047,train,55,047,East North Central,6
+RandSP,2,2,55049,train,55,049,East North Central,6
+RandSP,2,2,55055,train,55,055,East North Central,20
+RandSP,2,2,55057,train,55,057,East North Central,7
+RandSP,2,2,55059,train,55,059,East North Central,35
+RandSP,2,2,55061,train,55,061,East North Central,4
+RandSP,2,2,55065,train,55,065,East North Central,5
+RandSP,2,2,55067,train,55,067,East North Central,6
+RandSP,2,2,55069,train,55,069,East North Central,10
+RandSP,2,2,55071,train,55,071,East North Central,19
+RandSP,2,2,55073,train,55,073,East North Central,27
+RandSP,2,2,55075,train,55,075,East North Central,12
+RandSP,2,2,55077,train,55,077,East North Central,5
+RandSP,2,2,55083,train,55,083,East North Central,10
+RandSP,2,2,55085,train,55,085,East North Central,14
+RandSP,2,2,55087,train,55,087,East North Central,40
+RandSP,2,2,55093,train,55,093,East North Central,8
+RandSP,2,2,55097,train,55,097,East North Central,14
+RandSP,2,2,55101,train,55,101,East North Central,44
+RandSP,2,2,55103,train,55,103,East North Central,5
+RandSP,2,2,55105,train,55,105,East North Central,38
+RandSP,2,2,55107,train,55,107,East North Central,5
+RandSP,2,2,55113,train,55,113,East North Central,6
+RandSP,2,2,55119,train,55,119,East North Central,6
+RandSP,2,2,55123,train,55,123,East North Central,7
+RandSP,2,2,55127,train,55,127,East North Central,22
+RandSP,2,2,55129,train,55,129,East North Central,5
+RandSP,2,2,55131,train,55,131,East North Central,28
+RandSP,2,2,55133,train,55,133,East North Central,86
+RandSP,2,2,55135,train,55,135,East North Central,12
+RandSP,2,2,55137,train,55,137,East North Central,7
+RandSP,2,2,55139,train,55,139,East North Central,41
+RandSP,2,2,55141,train,55,141,East North Central,17
+RandSP,2,2,56001,train,56,001,Mountain,10
+RandSP,2,2,56013,train,56,013,Mountain,10
+RandSP,2,2,56015,train,56,015,Mountain,4
+RandSP,2,2,56021,train,56,021,Mountain,21
+RandSP,2,2,56025,train,56,025,Mountain,18
+RandSP,2,2,56033,train,56,033,Mountain,6
+RandSP,2,2,56037,train,56,037,Mountain,12
+RandSP,2,2,56039,train,56,039,Mountain,4
+RandSP,2,2,01027,val,01,027,East South Central,4
+RandSP,2,2,01095,val,01,095,East South Central,18
+RandSP,2,2,01109,val,01,109,East South Central,8
+RandSP,2,2,01113,val,01,113,East South Central,13
+RandSP,2,2,02198,val,02,198,Pacific,4
+RandSP,2,2,04021,val,04,021,Mountain,75
+RandSP,2,2,05019,val,05,019,West South Central,5
+RandSP,2,2,05027,val,05,027,West South Central,5
+RandSP,2,2,05029,val,05,029,West South Central,6
+RandSP,2,2,05053,val,05,053,West South Central,4
+RandSP,2,2,05079,val,05,079,West South Central,4
+RandSP,2,2,05081,val,05,081,West South Central,4
+RandSP,2,2,05133,val,05,133,West South Central,4
+RandSP,2,2,05139,val,05,139,West South Central,10
+RandSP,2,2,06043,val,06,043,Pacific,6
+RandSP,2,2,06055,val,06,055,Pacific,40
+RandSP,2,2,06059,val,06,059,Pacific,582
+RandSP,2,2,06065,val,06,065,Pacific,453
+RandSP,2,2,06081,val,06,081,Pacific,158
+RandSP,2,2,06097,val,06,097,Pacific,99
+RandSP,2,2,08037,val,08,037,Mountain,14
+RandSP,2,2,08051,val,08,051,Mountain,4
+RandSP,2,2,08059,val,08,059,Mountain,138
+RandSP,2,2,09015,val,09,015,New England,25
+RandSP,2,2,10001,val,10,001,South Atlantic,33
+RandSP,2,2,11001,val,11,001,South Atlantic,179
+RandSP,2,2,12017,val,12,017,South Atlantic,28
+RandSP,2,2,12035,val,12,035,South Atlantic,20
+RandSP,2,2,12039,val,12,039,South Atlantic,9
+RandSP,2,2,12057,val,12,057,South Atlantic,320
+RandSP,2,2,12119,val,12,119,South Atlantic,19
+RandSP,2,2,13015,val,13,015,South Atlantic,15
+RandSP,2,2,13051,val,13,051,South Atlantic,71
+RandSP,2,2,13069,val,13,069,South Atlantic,9
+RandSP,2,2,13111,val,13,111,South Atlantic,5
+RandSP,2,2,13127,val,13,127,South Atlantic,15
+RandSP,2,2,13153,val,13,153,South Atlantic,23
+RandSP,2,2,13207,val,13,207,South Atlantic,5
+RandSP,2,2,13213,val,13,213,South Atlantic,8
+RandSP,2,2,13219,val,13,219,South Atlantic,6
+RandSP,2,2,13257,val,13,257,South Atlantic,5
+RandSP,2,2,13291,val,13,291,South Atlantic,6
+RandSP,2,2,13313,val,13,313,South Atlantic,18
+RandSP,2,2,16017,val,16,017,Mountain,9
+RandSP,2,2,16049,val,16,049,Mountain,5
+RandSP,2,2,16057,val,16,057,Mountain,7
+RandSP,2,2,16075,val,16,075,Mountain,4
+RandSP,2,2,17017,val,17,017,East North Central,5
+RandSP,2,2,17037,val,17,037,East North Central,21
+RandSP,2,2,17041,val,17,041,East North Central,5
+RandSP,2,2,17061,val,17,061,East North Central,5
+RandSP,2,2,17093,val,17,093,East North Central,10
+RandSP,2,2,17103,val,17,103,East North Central,9
+RandSP,2,2,17107,val,17,107,East North Central,8
+RandSP,2,2,17113,val,17,113,East North Central,41
+RandSP,2,2,17115,val,17,115,East North Central,34
+RandSP,2,2,17181,val,17,181,East North Central,5
+RandSP,2,2,17203,val,17,203,East North Central,9
+RandSP,2,2,18005,val,18,005,East North Central,15
+RandSP,2,2,18051,val,18,051,East North Central,7
+RandSP,2,2,18059,val,18,059,East North Central,10
+RandSP,2,2,18079,val,18,079,East North Central,6
+RandSP,2,2,18089,val,18,089,East North Central,117
+RandSP,2,2,18105,val,18,105,East North Central,31
+RandSP,2,2,18121,val,18,121,East North Central,4
+RandSP,2,2,19017,val,19,017,West North Central,8
+RandSP,2,2,19027,val,19,027,West North Central,6
+RandSP,2,2,19049,val,19,049,West North Central,15
+RandSP,2,2,19067,val,19,067,West North Central,5
+RandSP,2,2,19103,val,19,103,West North Central,24
+RandSP,2,2,19127,val,19,127,West North Central,10
+RandSP,2,2,19129,val,19,129,West North Central,5
+RandSP,2,2,19133,val,19,133,West North Central,4
+RandSP,2,2,19153,val,19,153,West North Central,98
+RandSP,2,2,19171,val,19,171,West North Central,6
+RandSP,2,2,19187,val,19,187,West North Central,12
+RandSP,2,2,20133,val,20,133,West North Central,5
+RandSP,2,2,20173,val,20,173,West North Central,124
+RandSP,2,2,21003,val,21,003,East South Central,6
+RandSP,2,2,21015,val,21,015,East South Central,22
+RandSP,2,2,21017,val,21,017,East South Central,6
+RandSP,2,2,21043,val,21,043,East South Central,7
+RandSP,2,2,21113,val,21,113,East South Central,9
+RandSP,2,2,21145,val,21,145,East South Central,17
+RandSP,2,2,21147,val,21,147,East South Central,4
+RandSP,2,2,21171,val,21,171,East South Central,4
+RandSP,2,2,21183,val,21,183,East South Central,7
+RandSP,2,2,21199,val,21,199,East South Central,14
+RandSP,2,2,21219,val,21,219,East South Central,4
+RandSP,2,2,22009,val,22,009,West South Central,9
+RandSP,2,2,22055,val,22,055,West South Central,43
+RandSP,2,2,22077,val,22,077,West South Central,6
+RandSP,2,2,22097,val,22,097,West South Central,19
+RandSP,2,2,22099,val,22,099,West South Central,11
+RandSP,2,2,22113,val,22,113,West South Central,12
+RandSP,2,2,23007,val,23,007,New England,9
+RandSP,2,2,23011,val,23,011,New England,31
+RandSP,2,2,24005,val,24,005,South Atlantic,214
+RandSP,2,2,24009,val,24,009,South Atlantic,18
+RandSP,2,2,24013,val,24,013,South Atlantic,38
+RandSP,2,2,25013,val,25,013,New England,103
+RandSP,2,2,26017,val,26,017,East North Central,27
+RandSP,2,2,26033,val,26,033,East North Central,14
+RandSP,2,2,26051,val,26,051,East North Central,9
+RandSP,2,2,26073,val,26,073,East North Central,15
+RandSP,2,2,26079,val,26,079,East North Central,5
+RandSP,2,2,26103,val,26,103,East North Central,24
+RandSP,2,2,26125,val,26,125,East North Central,338
+RandSP,2,2,26133,val,26,133,East North Central,6
+RandSP,2,2,26155,val,26,155,East North Central,17
+RandSP,2,2,26163,val,26,163,East North Central,611
+RandSP,2,2,27027,val,27,027,West North Central,13
+RandSP,2,2,27043,val,27,043,West North Central,6
+RandSP,2,2,27047,val,27,047,West North Central,10
+RandSP,2,2,27063,val,27,063,West North Central,4
+RandSP,2,2,27095,val,27,095,West North Central,7
+RandSP,2,2,27105,val,27,105,West North Central,6
+RandSP,2,2,27135,val,27,135,West North Central,5
+RandSP,2,2,28017,val,28,017,East South Central,4
+RandSP,2,2,28023,val,28,023,East South Central,4
+RandSP,2,2,28033,val,28,033,East South Central,33
+RandSP,2,2,28085,val,28,085,East South Central,6
+RandSP,2,2,28101,val,28,101,East South Central,5
+RandSP,2,2,29023,val,29,023,West North Central,10
+RandSP,2,2,29029,val,29,029,West North Central,11
+RandSP,2,2,29101,val,29,101,West North Central,9
+RandSP,2,2,29109,val,29,109,West North Central,7
+RandSP,2,2,29133,val,29,133,West North Central,4
+RandSP,2,2,29163,val,29,163,West North Central,5
+RandSP,2,2,29181,val,29,181,West North Central,4
+RandSP,2,2,30049,val,30,049,Mountain,14
+RandSP,2,2,30081,val,30,081,Mountain,10
+RandSP,2,2,31043,val,31,043,West North Central,4
+RandSP,2,2,33005,val,33,005,New England,16
+RandSP,2,2,34027,val,34,027,Middle Atlantic,100
+RandSP,2,2,35028,val,35,028,Mountain,4
+RandSP,2,2,35035,val,35,035,Mountain,16
+RandSP,2,2,36013,val,36,013,Middle Atlantic,35
+RandSP,2,2,36015,val,36,015,Middle Atlantic,22
+RandSP,2,2,36025,val,36,025,Middle Atlantic,14
+RandSP,2,2,36039,val,36,039,Middle Atlantic,15
+RandSP,2,2,36041,val,36,041,Middle Atlantic,4
+RandSP,2,2,36089,val,36,089,Middle Atlantic,28
+RandSP,2,2,36091,val,36,091,Middle Atlantic,50
+RandSP,2,2,37003,val,37,003,South Atlantic,7
+RandSP,2,2,37027,val,37,027,South Atlantic,17
+RandSP,2,2,37123,val,37,123,South Atlantic,6
+RandSP,2,2,37127,val,37,127,South Atlantic,18
+RandSP,2,2,37165,val,37,165,South Atlantic,7
+RandSP,2,2,39015,val,39,015,East North Central,9
+RandSP,2,2,39051,val,39,051,East North Central,9
+RandSP,2,2,39091,val,39,091,East North Central,11
+RandSP,2,2,39095,val,39,095,East North Central,127
+RandSP,2,2,39127,val,39,127,East North Central,6
+RandSP,2,2,39141,val,39,141,East North Central,17
+RandSP,2,2,40015,val,40,015,West South Central,8
+RandSP,2,2,40031,val,40,031,West South Central,32
+RandSP,2,2,40063,val,40,063,West South Central,5
+RandSP,2,2,40083,val,40,083,West South Central,8
+RandSP,2,2,40113,val,40,113,West South Central,11
+RandSP,2,2,40125,val,40,125,West South Central,16
+RandSP,2,2,40147,val,40,147,West South Central,13
+RandSP,2,2,41007,val,41,007,Pacific,11
+RandSP,2,2,41039,val,41,039,Pacific,86
+RandSP,2,2,42009,val,42,009,Middle Atlantic,11
+RandSP,2,2,42027,val,42,027,Middle Atlantic,31
+RandSP,2,2,42029,val,42,029,Middle Atlantic,116
+RandSP,2,2,42059,val,42,059,Middle Atlantic,9
+RandSP,2,2,42073,val,42,073,Middle Atlantic,28
+RandSP,2,2,42101,val,42,101,Middle Atlantic,384
+RandSP,2,2,44001,val,44,001,New England,11
+RandSP,2,2,45041,val,45,041,South Atlantic,33
+RandSP,2,2,45045,val,45,045,South Atlantic,111
+RandSP,2,2,46005,val,46,005,West North Central,6
+RandSP,2,2,46083,val,46,083,West North Central,11
+RandSP,2,2,46093,val,46,093,West North Central,5
+RandSP,2,2,47045,val,47,045,East South Central,8
+RandSP,2,2,47099,val,47,099,East South Central,11
+RandSP,2,2,47109,val,47,109,East South Central,7
+RandSP,2,2,47113,val,47,113,East South Central,27
+RandSP,2,2,47129,val,47,129,East South Central,5
+RandSP,2,2,47133,val,47,133,East South Central,7
+RandSP,2,2,47147,val,47,147,East South Central,14
+RandSP,2,2,47165,val,47,165,East South Central,42
+RandSP,2,2,47173,val,47,173,East South Central,4
+RandSP,2,2,48035,val,48,035,West South Central,7
+RandSP,2,2,48055,val,48,055,West South Central,8
+RandSP,2,2,48091,val,48,091,West South Central,24
+RandSP,2,2,48145,val,48,145,West South Central,6
+RandSP,2,2,48157,val,48,157,West South Central,76
+RandSP,2,2,48231,val,48,231,West South Central,19
+RandSP,2,2,48245,val,48,245,West South Central,72
+RandSP,2,2,48251,val,48,251,West South Central,28
+RandSP,2,2,48265,val,48,265,West South Central,10
+RandSP,2,2,48365,val,48,365,West South Central,6
+RandSP,2,2,48399,val,48,399,West South Central,4
+RandSP,2,2,49011,val,49,011,Mountain,54
+RandSP,2,2,49035,val,49,035,Mountain,212
+RandSP,2,2,51031,val,51,031,South Atlantic,12
+RandSP,2,2,51047,val,51,047,South Atlantic,8
+RandSP,2,2,51075,val,51,075,South Atlantic,5
+RandSP,2,2,51109,val,51,109,South Atlantic,6
+RandSP,2,2,51149,val,51,149,South Atlantic,7
+RandSP,2,2,51169,val,51,169,South Atlantic,6
+RandSP,2,2,51179,val,51,179,South Atlantic,27
+RandSP,2,2,51520,val,51,520,South Atlantic,4
+RandSP,2,2,51710,val,51,710,South Atlantic,80
+RandSP,2,2,51740,val,51,740,South Atlantic,31
+RandSP,2,2,51820,val,51,820,South Atlantic,5
+RandSP,2,2,53007,val,53,007,Pacific,14
+RandSP,2,2,53017,val,53,017,Pacific,8
+RandSP,2,2,53021,val,53,021,Pacific,13
+RandSP,2,2,53037,val,53,037,Pacific,8
+RandSP,2,2,54011,val,54,011,South Atlantic,29
+RandSP,2,2,54029,val,54,029,South Atlantic,8
+RandSP,2,2,54065,val,54,065,South Atlantic,4
+RandSP,2,2,54069,val,54,069,South Atlantic,18
+RandSP,2,2,54091,val,54,091,South Atlantic,4
+RandSP,2,2,54097,val,54,097,South Atlantic,6
+RandSP,2,2,55019,val,55,019,East North Central,8
+RandSP,2,2,55023,val,55,023,East North Central,6
+RandSP,2,2,55031,val,55,031,East North Central,12
+RandSP,2,2,55079,val,55,079,East North Central,297
+RandSP,2,2,55095,val,55,095,East North Central,10
+RandSP,2,2,55109,val,55,109,East North Central,14
+RandSP,2,2,55115,val,55,115,East North Central,11
+RandSP,2,2,56023,val,56,023,Mountain,4

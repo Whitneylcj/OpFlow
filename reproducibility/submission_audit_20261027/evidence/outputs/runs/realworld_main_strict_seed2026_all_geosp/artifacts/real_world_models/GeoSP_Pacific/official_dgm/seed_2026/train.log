@@ -1,0 +1,16 @@
+model=official_dgm
+split_name=GeoSP_Pacific
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1922, 'val': 214, 'test': 129}
+load_seconds=3.063
+fit_seconds=0.913
+eval_seconds=42.436
+aggregate_seconds=0.169
+checkpoint_seconds=0.000
+predict_seconds=17.339
+metric_seconds=24.992
+metric_rows=4530
+write_seconds=0.458
+total_seconds=47.060

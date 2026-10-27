@@ -1,0 +1,16 @@
+model=distance_only
+split_name=GeoSP_SouthAtlantic
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1625, 'val': 181, 'test': 459}
+load_seconds=1.589
+fit_seconds=6.098
+eval_seconds=16.147
+aggregate_seconds=0.081
+checkpoint_seconds=0.000
+predict_seconds=0.122
+metric_seconds=15.978
+metric_rows=4530
+write_seconds=0.267
+total_seconds=24.186

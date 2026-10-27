@@ -1,0 +1,191 @@
+[
+  {
+    "source_run": "realworld_opflow_strong_seed2026_3splits_20260619",
+    "source_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/RandSP_seed0/opflow_full/seed_2026/checkpoint.pt",
+    "published_path": "checkpoints/RandSP_seed0/opflow_full/seed_2026/checkpoint.pt",
+    "sha256": "0ecd90e4da1fb607b029d06bda1a6d9911a73e68661b51cee0688808d391a78b",
+    "bytes": 594594
+  },
+  {
+    "source_run": "realworld_opflow_strong_seed2026_3splits_20260619",
+    "source_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/RandSP_seed0/opflow_full/seed_2026/config.json",
+    "published_path": "checkpoints/RandSP_seed0/opflow_full/seed_2026/config.json",
+    "sha256": "b5ba50df2c2ba9a4438dd132c8450cf8799071ac51c0fc658ea10a8a7d135775",
+    "bytes": 10556
+  },
+  {
+    "source_run": "realworld_opflow_strong_seed2026_3splits_20260619",
+    "source_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/RandSP_seed0/opflow_full/seed_2026/train.log",
+    "published_path": "checkpoints/RandSP_seed0/opflow_full/seed_2026/train.log",
+    "sha256": "45cb9d14b7952e4ad0c9607ad3ec76f039ede48b3058ab84a164c269908e5a73",
+    "bytes": 357
+  },
+  {
+    "source_run": "realworld_opflow_strong_seed2026_3splits_20260619",
+    "source_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/GeoSP_SouthAtlantic/opflow_full/seed_2026/checkpoint.pt",
+    "published_path": "checkpoints/GeoSP_SouthAtlantic/opflow_full/seed_2026/checkpoint.pt",
+    "sha256": "8f23e7cb1755c346ce5e3be565289aae8d08869da38187aa142a7141d977387c",
+    "bytes": 594594
+  },
+  {
+    "source_run": "realworld_opflow_strong_seed2026_3splits_20260619",
+    "source_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/GeoSP_SouthAtlantic/opflow_full/seed_2026/config.json",
+    "published_path": "checkpoints/GeoSP_SouthAtlantic/opflow_full/seed_2026/config.json",
+    "sha256": "2dab3a6b7faf660e999e5ea36cba42be8237427030c1100f4e2750a7c9b7f909",
+    "bytes": 10606
+  },
+  {
+    "source_run": "realworld_opflow_strong_seed2026_3splits_20260619",
+    "source_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/GeoSP_SouthAtlantic/opflow_full/seed_2026/train.log",
+    "published_path": "checkpoints/GeoSP_SouthAtlantic/opflow_full/seed_2026/train.log",
+    "sha256": "6181227be4e40693fa0a870aacd08155e1ca3f94dd1264701b7deb6798cb903d",
+    "bytes": 364
+  },
+  {
+    "source_run": "realworld_opflow_strong_seed2026_3splits_20260619",
+    "source_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/OppSP/opflow_full/seed_2026/checkpoint.pt",
+    "published_path": "checkpoints/OppSP/opflow_full/seed_2026/checkpoint.pt",
+    "sha256": "7acb823cfbd2bd5bdd62f19797686636c57bc2971ee7d00aa9dd27fd86fa0f6c",
+    "bytes": 594594
+  },
+  {
+    "source_run": "realworld_opflow_strong_seed2026_3splits_20260619",
+    "source_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/OppSP/opflow_full/seed_2026/config.json",
+    "published_path": "checkpoints/OppSP/opflow_full/seed_2026/config.json",
+    "sha256": "bdd9f2a02d91cab161b207a6695d494bf258a91892dd1ef214f3f7065f425996",
+    "bytes": 10532
+  },
+  {
+    "source_run": "realworld_opflow_strong_seed2026_3splits_20260619",
+    "source_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/OppSP/opflow_full/seed_2026/train.log",
+    "published_path": "checkpoints/OppSP/opflow_full/seed_2026/train.log",
+    "sha256": "c3883340e256f3d359319a7a452388d150a85dcec5625861ff4a03d87b4139cf",
+    "bytes": 348
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/pair_mlp/seed_2026/checkpoint.pt",
+    "published_path": "checkpoints/RandSP_seed0/pair_mlp/seed_2026/checkpoint.pt",
+    "sha256": "40ede844bb05bb86baadf11d6a4ce4dac8687c3dc0952832b5278c8e012a7f5c",
+    "bytes": 98210
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/pair_mlp/seed_2026/config.json",
+    "published_path": "checkpoints/RandSP_seed0/pair_mlp/seed_2026/config.json",
+    "sha256": "0d9cd7735fda71ffb1716467ca8ec7f5192a5020bfa964557d43105122a45712",
+    "bytes": 9102
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/pair_mlp/seed_2026/train.log",
+    "published_path": "checkpoints/RandSP_seed0/pair_mlp/seed_2026/train.log",
+    "sha256": "6789b38d8130c3720d9675c9f10e2bf49682b3514da367f9892c5abe8f45a558",
+    "bytes": 354
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/pair_mlp/seed_2026/checkpoint.pt",
+    "published_path": "checkpoints/GeoSP_SouthAtlantic/pair_mlp/seed_2026/checkpoint.pt",
+    "sha256": "5bc15049f5277880d6eb8a9b5a13515fb9dacdd2479a9f3b7ce6efc8de4f30c3",
+    "bytes": 98210
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/pair_mlp/seed_2026/config.json",
+    "published_path": "checkpoints/GeoSP_SouthAtlantic/pair_mlp/seed_2026/config.json",
+    "sha256": "5f9460d2f49bbe0ba78367807ee16eb003436bb3555ef35a13fe0f8fb0203004",
+    "bytes": 9133
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/pair_mlp/seed_2026/train.log",
+    "published_path": "checkpoints/GeoSP_SouthAtlantic/pair_mlp/seed_2026/train.log",
+    "sha256": "15c74bbdc310019f86169cdc97e28a18bc3429c1bc7599652bddb34d27fe6db3",
+    "bytes": 361
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/pair_mlp/seed_2026/checkpoint.pt",
+    "published_path": "checkpoints/OppSP/pair_mlp/seed_2026/checkpoint.pt",
+    "sha256": "76c83ba21bf76deab24239ba7a53aebb388c08d39f3f001592dee615e4f13403",
+    "bytes": 98210
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/pair_mlp/seed_2026/config.json",
+    "published_path": "checkpoints/OppSP/pair_mlp/seed_2026/config.json",
+    "sha256": "a548afa55dce12577d00bee6919fa8a3fe0c4b075ae31302b8e748a35fa36dcc",
+    "bytes": 9113
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/pair_mlp/seed_2026/train.log",
+    "published_path": "checkpoints/OppSP/pair_mlp/seed_2026/train.log",
+    "sha256": "47beea0ec9c42f28d51758d032855b3efc9a0fb9d6462042917dc29d2b8715a4",
+    "bytes": 345
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/scale_aware_mlp/seed_2026/checkpoint.pt",
+    "published_path": "checkpoints/RandSP_seed0/scale_aware_mlp/seed_2026/checkpoint.pt",
+    "sha256": "4777cbab00c4993b7e11d23d5891a5f5592c333092d027113898063a8f904eed",
+    "bytes": 56866
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/scale_aware_mlp/seed_2026/config.json",
+    "published_path": "checkpoints/RandSP_seed0/scale_aware_mlp/seed_2026/config.json",
+    "sha256": "e5143b48ea8dc853127bfc260344e9421b8f4c6c6ac5aa183db86a6536d732f5",
+    "bytes": 9109
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/scale_aware_mlp/seed_2026/train.log",
+    "published_path": "checkpoints/RandSP_seed0/scale_aware_mlp/seed_2026/train.log",
+    "sha256": "c2524f1ba8296d344b443703011864211a71674c593339f4cb007feaef1c604f",
+    "bytes": 358
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/scale_aware_mlp/seed_2026/checkpoint.pt",
+    "published_path": "checkpoints/GeoSP_SouthAtlantic/scale_aware_mlp/seed_2026/checkpoint.pt",
+    "sha256": "23911d4d2a16ad96a53b5cbc0d4ef3dca9cd1ea2d84b69cfdf532c9679a61e37",
+    "bytes": 56866
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/scale_aware_mlp/seed_2026/config.json",
+    "published_path": "checkpoints/GeoSP_SouthAtlantic/scale_aware_mlp/seed_2026/config.json",
+    "sha256": "5ed2248ad986942109d76945913952fe86e4972fd194444e4c3ef26d2af81e88",
+    "bytes": 9140
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/scale_aware_mlp/seed_2026/train.log",
+    "published_path": "checkpoints/GeoSP_SouthAtlantic/scale_aware_mlp/seed_2026/train.log",
+    "sha256": "f206c738431b1e6e445f28ad001d53419bb0c8a3663bc0b2e6c5657e61381af8",
+    "bytes": 365
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/scale_aware_mlp/seed_2026/checkpoint.pt",
+    "published_path": "checkpoints/OppSP/scale_aware_mlp/seed_2026/checkpoint.pt",
+    "sha256": "9df7be0838542ad7573d38453ca6cf854a232a63f8c11dad72dc8c9fbd02dcfc",
+    "bytes": 56866
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/scale_aware_mlp/seed_2026/config.json",
+    "published_path": "checkpoints/OppSP/scale_aware_mlp/seed_2026/config.json",
+    "sha256": "1beb360984c1ccffcc826855a5feed7b228e102916ceac2d55d3772f81be4cc8",
+    "bytes": 9120
+  },
+  {
+    "source_run": "realworld_seed2026_core3splits_20260613",
+    "source_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/scale_aware_mlp/seed_2026/train.log",
+    "published_path": "checkpoints/OppSP/scale_aware_mlp/seed_2026/train.log",
+    "sha256": "8b7805fdb2010a897d4d24ba075fd78b161ed91e47690a877d898992f12103cd",
+    "bytes": 351
+  }
+]

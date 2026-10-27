@@ -1,0 +1,16 @@
+model=raw_count_mlp
+split_name=OppSP
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1585, 'val': 226, 'test': 454}
+load_seconds=2.226
+fit_seconds=72.767
+eval_seconds=48.440
+aggregate_seconds=0.234
+checkpoint_seconds=0.002
+predict_seconds=28.083
+metric_seconds=20.259
+metric_rows=6795
+write_seconds=0.539
+total_seconds=124.225

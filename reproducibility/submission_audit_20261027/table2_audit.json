@@ -1,0 +1,1658 @@
+{
+  "audit_date": "2026-10-27",
+  "paper_source": "https://arxiv.org/html/2607.03200v1#S5.T2",
+  "paper_version": "arXiv:2607.03200v1, 2026-07-03",
+  "metric_order": [
+    "row_kl",
+    "row_cpc",
+    "log_rmse"
+  ],
+  "scope": "Read-only inspection of existing code, results and logs; no training or evaluation performed. All paths relative to repository root. Evidence JSON is the only authored file.",
+  "models": [
+    {
+      "paper_model": "Gravity",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.545,
+          "row_cpc": 0.613,
+          "log_rmse": 1.468
+        },
+        "GeoSP": {
+          "row_kl": 0.575,
+          "row_cpc": 0.604,
+          "log_rmse": 1.419
+        },
+        "OppSP": {
+          "row_kl": 0.692,
+          "row_cpc": 0.571,
+          "log_rmse": 1.336
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_classical_si_3splits_geosp9_20260619",
+      "local_model": "gravity",
+      "source_csv": "results/realworld_upgrade/realworld_classical_si_3splits_geosp9_20260619/metrics_by_seed.csv",
+      "resolved_config": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/resolved_config.yaml",
+      "run_progress_log": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/logs/real_world_progress.log",
+      "local_protocols": {
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            2,
+            26,
+            50,
+            74,
+            98,
+            122,
+            146,
+            170,
+            194
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.5752635523219978,
+            "row_cpc": 0.603712127250081,
+            "log_rmse": 1.418869116686072
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            218
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.692337940191494,
+            "row_cpc": 0.5707055450229263,
+            "log_rmse": 1.3364509309241985
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            242
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.5448797924600592,
+            "row_cpc": 0.6129045630608779,
+            "log_rmse": 1.4684246171538726
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 0.604160428324517,
+        "row_cpc": 0.5957740784446284,
+        "log_rmse": 1.4079148882547143
+      }
+    },
+    {
+      "paper_model": "Int. Opp.",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 8.59,
+          "row_cpc": 0.26,
+          "log_rmse": 3.132
+        },
+        "GeoSP": {
+          "row_kl": 8.729,
+          "row_cpc": 0.252,
+          "log_rmse": 3.06
+        },
+        "OppSP": {
+          "row_kl": 8.747,
+          "row_cpc": 0.248,
+          "log_rmse": 2.826
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_classical_si_3splits_geosp9_20260619",
+      "local_model": "intervening_opportunity",
+      "source_csv": "results/realworld_upgrade/realworld_classical_si_3splits_geosp9_20260619/metrics_by_seed.csv",
+      "resolved_config": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/resolved_config.yaml",
+      "run_progress_log": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/logs/real_world_progress.log",
+      "local_protocols": {
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            11,
+            35,
+            59,
+            83,
+            107,
+            131,
+            155,
+            179,
+            203
+          ],
+          "arithmetic_mean": {
+            "row_kl": 8.729265346380654,
+            "row_cpc": 0.25223691262018055,
+            "log_rmse": 3.0597967355663145
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            227
+          ],
+          "arithmetic_mean": {
+            "row_kl": 8.746945282406417,
+            "row_cpc": 0.2478850422339248,
+            "log_rmse": 2.8257830772124697
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            251
+          ],
+          "arithmetic_mean": {
+            "row_kl": 8.589915348369818,
+            "row_cpc": 0.2603438226082622,
+            "log_rmse": 3.1323344282402434
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 8.688708659052296,
+        "row_cpc": 0.25348859248745587,
+        "log_rmse": 3.0059714136730094
+      }
+    },
+    {
+      "paper_model": "Radiation",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.999,
+          "row_cpc": 0.538,
+          "log_rmse": 1.582
+        },
+        "GeoSP": {
+          "row_kl": 1.088,
+          "row_cpc": 0.524,
+          "log_rmse": 1.54
+        },
+        "OppSP": {
+          "row_kl": 1.487,
+          "row_cpc": 0.48,
+          "log_rmse": 1.534
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_classical_si_3splits_geosp9_20260619",
+      "local_model": "radiation",
+      "source_csv": "results/realworld_upgrade/realworld_classical_si_3splits_geosp9_20260619/metrics_by_seed.csv",
+      "resolved_config": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/resolved_config.yaml",
+      "run_progress_log": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/logs/real_world_progress.log",
+      "local_protocols": {
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            17,
+            41,
+            65,
+            89,
+            113,
+            137,
+            161,
+            185,
+            209
+          ],
+          "arithmetic_mean": {
+            "row_kl": 1.0883912581394373,
+            "row_cpc": 0.5241023984533892,
+            "log_rmse": 1.540477373844977
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            233
+          ],
+          "arithmetic_mean": {
+            "row_kl": 1.486519534062974,
+            "row_cpc": 0.47960435887120456,
+            "log_rmse": 1.5338024217216437
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            257
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.999093771180576,
+            "row_cpc": 0.5376884929945702,
+            "log_rmse": 1.582031603874928
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 1.1913348544609956,
+        "row_cpc": 0.5137984167730547,
+        "log_rmse": 1.5521037998138496
+      }
+    },
+    {
+      "paper_model": "RF",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 1.364,
+          "row_cpc": 0.42,
+          "log_rmse": 2.129
+        },
+        "GeoSP": {
+          "row_kl": 1.235,
+          "row_cpc": 0.44,
+          "log_rmse": 2.028
+        },
+        "OppSP": {
+          "row_kl": 0.961,
+          "row_cpc": 0.495,
+          "log_rmse": 1.743
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_rf_gbrt_official_gm_seed2026_geosp9",
+      "local_model": "official_rf",
+      "source_csv": "results/realworld_upgrade/realworld_rf_gbrt_official_gm_seed2026_geosp9/metrics_by_seed.csv",
+      "resolved_config": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/resolved_config.yaml",
+      "run_progress_log": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/logs/real_world_progress.log",
+      "local_protocols": {
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            20,
+            44,
+            68,
+            92,
+            116,
+            140,
+            164,
+            188,
+            212
+          ],
+          "arithmetic_mean": {
+            "row_kl": 1.2345139149596138,
+            "row_cpc": 0.44023541725473764,
+            "log_rmse": 2.0284578551432775
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            236
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.9605964512860563,
+            "row_cpc": 0.49473507236757996,
+            "log_rmse": 1.7426424174996866
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            260
+          ],
+          "arithmetic_mean": {
+            "row_kl": 1.364306784496309,
+            "row_cpc": 0.4198574533852703,
+            "log_rmse": 2.128638966364695
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 1.1864723835806597,
+        "row_cpc": 0.45160931433586265,
+        "log_rmse": 1.9665797463358863
+      }
+    },
+    {
+      "paper_model": "GBRT",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.81,
+          "row_cpc": 0.521,
+          "log_rmse": 1.655
+        },
+        "GeoSP": {
+          "row_kl": 0.775,
+          "row_cpc": 0.532,
+          "log_rmse": 1.634
+        },
+        "OppSP": {
+          "row_kl": 0.781,
+          "row_cpc": 0.537,
+          "log_rmse": 1.663
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_rf_gbrt_official_gm_seed2026_geosp9",
+      "local_model": "official_gbrt",
+      "source_csv": "results/realworld_upgrade/realworld_rf_gbrt_official_gm_seed2026_geosp9/metrics_by_seed.csv",
+      "resolved_config": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/resolved_config.yaml",
+      "run_progress_log": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/logs/real_world_progress.log",
+      "local_protocols": {
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            2,
+            26,
+            50,
+            74,
+            98,
+            122,
+            146,
+            170,
+            194
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.7753421406977052,
+            "row_cpc": 0.5317440877010366,
+            "log_rmse": 1.63432523057843
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            218
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.7809301263329924,
+            "row_cpc": 0.5372721150054575,
+            "log_rmse": 1.6626738748638599
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            242
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.8096754314034454,
+            "row_cpc": 0.5213442934673667,
+            "log_rmse": 1.6554650392813401
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 0.788649232811381,
+        "row_cpc": 0.5301201653912869,
+        "log_rmse": 1.6508213815745434
+      }
+    },
+    {
+      "paper_model": "GM",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 2.842,
+          "row_cpc": 0.426,
+          "log_rmse": 2.414
+        },
+        "GeoSP": {
+          "row_kl": 2.85,
+          "row_cpc": 0.414,
+          "log_rmse": 2.486
+        },
+        "OppSP": {
+          "row_kl": 2.929,
+          "row_cpc": 0.395,
+          "log_rmse": 2.612
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_rf_gbrt_official_gm_seed2026_geosp9",
+      "local_model": "official_gm_e",
+      "source_csv": "results/realworld_upgrade/realworld_rf_gbrt_official_gm_seed2026_geosp9/metrics_by_seed.csv",
+      "resolved_config": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/resolved_config.yaml",
+      "run_progress_log": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/logs/real_world_progress.log",
+      "local_protocols": {
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            8,
+            32,
+            56,
+            80,
+            104,
+            128,
+            152,
+            176,
+            200
+          ],
+          "arithmetic_mean": {
+            "row_kl": 2.850318613884747,
+            "row_cpc": 0.41419105335811424,
+            "log_rmse": 2.486273619974794
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            224
+          ],
+          "arithmetic_mean": {
+            "row_kl": 2.928799318256952,
+            "row_cpc": 0.39500429734050524,
+            "log_rmse": 2.611862093839045
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            248
+          ],
+          "arithmetic_mean": {
+            "row_kl": 2.8424475416381374,
+            "row_cpc": 0.42584526956505997,
+            "log_rmse": 2.414254029162903
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 2.873855157926612,
+        "row_cpc": 0.4116802067545598,
+        "log_rmse": 2.5041299143255804
+      }
+    },
+    {
+      "paper_model": "PairMLP",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.399,
+          "row_cpc": 0.684,
+          "log_rmse": 1.222
+        },
+        "GeoSP": {
+          "row_kl": 0.392,
+          "row_cpc": 0.684,
+          "log_rmse": 1.201
+        },
+        "OppSP": {
+          "row_kl": 0.468,
+          "row_cpc": 0.682,
+          "log_rmse": 1.257
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_main_strict_seed2026_all_geosp",
+      "local_model": "pair_mlp",
+      "source_csv": "results/realworld_upgrade/realworld_main_strict_seed2026_all_geosp/metrics_by_seed.csv",
+      "resolved_config": "outputs/runs/realworld_main_strict_seed2026_all_geosp/resolved_config.yaml",
+      "run_progress_log": "outputs/runs/realworld_main_strict_seed2026_all_geosp/logs/real_world_progress.log",
+      "local_protocols": {
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            32,
+            80,
+            128,
+            176,
+            224,
+            272,
+            320,
+            368,
+            416
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.38924751114080824,
+            "row_cpc": 0.6819193963628744,
+            "log_rmse": 1.2213460443644768
+          },
+          "matches_paper_display_precision": {
+            "row_kl": false,
+            "row_cpc": false,
+            "log_rmse": false
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            464
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.45475180521444797,
+            "row_cpc": 0.6677580519175474,
+            "log_rmse": 1.1006487233507483
+          },
+          "matches_paper_display_precision": {
+            "row_kl": false,
+            "row_cpc": false,
+            "log_rmse": false
+          }
+        },
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            512
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.33677028756549,
+            "row_cpc": 0.708023857794953,
+            "log_rmse": 1.1283396339374023
+          },
+          "matches_paper_display_precision": {
+            "row_kl": false,
+            "row_cpc": false,
+            "log_rmse": false
+          }
+        }
+      },
+      "all_protocol_cells_match": false,
+      "local_protocol_macro_average": {
+        "row_kl": 0.3935898679735821,
+        "row_cpc": 0.6859004353584582,
+        "log_rmse": 1.1501114672175425
+      },
+      "limitation": "Existing local evidence does not match paper cells. This is a candidate evidence run, not an identified submitted-version source."
+    },
+    {
+      "paper_model": "ScaleMLP",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.438,
+          "row_cpc": 0.676,
+          "log_rmse": 1.193
+        },
+        "GeoSP": {
+          "row_kl": 0.407,
+          "row_cpc": 0.672,
+          "log_rmse": 1.18
+        },
+        "OppSP": {
+          "row_kl": 0.481,
+          "row_cpc": 0.693,
+          "log_rmse": 1.222
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_seed2026_core3splits_20260613",
+      "local_model": "scale_aware_mlp",
+      "source_csv": "results/realworld_upgrade/realworld_seed2026_core3splits_20260613/metrics_by_seed.csv",
+      "resolved_config": "outputs/runs/realworld_seed2026_core3splits_20260613/resolved_config.yaml",
+      "run_progress_log": "outputs/runs/realworld_seed2026_core3splits_20260613/logs/real_world_progress.log",
+      "local_protocols": {
+        "GeoSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "GeoSP_SouthAtlantic"
+          ],
+          "csv_lines": [
+            41
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.4003038176321645,
+            "row_cpc": 0.6776104548821935,
+            "log_rmse": 1.387023678399821
+          },
+          "matches_paper_display_precision": {
+            "row_kl": false,
+            "row_cpc": false,
+            "log_rmse": false
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            89
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.47746422318053,
+            "row_cpc": 0.6607773795947507,
+            "log_rmse": 1.1438217642413144
+          },
+          "matches_paper_display_precision": {
+            "row_kl": false,
+            "row_cpc": false,
+            "log_rmse": false
+          }
+        },
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            137
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.33816101486535854,
+            "row_cpc": 0.7066080981525564,
+            "log_rmse": 1.1817523664379246
+          },
+          "matches_paper_display_precision": {
+            "row_kl": false,
+            "row_cpc": false,
+            "log_rmse": false
+          }
+        }
+      },
+      "all_protocol_cells_match": false,
+      "local_protocol_macro_average": {
+        "row_kl": 0.4053096852260177,
+        "row_cpc": 0.6816653108765002,
+        "log_rmse": 1.2375326030263534
+      },
+      "limitation": "Existing local evidence does not match paper cells. This is a candidate evidence run, not an identified submitted-version source."
+    },
+    {
+      "paper_model": "DGM",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.656,
+          "row_cpc": 0.545,
+          "log_rmse": 4.337
+        },
+        "GeoSP": {
+          "row_kl": 0.712,
+          "row_cpc": 0.53,
+          "log_rmse": 4.447
+        },
+        "OppSP": {
+          "row_kl": 0.792,
+          "row_cpc": 0.51,
+          "log_rmse": 4.631
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_remote_deepgraph_cuda_seed2026_geosp9",
+      "local_model": "official_dgm_learned_scale",
+      "source_csv": "outputs/runs/realworld_remote_deepgraph_cuda_seed2026_geosp9/metrics.csv",
+      "derived_protocol_table": "tables/realworld_deep_baselines_protocol_learned_scale_metrics.csv",
+      "limitation": "Only metrics.csv exists in this remote run directory locally. No matching local resolved config, checkpoint or training logs were found; current main_strict deep-model outputs differ.",
+      "local_protocols": {
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            4
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.6559517106502654,
+            "row_cpc": 0.5448135278668635,
+            "log_rmse": 4.336624717153794
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            34,
+            64,
+            94,
+            124,
+            154,
+            184,
+            214,
+            244,
+            274
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.7116982383589158,
+            "row_cpc": 0.5304041490514027,
+            "log_rmse": 4.446772790435514
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            304
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.7924356220591534,
+            "row_cpc": 0.5104498503404872,
+            "log_rmse": 4.631478839429941
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 0.7200285236894448,
+        "row_cpc": 0.5285558424195844,
+        "log_rmse": 4.4716254490064165
+      }
+    },
+    {
+      "paper_model": "NetGAN",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.595,
+          "row_cpc": 0.615,
+          "log_rmse": 1.47
+        },
+        "GeoSP": {
+          "row_kl": 0.749,
+          "row_cpc": 0.572,
+          "log_rmse": 1.652
+        },
+        "OppSP": {
+          "row_kl": 0.8,
+          "row_cpc": 0.578,
+          "log_rmse": 1.498
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_remote_deepgraph_cuda_seed2026_geosp9",
+      "local_model": "official_netgan_learned_scale",
+      "source_csv": "outputs/runs/realworld_remote_deepgraph_cuda_seed2026_geosp9/metrics.csv",
+      "derived_protocol_table": "tables/realworld_deep_baselines_protocol_learned_scale_metrics.csv",
+      "limitation": "Only metrics.csv exists in this remote run directory locally. No matching local resolved config, checkpoint or training logs were found; current main_strict deep-model outputs differ.",
+      "local_protocols": {
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            16
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.5949295948077267,
+            "row_cpc": 0.6146108236830655,
+            "log_rmse": 1.4697980096783991
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            46,
+            76,
+            106,
+            136,
+            166,
+            196,
+            226,
+            256,
+            286
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.7485895739590627,
+            "row_cpc": 0.5717936441822302,
+            "log_rmse": 1.6519651862999716
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            316
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.8001906708196335,
+            "row_cpc": 0.5782695960226805,
+            "log_rmse": 1.4981151013525738
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 0.7145699465288076,
+        "row_cpc": 0.5882246879626587,
+        "log_rmse": 1.539959432443648
+      }
+    },
+    {
+      "paper_model": "DiffODGen",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.676,
+          "row_cpc": 0.611,
+          "log_rmse": 1.623
+        },
+        "GeoSP": {
+          "row_kl": 0.761,
+          "row_cpc": 0.579,
+          "log_rmse": 1.705
+        },
+        "OppSP": {
+          "row_kl": 0.711,
+          "row_cpc": 0.592,
+          "log_rmse": 1.416
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_remote_deepgraph_cuda_seed2026_geosp9",
+      "local_model": "official_diffodgen_learned_scale",
+      "source_csv": "outputs/runs/realworld_remote_deepgraph_cuda_seed2026_geosp9/metrics.csv",
+      "derived_protocol_table": "tables/realworld_deep_baselines_protocol_learned_scale_metrics.csv",
+      "limitation": "Only metrics.csv exists in this remote run directory locally. No matching local resolved config, checkpoint or training logs were found; current main_strict deep-model outputs differ.",
+      "local_protocols": {
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            22
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.6757988617918115,
+            "row_cpc": 0.610780739329614,
+            "log_rmse": 1.6227627665067967
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            52,
+            82,
+            112,
+            142,
+            172,
+            202,
+            232,
+            262,
+            292
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.7606930027725268,
+            "row_cpc": 0.578791672910035,
+            "log_rmse": 1.704967286861218
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            322
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.7106338264476676,
+            "row_cpc": 0.5922140407979885,
+            "log_rmse": 1.4155956673626582
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 0.7157085636706686,
+        "row_cpc": 0.5939288176792125,
+        "log_rmse": 1.581108573576891
+      }
+    },
+    {
+      "paper_model": "WeDAN",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.645,
+          "row_cpc": 0.609,
+          "log_rmse": 1.629
+        },
+        "GeoSP": {
+          "row_kl": 0.711,
+          "row_cpc": 0.582,
+          "log_rmse": 1.689
+        },
+        "OppSP": {
+          "row_kl": 0.74,
+          "row_cpc": 0.589,
+          "log_rmse": 1.443
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_remote_deepgraph_cuda_seed2026_geosp9",
+      "local_model": "official_wedan_learned_scale",
+      "source_csv": "outputs/runs/realworld_remote_deepgraph_cuda_seed2026_geosp9/metrics.csv",
+      "derived_protocol_table": "tables/realworld_deep_baselines_protocol_learned_scale_metrics.csv",
+      "limitation": "Only metrics.csv exists in this remote run directory locally. No matching local resolved config, checkpoint or training logs were found; current main_strict deep-model outputs differ.",
+      "local_protocols": {
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            28
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.6451526748292272,
+            "row_cpc": 0.6094719163446909,
+            "log_rmse": 1.6290892610635308
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            58,
+            88,
+            118,
+            148,
+            178,
+            208,
+            238,
+            268,
+            298
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.7108735321069153,
+            "row_cpc": 0.5820985422655344,
+            "log_rmse": 1.6886175241312658
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            328
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.7396112855852921,
+            "row_cpc": 0.5887373127018884,
+            "log_rmse": 1.4427366848716414
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 0.6985458308404782,
+        "row_cpc": 0.5934359237707045,
+        "log_rmse": 1.586814490022146
+      }
+    },
+    {
+      "paper_model": "GMEL",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.435,
+          "row_cpc": 0.674,
+          "log_rmse": 1.299
+        },
+        "GeoSP": {
+          "row_kl": 0.514,
+          "row_cpc": 0.655,
+          "log_rmse": 1.322
+        },
+        "OppSP": {
+          "row_kl": 0.558,
+          "row_cpc": 0.635,
+          "log_rmse": 1.386
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_remote_deepgraph_cuda_seed2026_geosp9",
+      "local_model": "official_gmel_learned_scale",
+      "source_csv": "outputs/runs/realworld_remote_deepgraph_cuda_seed2026_geosp9/metrics.csv",
+      "derived_protocol_table": "tables/realworld_deep_baselines_protocol_learned_scale_metrics.csv",
+      "limitation": "Only metrics.csv exists in this remote run directory locally. No matching local resolved config, checkpoint or training logs were found; current main_strict deep-model outputs differ.",
+      "local_protocols": {
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            10
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.43543887811439536,
+            "row_cpc": 0.674427878348732,
+            "log_rmse": 1.299339140478314
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "GeoSP": {
+          "n_splits": 9,
+          "split_keys": [
+            "GeoSP_EastNorthCentral",
+            "GeoSP_EastSouthCentral",
+            "GeoSP_MiddleAtlantic",
+            "GeoSP_Mountain",
+            "GeoSP_NewEngland",
+            "GeoSP_Pacific",
+            "GeoSP_SouthAtlantic",
+            "GeoSP_WestNorthCentral",
+            "GeoSP_WestSouthCentral"
+          ],
+          "csv_lines": [
+            40,
+            70,
+            100,
+            130,
+            160,
+            190,
+            220,
+            250,
+            280
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.5136759246584425,
+            "row_cpc": 0.6552257565838432,
+            "log_rmse": 1.3224098314906962
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            310
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.5576318049430322,
+            "row_cpc": 0.6346657489306265,
+            "log_rmse": 1.3863357070522526
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": true
+          }
+        }
+      },
+      "all_protocol_cells_match": true,
+      "local_protocol_macro_average": {
+        "row_kl": 0.5022488692386233,
+        "row_cpc": 0.6547731279544006,
+        "log_rmse": 1.3360282263404208
+      }
+    },
+    {
+      "paper_model": "OpFlow",
+      "paper_metrics": {
+        "RandSP": {
+          "row_kl": 0.322,
+          "row_cpc": 0.71,
+          "log_rmse": 1.088
+        },
+        "GeoSP": {
+          "row_kl": 0.37,
+          "row_cpc": 0.686,
+          "log_rmse": 1.14
+        },
+        "OppSP": {
+          "row_kl": 0.438,
+          "row_cpc": 0.67,
+          "log_rmse": 1.04
+        }
+      },
+      "seed": 2026,
+      "local_run": "realworld_opflow_strong_seed2026_3splits_20260619",
+      "local_model": "opflow_full",
+      "source_csv": "results/realworld_upgrade/realworld_opflow_strong_seed2026_3splits_20260619/metrics_by_seed.csv",
+      "resolved_config": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/resolved_config.yaml",
+      "run_progress_log": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/logs/real_world_progress.log",
+      "local_protocols": {
+        "GeoSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "GeoSP_SouthAtlantic"
+          ],
+          "csv_lines": [
+            2
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.37074970595052115,
+            "row_cpc": 0.6859506229406084,
+            "log_rmse": 1.1475617362968713
+          },
+          "matches_paper_display_precision": {
+            "row_kl": false,
+            "row_cpc": true,
+            "log_rmse": false
+          }
+        },
+        "OppSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "OppSP"
+          ],
+          "csv_lines": [
+            11
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.4382332905258629,
+            "row_cpc": 0.669957650803478,
+            "log_rmse": 1.0483200584873709
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": true,
+            "log_rmse": false
+          }
+        },
+        "RandSP": {
+          "n_splits": 1,
+          "split_keys": [
+            "RandSP_seed0"
+          ],
+          "csv_lines": [
+            20
+          ],
+          "arithmetic_mean": {
+            "row_kl": 0.3224038152641147,
+            "row_cpc": 0.7106611589033964,
+            "log_rmse": 1.088614935378488
+          },
+          "matches_paper_display_precision": {
+            "row_kl": true,
+            "row_cpc": false,
+            "log_rmse": false
+          }
+        }
+      },
+      "all_protocol_cells_match": false,
+      "local_protocol_macro_average": {
+        "row_kl": 0.37712893724683294,
+        "row_cpc": 0.6888564775491609,
+        "log_rmse": 1.0948322433875768
+      },
+      "limitation": "Existing GeoSP source is SouthAtlantic only. Other model families use nine GeoSP folds. GeoSP Row-KL 0.37074970595052115 rounds to 0.371 at 3 decimals, while paper displays 0.370. Numeric proximity does not establish submitted-version provenance."
+    }
+  ],
+  "pairmlp_inconsistency": {
+    "paper_protocol_row_kl": [
+      0.399,
+      0.392,
+      0.468
+    ],
+    "paper_table_average": 0.413,
+    "paper_prose_average": 0.41,
+    "equal_protocol_average_of_displayed_values": 0.4196666666666667,
+    "possible_equal_protocol_average_interval_under_3_decimal_rounding": [
+      0.4191666666666667,
+      0.4201666666666667
+    ],
+    "local_core3_average": 0.3901226985261618,
+    "local_geosp9_mean": 0.38924751114080824,
+    "local_all11_split_average": 0.3904317902770193,
+    "local_rand_geosp9mean_opp_macro_average": 0.3935898679735821,
+    "conclusion": "Pure rounding cannot explain 0.413 or 0.410 if Avg is equal-protocol mean. No local raw evidence was found for the three paper cells or either average. Typo versus different result version remains unresolved."
+  },
+  "aggregation_provenance": {
+    "raw_json_extractor": "scripts/make_tables.py:25-85 reads metrics.json means; rows contain split_name/model/variant/is_primary/seed/part",
+    "suite_summary": "opflow_experiments/pipelines/realworld_upgrade.py:469-488 filters primary test rows, then writes metrics_by_seed.csv, summary_by_split.csv, summary_mean_ci.csv",
+    "mean_and_ci": "opflow_experiments/pipelines/realworld_upgrade.py:124-141 uses unweighted arithmetic mean and 1.96*sample_std/sqrt(n), or CI=0 when n=1",
+    "ci_limitation": "These summary CIs pool split/seed summary rows and are not paired county confidence intervals. Single-seed split summaries often show CI=0.",
+    "table2_script_status": "No single checked-in script or manifest was identified that reconstructs all Table 2 cells from the identified heterogeneous run sources. Existing summaries group all splits equally, which gives GeoSP nine times the weight of one RandSP/OppSP when run includes 11 splits."
+  },
+  "selection_rules_current_source": [
+    {
+      "model": "Gravity",
+      "rule": "Fits train-only ridge log-count and origin-scale regressions with fixed alpha default 1e-3; fit accepts val_areas but does not use them.",
+      "source": "opflow_benchmark/baselines/gravity.py:23-34,54-103"
+    },
+    {
+      "model": "Radiation",
+      "rule": "Fixed radiation allocation; fit only computes training mean outflow, with no validation selection.",
+      "source": "opflow_benchmark/baselines/radiation.py:37-51"
+    },
+    {
+      "model": "Int. Opp.",
+      "rule": "Retains parameters with lowest validation loss, patience stopping; falls back to train areas if validation empty.",
+      "source": "opflow_benchmark/baselines/intervening_opportunity.py:131-166"
+    },
+    {
+      "model": "PairMLP",
+      "rule": "Chooses epoch by mean county validation composite share + lambda_scale*scale log-MSE + lambda_count*count log-MSE; not solely validation Row-KL unless scale/count weights are zero.",
+      "source": "opflow_benchmark/baselines/pair_mlp.py:81-97,113-143"
+    },
+    {
+      "model": "ScaleMLP",
+      "rule": "Chooses epoch by mean county validation composite share + lambda_scale*scale log-MSE + lambda_count*count log-MSE.",
+      "source": "opflow_benchmark/baselines/scale_aware_mlp.py:81-96,107-135"
+    }
+  ],
+  "caveat": "Current source selection rules and saved resolved configurations are reviewable evidence for existing runs, not proof that they were used for the submitted paper.",
+  "additional_paper_avg_consistency": [
+    {
+      "model": "PairMLP",
+      "metric": "row_kl",
+      "displayed_parts": [
+        0.399,
+        0.392,
+        0.468
+      ],
+      "equal_protocol_mean": 0.4196666666666667,
+      "published_avg": 0.413,
+      "possible_unrounded_equal_mean_interval": [
+        0.4191666666666667,
+        0.4201666666666667
+      ],
+      "published_avg_rounding_interval": [
+        0.4125,
+        0.4135
+      ],
+      "rounding_intervals_overlap": false
+    },
+    {
+      "model": "PairMLP",
+      "metric": "row_cpc",
+      "displayed_parts": [
+        0.684,
+        0.684,
+        0.682
+      ],
+      "equal_protocol_mean": 0.6833333333333333,
+      "published_avg": 0.684,
+      "possible_unrounded_equal_mean_interval": [
+        0.6828333333333334,
+        0.6838333333333333
+      ],
+      "published_avg_rounding_interval": [
+        0.6835000000000001,
+        0.6845
+      ],
+      "rounding_intervals_overlap": true
+    },
+    {
+      "model": "PairMLP",
+      "metric": "log_rmse",
+      "displayed_parts": [
+        1.222,
+        1.201,
+        1.257
+      ],
+      "equal_protocol_mean": 1.2266666666666666,
+      "published_avg": 1.22,
+      "possible_unrounded_equal_mean_interval": [
+        1.2261666666666666,
+        1.2271666666666665
+      ],
+      "published_avg_rounding_interval": [
+        1.2195,
+        1.2205
+      ],
+      "rounding_intervals_overlap": false
+    },
+    {
+      "model": "ScaleMLP",
+      "metric": "row_kl",
+      "displayed_parts": [
+        0.438,
+        0.407,
+        0.481
+      ],
+      "equal_protocol_mean": 0.442,
+      "published_avg": 0.441,
+      "possible_unrounded_equal_mean_interval": [
+        0.4415,
+        0.4425
+      ],
+      "published_avg_rounding_interval": [
+        0.4405,
+        0.4415
+      ],
+      "rounding_intervals_overlap": false
+    },
+    {
+      "model": "ScaleMLP",
+      "metric": "row_cpc",
+      "displayed_parts": [
+        0.676,
+        0.672,
+        0.693
+      ],
+      "equal_protocol_mean": 0.6803333333333333,
+      "published_avg": 0.685,
+      "possible_unrounded_equal_mean_interval": [
+        0.6798333333333334,
+        0.6808333333333333
+      ],
+      "published_avg_rounding_interval": [
+        0.6845000000000001,
+        0.6855
+      ],
+      "rounding_intervals_overlap": false
+    },
+    {
+      "model": "ScaleMLP",
+      "metric": "log_rmse",
+      "displayed_parts": [
+        1.193,
+        1.18,
+        1.222
+      ],
+      "equal_protocol_mean": 1.1983333333333333,
+      "published_avg": 1.201,
+      "possible_unrounded_equal_mean_interval": [
+        1.1978333333333333,
+        1.1988333333333332
+      ],
+      "published_avg_rounding_interval": [
+        1.2005000000000001,
+        1.2015
+      ],
+      "rounding_intervals_overlap": false
+    }
+  ]
+}

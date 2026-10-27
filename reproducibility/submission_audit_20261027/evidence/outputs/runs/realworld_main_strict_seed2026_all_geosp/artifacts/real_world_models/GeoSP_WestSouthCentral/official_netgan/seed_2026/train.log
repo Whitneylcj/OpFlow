@@ -1,0 +1,16 @@
+model=official_netgan
+split_name=GeoSP_WestSouthCentral
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1753, 'val': 195, 'test': 317}
+load_seconds=3.290
+fit_seconds=0.548
+eval_seconds=68.200
+aggregate_seconds=0.192
+checkpoint_seconds=0.001
+predict_seconds=31.123
+metric_seconds=36.854
+metric_rows=4530
+write_seconds=0.533
+total_seconds=72.774

@@ -1,5 +1,13 @@
 # OpFlow
 
+
+## Shared reproducibility audit (2026-10-27)
+
+[Collaborator materials and runnable commands](reproducibility/submission_audit_20261027/README.md) · [中文审计报告](reports/submission_reproducibility_audit_20261027.md) · [Download the evidence bundle](dist/OpFlow_collaborator_materials_20261027.zip)
+
+The bundle includes county split IDs, saved configs and logs, raw metrics, county-level confidence intervals, nine checkpoints, and portable CI/OD-export scripts. It records unresolved Table 2 provenance and GeoSP-protocol differences; it is **not a verified submission-code release**. Its source snapshot is used by the bundled scripts; the main code below has not been replaced by that snapshot.
+
+
 OpFlow is organized as a reproducible experiment project for opportunity-invariant spatial flow prediction.
 
 ```text

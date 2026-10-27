@@ -1,0 +1,140 @@
+[real-world][memory] requested_workers=1 resolved_workers=1 available_gb=NA per_worker_gb=1.25 max_n=1318 max_dense_matrix_mb=6.6
+[real-world][plan] logical_tasks=18 execution_tasks=18 dedup_skipped=0 workers=1 splits=3 models=6 seeds=1 progress_log=outputs/runs/realworld_seed2026_core3splits_20260613/logs/real_world_progress.log
+[real-world][start] 0/18 0.0% elapsed=0s eta=unknown avg/task=unknown task=1 split=RandSP_seed0 model=distance_only seed=2026
+[real-world][done] 1/18 5.6% elapsed=24s eta=6.9m avg/task=24s last=24s task=1 split=RandSP_seed0 model=distance_only seed=2026
+[real-world][start] 1/18 5.6% elapsed=24s eta=6.9m avg/task=24s task=2 split=RandSP_seed0 model=gravity seed=2026
+[real-world][done] 2/18 11.1% elapsed=47s eta=6.3m avg/task=24s last=23s task=2 split=RandSP_seed0 model=gravity seed=2026
+[real-world][start] 2/18 11.1% elapsed=47s eta=6.3m avg/task=24s task=3 split=RandSP_seed0 model=intervening_opportunity seed=2026
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=16s train_loss=10.825 val_loss=10.7579 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=11s train_loss=10.818 val_loss=10.751 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=3/20 elapsed=2s eta=9s train_loss=10.8111 val_loss=10.7441 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=8s train_loss=10.8041 val_loss=10.7373 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=7s train_loss=10.7972 val_loss=10.7304 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=6/20 elapsed=2s eta=6s train_loss=10.7903 val_loss=10.7235 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=5s train_loss=10.7834 val_loss=10.7166 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=8/20 elapsed=3s eta=5s train_loss=10.7764 val_loss=10.7098 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=9/20 elapsed=3s eta=4s train_loss=10.7695 val_loss=10.7029 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=10.7626 val_loss=10.696 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=11/20 elapsed=4s eta=3s train_loss=10.7557 val_loss=10.6892 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=12/20 elapsed=4s eta=3s train_loss=10.7488 val_loss=10.6823 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=13/20 elapsed=5s eta=2s train_loss=10.7419 val_loss=10.6754 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=14/20 elapsed=5s eta=2s train_loss=10.735 val_loss=10.6686 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=15/20 elapsed=5s eta=2s train_loss=10.7281 val_loss=10.6617 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=16/20 elapsed=5s eta=1s train_loss=10.7212 val_loss=10.6549 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=17/20 elapsed=6s eta=1s train_loss=10.7143 val_loss=10.648 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=18/20 elapsed=6s eta=1s train_loss=10.7074 val_loss=10.6412 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=19/20 elapsed=6s eta=0s train_loss=10.7005 val_loss=10.6344 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=20/20 elapsed=7s eta=0s train_loss=10.6936 val_loss=10.6275 cache_mb=83.6
+[real-world][done] 3/18 16.7% elapsed=1.2m eta=6.0m avg/task=24s last=25s task=3 split=RandSP_seed0 model=intervening_opportunity seed=2026
+[real-world][start] 3/18 16.7% elapsed=1.2m eta=6.0m avg/task=24s task=4 split=RandSP_seed0 model=pair_mlp seed=2026
+[real-world][done] 4/18 22.2% elapsed=6.0m eta=21.1m avg/task=1.5m last=4.8m task=4 split=RandSP_seed0 model=pair_mlp seed=2026
+[real-world][start] 4/18 22.2% elapsed=6.0m eta=21.1m avg/task=1.5m task=5 split=RandSP_seed0 model=scale_aware_mlp seed=2026
+[real-world][done] 5/18 27.8% elapsed=7.2m eta=18.8m avg/task=1.4m last=1.2m task=5 split=RandSP_seed0 model=scale_aware_mlp seed=2026
+[real-world][start] 5/18 27.8% elapsed=7.2m eta=18.8m avg/task=1.4m task=6 split=RandSP_seed0 model=opflow_full seed=2026
+[real-world][leo] task split=RandSP_seed0 model=opflow_full seed=2026 folds=8/1585 fold_epochs=20 metric=joint_selection_score
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=1/8 heldout=01001 epochs=10 best=2.48631
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=2/8 heldout=13051 epochs=13 best=3.78099
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=3/8 heldout=19099 epochs=7 best=1.90886
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=4/8 heldout=26115 epochs=7 best=3.24666
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=5/8 heldout=35006 epochs=6 best=1.81291
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=6/8 heldout=40119 epochs=7 best=2.513
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=7/8 heldout=48303 epochs=8 best=4.14399
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=8/8 heldout=56037 epochs=10 best=2.48573
+[real-world][leo-selected] task split=RandSP_seed0 model=opflow_full seed=2026 selected_epoch=5 complete_epochs=6 capped=1
+[real-world][epoch] task split=RandSP_seed0 model=opflow_full seed=2026 epoch=1/5 elapsed=1.8m eta=7.3m train_loss=4.2234 val_alloc_obj=5.57863 selection_joint_selection_score=2.30481 alloc_max=2.54227 vrex=0
+[real-world][epoch] task split=RandSP_seed0 model=opflow_full seed=2026 epoch=2/5 elapsed=3.6m eta=5.4m train_loss=4.12642 val_alloc_obj=5.51222 selection_joint_selection_score=2.28941 alloc_max=2.50202 vrex=0
+[real-world][epoch] task split=RandSP_seed0 model=opflow_full seed=2026 epoch=3/5 elapsed=5.3m eta=3.6m train_loss=4.10724 val_alloc_obj=5.49394 selection_joint_selection_score=2.28753 alloc_max=2.4578 vrex=0
+[real-world][epoch] task split=RandSP_seed0 model=opflow_full seed=2026 epoch=4/5 elapsed=7.4m eta=1.8m train_loss=4.09341 val_alloc_obj=5.47957 selection_joint_selection_score=2.28774 alloc_max=2.4164 vrex=0
+[real-world][epoch] task split=RandSP_seed0 model=opflow_full seed=2026 epoch=5/5 elapsed=9.3m eta=0s train_loss=4.08054 val_alloc_obj=5.46477 selection_joint_selection_score=2.29299 alloc_max=2.3546 vrex=0
+[real-world][done] 6/18 33.3% elapsed=2.26h eta=4.52h avg/task=22.6m last=2.14h task=6 split=RandSP_seed0 model=opflow_full seed=2026
+[real-world][start] 6/18 33.3% elapsed=2.26h eta=4.52h avg/task=22.6m task=7 split=GeoSP_SouthAtlantic model=distance_only seed=2026
+[real-world][done] 7/18 38.9% elapsed=2.27h eta=3.56h avg/task=19.4m last=24s task=7 split=GeoSP_SouthAtlantic model=distance_only seed=2026
+[real-world][start] 7/18 38.9% elapsed=2.27h eta=3.56h avg/task=19.4m task=8 split=GeoSP_SouthAtlantic model=gravity seed=2026
+[real-world][done] 8/18 44.4% elapsed=2.27h eta=2.84h avg/task=17.0m last=21s task=8 split=GeoSP_SouthAtlantic model=gravity seed=2026
+[real-world][start] 8/18 44.4% elapsed=2.27h eta=2.84h avg/task=17.0m task=9 split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=15s train_loss=10.5899 val_loss=10.5984 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=10s train_loss=10.5831 val_loss=10.5916 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=3/20 elapsed=1s eta=8s train_loss=10.5764 val_loss=10.5848 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=7s train_loss=10.5696 val_loss=10.578 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=6s train_loss=10.5628 val_loss=10.5713 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=6/20 elapsed=2s eta=6s train_loss=10.556 val_loss=10.5645 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=5s train_loss=10.5492 val_loss=10.5577 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=8/20 elapsed=3s eta=5s train_loss=10.5425 val_loss=10.5509 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=9/20 elapsed=3s eta=4s train_loss=10.5357 val_loss=10.5441 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=10.529 val_loss=10.5374 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=11/20 elapsed=4s eta=3s train_loss=10.5222 val_loss=10.5306 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=12/20 elapsed=4s eta=3s train_loss=10.5154 val_loss=10.5238 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=13/20 elapsed=5s eta=2s train_loss=10.5087 val_loss=10.5171 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=14/20 elapsed=5s eta=2s train_loss=10.5019 val_loss=10.5103 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=15/20 elapsed=5s eta=2s train_loss=10.4952 val_loss=10.5036 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=16/20 elapsed=5s eta=1s train_loss=10.4884 val_loss=10.4968 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=17/20 elapsed=6s eta=1s train_loss=10.4817 val_loss=10.4901 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=18/20 elapsed=6s eta=1s train_loss=10.475 val_loss=10.4833 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=19/20 elapsed=6s eta=0s train_loss=10.4682 val_loss=10.4766 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=20/20 elapsed=7s eta=0s train_loss=10.4615 val_loss=10.4698 cache_mb=88.8
+[real-world][done] 9/18 50.0% elapsed=2.28h eta=2.28h avg/task=15.2m last=24s task=9 split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026
+[real-world][start] 9/18 50.0% elapsed=2.28h eta=2.28h avg/task=15.2m task=10 split=GeoSP_SouthAtlantic model=pair_mlp seed=2026
+[real-world][done] 10/18 55.6% elapsed=2.36h eta=1.89h avg/task=14.2m last=4.9m task=10 split=GeoSP_SouthAtlantic model=pair_mlp seed=2026
+[real-world][start] 10/18 55.6% elapsed=2.36h eta=1.89h avg/task=14.2m task=11 split=GeoSP_SouthAtlantic model=scale_aware_mlp seed=2026
+[real-world][done] 11/18 61.1% elapsed=2.38h eta=1.52h avg/task=13.0m last=1.2m task=11 split=GeoSP_SouthAtlantic model=scale_aware_mlp seed=2026
+[real-world][start] 11/18 61.1% elapsed=2.38h eta=1.52h avg/task=13.0m task=12 split=GeoSP_SouthAtlantic model=opflow_full seed=2026
+[real-world][leo] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 folds=8/1625 fold_epochs=20 metric=joint_selection_score
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=1/8 heldout=01001 epochs=12 best=2.36676
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=2/8 heldout=16069 epochs=7 best=2.14444
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=3/8 heldout=20035 epochs=11 best=2.03571
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=4/8 heldout=26117 epochs=7 best=2.14048
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=5/8 heldout=31055 epochs=11 best=4.80768
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=6/8 heldout=40065 epochs=10 best=1.91989
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=7/8 heldout=48117 epochs=9 best=1.63873
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=8/8 heldout=56037 epochs=9 best=2.40552
+[real-world][leo-selected] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 selected_epoch=4 complete_epochs=7 capped=1
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 epoch=1/4 elapsed=1.8m eta=5.5m train_loss=4.1178 val_alloc_obj=6.56265 selection_joint_selection_score=2.29351 alloc_max=2.48545 vrex=0
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 epoch=2/4 elapsed=3.7m eta=3.7m train_loss=4.01717 val_alloc_obj=6.50094 selection_joint_selection_score=2.2854 alloc_max=2.4261 vrex=0
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 epoch=3/4 elapsed=5.5m eta=1.8m train_loss=3.99512 val_alloc_obj=6.50108 selection_joint_selection_score=2.287 alloc_max=2.40245 vrex=0
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 epoch=4/4 elapsed=7.3m eta=0s train_loss=3.98143 val_alloc_obj=6.49047 selection_joint_selection_score=2.29195 alloc_max=2.37201 vrex=0
+[real-world][done] 12/18 66.7% elapsed=4.64h eta=2.32h avg/task=23.2m last=2.26h task=12 split=GeoSP_SouthAtlantic model=opflow_full seed=2026
+[real-world][start] 12/18 66.7% elapsed=4.64h eta=2.32h avg/task=23.2m task=13 split=OppSP model=distance_only seed=2026
+[real-world][done] 13/18 72.2% elapsed=4.65h eta=1.79h avg/task=21.5m last=22s task=13 split=OppSP model=distance_only seed=2026
+[real-world][start] 13/18 72.2% elapsed=4.65h eta=1.79h avg/task=21.5m task=14 split=OppSP model=gravity seed=2026
+[real-world][done] 14/18 77.8% elapsed=4.65h eta=1.33h avg/task=19.9m last=20s task=14 split=OppSP model=gravity seed=2026
+[real-world][start] 14/18 77.8% elapsed=4.65h eta=1.33h avg/task=19.9m task=15 split=OppSP model=intervening_opportunity seed=2026
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=1/20 elapsed=0s eta=7s train_loss=10.6586 val_loss=10.7416 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=5s train_loss=10.6517 val_loss=10.7347 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=3/20 elapsed=1s eta=4s train_loss=10.6449 val_loss=10.7278 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=4/20 elapsed=1s eta=4s train_loss=10.6381 val_loss=10.7209 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=5/20 elapsed=1s eta=3s train_loss=10.6313 val_loss=10.714 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=6/20 elapsed=1s eta=3s train_loss=10.6244 val_loss=10.7071 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=7/20 elapsed=1s eta=3s train_loss=10.6176 val_loss=10.7003 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=8/20 elapsed=2s eta=2s train_loss=10.6108 val_loss=10.6934 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=9/20 elapsed=2s eta=2s train_loss=10.604 val_loss=10.6865 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=10/20 elapsed=2s eta=2s train_loss=10.5972 val_loss=10.6796 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=11/20 elapsed=2s eta=2s train_loss=10.5904 val_loss=10.6728 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=12/20 elapsed=3s eta=2s train_loss=10.5836 val_loss=10.6659 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=13/20 elapsed=3s eta=1s train_loss=10.5768 val_loss=10.6591 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=14/20 elapsed=3s eta=1s train_loss=10.57 val_loss=10.6522 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=15/20 elapsed=3s eta=1s train_loss=10.5632 val_loss=10.6454 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=16/20 elapsed=3s eta=1s train_loss=10.5564 val_loss=10.6385 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=17/20 elapsed=3s eta=1s train_loss=10.5496 val_loss=10.6317 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=18/20 elapsed=4s eta=0s train_loss=10.5428 val_loss=10.6248 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=19/20 elapsed=4s eta=0s train_loss=10.536 val_loss=10.618 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=20/20 elapsed=4s eta=0s train_loss=10.5293 val_loss=10.6112 cache_mb=14.7
+[real-world][done] 15/18 83.3% elapsed=4.66h eta=55.9m avg/task=18.6m last=22s task=15 split=OppSP model=intervening_opportunity seed=2026
+[real-world][start] 15/18 83.3% elapsed=4.66h eta=55.9m avg/task=18.6m task=16 split=OppSP model=pair_mlp seed=2026
+[real-world][done] 16/18 88.9% elapsed=4.68h eta=35.1m avg/task=17.6m last=1.5m task=16 split=OppSP model=pair_mlp seed=2026
+[real-world][start] 16/18 88.9% elapsed=4.68h eta=35.1m avg/task=17.6m task=17 split=OppSP model=scale_aware_mlp seed=2026
+[real-world][done] 17/18 94.4% elapsed=4.70h eta=16.6m avg/task=16.6m last=41s task=17 split=OppSP model=scale_aware_mlp seed=2026
+[real-world][start] 17/18 94.4% elapsed=4.70h eta=16.6m avg/task=16.6m task=18 split=OppSP model=opflow_full seed=2026
+[real-world][leo] task split=OppSP model=opflow_full seed=2026 folds=8/1585 fold_epochs=20 metric=joint_selection_score
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=1/8 heldout=01001 epochs=8 best=2.36904
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=2/8 heldout=13059 epochs=6 best=3.41164
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=3/8 heldout=19085 epochs=10 best=1.26071
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=4/8 heldout=26123 epochs=9 best=1.90298
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=5/8 heldout=35055 epochs=7 best=1.66163
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=6/8 heldout=40147 epochs=8 best=2.2156
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=7/8 heldout=48315 epochs=12 best=1.13681
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=8/8 heldout=56033 epochs=7 best=1.86
+[real-world][leo-selected] task split=OppSP model=opflow_full seed=2026 selected_epoch=3 complete_epochs=6 capped=1
+[real-world][epoch] task split=OppSP model=opflow_full seed=2026 epoch=1/3 elapsed=9s eta=19s train_loss=3.76459 val_alloc_obj=5.34561 selection_joint_selection_score=2.28095 alloc_max=1.86823 vrex=0
+[real-world][epoch] task split=OppSP model=opflow_full seed=2026 epoch=2/3 elapsed=19s eta=9s train_loss=3.66938 val_alloc_obj=5.33481 selection_joint_selection_score=2.2679 alloc_max=1.83205 vrex=0
+[real-world][epoch] task split=OppSP model=opflow_full seed=2026 epoch=3/3 elapsed=28s eta=0s train_loss=3.64267 val_alloc_obj=5.34554 selection_joint_selection_score=2.26887 alloc_max=1.85262 vrex=0
+[real-world][done] 18/18 100.0% elapsed=4.87h eta=0s avg/task=16.2m last=10.1m task=18 split=OppSP model=opflow_full seed=2026

@@ -1,0 +1,2266 @@
+split_name,seed,fold_id,area_id,role,STATEFP,COUNTYFP,census_division,n_nodes
+GeoSP,0,West South Central,05001,test,05,001,West South Central,8
+GeoSP,0,West South Central,05003,test,05,003,West South Central,7
+GeoSP,0,West South Central,05005,test,05,005,West South Central,9
+GeoSP,0,West South Central,05007,test,05,007,West South Central,49
+GeoSP,0,West South Central,05009,test,05,009,West South Central,7
+GeoSP,0,West South Central,05011,test,05,011,West South Central,5
+GeoSP,0,West South Central,05015,test,05,015,West South Central,5
+GeoSP,0,West South Central,05017,test,05,017,West South Central,4
+GeoSP,0,West South Central,05019,test,05,019,West South Central,5
+GeoSP,0,West South Central,05021,test,05,021,West South Central,6
+GeoSP,0,West South Central,05023,test,05,023,West South Central,7
+GeoSP,0,West South Central,05027,test,05,027,West South Central,5
+GeoSP,0,West South Central,05029,test,05,029,West South Central,6
+GeoSP,0,West South Central,05031,test,05,031,West South Central,17
+GeoSP,0,West South Central,05033,test,05,033,West South Central,11
+GeoSP,0,West South Central,05035,test,05,035,West South Central,20
+GeoSP,0,West South Central,05037,test,05,037,West South Central,6
+GeoSP,0,West South Central,05041,test,05,041,West South Central,5
+GeoSP,0,West South Central,05043,test,05,043,West South Central,5
+GeoSP,0,West South Central,05045,test,05,045,West South Central,25
+GeoSP,0,West South Central,05051,test,05,051,West South Central,20
+GeoSP,0,West South Central,05053,test,05,053,West South Central,4
+GeoSP,0,West South Central,05055,test,05,055,West South Central,9
+GeoSP,0,West South Central,05057,test,05,057,West South Central,5
+GeoSP,0,West South Central,05059,test,05,059,West South Central,7
+GeoSP,0,West South Central,05063,test,05,063,West South Central,8
+GeoSP,0,West South Central,05065,test,05,065,West South Central,4
+GeoSP,0,West South Central,05067,test,05,067,West South Central,5
+GeoSP,0,West South Central,05069,test,05,069,West South Central,24
+GeoSP,0,West South Central,05071,test,05,071,West South Central,6
+GeoSP,0,West South Central,05075,test,05,075,West South Central,6
+GeoSP,0,West South Central,05077,test,05,077,West South Central,4
+GeoSP,0,West South Central,05079,test,05,079,West South Central,4
+GeoSP,0,West South Central,05081,test,05,081,West South Central,4
+GeoSP,0,West South Central,05083,test,05,083,West South Central,6
+GeoSP,0,West South Central,05085,test,05,085,West South Central,16
+GeoSP,0,West South Central,05087,test,05,087,West South Central,4
+GeoSP,0,West South Central,05089,test,05,089,West South Central,4
+GeoSP,0,West South Central,05091,test,05,091,West South Central,12
+GeoSP,0,West South Central,05093,test,05,093,West South Central,12
+GeoSP,0,West South Central,05103,test,05,103,West South Central,6
+GeoSP,0,West South Central,05107,test,05,107,West South Central,6
+GeoSP,0,West South Central,05111,test,05,111,West South Central,7
+GeoSP,0,West South Central,05113,test,05,113,West South Central,6
+GeoSP,0,West South Central,05115,test,05,115,West South Central,11
+GeoSP,0,West South Central,05119,test,05,119,West South Central,95
+GeoSP,0,West South Central,05121,test,05,121,West South Central,4
+GeoSP,0,West South Central,05123,test,05,123,West South Central,6
+GeoSP,0,West South Central,05125,test,05,125,West South Central,21
+GeoSP,0,West South Central,05131,test,05,131,West South Central,26
+GeoSP,0,West South Central,05133,test,05,133,West South Central,4
+GeoSP,0,West South Central,05135,test,05,135,West South Central,4
+GeoSP,0,West South Central,05139,test,05,139,West South Central,10
+GeoSP,0,West South Central,05141,test,05,141,West South Central,5
+GeoSP,0,West South Central,05143,test,05,143,West South Central,32
+GeoSP,0,West South Central,05145,test,05,145,West South Central,13
+GeoSP,0,West South Central,05149,test,05,149,West South Central,6
+GeoSP,0,West South Central,22001,test,22,001,West South Central,12
+GeoSP,0,West South Central,22003,test,22,003,West South Central,5
+GeoSP,0,West South Central,22005,test,22,005,West South Central,14
+GeoSP,0,West South Central,22007,test,22,007,West South Central,6
+GeoSP,0,West South Central,22009,test,22,009,West South Central,9
+GeoSP,0,West South Central,22011,test,22,011,West South Central,7
+GeoSP,0,West South Central,22013,test,22,013,West South Central,5
+GeoSP,0,West South Central,22015,test,22,015,West South Central,22
+GeoSP,0,West South Central,22017,test,22,017,West South Central,64
+GeoSP,0,West South Central,22019,test,22,019,West South Central,44
+GeoSP,0,West South Central,22027,test,22,027,West South Central,5
+GeoSP,0,West South Central,22029,test,22,029,West South Central,5
+GeoSP,0,West South Central,22031,test,22,031,West South Central,7
+GeoSP,0,West South Central,22033,test,22,033,West South Central,92
+GeoSP,0,West South Central,22037,test,22,037,West South Central,5
+GeoSP,0,West South Central,22039,test,22,039,West South Central,8
+GeoSP,0,West South Central,22041,test,22,041,West South Central,6
+GeoSP,0,West South Central,22043,test,22,043,West South Central,5
+GeoSP,0,West South Central,22045,test,22,045,West South Central,15
+GeoSP,0,West South Central,22047,test,22,047,West South Central,7
+GeoSP,0,West South Central,22049,test,22,049,West South Central,5
+GeoSP,0,West South Central,22051,test,22,051,West South Central,126
+GeoSP,0,West South Central,22053,test,22,053,West South Central,7
+GeoSP,0,West South Central,22055,test,22,055,West South Central,43
+GeoSP,0,West South Central,22057,test,22,057,West South Central,23
+GeoSP,0,West South Central,22061,test,22,061,West South Central,10
+GeoSP,0,West South Central,22063,test,22,063,West South Central,17
+GeoSP,0,West South Central,22065,test,22,065,West South Central,5
+GeoSP,0,West South Central,22067,test,22,067,West South Central,8
+GeoSP,0,West South Central,22069,test,22,069,West South Central,9
+GeoSP,0,West South Central,22071,test,22,071,West South Central,177
+GeoSP,0,West South Central,22073,test,22,073,West South Central,40
+GeoSP,0,West South Central,22075,test,22,075,West South Central,9
+GeoSP,0,West South Central,22077,test,22,077,West South Central,6
+GeoSP,0,West South Central,22079,test,22,079,West South Central,33
+GeoSP,0,West South Central,22083,test,22,083,West South Central,6
+GeoSP,0,West South Central,22085,test,22,085,West South Central,7
+GeoSP,0,West South Central,22087,test,22,087,West South Central,17
+GeoSP,0,West South Central,22089,test,22,089,West South Central,13
+GeoSP,0,West South Central,22093,test,22,093,West South Central,7
+GeoSP,0,West South Central,22095,test,22,095,West South Central,11
+GeoSP,0,West South Central,22097,test,22,097,West South Central,19
+GeoSP,0,West South Central,22099,test,22,099,West South Central,11
+GeoSP,0,West South Central,22101,test,22,101,West South Central,16
+GeoSP,0,West South Central,22103,test,22,103,West South Central,43
+GeoSP,0,West South Central,22105,test,22,105,West South Central,20
+GeoSP,0,West South Central,22109,test,22,109,West South Central,21
+GeoSP,0,West South Central,22111,test,22,111,West South Central,6
+GeoSP,0,West South Central,22113,test,22,113,West South Central,12
+GeoSP,0,West South Central,22115,test,22,115,West South Central,12
+GeoSP,0,West South Central,22117,test,22,117,West South Central,11
+GeoSP,0,West South Central,22119,test,22,119,West South Central,11
+GeoSP,0,West South Central,22121,test,22,121,West South Central,5
+GeoSP,0,West South Central,22127,test,22,127,West South Central,4
+GeoSP,0,West South Central,40001,test,40,001,West South Central,5
+GeoSP,0,West South Central,40005,test,40,005,West South Central,4
+GeoSP,0,West South Central,40009,test,40,009,West South Central,4
+GeoSP,0,West South Central,40011,test,40,011,West South Central,5
+GeoSP,0,West South Central,40013,test,40,013,West South Central,11
+GeoSP,0,West South Central,40015,test,40,015,West South Central,8
+GeoSP,0,West South Central,40017,test,40,017,West South Central,29
+GeoSP,0,West South Central,40019,test,40,019,West South Central,11
+GeoSP,0,West South Central,40021,test,40,021,West South Central,9
+GeoSP,0,West South Central,40023,test,40,023,West South Central,5
+GeoSP,0,West South Central,40027,test,40,027,West South Central,62
+GeoSP,0,West South Central,40031,test,40,031,West South Central,32
+GeoSP,0,West South Central,40035,test,40,035,West South Central,5
+GeoSP,0,West South Central,40037,test,40,037,West South Central,21
+GeoSP,0,West South Central,40039,test,40,039,West South Central,5
+GeoSP,0,West South Central,40041,test,40,041,West South Central,9
+GeoSP,0,West South Central,40047,test,40,047,West South Central,12
+GeoSP,0,West South Central,40049,test,40,049,West South Central,9
+GeoSP,0,West South Central,40051,test,40,051,West South Central,10
+GeoSP,0,West South Central,40061,test,40,061,West South Central,4
+GeoSP,0,West South Central,40063,test,40,063,West South Central,5
+GeoSP,0,West South Central,40065,test,40,065,West South Central,8
+GeoSP,0,West South Central,40071,test,40,071,West South Central,11
+GeoSP,0,West South Central,40073,test,40,073,West South Central,4
+GeoSP,0,West South Central,40079,test,40,079,West South Central,12
+GeoSP,0,West South Central,40081,test,40,081,West South Central,7
+GeoSP,0,West South Central,40083,test,40,083,West South Central,8
+GeoSP,0,West South Central,40087,test,40,087,West South Central,6
+GeoSP,0,West South Central,40089,test,40,089,West South Central,8
+GeoSP,0,West South Central,40091,test,40,091,West South Central,6
+GeoSP,0,West South Central,40095,test,40,095,West South Central,4
+GeoSP,0,West South Central,40097,test,40,097,West South Central,9
+GeoSP,0,West South Central,40101,test,40,101,West South Central,16
+GeoSP,0,West South Central,40103,test,40,103,West South Central,4
+GeoSP,0,West South Central,40105,test,40,105,West South Central,4
+GeoSP,0,West South Central,40107,test,40,107,West South Central,4
+GeoSP,0,West South Central,40109,test,40,109,West South Central,241
+GeoSP,0,West South Central,40111,test,40,111,West South Central,10
+GeoSP,0,West South Central,40113,test,40,113,West South Central,11
+GeoSP,0,West South Central,40115,test,40,115,West South Central,9
+GeoSP,0,West South Central,40117,test,40,117,West South Central,5
+GeoSP,0,West South Central,40119,test,40,119,West South Central,17
+GeoSP,0,West South Central,40121,test,40,121,West South Central,13
+GeoSP,0,West South Central,40123,test,40,123,West South Central,10
+GeoSP,0,West South Central,40125,test,40,125,West South Central,16
+GeoSP,0,West South Central,40131,test,40,131,West South Central,28
+GeoSP,0,West South Central,40133,test,40,133,West South Central,9
+GeoSP,0,West South Central,40135,test,40,135,West South Central,9
+GeoSP,0,West South Central,40137,test,40,137,West South Central,11
+GeoSP,0,West South Central,40139,test,40,139,West South Central,5
+GeoSP,0,West South Central,40141,test,40,141,West South Central,5
+GeoSP,0,West South Central,40143,test,40,143,West South Central,175
+GeoSP,0,West South Central,40145,test,40,145,West South Central,22
+GeoSP,0,West South Central,40147,test,40,147,West South Central,13
+GeoSP,0,West South Central,40149,test,40,149,West South Central,4
+GeoSP,0,West South Central,40153,test,40,153,West South Central,5
+GeoSP,0,West South Central,48001,test,48,001,West South Central,11
+GeoSP,0,West South Central,48003,test,48,003,West South Central,4
+GeoSP,0,West South Central,48005,test,48,005,West South Central,17
+GeoSP,0,West South Central,48007,test,48,007,West South Central,5
+GeoSP,0,West South Central,48013,test,48,013,West South Central,8
+GeoSP,0,West South Central,48015,test,48,015,West South Central,6
+GeoSP,0,West South Central,48019,test,48,019,West South Central,5
+GeoSP,0,West South Central,48021,test,48,021,West South Central,10
+GeoSP,0,West South Central,48025,test,48,025,West South Central,7
+GeoSP,0,West South Central,48027,test,48,027,West South Central,65
+GeoSP,0,West South Central,48029,test,48,029,West South Central,366
+GeoSP,0,West South Central,48035,test,48,035,West South Central,7
+GeoSP,0,West South Central,48037,test,48,037,West South Central,18
+GeoSP,0,West South Central,48039,test,48,039,West South Central,51
+GeoSP,0,West South Central,48041,test,48,041,West South Central,42
+GeoSP,0,West South Central,48049,test,48,049,West South Central,12
+GeoSP,0,West South Central,48051,test,48,051,West South Central,5
+GeoSP,0,West South Central,48053,test,48,053,West South Central,8
+GeoSP,0,West South Central,48055,test,48,055,West South Central,8
+GeoSP,0,West South Central,48057,test,48,057,West South Central,5
+GeoSP,0,West South Central,48061,test,48,061,West South Central,86
+GeoSP,0,West South Central,48067,test,48,067,West South Central,7
+GeoSP,0,West South Central,48071,test,48,071,West South Central,6
+GeoSP,0,West South Central,48073,test,48,073,West South Central,12
+GeoSP,0,West South Central,48085,test,48,085,West South Central,152
+GeoSP,0,West South Central,48089,test,48,089,West South Central,5
+GeoSP,0,West South Central,48091,test,48,091,West South Central,24
+GeoSP,0,West South Central,48093,test,48,093,West South Central,4
+GeoSP,0,West South Central,48097,test,48,097,West South Central,8
+GeoSP,0,West South Central,48099,test,48,099,West South Central,19
+GeoSP,0,West South Central,48113,test,48,113,West South Central,529
+GeoSP,0,West South Central,48115,test,48,115,West South Central,4
+GeoSP,0,West South Central,48117,test,48,117,West South Central,4
+GeoSP,0,West South Central,48121,test,48,121,West South Central,137
+GeoSP,0,West South Central,48123,test,48,123,West South Central,5
+GeoSP,0,West South Central,48133,test,48,133,West South Central,5
+GeoSP,0,West South Central,48135,test,48,135,West South Central,28
+GeoSP,0,West South Central,48139,test,48,139,West South Central,31
+GeoSP,0,West South Central,48141,test,48,141,West South Central,161
+GeoSP,0,West South Central,48143,test,48,143,West South Central,8
+GeoSP,0,West South Central,48145,test,48,145,West South Central,6
+GeoSP,0,West South Central,48147,test,48,147,West South Central,9
+GeoSP,0,West South Central,48149,test,48,149,West South Central,7
+GeoSP,0,West South Central,48157,test,48,157,West South Central,76
+GeoSP,0,West South Central,48161,test,48,161,West South Central,7
+GeoSP,0,West South Central,48167,test,48,167,West South Central,66
+GeoSP,0,West South Central,48171,test,48,171,West South Central,5
+GeoSP,0,West South Central,48177,test,48,177,West South Central,6
+GeoSP,0,West South Central,48179,test,48,179,West South Central,7
+GeoSP,0,West South Central,48181,test,48,181,West South Central,26
+GeoSP,0,West South Central,48183,test,48,183,West South Central,25
+GeoSP,0,West South Central,48185,test,48,185,West South Central,6
+GeoSP,0,West South Central,48187,test,48,187,West South Central,29
+GeoSP,0,West South Central,48189,test,48,189,West South Central,9
+GeoSP,0,West South Central,48199,test,48,199,West South Central,11
+GeoSP,0,West South Central,48201,test,48,201,West South Central,786
+GeoSP,0,West South Central,48203,test,48,203,West South Central,14
+GeoSP,0,West South Central,48209,test,48,209,West South Central,25
+GeoSP,0,West South Central,48213,test,48,213,West South Central,17
+GeoSP,0,West South Central,48215,test,48,215,West South Central,113
+GeoSP,0,West South Central,48217,test,48,217,West South Central,11
+GeoSP,0,West South Central,48219,test,48,219,West South Central,7
+GeoSP,0,West South Central,48221,test,48,221,West South Central,10
+GeoSP,0,West South Central,48223,test,48,223,West South Central,9
+GeoSP,0,West South Central,48225,test,48,225,West South Central,7
+GeoSP,0,West South Central,48227,test,48,227,West South Central,10
+GeoSP,0,West South Central,48231,test,48,231,West South Central,19
+GeoSP,0,West South Central,48233,test,48,233,West South Central,7
+GeoSP,0,West South Central,48241,test,48,241,West South Central,8
+GeoSP,0,West South Central,48245,test,48,245,West South Central,72
+GeoSP,0,West South Central,48249,test,48,249,West South Central,7
+GeoSP,0,West South Central,48251,test,48,251,West South Central,28
+GeoSP,0,West South Central,48253,test,48,253,West South Central,6
+GeoSP,0,West South Central,48255,test,48,255,West South Central,4
+GeoSP,0,West South Central,48257,test,48,257,West South Central,18
+GeoSP,0,West South Central,48259,test,48,259,West South Central,6
+GeoSP,0,West South Central,48265,test,48,265,West South Central,10
+GeoSP,0,West South Central,48273,test,48,273,West South Central,5
+GeoSP,0,West South Central,48277,test,48,277,West South Central,12
+GeoSP,0,West South Central,48279,test,48,279,West South Central,5
+GeoSP,0,West South Central,48281,test,48,281,West South Central,5
+GeoSP,0,West South Central,48285,test,48,285,West South Central,6
+GeoSP,0,West South Central,48287,test,48,287,West South Central,4
+GeoSP,0,West South Central,48291,test,48,291,West South Central,14
+GeoSP,0,West South Central,48293,test,48,293,West South Central,8
+GeoSP,0,West South Central,48297,test,48,297,West South Central,4
+GeoSP,0,West South Central,48299,test,48,299,West South Central,6
+GeoSP,0,West South Central,48303,test,48,303,West South Central,68
+GeoSP,0,West South Central,48309,test,48,309,West South Central,51
+GeoSP,0,West South Central,48313,test,48,313,West South Central,4
+GeoSP,0,West South Central,48315,test,48,315,West South Central,4
+GeoSP,0,West South Central,48321,test,48,321,West South Central,10
+GeoSP,0,West South Central,48323,test,48,323,West South Central,9
+GeoSP,0,West South Central,48325,test,48,325,West South Central,8
+GeoSP,0,West South Central,48329,test,48,329,West South Central,27
+GeoSP,0,West South Central,48331,test,48,331,West South Central,7
+GeoSP,0,West South Central,48337,test,48,337,West South Central,6
+GeoSP,0,West South Central,48339,test,48,339,West South Central,59
+GeoSP,0,West South Central,48341,test,48,341,West South Central,4
+GeoSP,0,West South Central,48347,test,48,347,West South Central,13
+GeoSP,0,West South Central,48349,test,48,349,West South Central,10
+GeoSP,0,West South Central,48351,test,48,351,West South Central,4
+GeoSP,0,West South Central,48353,test,48,353,West South Central,5
+GeoSP,0,West South Central,48355,test,48,355,West South Central,81
+GeoSP,0,West South Central,48361,test,48,361,West South Central,21
+GeoSP,0,West South Central,48363,test,48,363,West South Central,9
+GeoSP,0,West South Central,48365,test,48,365,West South Central,6
+GeoSP,0,West South Central,48367,test,48,367,West South Central,19
+GeoSP,0,West South Central,48371,test,48,371,West South Central,4
+GeoSP,0,West South Central,48373,test,48,373,West South Central,10
+GeoSP,0,West South Central,48375,test,48,375,West South Central,34
+GeoSP,0,West South Central,48381,test,48,381,West South Central,29
+GeoSP,0,West South Central,48387,test,48,387,West South Central,4
+GeoSP,0,West South Central,48389,test,48,389,West South Central,5
+GeoSP,0,West South Central,48395,test,48,395,West South Central,5
+GeoSP,0,West South Central,48397,test,48,397,West South Central,11
+GeoSP,0,West South Central,48399,test,48,399,West South Central,4
+GeoSP,0,West South Central,48401,test,48,401,West South Central,13
+GeoSP,0,West South Central,48407,test,48,407,West South Central,4
+GeoSP,0,West South Central,48409,test,48,409,West South Central,16
+GeoSP,0,West South Central,48415,test,48,415,West South Central,4
+GeoSP,0,West South Central,48419,test,48,419,West South Central,6
+GeoSP,0,West South Central,48423,test,48,423,West South Central,41
+GeoSP,0,West South Central,48427,test,48,427,West South Central,15
+GeoSP,0,West South Central,48439,test,48,439,West South Central,357
+GeoSP,0,West South Central,48441,test,48,441,West South Central,38
+GeoSP,0,West South Central,48449,test,48,449,West South Central,8
+GeoSP,0,West South Central,48451,test,48,451,West South Central,25
+GeoSP,0,West South Central,48453,test,48,453,West South Central,218
+GeoSP,0,West South Central,48455,test,48,455,West South Central,5
+GeoSP,0,West South Central,48457,test,48,457,West South Central,5
+GeoSP,0,West South Central,48459,test,48,459,West South Central,7
+GeoSP,0,West South Central,48463,test,48,463,West South Central,5
+GeoSP,0,West South Central,48465,test,48,465,West South Central,10
+GeoSP,0,West South Central,48467,test,48,467,West South Central,10
+GeoSP,0,West South Central,48469,test,48,469,West South Central,23
+GeoSP,0,West South Central,48471,test,48,471,West South Central,10
+GeoSP,0,West South Central,48473,test,48,473,West South Central,6
+GeoSP,0,West South Central,48477,test,48,477,West South Central,6
+GeoSP,0,West South Central,48479,test,48,479,West South Central,61
+GeoSP,0,West South Central,48481,test,48,481,West South Central,11
+GeoSP,0,West South Central,48485,test,48,485,West South Central,37
+GeoSP,0,West South Central,48487,test,48,487,West South Central,4
+GeoSP,0,West South Central,48489,test,48,489,West South Central,5
+GeoSP,0,West South Central,48491,test,48,491,West South Central,89
+GeoSP,0,West South Central,48493,test,48,493,West South Central,11
+GeoSP,0,West South Central,48497,test,48,497,West South Central,11
+GeoSP,0,West South Central,48499,test,48,499,West South Central,10
+GeoSP,0,West South Central,48503,test,48,503,West South Central,4
+GeoSP,0,West South Central,48507,test,48,507,West South Central,4
+GeoSP,0,West South Central,01001,train,01,001,East South Central,12
+GeoSP,0,West South Central,01003,train,01,003,East South Central,31
+GeoSP,0,West South Central,01005,train,01,005,East South Central,9
+GeoSP,0,West South Central,01007,train,01,007,East South Central,4
+GeoSP,0,West South Central,01009,train,01,009,East South Central,9
+GeoSP,0,West South Central,01013,train,01,013,East South Central,9
+GeoSP,0,West South Central,01015,train,01,015,East South Central,31
+GeoSP,0,West South Central,01017,train,01,017,East South Central,9
+GeoSP,0,West South Central,01019,train,01,019,East South Central,6
+GeoSP,0,West South Central,01023,train,01,023,East South Central,4
+GeoSP,0,West South Central,01025,train,01,025,East South Central,9
+GeoSP,0,West South Central,01027,train,01,027,East South Central,4
+GeoSP,0,West South Central,01029,train,01,029,East South Central,4
+GeoSP,0,West South Central,01031,train,01,031,East South Central,14
+GeoSP,0,West South Central,01035,train,01,035,East South Central,5
+GeoSP,0,West South Central,01039,train,01,039,East South Central,14
+GeoSP,0,West South Central,01041,train,01,041,East South Central,6
+GeoSP,0,West South Central,01043,train,01,043,East South Central,18
+GeoSP,0,West South Central,01045,train,01,045,East South Central,14
+GeoSP,0,West South Central,01049,train,01,049,East South Central,14
+GeoSP,0,West South Central,01051,train,01,051,East South Central,15
+GeoSP,0,West South Central,01053,train,01,053,East South Central,9
+GeoSP,0,West South Central,01055,train,01,055,East South Central,30
+GeoSP,0,West South Central,01057,train,01,057,East South Central,5
+GeoSP,0,West South Central,01059,train,01,059,East South Central,9
+GeoSP,0,West South Central,01061,train,01,061,East South Central,6
+GeoSP,0,West South Central,01065,train,01,065,East South Central,6
+GeoSP,0,West South Central,01067,train,01,067,East South Central,6
+GeoSP,0,West South Central,01069,train,01,069,East South Central,22
+GeoSP,0,West South Central,01071,train,01,071,East South Central,11
+GeoSP,0,West South Central,01073,train,01,073,East South Central,163
+GeoSP,0,West South Central,01077,train,01,077,East South Central,22
+GeoSP,0,West South Central,01079,train,01,079,East South Central,9
+GeoSP,0,West South Central,01081,train,01,081,East South Central,27
+GeoSP,0,West South Central,01083,train,01,083,East South Central,16
+GeoSP,0,West South Central,01085,train,01,085,East South Central,4
+GeoSP,0,West South Central,01087,train,01,087,East South Central,12
+GeoSP,0,West South Central,01089,train,01,089,East South Central,73
+GeoSP,0,West South Central,01091,train,01,091,East South Central,6
+GeoSP,0,West South Central,01093,train,01,093,East South Central,8
+GeoSP,0,West South Central,01095,train,01,095,East South Central,18
+GeoSP,0,West South Central,01097,train,01,097,East South Central,115
+GeoSP,0,West South Central,01099,train,01,099,East South Central,7
+GeoSP,0,West South Central,01103,train,01,103,East South Central,27
+GeoSP,0,West South Central,01107,train,01,107,East South Central,5
+GeoSP,0,West South Central,01109,train,01,109,East South Central,8
+GeoSP,0,West South Central,01111,train,01,111,East South Central,6
+GeoSP,0,West South Central,01113,train,01,113,East South Central,13
+GeoSP,0,West South Central,01115,train,01,115,East South Central,13
+GeoSP,0,West South Central,01117,train,01,117,East South Central,48
+GeoSP,0,West South Central,01119,train,01,119,East South Central,4
+GeoSP,0,West South Central,01121,train,01,121,East South Central,22
+GeoSP,0,West South Central,01123,train,01,123,East South Central,10
+GeoSP,0,West South Central,01125,train,01,125,East South Central,47
+GeoSP,0,West South Central,01127,train,01,127,East South Central,18
+GeoSP,0,West South Central,01129,train,01,129,East South Central,5
+GeoSP,0,West South Central,01131,train,01,131,East South Central,4
+GeoSP,0,West South Central,01133,train,01,133,East South Central,7
+GeoSP,0,West South Central,02020,train,02,020,Pacific,55
+GeoSP,0,West South Central,02090,train,02,090,Pacific,19
+GeoSP,0,West South Central,02110,train,02,110,Pacific,6
+GeoSP,0,West South Central,02122,train,02,122,Pacific,13
+GeoSP,0,West South Central,02130,train,02,130,Pacific,4
+GeoSP,0,West South Central,02150,train,02,150,Pacific,5
+GeoSP,0,West South Central,02170,train,02,170,Pacific,24
+GeoSP,0,West South Central,02290,train,02,290,Pacific,4
+GeoSP,0,West South Central,04001,train,04,001,Mountain,16
+GeoSP,0,West South Central,04003,train,04,003,Mountain,32
+GeoSP,0,West South Central,04005,train,04,005,Mountain,28
+GeoSP,0,West South Central,04009,train,04,009,Mountain,9
+GeoSP,0,West South Central,04012,train,04,012,Mountain,9
+GeoSP,0,West South Central,04015,train,04,015,Mountain,43
+GeoSP,0,West South Central,04017,train,04,017,Mountain,31
+GeoSP,0,West South Central,04023,train,04,023,Mountain,10
+GeoSP,0,West South Central,04025,train,04,025,Mountain,42
+GeoSP,0,West South Central,04027,train,04,027,Mountain,55
+GeoSP,0,West South Central,06001,train,06,001,Pacific,361
+GeoSP,0,West South Central,06005,train,06,005,Pacific,9
+GeoSP,0,West South Central,06007,train,06,007,Pacific,51
+GeoSP,0,West South Central,06009,train,06,009,Pacific,10
+GeoSP,0,West South Central,06011,train,06,011,Pacific,5
+GeoSP,0,West South Central,06013,train,06,013,Pacific,207
+GeoSP,0,West South Central,06015,train,06,015,Pacific,7
+GeoSP,0,West South Central,06017,train,06,017,Pacific,43
+GeoSP,0,West South Central,06019,train,06,019,Pacific,199
+GeoSP,0,West South Central,06021,train,06,021,Pacific,6
+GeoSP,0,West South Central,06023,train,06,023,Pacific,30
+GeoSP,0,West South Central,06025,train,06,025,Pacific,31
+GeoSP,0,West South Central,06027,train,06,027,Pacific,6
+GeoSP,0,West South Central,06029,train,06,029,Pacific,151
+GeoSP,0,West South Central,06031,train,06,031,Pacific,27
+GeoSP,0,West South Central,06033,train,06,033,Pacific,15
+GeoSP,0,West South Central,06035,train,06,035,Pacific,9
+GeoSP,0,West South Central,06039,train,06,039,Pacific,23
+GeoSP,0,West South Central,06041,train,06,041,Pacific,55
+GeoSP,0,West South Central,06043,train,06,043,Pacific,6
+GeoSP,0,West South Central,06045,train,06,045,Pacific,20
+GeoSP,0,West South Central,06047,train,06,047,Pacific,49
+GeoSP,0,West South Central,06049,train,06,049,Pacific,4
+GeoSP,0,West South Central,06053,train,06,053,Pacific,93
+GeoSP,0,West South Central,06055,train,06,055,Pacific,40
+GeoSP,0,West South Central,06057,train,06,057,Pacific,20
+GeoSP,0,West South Central,06059,train,06,059,Pacific,582
+GeoSP,0,West South Central,06061,train,06,061,Pacific,85
+GeoSP,0,West South Central,06063,train,06,063,Pacific,7
+GeoSP,0,West South Central,06065,train,06,065,Pacific,453
+GeoSP,0,West South Central,06069,train,06,069,Pacific,11
+GeoSP,0,West South Central,06071,train,06,071,Pacific,369
+GeoSP,0,West South Central,06073,train,06,073,Pacific,627
+GeoSP,0,West South Central,06075,train,06,075,Pacific,196
+GeoSP,0,West South Central,06079,train,06,079,Pacific,53
+GeoSP,0,West South Central,06081,train,06,081,Pacific,158
+GeoSP,0,West South Central,06083,train,06,083,Pacific,90
+GeoSP,0,West South Central,06085,train,06,085,Pacific,372
+GeoSP,0,West South Central,06087,train,06,087,Pacific,52
+GeoSP,0,West South Central,06089,train,06,089,Pacific,48
+GeoSP,0,West South Central,06093,train,06,093,Pacific,14
+GeoSP,0,West South Central,06095,train,06,095,Pacific,96
+GeoSP,0,West South Central,06097,train,06,097,Pacific,99
+GeoSP,0,West South Central,06099,train,06,099,Pacific,94
+GeoSP,0,West South Central,06101,train,06,101,Pacific,21
+GeoSP,0,West South Central,06103,train,06,103,Pacific,11
+GeoSP,0,West South Central,06105,train,06,105,Pacific,5
+GeoSP,0,West South Central,06109,train,06,109,Pacific,11
+GeoSP,0,West South Central,06111,train,06,111,Pacific,174
+GeoSP,0,West South Central,06113,train,06,113,Pacific,41
+GeoSP,0,West South Central,08003,train,08,003,Mountain,4
+GeoSP,0,West South Central,08005,train,08,005,Mountain,147
+GeoSP,0,West South Central,08007,train,08,007,Mountain,4
+GeoSP,0,West South Central,08014,train,08,014,Mountain,18
+GeoSP,0,West South Central,08015,train,08,015,Mountain,5
+GeoSP,0,West South Central,08029,train,08,029,Mountain,7
+GeoSP,0,West South Central,08031,train,08,031,Mountain,144
+GeoSP,0,West South Central,08035,train,08,035,Mountain,61
+GeoSP,0,West South Central,08037,train,08,037,Mountain,14
+GeoSP,0,West South Central,08039,train,08,039,Mountain,7
+GeoSP,0,West South Central,08041,train,08,041,Mountain,130
+GeoSP,0,West South Central,08043,train,08,043,Mountain,14
+GeoSP,0,West South Central,08045,train,08,045,Mountain,11
+GeoSP,0,West South Central,08059,train,08,059,Mountain,138
+GeoSP,0,West South Central,08069,train,08,069,Mountain,73
+GeoSP,0,West South Central,08071,train,08,071,Mountain,6
+GeoSP,0,West South Central,08075,train,08,075,Mountain,6
+GeoSP,0,West South Central,08077,train,08,077,Mountain,29
+GeoSP,0,West South Central,08081,train,08,081,Mountain,4
+GeoSP,0,West South Central,08085,train,08,085,Mountain,10
+GeoSP,0,West South Central,08087,train,08,087,Mountain,8
+GeoSP,0,West South Central,08089,train,08,089,Mountain,7
+GeoSP,0,West South Central,08093,train,08,093,Mountain,5
+GeoSP,0,West South Central,08097,train,08,097,Mountain,4
+GeoSP,0,West South Central,08101,train,08,101,Mountain,55
+GeoSP,0,West South Central,08107,train,08,107,Mountain,8
+GeoSP,0,West South Central,08113,train,08,113,Mountain,4
+GeoSP,0,West South Central,08117,train,08,117,Mountain,5
+GeoSP,0,West South Central,08119,train,08,119,Mountain,6
+GeoSP,0,West South Central,08123,train,08,123,Mountain,77
+GeoSP,0,West South Central,09001,train,09,001,New England,210
+GeoSP,0,West South Central,09003,train,09,003,New England,224
+GeoSP,0,West South Central,09005,train,09,005,New England,51
+GeoSP,0,West South Central,09007,train,09,007,New England,36
+GeoSP,0,West South Central,09009,train,09,009,New England,189
+GeoSP,0,West South Central,09011,train,09,011,New England,66
+GeoSP,0,West South Central,09013,train,09,013,New England,29
+GeoSP,0,West South Central,09015,train,09,015,New England,25
+GeoSP,0,West South Central,10001,train,10,001,South Atlantic,33
+GeoSP,0,West South Central,10003,train,10,003,South Atlantic,131
+GeoSP,0,West South Central,10005,train,10,005,South Atlantic,53
+GeoSP,0,West South Central,11001,train,11,001,South Atlantic,179
+GeoSP,0,West South Central,12001,train,12,001,South Atlantic,56
+GeoSP,0,West South Central,12003,train,12,003,South Atlantic,4
+GeoSP,0,West South Central,12007,train,12,007,South Atlantic,4
+GeoSP,0,West South Central,12009,train,12,009,South Atlantic,113
+GeoSP,0,West South Central,12011,train,12,011,South Atlantic,361
+GeoSP,0,West South Central,12015,train,12,015,South Atlantic,38
+GeoSP,0,West South Central,12017,train,12,017,South Atlantic,28
+GeoSP,0,West South Central,12019,train,12,019,South Atlantic,30
+GeoSP,0,West South Central,12021,train,12,021,South Atlantic,74
+GeoSP,0,West South Central,12023,train,12,023,South Atlantic,12
+GeoSP,0,West South Central,12027,train,12,027,South Atlantic,9
+GeoSP,0,West South Central,12031,train,12,031,South Atlantic,173
+GeoSP,0,West South Central,12033,train,12,033,South Atlantic,71
+GeoSP,0,West South Central,12035,train,12,035,South Atlantic,20
+GeoSP,0,West South Central,12037,train,12,037,South Atlantic,4
+GeoSP,0,West South Central,12039,train,12,039,South Atlantic,9
+GeoSP,0,West South Central,12049,train,12,049,South Atlantic,6
+GeoSP,0,West South Central,12051,train,12,051,South Atlantic,7
+GeoSP,0,West South Central,12053,train,12,053,South Atlantic,45
+GeoSP,0,West South Central,12055,train,12,055,South Atlantic,27
+GeoSP,0,West South Central,12057,train,12,057,South Atlantic,320
+GeoSP,0,West South Central,12059,train,12,059,South Atlantic,4
+GeoSP,0,West South Central,12063,train,12,063,South Atlantic,11
+GeoSP,0,West South Central,12069,train,12,069,South Atlantic,56
+GeoSP,0,West South Central,12071,train,12,071,South Atlantic,167
+GeoSP,0,West South Central,12073,train,12,073,South Atlantic,68
+GeoSP,0,West South Central,12075,train,12,075,South Atlantic,10
+GeoSP,0,West South Central,12079,train,12,079,South Atlantic,5
+GeoSP,0,West South Central,12081,train,12,081,South Atlantic,78
+GeoSP,0,West South Central,12083,train,12,083,South Atlantic,63
+GeoSP,0,West South Central,12085,train,12,085,South Atlantic,35
+GeoSP,0,West South Central,12086,train,12,086,South Atlantic,518
+GeoSP,0,West South Central,12087,train,12,087,South Atlantic,31
+GeoSP,0,West South Central,12089,train,12,089,South Atlantic,12
+GeoSP,0,West South Central,12093,train,12,093,South Atlantic,12
+GeoSP,0,West South Central,12095,train,12,095,South Atlantic,207
+GeoSP,0,West South Central,12097,train,12,097,South Atlantic,41
+GeoSP,0,West South Central,12099,train,12,099,South Atlantic,337
+GeoSP,0,West South Central,12101,train,12,101,South Atlantic,133
+GeoSP,0,West South Central,12103,train,12,103,South Atlantic,245
+GeoSP,0,West South Central,12109,train,12,109,South Atlantic,40
+GeoSP,0,West South Central,12111,train,12,111,South Atlantic,44
+GeoSP,0,West South Central,12113,train,12,113,South Atlantic,25
+GeoSP,0,West South Central,12115,train,12,115,South Atlantic,94
+GeoSP,0,West South Central,12117,train,12,117,South Atlantic,86
+GeoSP,0,West South Central,12119,train,12,119,South Atlantic,19
+GeoSP,0,West South Central,12121,train,12,121,South Atlantic,7
+GeoSP,0,West South Central,12123,train,12,123,South Atlantic,4
+GeoSP,0,West South Central,12127,train,12,127,South Atlantic,113
+GeoSP,0,West South Central,12129,train,12,129,South Atlantic,4
+GeoSP,0,West South Central,12131,train,12,131,South Atlantic,11
+GeoSP,0,West South Central,12133,train,12,133,South Atlantic,7
+GeoSP,0,West South Central,13001,train,13,001,South Atlantic,5
+GeoSP,0,West South Central,13009,train,13,009,South Atlantic,9
+GeoSP,0,West South Central,13011,train,13,011,South Atlantic,4
+GeoSP,0,West South Central,13013,train,13,013,South Atlantic,18
+GeoSP,0,West South Central,13015,train,13,015,South Atlantic,15
+GeoSP,0,West South Central,13017,train,13,017,South Atlantic,5
+GeoSP,0,West South Central,13019,train,13,019,South Atlantic,6
+GeoSP,0,West South Central,13021,train,13,021,South Atlantic,44
+GeoSP,0,West South Central,13027,train,13,027,South Atlantic,5
+GeoSP,0,West South Central,13031,train,13,031,South Atlantic,12
+GeoSP,0,West South Central,13033,train,13,033,South Atlantic,6
+GeoSP,0,West South Central,13039,train,13,039,South Atlantic,10
+GeoSP,0,West South Central,13045,train,13,045,South Atlantic,17
+GeoSP,0,West South Central,13047,train,13,047,South Atlantic,11
+GeoSP,0,West South Central,13051,train,13,051,South Atlantic,71
+GeoSP,0,West South Central,13053,train,13,053,South Atlantic,5
+GeoSP,0,West South Central,13055,train,13,055,South Atlantic,6
+GeoSP,0,West South Central,13057,train,13,057,South Atlantic,26
+GeoSP,0,West South Central,13059,train,13,059,South Atlantic,30
+GeoSP,0,West South Central,13063,train,13,063,South Atlantic,50
+GeoSP,0,West South Central,13067,train,13,067,South Atlantic,120
+GeoSP,0,West South Central,13069,train,13,069,South Atlantic,9
+GeoSP,0,West South Central,13071,train,13,071,South Atlantic,10
+GeoSP,0,West South Central,13073,train,13,073,South Atlantic,20
+GeoSP,0,West South Central,13077,train,13,077,South Atlantic,20
+GeoSP,0,West South Central,13081,train,13,081,South Atlantic,6
+GeoSP,0,West South Central,13083,train,13,083,South Atlantic,4
+GeoSP,0,West South Central,13087,train,13,087,South Atlantic,7
+GeoSP,0,West South Central,13089,train,13,089,South Atlantic,145
+GeoSP,0,West South Central,13091,train,13,091,South Atlantic,6
+GeoSP,0,West South Central,13095,train,13,095,South Atlantic,27
+GeoSP,0,West South Central,13097,train,13,097,South Atlantic,20
+GeoSP,0,West South Central,13099,train,13,099,South Atlantic,5
+GeoSP,0,West South Central,13103,train,13,103,South Atlantic,10
+GeoSP,0,West South Central,13105,train,13,105,South Atlantic,5
+GeoSP,0,West South Central,13107,train,13,107,South Atlantic,6
+GeoSP,0,West South Central,13111,train,13,111,South Atlantic,5
+GeoSP,0,West South Central,13113,train,13,113,South Atlantic,20
+GeoSP,0,West South Central,13115,train,13,115,South Atlantic,20
+GeoSP,0,West South Central,13117,train,13,117,South Atlantic,45
+GeoSP,0,West South Central,13119,train,13,119,South Atlantic,5
+GeoSP,0,West South Central,13121,train,13,121,South Atlantic,204
+GeoSP,0,West South Central,13123,train,13,123,South Atlantic,5
+GeoSP,0,West South Central,13127,train,13,127,South Atlantic,15
+GeoSP,0,West South Central,13129,train,13,129,South Atlantic,9
+GeoSP,0,West South Central,13131,train,13,131,South Atlantic,6
+GeoSP,0,West South Central,13133,train,13,133,South Atlantic,7
+GeoSP,0,West South Central,13135,train,13,135,South Atlantic,113
+GeoSP,0,West South Central,13137,train,13,137,South Atlantic,8
+GeoSP,0,West South Central,13139,train,13,139,South Atlantic,36
+GeoSP,0,West South Central,13143,train,13,143,South Atlantic,5
+GeoSP,0,West South Central,13151,train,13,151,South Atlantic,25
+GeoSP,0,West South Central,13153,train,13,153,South Atlantic,23
+GeoSP,0,West South Central,13157,train,13,157,South Atlantic,11
+GeoSP,0,West South Central,13163,train,13,163,South Atlantic,4
+GeoSP,0,West South Central,13169,train,13,169,South Atlantic,6
+GeoSP,0,West South Central,13175,train,13,175,South Atlantic,13
+GeoSP,0,West South Central,13177,train,13,177,South Atlantic,5
+GeoSP,0,West South Central,13179,train,13,179,South Atlantic,15
+GeoSP,0,West South Central,13185,train,13,185,South Atlantic,25
+GeoSP,0,West South Central,13187,train,13,187,South Atlantic,4
+GeoSP,0,West South Central,13189,train,13,189,South Atlantic,5
+GeoSP,0,West South Central,13193,train,13,193,South Atlantic,4
+GeoSP,0,West South Central,13195,train,13,195,South Atlantic,6
+GeoSP,0,West South Central,13199,train,13,199,South Atlantic,4
+GeoSP,0,West South Central,13205,train,13,205,South Atlantic,5
+GeoSP,0,West South Central,13207,train,13,207,South Atlantic,5
+GeoSP,0,West South Central,13213,train,13,213,South Atlantic,8
+GeoSP,0,West South Central,13215,train,13,215,South Atlantic,53
+GeoSP,0,West South Central,13217,train,13,217,South Atlantic,13
+GeoSP,0,West South Central,13219,train,13,219,South Atlantic,6
+GeoSP,0,West South Central,13221,train,13,221,South Atlantic,4
+GeoSP,0,West South Central,13223,train,13,223,South Atlantic,19
+GeoSP,0,West South Central,13225,train,13,225,South Atlantic,6
+GeoSP,0,West South Central,13227,train,13,227,South Atlantic,6
+GeoSP,0,West South Central,13229,train,13,229,South Atlantic,4
+GeoSP,0,West South Central,13231,train,13,231,South Atlantic,4
+GeoSP,0,West South Central,13233,train,13,233,South Atlantic,7
+GeoSP,0,West South Central,13241,train,13,241,South Atlantic,5
+GeoSP,0,West South Central,13245,train,13,245,South Atlantic,47
+GeoSP,0,West South Central,13247,train,13,247,South Atlantic,15
+GeoSP,0,West South Central,13251,train,13,251,South Atlantic,5
+GeoSP,0,West South Central,13255,train,13,255,South Atlantic,12
+GeoSP,0,West South Central,13257,train,13,257,South Atlantic,5
+GeoSP,0,West South Central,13261,train,13,261,South Atlantic,8
+GeoSP,0,West South Central,13267,train,13,267,South Atlantic,5
+GeoSP,0,West South Central,13273,train,13,273,South Atlantic,4
+GeoSP,0,West South Central,13277,train,13,277,South Atlantic,9
+GeoSP,0,West South Central,13279,train,13,279,South Atlantic,6
+GeoSP,0,West South Central,13285,train,13,285,South Atlantic,14
+GeoSP,0,West South Central,13291,train,13,291,South Atlantic,6
+GeoSP,0,West South Central,13293,train,13,293,South Atlantic,7
+GeoSP,0,West South Central,13295,train,13,295,South Atlantic,13
+GeoSP,0,West South Central,13297,train,13,297,South Atlantic,15
+GeoSP,0,West South Central,13299,train,13,299,South Atlantic,9
+GeoSP,0,West South Central,13303,train,13,303,South Atlantic,5
+GeoSP,0,West South Central,13305,train,13,305,South Atlantic,6
+GeoSP,0,West South Central,13311,train,13,311,South Atlantic,5
+GeoSP,0,West South Central,13313,train,13,313,South Atlantic,18
+GeoSP,0,West South Central,13315,train,13,315,South Atlantic,4
+GeoSP,0,West South Central,13317,train,13,317,South Atlantic,4
+GeoSP,0,West South Central,13321,train,13,321,South Atlantic,5
+GeoSP,0,West South Central,15001,train,15,001,Pacific,34
+GeoSP,0,West South Central,15003,train,15,003,Pacific,244
+GeoSP,0,West South Central,15007,train,15,007,Pacific,17
+GeoSP,0,West South Central,15009,train,15,009,Pacific,36
+GeoSP,0,West South Central,16001,train,16,001,Mountain,59
+GeoSP,0,West South Central,16005,train,16,005,Mountain,22
+GeoSP,0,West South Central,16011,train,16,011,Mountain,8
+GeoSP,0,West South Central,16013,train,16,013,Mountain,4
+GeoSP,0,West South Central,16017,train,16,017,Mountain,9
+GeoSP,0,West South Central,16019,train,16,019,Mountain,21
+GeoSP,0,West South Central,16027,train,16,027,Mountain,29
+GeoSP,0,West South Central,16031,train,16,031,Mountain,6
+GeoSP,0,West South Central,16039,train,16,039,Mountain,5
+GeoSP,0,West South Central,16051,train,16,051,Mountain,4
+GeoSP,0,West South Central,16053,train,16,053,Mountain,5
+GeoSP,0,West South Central,16055,train,16,055,Mountain,25
+GeoSP,0,West South Central,16057,train,16,057,Mountain,7
+GeoSP,0,West South Central,16065,train,16,065,Mountain,6
+GeoSP,0,West South Central,16067,train,16,067,Mountain,5
+GeoSP,0,West South Central,16069,train,16,069,Mountain,10
+GeoSP,0,West South Central,16075,train,16,075,Mountain,4
+GeoSP,0,West South Central,17001,train,17,001,East North Central,18
+GeoSP,0,West South Central,17003,train,17,003,East North Central,4
+GeoSP,0,West South Central,17005,train,17,005,East North Central,4
+GeoSP,0,West South Central,17011,train,17,011,East North Central,10
+GeoSP,0,West South Central,17015,train,17,015,East North Central,6
+GeoSP,0,West South Central,17017,train,17,017,East North Central,5
+GeoSP,0,West South Central,17021,train,17,021,East North Central,10
+GeoSP,0,West South Central,17023,train,17,023,East North Central,4
+GeoSP,0,West South Central,17025,train,17,025,East North Central,4
+GeoSP,0,West South Central,17029,train,17,029,East North Central,12
+GeoSP,0,West South Central,17031,train,17,031,East North Central,1318
+GeoSP,0,West South Central,17033,train,17,033,East North Central,6
+GeoSP,0,West South Central,17037,train,17,037,East North Central,21
+GeoSP,0,West South Central,17039,train,17,039,East North Central,5
+GeoSP,0,West South Central,17041,train,17,041,East North Central,5
+GeoSP,0,West South Central,17043,train,17,043,East North Central,216
+GeoSP,0,West South Central,17049,train,17,049,East North Central,8
+GeoSP,0,West South Central,17051,train,17,051,East North Central,7
+GeoSP,0,West South Central,17053,train,17,053,East North Central,5
+GeoSP,0,West South Central,17057,train,17,057,East North Central,12
+GeoSP,0,West South Central,17061,train,17,061,East North Central,5
+GeoSP,0,West South Central,17063,train,17,063,East North Central,10
+GeoSP,0,West South Central,17067,train,17,067,East North Central,7
+GeoSP,0,West South Central,17073,train,17,073,East North Central,13
+GeoSP,0,West South Central,17075,train,17,075,East North Central,9
+GeoSP,0,West South Central,17077,train,17,077,East North Central,14
+GeoSP,0,West South Central,17081,train,17,081,East North Central,11
+GeoSP,0,West South Central,17083,train,17,083,East North Central,6
+GeoSP,0,West South Central,17085,train,17,085,East North Central,6
+GeoSP,0,West South Central,17087,train,17,087,East North Central,4
+GeoSP,0,West South Central,17089,train,17,089,East North Central,82
+GeoSP,0,West South Central,17091,train,17,091,East North Central,29
+GeoSP,0,West South Central,17093,train,17,093,East North Central,10
+GeoSP,0,West South Central,17095,train,17,095,East North Central,16
+GeoSP,0,West South Central,17097,train,17,097,East North Central,153
+GeoSP,0,West South Central,17099,train,17,099,East North Central,28
+GeoSP,0,West South Central,17101,train,17,101,East North Central,5
+GeoSP,0,West South Central,17105,train,17,105,East North Central,10
+GeoSP,0,West South Central,17107,train,17,107,East North Central,8
+GeoSP,0,West South Central,17109,train,17,109,East North Central,10
+GeoSP,0,West South Central,17111,train,17,111,East North Central,52
+GeoSP,0,West South Central,17113,train,17,113,East North Central,41
+GeoSP,0,West South Central,17115,train,17,115,East North Central,34
+GeoSP,0,West South Central,17117,train,17,117,East North Central,13
+GeoSP,0,West South Central,17119,train,17,119,East North Central,61
+GeoSP,0,West South Central,17121,train,17,121,East North Central,12
+GeoSP,0,West South Central,17123,train,17,123,East North Central,5
+GeoSP,0,West South Central,17125,train,17,125,East North Central,6
+GeoSP,0,West South Central,17127,train,17,127,East North Central,4
+GeoSP,0,West South Central,17131,train,17,131,East North Central,4
+GeoSP,0,West South Central,17133,train,17,133,East North Central,6
+GeoSP,0,West South Central,17135,train,17,135,East North Central,8
+GeoSP,0,West South Central,17137,train,17,137,East North Central,10
+GeoSP,0,West South Central,17141,train,17,141,East North Central,11
+GeoSP,0,West South Central,17143,train,17,143,East North Central,48
+GeoSP,0,West South Central,17145,train,17,145,East North Central,6
+GeoSP,0,West South Central,17147,train,17,147,East North Central,4
+GeoSP,0,West South Central,17149,train,17,149,East North Central,5
+GeoSP,0,West South Central,17157,train,17,157,East North Central,9
+GeoSP,0,West South Central,17159,train,17,159,East North Central,5
+GeoSP,0,West South Central,17161,train,17,161,East North Central,40
+GeoSP,0,West South Central,17163,train,17,163,East North Central,60
+GeoSP,0,West South Central,17165,train,17,165,East North Central,9
+GeoSP,0,West South Central,17167,train,17,167,East North Central,53
+GeoSP,0,West South Central,17173,train,17,173,East North Central,6
+GeoSP,0,West South Central,17177,train,17,177,East North Central,13
+GeoSP,0,West South Central,17179,train,17,179,East North Central,30
+GeoSP,0,West South Central,17181,train,17,181,East North Central,5
+GeoSP,0,West South Central,17185,train,17,185,East North Central,4
+GeoSP,0,West South Central,17187,train,17,187,East North Central,5
+GeoSP,0,West South Central,17189,train,17,189,East North Central,4
+GeoSP,0,West South Central,17191,train,17,191,East North Central,5
+GeoSP,0,West South Central,17193,train,17,193,East North Central,5
+GeoSP,0,West South Central,17195,train,17,195,East North Central,18
+GeoSP,0,West South Central,17197,train,17,197,East North Central,152
+GeoSP,0,West South Central,17199,train,17,199,East North Central,15
+GeoSP,0,West South Central,17201,train,17,201,East North Central,77
+GeoSP,0,West South Central,17203,train,17,203,East North Central,9
+GeoSP,0,West South Central,18001,train,18,001,East North Central,7
+GeoSP,0,West South Central,18003,train,18,003,East North Central,96
+GeoSP,0,West South Central,18005,train,18,005,East North Central,15
+GeoSP,0,West South Central,18009,train,18,009,East North Central,4
+GeoSP,0,West South Central,18011,train,18,011,East North Central,10
+GeoSP,0,West South Central,18013,train,18,013,East North Central,4
+GeoSP,0,West South Central,18017,train,18,017,East North Central,11
+GeoSP,0,West South Central,18019,train,18,019,East North Central,26
+GeoSP,0,West South Central,18021,train,18,021,East North Central,6
+GeoSP,0,West South Central,18023,train,18,023,East North Central,8
+GeoSP,0,West South Central,18027,train,18,027,East North Central,7
+GeoSP,0,West South Central,18029,train,18,029,East North Central,10
+GeoSP,0,West South Central,18033,train,18,033,East North Central,9
+GeoSP,0,West South Central,18035,train,18,035,East North Central,30
+GeoSP,0,West South Central,18037,train,18,037,East North Central,7
+GeoSP,0,West South Central,18039,train,18,039,East North Central,36
+GeoSP,0,West South Central,18041,train,18,041,East North Central,7
+GeoSP,0,West South Central,18043,train,18,043,East North Central,20
+GeoSP,0,West South Central,18045,train,18,045,East North Central,5
+GeoSP,0,West South Central,18047,train,18,047,East North Central,5
+GeoSP,0,West South Central,18049,train,18,049,East North Central,6
+GeoSP,0,West South Central,18051,train,18,051,East North Central,7
+GeoSP,0,West South Central,18053,train,18,053,East North Central,16
+GeoSP,0,West South Central,18055,train,18,055,East North Central,9
+GeoSP,0,West South Central,18057,train,18,057,East North Central,39
+GeoSP,0,West South Central,18059,train,18,059,East North Central,10
+GeoSP,0,West South Central,18061,train,18,061,East North Central,6
+GeoSP,0,West South Central,18063,train,18,063,East North Central,21
+GeoSP,0,West South Central,18065,train,18,065,East North Central,13
+GeoSP,0,West South Central,18067,train,18,067,East North Central,20
+GeoSP,0,West South Central,18069,train,18,069,East North Central,9
+GeoSP,0,West South Central,18071,train,18,071,East North Central,10
+GeoSP,0,West South Central,18073,train,18,073,East North Central,8
+GeoSP,0,West South Central,18077,train,18,077,East North Central,7
+GeoSP,0,West South Central,18079,train,18,079,East North Central,6
+GeoSP,0,West South Central,18081,train,18,081,East North Central,22
+GeoSP,0,West South Central,18083,train,18,083,East North Central,10
+GeoSP,0,West South Central,18085,train,18,085,East North Central,19
+GeoSP,0,West South Central,18087,train,18,087,East North Central,8
+GeoSP,0,West South Central,18089,train,18,089,East North Central,117
+GeoSP,0,West South Central,18091,train,18,091,East North Central,28
+GeoSP,0,West South Central,18093,train,18,093,East North Central,10
+GeoSP,0,West South Central,18095,train,18,095,East North Central,37
+GeoSP,0,West South Central,18097,train,18,097,East North Central,224
+GeoSP,0,West South Central,18099,train,18,099,East North Central,12
+GeoSP,0,West South Central,18103,train,18,103,East North Central,10
+GeoSP,0,West South Central,18107,train,18,107,East North Central,9
+GeoSP,0,West South Central,18109,train,18,109,East North Central,13
+GeoSP,0,West South Central,18111,train,18,111,East North Central,4
+GeoSP,0,West South Central,18113,train,18,113,East North Central,10
+GeoSP,0,West South Central,18117,train,18,117,East North Central,6
+GeoSP,0,West South Central,18119,train,18,119,East North Central,5
+GeoSP,0,West South Central,18121,train,18,121,East North Central,4
+GeoSP,0,West South Central,18123,train,18,123,East North Central,5
+GeoSP,0,West South Central,18125,train,18,125,East North Central,4
+GeoSP,0,West South Central,18127,train,18,127,East North Central,32
+GeoSP,0,West South Central,18131,train,18,131,East North Central,4
+GeoSP,0,West South Central,18133,train,18,133,East North Central,7
+GeoSP,0,West South Central,18135,train,18,135,East North Central,8
+GeoSP,0,West South Central,18137,train,18,137,East North Central,6
+GeoSP,0,West South Central,18139,train,18,139,East North Central,5
+GeoSP,0,West South Central,18141,train,18,141,East North Central,75
+GeoSP,0,West South Central,18143,train,18,143,East North Central,5
+GeoSP,0,West South Central,18145,train,18,145,East North Central,10
+GeoSP,0,West South Central,18147,train,18,147,East North Central,5
+GeoSP,0,West South Central,18149,train,18,149,East North Central,7
+GeoSP,0,West South Central,18151,train,18,151,East North Central,9
+GeoSP,0,West South Central,18153,train,18,153,East North Central,5
+GeoSP,0,West South Central,18157,train,18,157,East North Central,37
+GeoSP,0,West South Central,18159,train,18,159,East North Central,4
+GeoSP,0,West South Central,18163,train,18,163,East North Central,49
+GeoSP,0,West South Central,18165,train,18,165,East North Central,5
+GeoSP,0,West South Central,18167,train,18,167,East North Central,28
+GeoSP,0,West South Central,18173,train,18,173,East North Central,11
+GeoSP,0,West South Central,18175,train,18,175,East North Central,6
+GeoSP,0,West South Central,18177,train,18,177,East North Central,17
+GeoSP,0,West South Central,18179,train,18,179,East North Central,7
+GeoSP,0,West South Central,18181,train,18,181,East North Central,8
+GeoSP,0,West South Central,18183,train,18,183,East North Central,7
+GeoSP,0,West South Central,19005,train,19,005,West North Central,5
+GeoSP,0,West South Central,19007,train,19,007,West North Central,5
+GeoSP,0,West South Central,19011,train,19,011,West North Central,7
+GeoSP,0,West South Central,19013,train,19,013,West North Central,38
+GeoSP,0,West South Central,19015,train,19,015,West North Central,7
+GeoSP,0,West South Central,19019,train,19,019,West North Central,6
+GeoSP,0,West South Central,19021,train,19,021,West North Central,6
+GeoSP,0,West South Central,19023,train,19,023,West North Central,5
+GeoSP,0,West South Central,19025,train,19,025,West North Central,4
+GeoSP,0,West South Central,19027,train,19,027,West North Central,6
+GeoSP,0,West South Central,19029,train,19,029,West North Central,5
+GeoSP,0,West South Central,19031,train,19,031,West North Central,5
+GeoSP,0,West South Central,19033,train,19,033,West North Central,11
+GeoSP,0,West South Central,19035,train,19,035,West North Central,4
+GeoSP,0,West South Central,19037,train,19,037,West North Central,4
+GeoSP,0,West South Central,19041,train,19,041,West North Central,4
+GeoSP,0,West South Central,19043,train,19,043,West North Central,6
+GeoSP,0,West South Central,19045,train,19,045,West North Central,12
+GeoSP,0,West South Central,19047,train,19,047,West North Central,5
+GeoSP,0,West South Central,19049,train,19,049,West North Central,15
+GeoSP,0,West South Central,19055,train,19,055,West North Central,4
+GeoSP,0,West South Central,19057,train,19,057,West North Central,11
+GeoSP,0,West South Central,19059,train,19,059,West North Central,5
+GeoSP,0,West South Central,19061,train,19,061,West North Central,26
+GeoSP,0,West South Central,19063,train,19,063,West North Central,4
+GeoSP,0,West South Central,19065,train,19,065,West North Central,7
+GeoSP,0,West South Central,19067,train,19,067,West North Central,5
+GeoSP,0,West South Central,19073,train,19,073,West North Central,4
+GeoSP,0,West South Central,19075,train,19,075,West North Central,4
+GeoSP,0,West South Central,19079,train,19,079,West North Central,5
+GeoSP,0,West South Central,19081,train,19,081,West North Central,4
+GeoSP,0,West South Central,19085,train,19,085,West North Central,5
+GeoSP,0,West South Central,19087,train,19,087,West North Central,5
+GeoSP,0,West South Central,19091,train,19,091,West North Central,4
+GeoSP,0,West South Central,19095,train,19,095,West North Central,4
+GeoSP,0,West South Central,19097,train,19,097,West North Central,6
+GeoSP,0,West South Central,19099,train,19,099,West North Central,9
+GeoSP,0,West South Central,19101,train,19,101,West North Central,4
+GeoSP,0,West South Central,19103,train,19,103,West North Central,24
+GeoSP,0,West South Central,19105,train,19,105,West North Central,5
+GeoSP,0,West South Central,19107,train,19,107,West North Central,4
+GeoSP,0,West South Central,19109,train,19,109,West North Central,6
+GeoSP,0,West South Central,19111,train,19,111,West North Central,11
+GeoSP,0,West South Central,19113,train,19,113,West North Central,45
+GeoSP,0,West South Central,19123,train,19,123,West North Central,7
+GeoSP,0,West South Central,19125,train,19,125,West North Central,8
+GeoSP,0,West South Central,19127,train,19,127,West North Central,10
+GeoSP,0,West South Central,19129,train,19,129,West North Central,5
+GeoSP,0,West South Central,19133,train,19,133,West North Central,4
+GeoSP,0,West South Central,19137,train,19,137,West North Central,4
+GeoSP,0,West South Central,19139,train,19,139,West North Central,10
+GeoSP,0,West South Central,19141,train,19,141,West North Central,4
+GeoSP,0,West South Central,19145,train,19,145,West North Central,6
+GeoSP,0,West South Central,19147,train,19,147,West North Central,4
+GeoSP,0,West South Central,19149,train,19,149,West North Central,6
+GeoSP,0,West South Central,19153,train,19,153,West North Central,98
+GeoSP,0,West South Central,19155,train,19,155,West North Central,30
+GeoSP,0,West South Central,19157,train,19,157,West North Central,5
+GeoSP,0,West South Central,19161,train,19,161,West North Central,4
+GeoSP,0,West South Central,19163,train,19,163,West North Central,47
+GeoSP,0,West South Central,19165,train,19,165,West North Central,4
+GeoSP,0,West South Central,19167,train,19,167,West North Central,7
+GeoSP,0,West South Central,19169,train,19,169,West North Central,20
+GeoSP,0,West South Central,19171,train,19,171,West North Central,6
+GeoSP,0,West South Central,19175,train,19,175,West North Central,4
+GeoSP,0,West South Central,19179,train,19,179,West North Central,11
+GeoSP,0,West South Central,19181,train,19,181,West North Central,12
+GeoSP,0,West South Central,19183,train,19,183,West North Central,5
+GeoSP,0,West South Central,19187,train,19,187,West North Central,12
+GeoSP,0,West South Central,19191,train,19,191,West North Central,5
+GeoSP,0,West South Central,19193,train,19,193,West North Central,26
+GeoSP,0,West South Central,19197,train,19,197,West North Central,5
+GeoSP,0,West South Central,20001,train,20,001,West North Central,5
+GeoSP,0,West South Central,20005,train,20,005,West North Central,4
+GeoSP,0,West South Central,20011,train,20,011,West North Central,5
+GeoSP,0,West South Central,20015,train,20,015,West North Central,13
+GeoSP,0,West South Central,20021,train,20,021,West North Central,6
+GeoSP,0,West South Central,20029,train,20,029,West North Central,4
+GeoSP,0,West South Central,20035,train,20,035,West North Central,11
+GeoSP,0,West South Central,20037,train,20,037,West North Central,11
+GeoSP,0,West South Central,20041,train,20,041,West North Central,6
+GeoSP,0,West South Central,20051,train,20,051,West North Central,6
+GeoSP,0,West South Central,20055,train,20,055,West North Central,12
+GeoSP,0,West South Central,20057,train,20,057,West North Central,7
+GeoSP,0,West South Central,20059,train,20,059,West North Central,5
+GeoSP,0,West South Central,20061,train,20,061,West North Central,8
+GeoSP,0,West South Central,20079,train,20,079,West North Central,6
+GeoSP,0,West South Central,20087,train,20,087,West North Central,4
+GeoSP,0,West South Central,20091,train,20,091,West North Central,130
+GeoSP,0,West South Central,20099,train,20,099,West North Central,8
+GeoSP,0,West South Central,20103,train,20,103,West North Central,16
+GeoSP,0,West South Central,20111,train,20,111,West North Central,8
+GeoSP,0,West South Central,20113,train,20,113,West North Central,7
+GeoSP,0,West South Central,20115,train,20,115,West North Central,4
+GeoSP,0,West South Central,20117,train,20,117,West North Central,4
+GeoSP,0,West South Central,20121,train,20,121,West North Central,8
+GeoSP,0,West South Central,20125,train,20,125,West North Central,13
+GeoSP,0,West South Central,20133,train,20,133,West North Central,5
+GeoSP,0,West South Central,20139,train,20,139,West North Central,5
+GeoSP,0,West South Central,20149,train,20,149,West North Central,4
+GeoSP,0,West South Central,20155,train,20,155,West North Central,17
+GeoSP,0,West South Central,20169,train,20,169,West North Central,12
+GeoSP,0,West South Central,20173,train,20,173,West North Central,124
+GeoSP,0,West South Central,20175,train,20,175,West North Central,5
+GeoSP,0,West South Central,20191,train,20,191,West North Central,6
+GeoSP,0,West South Central,20209,train,20,209,West North Central,70
+GeoSP,0,West South Central,21001,train,21,001,East South Central,7
+GeoSP,0,West South Central,21003,train,21,003,East South Central,6
+GeoSP,0,West South Central,21005,train,21,005,East South Central,5
+GeoSP,0,West South Central,21009,train,21,009,East South Central,10
+GeoSP,0,West South Central,21013,train,21,013,East South Central,9
+GeoSP,0,West South Central,21015,train,21,015,East South Central,22
+GeoSP,0,West South Central,21021,train,21,021,East South Central,7
+GeoSP,0,West South Central,21025,train,21,025,East South Central,7
+GeoSP,0,West South Central,21027,train,21,027,East South Central,6
+GeoSP,0,West South Central,21029,train,21,029,East South Central,18
+GeoSP,0,West South Central,21031,train,21,031,East South Central,5
+GeoSP,0,West South Central,21035,train,21,035,East South Central,9
+GeoSP,0,West South Central,21037,train,21,037,East South Central,25
+GeoSP,0,West South Central,21043,train,21,043,East South Central,7
+GeoSP,0,West South Central,21047,train,21,047,East South Central,19
+GeoSP,0,West South Central,21049,train,21,049,East South Central,10
+GeoSP,0,West South Central,21051,train,21,051,East South Central,6
+GeoSP,0,West South Central,21059,train,21,059,East South Central,23
+GeoSP,0,West South Central,21061,train,21,061,East South Central,4
+GeoSP,0,West South Central,21067,train,21,067,East South Central,82
+GeoSP,0,West South Central,21069,train,21,069,East South Central,4
+GeoSP,0,West South Central,21071,train,21,071,East South Central,10
+GeoSP,0,West South Central,21073,train,21,073,East South Central,11
+GeoSP,0,West South Central,21081,train,21,081,East South Central,4
+GeoSP,0,West South Central,21083,train,21,083,East South Central,9
+GeoSP,0,West South Central,21085,train,21,085,East South Central,7
+GeoSP,0,West South Central,21087,train,21,087,East South Central,4
+GeoSP,0,West South Central,21089,train,21,089,East South Central,9
+GeoSP,0,West South Central,21093,train,21,093,East South Central,22
+GeoSP,0,West South Central,21095,train,21,095,East South Central,11
+GeoSP,0,West South Central,21097,train,21,097,East South Central,5
+GeoSP,0,West South Central,21101,train,21,101,East South Central,11
+GeoSP,0,West South Central,21103,train,21,103,East South Central,5
+GeoSP,0,West South Central,21111,train,21,111,East South Central,191
+GeoSP,0,West South Central,21113,train,21,113,East South Central,9
+GeoSP,0,West South Central,21115,train,21,115,East South Central,6
+GeoSP,0,West South Central,21119,train,21,119,East South Central,5
+GeoSP,0,West South Central,21121,train,21,121,East South Central,8
+GeoSP,0,West South Central,21123,train,21,123,East South Central,4
+GeoSP,0,West South Central,21125,train,21,125,East South Central,13
+GeoSP,0,West South Central,21127,train,21,127,East South Central,5
+GeoSP,0,West South Central,21133,train,21,133,East South Central,7
+GeoSP,0,West South Central,21135,train,21,135,East South Central,4
+GeoSP,0,West South Central,21137,train,21,137,East South Central,6
+GeoSP,0,West South Central,21141,train,21,141,East South Central,6
+GeoSP,0,West South Central,21145,train,21,145,East South Central,17
+GeoSP,0,West South Central,21147,train,21,147,East South Central,4
+GeoSP,0,West South Central,21151,train,21,151,East South Central,19
+GeoSP,0,West South Central,21153,train,21,153,East South Central,4
+GeoSP,0,West South Central,21155,train,21,155,East South Central,6
+GeoSP,0,West South Central,21157,train,21,157,East South Central,6
+GeoSP,0,West South Central,21161,train,21,161,East South Central,5
+GeoSP,0,West South Central,21163,train,21,163,East South Central,8
+GeoSP,0,West South Central,21167,train,21,167,East South Central,5
+GeoSP,0,West South Central,21171,train,21,171,East South Central,4
+GeoSP,0,West South Central,21173,train,21,173,East South Central,6
+GeoSP,0,West South Central,21175,train,21,175,East South Central,5
+GeoSP,0,West South Central,21179,train,21,179,East South Central,9
+GeoSP,0,West South Central,21183,train,21,183,East South Central,7
+GeoSP,0,West South Central,21185,train,21,185,East South Central,14
+GeoSP,0,West South Central,21193,train,21,193,East South Central,8
+GeoSP,0,West South Central,21195,train,21,195,East South Central,19
+GeoSP,0,West South Central,21199,train,21,199,East South Central,14
+GeoSP,0,West South Central,21205,train,21,205,East South Central,4
+GeoSP,0,West South Central,21209,train,21,209,East South Central,14
+GeoSP,0,West South Central,21211,train,21,211,East South Central,9
+GeoSP,0,West South Central,21213,train,21,213,East South Central,4
+GeoSP,0,West South Central,21215,train,21,215,East South Central,4
+GeoSP,0,West South Central,21217,train,21,217,East South Central,5
+GeoSP,0,West South Central,21221,train,21,221,East South Central,5
+GeoSP,0,West South Central,21225,train,21,225,East South Central,4
+GeoSP,0,West South Central,21227,train,21,227,East South Central,24
+GeoSP,0,West South Central,21231,train,21,231,East South Central,5
+GeoSP,0,West South Central,21233,train,21,233,East South Central,4
+GeoSP,0,West South Central,23001,train,23,001,New England,28
+GeoSP,0,West South Central,23003,train,23,003,New England,24
+GeoSP,0,West South Central,23005,train,23,005,New England,66
+GeoSP,0,West South Central,23007,train,23,007,New England,9
+GeoSP,0,West South Central,23009,train,23,009,New England,17
+GeoSP,0,West South Central,23011,train,23,011,New England,31
+GeoSP,0,West South Central,23013,train,23,013,New England,10
+GeoSP,0,West South Central,23015,train,23,015,New England,10
+GeoSP,0,West South Central,23017,train,23,017,New England,17
+GeoSP,0,West South Central,23019,train,23,019,New England,46
+GeoSP,0,West South Central,23021,train,23,021,New England,8
+GeoSP,0,West South Central,23025,train,23,025,New England,17
+GeoSP,0,West South Central,23027,train,23,027,New England,8
+GeoSP,0,West South Central,23031,train,23,031,New England,41
+GeoSP,0,West South Central,24001,train,24,001,South Atlantic,23
+GeoSP,0,West South Central,24003,train,24,003,South Atlantic,104
+GeoSP,0,West South Central,24009,train,24,009,South Atlantic,18
+GeoSP,0,West South Central,24011,train,24,011,South Atlantic,9
+GeoSP,0,West South Central,24013,train,24,013,South Atlantic,38
+GeoSP,0,West South Central,24015,train,24,015,South Atlantic,19
+GeoSP,0,West South Central,24017,train,24,017,South Atlantic,31
+GeoSP,0,West South Central,24019,train,24,019,South Atlantic,9
+GeoSP,0,West South Central,24021,train,24,021,South Atlantic,61
+GeoSP,0,West South Central,24023,train,24,023,South Atlantic,7
+GeoSP,0,West South Central,24025,train,24,025,South Atlantic,57
+GeoSP,0,West South Central,24027,train,24,027,South Atlantic,55
+GeoSP,0,West South Central,24029,train,24,029,South Atlantic,5
+GeoSP,0,West South Central,24031,train,24,031,South Atlantic,215
+GeoSP,0,West South Central,24033,train,24,033,South Atlantic,218
+GeoSP,0,West South Central,24035,train,24,035,South Atlantic,12
+GeoSP,0,West South Central,24037,train,24,037,South Atlantic,17
+GeoSP,0,West South Central,24039,train,24,039,South Atlantic,7
+GeoSP,0,West South Central,24041,train,24,041,South Atlantic,10
+GeoSP,0,West South Central,24045,train,24,045,South Atlantic,19
+GeoSP,0,West South Central,24047,train,24,047,South Atlantic,16
+GeoSP,0,West South Central,24510,train,24,510,South Atlantic,200
+GeoSP,0,West South Central,25003,train,25,003,New England,39
+GeoSP,0,West South Central,25005,train,25,005,New England,126
+GeoSP,0,West South Central,25007,train,25,007,New England,4
+GeoSP,0,West South Central,25009,train,25,009,New England,163
+GeoSP,0,West South Central,25011,train,25,011,New England,18
+GeoSP,0,West South Central,25013,train,25,013,New England,103
+GeoSP,0,West South Central,25015,train,25,015,New England,36
+GeoSP,0,West South Central,25017,train,25,017,New England,318
+GeoSP,0,West South Central,25019,train,25,019,New England,5
+GeoSP,0,West South Central,25021,train,25,021,New England,130
+GeoSP,0,West South Central,25023,train,25,023,New England,100
+GeoSP,0,West South Central,25025,train,25,025,New England,204
+GeoSP,0,West South Central,25027,train,25,027,New England,172
+GeoSP,0,West South Central,26001,train,26,001,East North Central,5
+GeoSP,0,West South Central,26005,train,26,005,East North Central,24
+GeoSP,0,West South Central,26007,train,26,007,East North Central,9
+GeoSP,0,West South Central,26009,train,26,009,East North Central,7
+GeoSP,0,West South Central,26011,train,26,011,East North Central,5
+GeoSP,0,West South Central,26015,train,26,015,East North Central,11
+GeoSP,0,West South Central,26017,train,26,017,East North Central,27
+GeoSP,0,West South Central,26019,train,26,019,East North Central,5
+GeoSP,0,West South Central,26023,train,26,023,East North Central,12
+GeoSP,0,West South Central,26025,train,26,025,East North Central,39
+GeoSP,0,West South Central,26027,train,26,027,East North Central,11
+GeoSP,0,West South Central,26029,train,26,029,East North Central,13
+GeoSP,0,West South Central,26031,train,26,031,East North Central,8
+GeoSP,0,West South Central,26035,train,26,035,East North Central,11
+GeoSP,0,West South Central,26037,train,26,037,East North Central,22
+GeoSP,0,West South Central,26039,train,26,039,East North Central,5
+GeoSP,0,West South Central,26043,train,26,043,East North Central,7
+GeoSP,0,West South Central,26045,train,26,045,East North Central,28
+GeoSP,0,West South Central,26047,train,26,047,East North Central,8
+GeoSP,0,West South Central,26049,train,26,049,East North Central,131
+GeoSP,0,West South Central,26051,train,26,051,East North Central,9
+GeoSP,0,West South Central,26053,train,26,053,East North Central,7
+GeoSP,0,West South Central,26055,train,26,055,East North Central,16
+GeoSP,0,West South Central,26057,train,26,057,East North Central,10
+GeoSP,0,West South Central,26059,train,26,059,East North Central,12
+GeoSP,0,West South Central,26061,train,26,061,East North Central,10
+GeoSP,0,West South Central,26063,train,26,063,East North Central,12
+GeoSP,0,West South Central,26065,train,26,065,East North Central,81
+GeoSP,0,West South Central,26067,train,26,067,East North Central,13
+GeoSP,0,West South Central,26069,train,26,069,East North Central,9
+GeoSP,0,West South Central,26071,train,26,071,East North Central,5
+GeoSP,0,West South Central,26073,train,26,073,East North Central,15
+GeoSP,0,West South Central,26075,train,26,075,East North Central,38
+GeoSP,0,West South Central,26077,train,26,077,East North Central,57
+GeoSP,0,West South Central,26079,train,26,079,East North Central,5
+GeoSP,0,West South Central,26081,train,26,081,East North Central,128
+GeoSP,0,West South Central,26085,train,26,085,East North Central,4
+GeoSP,0,West South Central,26087,train,26,087,East North Central,24
+GeoSP,0,West South Central,26089,train,26,089,East North Central,6
+GeoSP,0,West South Central,26091,train,26,091,East North Central,23
+GeoSP,0,West South Central,26093,train,26,093,East North Central,61
+GeoSP,0,West South Central,26097,train,26,097,East North Central,5
+GeoSP,0,West South Central,26099,train,26,099,East North Central,216
+GeoSP,0,West South Central,26101,train,26,101,East North Central,9
+GeoSP,0,West South Central,26103,train,26,103,East North Central,24
+GeoSP,0,West South Central,26105,train,26,105,East North Central,8
+GeoSP,0,West South Central,26107,train,26,107,East North Central,11
+GeoSP,0,West South Central,26109,train,26,109,East North Central,7
+GeoSP,0,West South Central,26113,train,26,113,East North Central,4
+GeoSP,0,West South Central,26115,train,26,115,East North Central,39
+GeoSP,0,West South Central,26117,train,26,117,East North Central,13
+GeoSP,0,West South Central,26121,train,26,121,East North Central,42
+GeoSP,0,West South Central,26123,train,26,123,East North Central,11
+GeoSP,0,West South Central,26125,train,26,125,East North Central,338
+GeoSP,0,West South Central,26127,train,26,127,East North Central,7
+GeoSP,0,West South Central,26129,train,26,129,East North Central,7
+GeoSP,0,West South Central,26131,train,26,131,East North Central,4
+GeoSP,0,West South Central,26133,train,26,133,East North Central,6
+GeoSP,0,West South Central,26137,train,26,137,East North Central,6
+GeoSP,0,West South Central,26139,train,26,139,East North Central,53
+GeoSP,0,West South Central,26141,train,26,141,East North Central,6
+GeoSP,0,West South Central,26143,train,26,143,East North Central,10
+GeoSP,0,West South Central,26145,train,26,145,East North Central,56
+GeoSP,0,West South Central,26147,train,26,147,East North Central,49
+GeoSP,0,West South Central,26149,train,26,149,East North Central,17
+GeoSP,0,West South Central,26151,train,26,151,East North Central,12
+GeoSP,0,West South Central,26155,train,26,155,East North Central,17
+GeoSP,0,West South Central,26157,train,26,157,East North Central,13
+GeoSP,0,West South Central,26159,train,26,159,East North Central,15
+GeoSP,0,West South Central,26161,train,26,161,East North Central,100
+GeoSP,0,West South Central,26163,train,26,163,East North Central,611
+GeoSP,0,West South Central,26165,train,26,165,East North Central,8
+GeoSP,0,West South Central,27003,train,27,003,West North Central,83
+GeoSP,0,West South Central,27005,train,27,005,West North Central,10
+GeoSP,0,West South Central,27007,train,27,007,West North Central,10
+GeoSP,0,West South Central,27009,train,27,009,West North Central,9
+GeoSP,0,West South Central,27013,train,27,013,West North Central,16
+GeoSP,0,West South Central,27015,train,27,015,West North Central,8
+GeoSP,0,West South Central,27017,train,27,017,West North Central,7
+GeoSP,0,West South Central,27019,train,27,019,West North Central,19
+GeoSP,0,West South Central,27021,train,27,021,West North Central,10
+GeoSP,0,West South Central,27023,train,27,023,West North Central,4
+GeoSP,0,West South Central,27025,train,27,025,West North Central,10
+GeoSP,0,West South Central,27027,train,27,027,West North Central,13
+GeoSP,0,West South Central,27033,train,27,033,West North Central,4
+GeoSP,0,West South Central,27037,train,27,037,West North Central,95
+GeoSP,0,West South Central,27039,train,27,039,West North Central,5
+GeoSP,0,West South Central,27041,train,27,041,West North Central,9
+GeoSP,0,West South Central,27045,train,27,045,West North Central,6
+GeoSP,0,West South Central,27047,train,27,047,West North Central,10
+GeoSP,0,West South Central,27049,train,27,049,West North Central,10
+GeoSP,0,West South Central,27053,train,27,053,West North Central,299
+GeoSP,0,West South Central,27055,train,27,055,West North Central,5
+GeoSP,0,West South Central,27057,train,27,057,West North Central,7
+GeoSP,0,West South Central,27059,train,27,059,West North Central,8
+GeoSP,0,West South Central,27061,train,27,061,West North Central,11
+GeoSP,0,West South Central,27063,train,27,063,West North Central,4
+GeoSP,0,West South Central,27065,train,27,065,West North Central,4
+GeoSP,0,West South Central,27067,train,27,067,West North Central,12
+GeoSP,0,West South Central,27071,train,27,071,West North Central,4
+GeoSP,0,West South Central,27079,train,27,079,West North Central,6
+GeoSP,0,West South Central,27083,train,27,083,West North Central,7
+GeoSP,0,West South Central,27085,train,27,085,West North Central,7
+GeoSP,0,West South Central,27089,train,27,089,West North Central,4
+GeoSP,0,West South Central,27091,train,27,091,West North Central,6
+GeoSP,0,West South Central,27095,train,27,095,West North Central,7
+GeoSP,0,West South Central,27097,train,27,097,West North Central,8
+GeoSP,0,West South Central,27099,train,27,099,West North Central,11
+GeoSP,0,West South Central,27103,train,27,103,West North Central,7
+GeoSP,0,West South Central,27105,train,27,105,West North Central,6
+GeoSP,0,West South Central,27109,train,27,109,West North Central,33
+GeoSP,0,West South Central,27111,train,27,111,West North Central,17
+GeoSP,0,West South Central,27113,train,27,113,West North Central,5
+GeoSP,0,West South Central,27115,train,27,115,West North Central,8
+GeoSP,0,West South Central,27119,train,27,119,West North Central,10
+GeoSP,0,West South Central,27121,train,27,121,West North Central,4
+GeoSP,0,West South Central,27123,train,27,123,West North Central,137
+GeoSP,0,West South Central,27127,train,27,127,West North Central,6
+GeoSP,0,West South Central,27135,train,27,135,West North Central,5
+GeoSP,0,West South Central,27137,train,27,137,West North Central,66
+GeoSP,0,West South Central,27139,train,27,139,West North Central,21
+GeoSP,0,West South Central,27141,train,27,141,West North Central,11
+GeoSP,0,West South Central,27143,train,27,143,West North Central,4
+GeoSP,0,West South Central,27145,train,27,145,West North Central,29
+GeoSP,0,West South Central,27147,train,27,147,West North Central,8
+GeoSP,0,West South Central,27151,train,27,151,West North Central,4
+GeoSP,0,West South Central,27153,train,27,153,West North Central,8
+GeoSP,0,West South Central,27161,train,27,161,West North Central,5
+GeoSP,0,West South Central,27169,train,27,169,West North Central,10
+GeoSP,0,West South Central,27171,train,27,171,West North Central,17
+GeoSP,0,West South Central,27173,train,27,173,West North Central,4
+GeoSP,0,West South Central,28001,train,28,001,East South Central,9
+GeoSP,0,West South Central,28003,train,28,003,East South Central,7
+GeoSP,0,West South Central,28007,train,28,007,East South Central,6
+GeoSP,0,West South Central,28011,train,28,011,East South Central,8
+GeoSP,0,West South Central,28013,train,28,013,East South Central,5
+GeoSP,0,West South Central,28017,train,28,017,East South Central,4
+GeoSP,0,West South Central,28023,train,28,023,East South Central,4
+GeoSP,0,West South Central,28025,train,28,025,East South Central,5
+GeoSP,0,West South Central,28027,train,28,027,East South Central,7
+GeoSP,0,West South Central,28029,train,28,029,East South Central,6
+GeoSP,0,West South Central,28031,train,28,031,East South Central,4
+GeoSP,0,West South Central,28033,train,28,033,East South Central,33
+GeoSP,0,West South Central,28035,train,28,035,East South Central,17
+GeoSP,0,West South Central,28039,train,28,039,East South Central,5
+GeoSP,0,West South Central,28043,train,28,043,East South Central,5
+GeoSP,0,West South Central,28045,train,28,045,East South Central,7
+GeoSP,0,West South Central,28049,train,28,049,East South Central,64
+GeoSP,0,West South Central,28051,train,28,051,East South Central,5
+GeoSP,0,West South Central,28057,train,28,057,East South Central,5
+GeoSP,0,West South Central,28059,train,28,059,East South Central,28
+GeoSP,0,West South Central,28061,train,28,061,East South Central,4
+GeoSP,0,West South Central,28067,train,28,067,East South Central,14
+GeoSP,0,West South Central,28071,train,28,071,East South Central,10
+GeoSP,0,West South Central,28073,train,28,073,East South Central,8
+GeoSP,0,West South Central,28075,train,28,075,East South Central,19
+GeoSP,0,West South Central,28079,train,28,079,East South Central,5
+GeoSP,0,West South Central,28081,train,28,081,East South Central,19
+GeoSP,0,West South Central,28083,train,28,083,East South Central,8
+GeoSP,0,West South Central,28085,train,28,085,East South Central,6
+GeoSP,0,West South Central,28087,train,28,087,East South Central,14
+GeoSP,0,West South Central,28089,train,28,089,East South Central,21
+GeoSP,0,West South Central,28091,train,28,091,East South Central,6
+GeoSP,0,West South Central,28093,train,28,093,East South Central,6
+GeoSP,0,West South Central,28099,train,28,099,East South Central,7
+GeoSP,0,West South Central,28101,train,28,101,East South Central,5
+GeoSP,0,West South Central,28105,train,28,105,East South Central,8
+GeoSP,0,West South Central,28107,train,28,107,East South Central,6
+GeoSP,0,West South Central,28109,train,28,109,East South Central,9
+GeoSP,0,West South Central,28113,train,28,113,East South Central,8
+GeoSP,0,West South Central,28115,train,28,115,East South Central,6
+GeoSP,0,West South Central,28117,train,28,117,East South Central,5
+GeoSP,0,West South Central,28121,train,28,121,East South Central,27
+GeoSP,0,West South Central,28123,train,28,123,East South Central,6
+GeoSP,0,West South Central,28127,train,28,127,East South Central,5
+GeoSP,0,West South Central,28133,train,28,133,East South Central,7
+GeoSP,0,West South Central,28135,train,28,135,East South Central,4
+GeoSP,0,West South Central,28137,train,28,137,East South Central,5
+GeoSP,0,West South Central,28141,train,28,141,East South Central,4
+GeoSP,0,West South Central,28145,train,28,145,East South Central,6
+GeoSP,0,West South Central,28149,train,28,149,East South Central,12
+GeoSP,0,West South Central,28151,train,28,151,East South Central,19
+GeoSP,0,West South Central,28153,train,28,153,East South Central,4
+GeoSP,0,West South Central,28159,train,28,159,East South Central,5
+GeoSP,0,West South Central,28163,train,28,163,East South Central,6
+GeoSP,0,West South Central,29007,train,29,007,West North Central,7
+GeoSP,0,West South Central,29013,train,29,013,West North Central,4
+GeoSP,0,West South Central,29015,train,29,015,West North Central,6
+GeoSP,0,West South Central,29019,train,29,019,West North Central,29
+GeoSP,0,West South Central,29021,train,29,021,West North Central,25
+GeoSP,0,West South Central,29023,train,29,023,West North Central,10
+GeoSP,0,West South Central,29027,train,29,027,West North Central,8
+GeoSP,0,West South Central,29029,train,29,029,West North Central,11
+GeoSP,0,West South Central,29031,train,29,031,West North Central,16
+GeoSP,0,West South Central,29037,train,29,037,West North Central,20
+GeoSP,0,West South Central,29043,train,29,043,West North Central,14
+GeoSP,0,West South Central,29047,train,29,047,West North Central,44
+GeoSP,0,West South Central,29049,train,29,049,West North Central,4
+GeoSP,0,West South Central,29051,train,29,051,West North Central,15
+GeoSP,0,West South Central,29053,train,29,053,West North Central,5
+GeoSP,0,West South Central,29055,train,29,055,West North Central,6
+GeoSP,0,West South Central,29065,train,29,065,West North Central,4
+GeoSP,0,West South Central,29069,train,29,069,West North Central,10
+GeoSP,0,West South Central,29071,train,29,071,West North Central,17
+GeoSP,0,West South Central,29073,train,29,073,West North Central,5
+GeoSP,0,West South Central,29077,train,29,077,West North Central,62
+GeoSP,0,West South Central,29079,train,29,079,West North Central,4
+GeoSP,0,West South Central,29083,train,29,083,West North Central,6
+GeoSP,0,West South Central,29091,train,29,091,West North Central,8
+GeoSP,0,West South Central,29095,train,29,095,West North Central,199
+GeoSP,0,West South Central,29097,train,29,097,West North Central,22
+GeoSP,0,West South Central,29099,train,29,099,West North Central,42
+GeoSP,0,West South Central,29105,train,29,105,West North Central,6
+GeoSP,0,West South Central,29107,train,29,107,West North Central,7
+GeoSP,0,West South Central,29109,train,29,109,West North Central,7
+GeoSP,0,West South Central,29111,train,29,111,West North Central,4
+GeoSP,0,West South Central,29113,train,29,113,West North Central,7
+GeoSP,0,West South Central,29115,train,29,115,West North Central,5
+GeoSP,0,West South Central,29117,train,29,117,West North Central,5
+GeoSP,0,West South Central,29119,train,29,119,West North Central,4
+GeoSP,0,West South Central,29121,train,29,121,West North Central,5
+GeoSP,0,West South Central,29127,train,29,127,West North Central,8
+GeoSP,0,West South Central,29131,train,29,131,West North Central,5
+GeoSP,0,West South Central,29133,train,29,133,West North Central,4
+GeoSP,0,West South Central,29135,train,29,135,West North Central,4
+GeoSP,0,West South Central,29139,train,29,139,West North Central,4
+GeoSP,0,West South Central,29143,train,29,143,West North Central,6
+GeoSP,0,West South Central,29145,train,29,145,West North Central,12
+GeoSP,0,West South Central,29147,train,29,147,West North Central,5
+GeoSP,0,West South Central,29151,train,29,151,West North Central,4
+GeoSP,0,West South Central,29155,train,29,155,West North Central,6
+GeoSP,0,West South Central,29157,train,29,157,West North Central,5
+GeoSP,0,West South Central,29159,train,29,159,West North Central,11
+GeoSP,0,West South Central,29163,train,29,163,West North Central,5
+GeoSP,0,West South Central,29165,train,29,165,West North Central,20
+GeoSP,0,West South Central,29167,train,29,167,West North Central,4
+GeoSP,0,West South Central,29175,train,29,175,West North Central,6
+GeoSP,0,West South Central,29181,train,29,181,West North Central,4
+GeoSP,0,West South Central,29183,train,29,183,West North Central,79
+GeoSP,0,West South Central,29186,train,29,186,West North Central,4
+GeoSP,0,West South Central,29187,train,29,187,West North Central,11
+GeoSP,0,West South Central,29189,train,29,189,West North Central,199
+GeoSP,0,West South Central,29195,train,29,195,West North Central,8
+GeoSP,0,West South Central,29201,train,29,201,West North Central,10
+GeoSP,0,West South Central,29207,train,29,207,West North Central,8
+GeoSP,0,West South Central,29209,train,29,209,West North Central,6
+GeoSP,0,West South Central,29213,train,29,213,West North Central,10
+GeoSP,0,West South Central,29215,train,29,215,West North Central,4
+GeoSP,0,West South Central,29217,train,29,217,West North Central,6
+GeoSP,0,West South Central,29219,train,29,219,West North Central,5
+GeoSP,0,West South Central,29221,train,29,221,West North Central,5
+GeoSP,0,West South Central,29223,train,29,223,West North Central,4
+GeoSP,0,West South Central,29225,train,29,225,West North Central,8
+GeoSP,0,West South Central,29229,train,29,229,West North Central,4
+GeoSP,0,West South Central,29510,train,29,510,West North Central,106
+GeoSP,0,West South Central,30003,train,30,003,Mountain,5
+GeoSP,0,West South Central,30005,train,30,005,Mountain,4
+GeoSP,0,West South Central,30009,train,30,009,Mountain,5
+GeoSP,0,West South Central,30013,train,30,013,Mountain,22
+GeoSP,0,West South Central,30017,train,30,017,Mountain,6
+GeoSP,0,West South Central,30029,train,30,029,Mountain,19
+GeoSP,0,West South Central,30031,train,30,031,Mountain,22
+GeoSP,0,West South Central,30035,train,30,035,Mountain,4
+GeoSP,0,West South Central,30041,train,30,041,Mountain,6
+GeoSP,0,West South Central,30047,train,30,047,Mountain,8
+GeoSP,0,West South Central,30049,train,30,049,Mountain,14
+GeoSP,0,West South Central,30053,train,30,053,Mountain,5
+GeoSP,0,West South Central,30063,train,30,063,Mountain,20
+GeoSP,0,West South Central,30067,train,30,067,Mountain,6
+GeoSP,0,West South Central,30083,train,30,083,Mountain,4
+GeoSP,0,West South Central,30087,train,30,087,Mountain,4
+GeoSP,0,West South Central,30093,train,30,093,Mountain,8
+GeoSP,0,West South Central,30111,train,30,111,Mountain,32
+GeoSP,0,West South Central,31001,train,31,001,West North Central,9
+GeoSP,0,West South Central,31019,train,31,019,West North Central,11
+GeoSP,0,West South Central,31025,train,31,025,West North Central,6
+GeoSP,0,West South Central,31041,train,31,041,West North Central,4
+GeoSP,0,West South Central,31043,train,31,043,West North Central,4
+GeoSP,0,West South Central,31047,train,31,047,West North Central,7
+GeoSP,0,West South Central,31053,train,31,053,West North Central,9
+GeoSP,0,West South Central,31055,train,31,055,West North Central,156
+GeoSP,0,West South Central,31067,train,31,067,West North Central,7
+GeoSP,0,West South Central,31089,train,31,089,West North Central,4
+GeoSP,0,West South Central,31109,train,31,109,West North Central,74
+GeoSP,0,West South Central,31111,train,31,111,West North Central,8
+GeoSP,0,West South Central,31119,train,31,119,West North Central,9
+GeoSP,0,West South Central,31131,train,31,131,West North Central,5
+GeoSP,0,West South Central,31141,train,31,141,West North Central,7
+GeoSP,0,West South Central,31151,train,31,151,West North Central,4
+GeoSP,0,West South Central,31153,train,31,153,West North Central,43
+GeoSP,0,West South Central,31155,train,31,155,West North Central,5
+GeoSP,0,West South Central,31157,train,31,157,West North Central,11
+GeoSP,0,West South Central,31159,train,31,159,West North Central,4
+GeoSP,0,West South Central,31177,train,31,177,West North Central,5
+GeoSP,0,West South Central,31185,train,31,185,West North Central,4
+GeoSP,0,West South Central,32001,train,32,001,Mountain,7
+GeoSP,0,West South Central,32003,train,32,003,Mountain,487
+GeoSP,0,West South Central,32005,train,32,005,Mountain,17
+GeoSP,0,West South Central,32007,train,32,007,Mountain,14
+GeoSP,0,West South Central,32013,train,32,013,Mountain,4
+GeoSP,0,West South Central,32019,train,32,019,Mountain,10
+GeoSP,0,West South Central,32023,train,32,023,Mountain,10
+GeoSP,0,West South Central,32031,train,32,031,Mountain,112
+GeoSP,0,West South Central,32510,train,32,510,Mountain,14
+GeoSP,0,West South Central,33001,train,33,001,New England,15
+GeoSP,0,West South Central,33003,train,33,003,New England,11
+GeoSP,0,West South Central,33005,train,33,005,New England,16
+GeoSP,0,West South Central,33007,train,33,007,New England,11
+GeoSP,0,West South Central,33009,train,33,009,New England,19
+GeoSP,0,West South Central,33011,train,33,011,New England,86
+GeoSP,0,West South Central,33015,train,33,015,New England,65
+GeoSP,0,West South Central,33017,train,33,017,New England,25
+GeoSP,0,West South Central,34003,train,34,003,Middle Atlantic,179
+GeoSP,0,West South Central,34005,train,34,005,Middle Atlantic,114
+GeoSP,0,West South Central,34007,train,34,007,Middle Atlantic,127
+GeoSP,0,West South Central,34009,train,34,009,Middle Atlantic,33
+GeoSP,0,West South Central,34011,train,34,011,Middle Atlantic,35
+GeoSP,0,West South Central,34013,train,34,013,Middle Atlantic,210
+GeoSP,0,West South Central,34015,train,34,015,Middle Atlantic,63
+GeoSP,0,West South Central,34017,train,34,017,Middle Atlantic,166
+GeoSP,0,West South Central,34019,train,34,019,Middle Atlantic,26
+GeoSP,0,West South Central,34021,train,34,021,Middle Atlantic,77
+GeoSP,0,West South Central,34023,train,34,023,Middle Atlantic,175
+GeoSP,0,West South Central,34027,train,34,027,Middle Atlantic,100
+GeoSP,0,West South Central,34029,train,34,029,Middle Atlantic,126
+GeoSP,0,West South Central,34033,train,34,033,Middle Atlantic,24
+GeoSP,0,West South Central,34035,train,34,035,Middle Atlantic,68
+GeoSP,0,West South Central,34037,train,34,037,Middle Atlantic,41
+GeoSP,0,West South Central,34039,train,34,039,Middle Atlantic,108
+GeoSP,0,West South Central,34041,train,34,041,Middle Atlantic,23
+GeoSP,0,West South Central,35001,train,35,001,Mountain,153
+GeoSP,0,West South Central,35005,train,35,005,Mountain,16
+GeoSP,0,West South Central,35006,train,35,006,Mountain,7
+GeoSP,0,West South Central,35009,train,35,009,Mountain,12
+GeoSP,0,West South Central,35013,train,35,013,Mountain,41
+GeoSP,0,West South Central,35015,train,35,015,Mountain,12
+GeoSP,0,West South Central,35017,train,35,017,Mountain,8
+GeoSP,0,West South Central,35025,train,35,025,Mountain,18
+GeoSP,0,West South Central,35027,train,35,027,Mountain,5
+GeoSP,0,West South Central,35028,train,35,028,Mountain,4
+GeoSP,0,West South Central,35029,train,35,029,Mountain,6
+GeoSP,0,West South Central,35031,train,35,031,Mountain,17
+GeoSP,0,West South Central,35035,train,35,035,Mountain,16
+GeoSP,0,West South Central,35039,train,35,039,Mountain,9
+GeoSP,0,West South Central,35041,train,35,041,Mountain,5
+GeoSP,0,West South Central,35043,train,35,043,Mountain,28
+GeoSP,0,West South Central,35045,train,35,045,Mountain,33
+GeoSP,0,West South Central,35047,train,35,047,Mountain,7
+GeoSP,0,West South Central,35049,train,35,049,Mountain,50
+GeoSP,0,West South Central,35051,train,35,051,Mountain,4
+GeoSP,0,West South Central,35053,train,35,053,Mountain,6
+GeoSP,0,West South Central,35055,train,35,055,Mountain,6
+GeoSP,0,West South Central,35057,train,35,057,Mountain,4
+GeoSP,0,West South Central,36003,train,36,003,Middle Atlantic,13
+GeoSP,0,West South Central,36005,train,36,005,Middle Atlantic,339
+GeoSP,0,West South Central,36007,train,36,007,Middle Atlantic,55
+GeoSP,0,West South Central,36011,train,36,011,Middle Atlantic,19
+GeoSP,0,West South Central,36015,train,36,015,Middle Atlantic,22
+GeoSP,0,West South Central,36017,train,36,017,Middle Atlantic,12
+GeoSP,0,West South Central,36019,train,36,019,Middle Atlantic,19
+GeoSP,0,West South Central,36021,train,36,021,Middle Atlantic,21
+GeoSP,0,West South Central,36023,train,36,023,Middle Atlantic,12
+GeoSP,0,West South Central,36027,train,36,027,Middle Atlantic,79
+GeoSP,0,West South Central,36029,train,36,029,Middle Atlantic,237
+GeoSP,0,West South Central,36031,train,36,031,Middle Atlantic,13
+GeoSP,0,West South Central,36033,train,36,033,Middle Atlantic,14
+GeoSP,0,West South Central,36035,train,36,035,Middle Atlantic,15
+GeoSP,0,West South Central,36037,train,36,037,Middle Atlantic,15
+GeoSP,0,West South Central,36039,train,36,039,Middle Atlantic,15
+GeoSP,0,West South Central,36043,train,36,043,Middle Atlantic,19
+GeoSP,0,West South Central,36045,train,36,045,Middle Atlantic,26
+GeoSP,0,West South Central,36047,train,36,047,Middle Atlantic,761
+GeoSP,0,West South Central,36049,train,36,049,Middle Atlantic,7
+GeoSP,0,West South Central,36051,train,36,051,Middle Atlantic,15
+GeoSP,0,West South Central,36055,train,36,055,Middle Atlantic,192
+GeoSP,0,West South Central,36057,train,36,057,Middle Atlantic,16
+GeoSP,0,West South Central,36059,train,36,059,Middle Atlantic,279
+GeoSP,0,West South Central,36061,train,36,061,Middle Atlantic,288
+GeoSP,0,West South Central,36063,train,36,063,Middle Atlantic,61
+GeoSP,0,West South Central,36067,train,36,067,Middle Atlantic,140
+GeoSP,0,West South Central,36071,train,36,071,Middle Atlantic,79
+GeoSP,0,West South Central,36073,train,36,073,Middle Atlantic,10
+GeoSP,0,West South Central,36075,train,36,075,Middle Atlantic,29
+GeoSP,0,West South Central,36077,train,36,077,Middle Atlantic,17
+GeoSP,0,West South Central,36079,train,36,079,Middle Atlantic,19
+GeoSP,0,West South Central,36081,train,36,081,Middle Atlantic,669
+GeoSP,0,West South Central,36083,train,36,083,Middle Atlantic,42
+GeoSP,0,West South Central,36085,train,36,085,Middle Atlantic,109
+GeoSP,0,West South Central,36087,train,36,087,Middle Atlantic,65
+GeoSP,0,West South Central,36089,train,36,089,Middle Atlantic,28
+GeoSP,0,West South Central,36091,train,36,091,Middle Atlantic,50
+GeoSP,0,West South Central,36093,train,36,093,Middle Atlantic,43
+GeoSP,0,West South Central,36095,train,36,095,Middle Atlantic,8
+GeoSP,0,West South Central,36097,train,36,097,Middle Atlantic,5
+GeoSP,0,West South Central,36099,train,36,099,Middle Atlantic,10
+GeoSP,0,West South Central,36103,train,36,103,Middle Atlantic,323
+GeoSP,0,West South Central,36105,train,36,105,Middle Atlantic,24
+GeoSP,0,West South Central,36107,train,36,107,Middle Atlantic,10
+GeoSP,0,West South Central,36109,train,36,109,Middle Atlantic,23
+GeoSP,0,West South Central,36111,train,36,111,Middle Atlantic,47
+GeoSP,0,West South Central,36113,train,36,113,Middle Atlantic,19
+GeoSP,0,West South Central,36115,train,36,115,Middle Atlantic,17
+GeoSP,0,West South Central,36119,train,36,119,Middle Atlantic,223
+GeoSP,0,West South Central,36121,train,36,121,Middle Atlantic,11
+GeoSP,0,West South Central,36123,train,36,123,Middle Atlantic,5
+GeoSP,0,West South Central,37001,train,37,001,South Atlantic,36
+GeoSP,0,West South Central,37003,train,37,003,South Atlantic,7
+GeoSP,0,West South Central,37007,train,37,007,South Atlantic,6
+GeoSP,0,West South Central,37009,train,37,009,South Atlantic,6
+GeoSP,0,West South Central,37011,train,37,011,South Atlantic,5
+GeoSP,0,West South Central,37013,train,37,013,South Atlantic,11
+GeoSP,0,West South Central,37015,train,37,015,South Atlantic,4
+GeoSP,0,West South Central,37017,train,37,017,South Atlantic,6
+GeoSP,0,West South Central,37019,train,37,019,South Atlantic,33
+GeoSP,0,West South Central,37023,train,37,023,South Atlantic,18
+GeoSP,0,West South Central,37025,train,37,025,South Atlantic,37
+GeoSP,0,West South Central,37027,train,37,027,South Atlantic,17
+GeoSP,0,West South Central,37031,train,37,031,South Atlantic,38
+GeoSP,0,West South Central,37035,train,37,035,South Atlantic,31
+GeoSP,0,West South Central,37037,train,37,037,South Atlantic,13
+GeoSP,0,West South Central,37039,train,37,039,South Atlantic,7
+GeoSP,0,West South Central,37045,train,37,045,South Atlantic,22
+GeoSP,0,West South Central,37047,train,37,047,South Atlantic,13
+GeoSP,0,West South Central,37051,train,37,051,South Atlantic,68
+GeoSP,0,West South Central,37053,train,37,053,South Atlantic,8
+GeoSP,0,West South Central,37055,train,37,055,South Atlantic,11
+GeoSP,0,West South Central,37057,train,37,057,South Atlantic,34
+GeoSP,0,West South Central,37059,train,37,059,South Atlantic,7
+GeoSP,0,West South Central,37061,train,37,061,South Atlantic,11
+GeoSP,0,West South Central,37063,train,37,063,South Atlantic,60
+GeoSP,0,West South Central,37067,train,37,067,South Atlantic,93
+GeoSP,0,West South Central,37069,train,37,069,South Atlantic,12
+GeoSP,0,West South Central,37071,train,37,071,South Atlantic,65
+GeoSP,0,West South Central,37077,train,37,077,South Atlantic,13
+GeoSP,0,West South Central,37079,train,37,079,South Atlantic,4
+GeoSP,0,West South Central,37081,train,37,081,South Atlantic,119
+GeoSP,0,West South Central,37083,train,37,083,South Atlantic,12
+GeoSP,0,West South Central,37085,train,37,085,South Atlantic,27
+GeoSP,0,West South Central,37087,train,37,087,South Atlantic,16
+GeoSP,0,West South Central,37089,train,37,089,South Atlantic,27
+GeoSP,0,West South Central,37091,train,37,091,South Atlantic,5
+GeoSP,0,West South Central,37093,train,37,093,South Atlantic,9
+GeoSP,0,West South Central,37097,train,37,097,South Atlantic,44
+GeoSP,0,West South Central,37099,train,37,099,South Atlantic,9
+GeoSP,0,West South Central,37105,train,37,105,South Atlantic,13
+GeoSP,0,West South Central,37107,train,37,107,South Atlantic,15
+GeoSP,0,West South Central,37109,train,37,109,South Atlantic,18
+GeoSP,0,West South Central,37111,train,37,111,South Atlantic,10
+GeoSP,0,West South Central,37113,train,37,113,South Atlantic,9
+GeoSP,0,West South Central,37115,train,37,115,South Atlantic,6
+GeoSP,0,West South Central,37117,train,37,117,South Atlantic,6
+GeoSP,0,West South Central,37119,train,37,119,South Atlantic,233
+GeoSP,0,West South Central,37121,train,37,121,South Atlantic,4
+GeoSP,0,West South Central,37123,train,37,123,South Atlantic,6
+GeoSP,0,West South Central,37125,train,37,125,South Atlantic,18
+GeoSP,0,West South Central,37127,train,37,127,South Atlantic,18
+GeoSP,0,West South Central,37129,train,37,129,South Atlantic,45
+GeoSP,0,West South Central,37135,train,37,135,South Atlantic,28
+GeoSP,0,West South Central,37137,train,37,137,South Atlantic,4
+GeoSP,0,West South Central,37139,train,37,139,South Atlantic,10
+GeoSP,0,West South Central,37141,train,37,141,South Atlantic,16
+GeoSP,0,West South Central,37145,train,37,145,South Atlantic,7
+GeoSP,0,West South Central,37147,train,37,147,South Atlantic,32
+GeoSP,0,West South Central,37151,train,37,151,South Atlantic,28
+GeoSP,0,West South Central,37153,train,37,153,South Atlantic,11
+GeoSP,0,West South Central,37157,train,37,157,South Atlantic,21
+GeoSP,0,West South Central,37159,train,37,159,South Atlantic,30
+GeoSP,0,West South Central,37161,train,37,161,South Atlantic,13
+GeoSP,0,West South Central,37163,train,37,163,South Atlantic,11
+GeoSP,0,West South Central,37165,train,37,165,South Atlantic,7
+GeoSP,0,West South Central,37167,train,37,167,South Atlantic,13
+GeoSP,0,West South Central,37169,train,37,169,South Atlantic,9
+GeoSP,0,West South Central,37171,train,37,171,South Atlantic,22
+GeoSP,0,West South Central,37173,train,37,173,South Atlantic,5
+GeoSP,0,West South Central,37175,train,37,175,South Atlantic,7
+GeoSP,0,West South Central,37179,train,37,179,South Atlantic,41
+GeoSP,0,West South Central,37181,train,37,181,South Atlantic,10
+GeoSP,0,West South Central,37183,train,37,183,South Atlantic,187
+GeoSP,0,West South Central,37185,train,37,185,South Atlantic,6
+GeoSP,0,West South Central,37189,train,37,189,South Atlantic,13
+GeoSP,0,West South Central,37191,train,37,191,South Atlantic,26
+GeoSP,0,West South Central,37193,train,37,193,South Atlantic,14
+GeoSP,0,West South Central,37195,train,37,195,South Atlantic,19
+GeoSP,0,West South Central,37197,train,37,197,South Atlantic,7
+GeoSP,0,West South Central,37199,train,37,199,South Atlantic,5
+GeoSP,0,West South Central,38003,train,38,003,West North Central,4
+GeoSP,0,West South Central,38005,train,38,005,West North Central,4
+GeoSP,0,West South Central,38015,train,38,015,West North Central,19
+GeoSP,0,West South Central,38035,train,38,035,West North Central,18
+GeoSP,0,West South Central,38053,train,38,053,West North Central,4
+GeoSP,0,West South Central,38059,train,38,059,West North Central,5
+GeoSP,0,West South Central,38067,train,38,067,West North Central,5
+GeoSP,0,West South Central,38077,train,38,077,West North Central,6
+GeoSP,0,West South Central,38079,train,38,079,West North Central,4
+GeoSP,0,West South Central,38089,train,38,089,West North Central,8
+GeoSP,0,West South Central,38093,train,38,093,West North Central,6
+GeoSP,0,West South Central,38097,train,38,097,West North Central,4
+GeoSP,0,West South Central,38101,train,38,101,West North Central,13
+GeoSP,0,West South Central,38105,train,38,105,West North Central,7
+GeoSP,0,West South Central,39001,train,39,001,East North Central,6
+GeoSP,0,West South Central,39003,train,39,003,East North Central,33
+GeoSP,0,West South Central,39005,train,39,005,East North Central,11
+GeoSP,0,West South Central,39007,train,39,007,East North Central,25
+GeoSP,0,West South Central,39009,train,39,009,East North Central,15
+GeoSP,0,West South Central,39011,train,39,011,East North Central,11
+GeoSP,0,West South Central,39013,train,39,013,East North Central,20
+GeoSP,0,West South Central,39015,train,39,015,East North Central,9
+GeoSP,0,West South Central,39019,train,39,019,East North Central,7
+GeoSP,0,West South Central,39021,train,39,021,East North Central,10
+GeoSP,0,West South Central,39023,train,39,023,East North Central,44
+GeoSP,0,West South Central,39025,train,39,025,East North Central,40
+GeoSP,0,West South Central,39027,train,39,027,East North Central,9
+GeoSP,0,West South Central,39029,train,39,029,East North Central,24
+GeoSP,0,West South Central,39033,train,39,033,East North Central,13
+GeoSP,0,West South Central,39035,train,39,035,East North Central,446
+GeoSP,0,West South Central,39037,train,39,037,East North Central,12
+GeoSP,0,West South Central,39039,train,39,039,East North Central,9
+GeoSP,0,West South Central,39043,train,39,043,East North Central,19
+GeoSP,0,West South Central,39045,train,39,045,East North Central,28
+GeoSP,0,West South Central,39047,train,39,047,East North Central,7
+GeoSP,0,West South Central,39049,train,39,049,East North Central,284
+GeoSP,0,West South Central,39051,train,39,051,East North Central,9
+GeoSP,0,West South Central,39055,train,39,055,East North Central,21
+GeoSP,0,West South Central,39057,train,39,057,East North Central,35
+GeoSP,0,West South Central,39059,train,39,059,East North Central,10
+GeoSP,0,West South Central,39061,train,39,061,East North Central,222
+GeoSP,0,West South Central,39063,train,39,063,East North Central,13
+GeoSP,0,West South Central,39065,train,39,065,East North Central,7
+GeoSP,0,West South Central,39067,train,39,067,East North Central,5
+GeoSP,0,West South Central,39069,train,39,069,East North Central,7
+GeoSP,0,West South Central,39071,train,39,071,East North Central,9
+GeoSP,0,West South Central,39073,train,39,073,East North Central,7
+GeoSP,0,West South Central,39075,train,39,075,East North Central,8
+GeoSP,0,West South Central,39077,train,39,077,East North Central,13
+GeoSP,0,West South Central,39079,train,39,079,East North Central,7
+GeoSP,0,West South Central,39083,train,39,083,East North Central,12
+GeoSP,0,West South Central,39085,train,39,085,East North Central,59
+GeoSP,0,West South Central,39087,train,39,087,East North Central,16
+GeoSP,0,West South Central,39089,train,39,089,East North Central,32
+GeoSP,0,West South Central,39091,train,39,091,East North Central,11
+GeoSP,0,West South Central,39093,train,39,093,East North Central,73
+GeoSP,0,West South Central,39095,train,39,095,East North Central,127
+GeoSP,0,West South Central,39097,train,39,097,East North Central,12
+GeoSP,0,West South Central,39099,train,39,099,East North Central,70
+GeoSP,0,West South Central,39101,train,39,101,East North Central,18
+GeoSP,0,West South Central,39105,train,39,105,East North Central,6
+GeoSP,0,West South Central,39107,train,39,107,East North Central,9
+GeoSP,0,West South Central,39109,train,39,109,East North Central,21
+GeoSP,0,West South Central,39111,train,39,111,East North Central,4
+GeoSP,0,West South Central,39113,train,39,113,East North Central,153
+GeoSP,0,West South Central,39115,train,39,115,East North Central,4
+GeoSP,0,West South Central,39117,train,39,117,East North Central,6
+GeoSP,0,West South Central,39119,train,39,119,East North Central,19
+GeoSP,0,West South Central,39125,train,39,125,East North Central,5
+GeoSP,0,West South Central,39127,train,39,127,East North Central,6
+GeoSP,0,West South Central,39129,train,39,129,East North Central,13
+GeoSP,0,West South Central,39131,train,39,131,East North Central,6
+GeoSP,0,West South Central,39133,train,39,133,East North Central,35
+GeoSP,0,West South Central,39135,train,39,135,East North Central,12
+GeoSP,0,West South Central,39137,train,39,137,East North Central,7
+GeoSP,0,West South Central,39139,train,39,139,East North Central,30
+GeoSP,0,West South Central,39141,train,39,141,East North Central,17
+GeoSP,0,West South Central,39143,train,39,143,East North Central,15
+GeoSP,0,West South Central,39145,train,39,145,East North Central,20
+GeoSP,0,West South Central,39147,train,39,147,East North Central,14
+GeoSP,0,West South Central,39149,train,39,149,East North Central,10
+GeoSP,0,West South Central,39151,train,39,151,East North Central,86
+GeoSP,0,West South Central,39153,train,39,153,East North Central,135
+GeoSP,0,West South Central,39155,train,39,155,East North Central,55
+GeoSP,0,West South Central,39159,train,39,159,East North Central,10
+GeoSP,0,West South Central,39161,train,39,161,East North Central,9
+GeoSP,0,West South Central,39165,train,39,165,East North Central,33
+GeoSP,0,West South Central,39167,train,39,167,East North Central,16
+GeoSP,0,West South Central,39171,train,39,171,East North Central,9
+GeoSP,0,West South Central,39173,train,39,173,East North Central,28
+GeoSP,0,West South Central,39175,train,39,175,East North Central,6
+GeoSP,0,West South Central,41001,train,41,001,Pacific,6
+GeoSP,0,West South Central,41005,train,41,005,Pacific,80
+GeoSP,0,West South Central,41007,train,41,007,Pacific,11
+GeoSP,0,West South Central,41009,train,41,009,Pacific,10
+GeoSP,0,West South Central,41011,train,41,011,Pacific,13
+GeoSP,0,West South Central,41015,train,41,015,Pacific,5
+GeoSP,0,West South Central,41017,train,41,017,Pacific,24
+GeoSP,0,West South Central,41019,train,41,019,Pacific,22
+GeoSP,0,West South Central,41027,train,41,027,Pacific,4
+GeoSP,0,West South Central,41029,train,41,029,Pacific,41
+GeoSP,0,West South Central,41031,train,41,031,Pacific,6
+GeoSP,0,West South Central,41033,train,41,033,Pacific,16
+GeoSP,0,West South Central,41035,train,41,035,Pacific,20
+GeoSP,0,West South Central,41039,train,41,039,Pacific,86
+GeoSP,0,West South Central,41041,train,41,041,Pacific,18
+GeoSP,0,West South Central,41043,train,41,043,Pacific,21
+GeoSP,0,West South Central,41045,train,41,045,Pacific,8
+GeoSP,0,West South Central,41047,train,41,047,Pacific,58
+GeoSP,0,West South Central,41053,train,41,053,Pacific,12
+GeoSP,0,West South Central,41057,train,41,057,Pacific,8
+GeoSP,0,West South Central,41059,train,41,059,Pacific,15
+GeoSP,0,West South Central,41061,train,41,061,Pacific,8
+GeoSP,0,West South Central,41065,train,41,065,Pacific,8
+GeoSP,0,West South Central,41067,train,41,067,Pacific,104
+GeoSP,0,West South Central,41071,train,41,071,Pacific,17
+GeoSP,0,West South Central,42001,train,42,001,Middle Atlantic,23
+GeoSP,0,West South Central,42003,train,42,003,Middle Atlantic,402
+GeoSP,0,West South Central,42005,train,42,005,Middle Atlantic,19
+GeoSP,0,West South Central,42007,train,42,007,Middle Atlantic,51
+GeoSP,0,West South Central,42009,train,42,009,Middle Atlantic,11
+GeoSP,0,West South Central,42011,train,42,011,Middle Atlantic,90
+GeoSP,0,West South Central,42013,train,42,013,Middle Atlantic,34
+GeoSP,0,West South Central,42015,train,42,015,Middle Atlantic,14
+GeoSP,0,West South Central,42017,train,42,017,Middle Atlantic,143
+GeoSP,0,West South Central,42019,train,42,019,Middle Atlantic,44
+GeoSP,0,West South Central,42021,train,42,021,Middle Atlantic,42
+GeoSP,0,West South Central,42025,train,42,025,Middle Atlantic,12
+GeoSP,0,West South Central,42027,train,42,027,Middle Atlantic,31
+GeoSP,0,West South Central,42029,train,42,029,Middle Atlantic,116
+GeoSP,0,West South Central,42031,train,42,031,Middle Atlantic,10
+GeoSP,0,West South Central,42033,train,42,033,Middle Atlantic,20
+GeoSP,0,West South Central,42035,train,42,035,Middle Atlantic,9
+GeoSP,0,West South Central,42037,train,42,037,Middle Atlantic,15
+GeoSP,0,West South Central,42039,train,42,039,Middle Atlantic,23
+GeoSP,0,West South Central,42041,train,42,041,Middle Atlantic,49
+GeoSP,0,West South Central,42043,train,42,043,Middle Atlantic,65
+GeoSP,0,West South Central,42045,train,42,045,Middle Atlantic,144
+GeoSP,0,West South Central,42047,train,42,047,Middle Atlantic,9
+GeoSP,0,West South Central,42049,train,42,049,Middle Atlantic,71
+GeoSP,0,West South Central,42051,train,42,051,Middle Atlantic,36
+GeoSP,0,West South Central,42055,train,42,055,Middle Atlantic,27
+GeoSP,0,West South Central,42059,train,42,059,Middle Atlantic,9
+GeoSP,0,West South Central,42061,train,42,061,Middle Atlantic,12
+GeoSP,0,West South Central,42063,train,42,063,Middle Atlantic,23
+GeoSP,0,West South Central,42065,train,42,065,Middle Atlantic,13
+GeoSP,0,West South Central,42067,train,42,067,Middle Atlantic,5
+GeoSP,0,West South Central,42069,train,42,069,Middle Atlantic,59
+GeoSP,0,West South Central,42071,train,42,071,Middle Atlantic,98
+GeoSP,0,West South Central,42073,train,42,073,Middle Atlantic,28
+GeoSP,0,West South Central,42077,train,42,077,Middle Atlantic,76
+GeoSP,0,West South Central,42079,train,42,079,Middle Atlantic,104
+GeoSP,0,West South Central,42081,train,42,081,Middle Atlantic,29
+GeoSP,0,West South Central,42083,train,42,083,Middle Atlantic,12
+GeoSP,0,West South Central,42085,train,42,085,Middle Atlantic,30
+GeoSP,0,West South Central,42087,train,42,087,Middle Atlantic,12
+GeoSP,0,West South Central,42089,train,42,089,Middle Atlantic,33
+GeoSP,0,West South Central,42091,train,42,091,Middle Atlantic,211
+GeoSP,0,West South Central,42093,train,42,093,Middle Atlantic,4
+GeoSP,0,West South Central,42095,train,42,095,Middle Atlantic,68
+GeoSP,0,West South Central,42097,train,42,097,Middle Atlantic,24
+GeoSP,0,West South Central,42099,train,42,099,Middle Atlantic,10
+GeoSP,0,West South Central,42101,train,42,101,Middle Atlantic,384
+GeoSP,0,West South Central,42105,train,42,105,Middle Atlantic,5
+GeoSP,0,West South Central,42107,train,42,107,Middle Atlantic,40
+GeoSP,0,West South Central,42111,train,42,111,Middle Atlantic,21
+GeoSP,0,West South Central,42115,train,42,115,Middle Atlantic,11
+GeoSP,0,West South Central,42117,train,42,117,Middle Atlantic,10
+GeoSP,0,West South Central,42119,train,42,119,Middle Atlantic,10
+GeoSP,0,West South Central,42121,train,42,121,Middle Atlantic,16
+GeoSP,0,West South Central,42123,train,42,123,Middle Atlantic,13
+GeoSP,0,West South Central,42125,train,42,125,Middle Atlantic,59
+GeoSP,0,West South Central,42127,train,42,127,Middle Atlantic,14
+GeoSP,0,West South Central,42129,train,42,129,Middle Atlantic,100
+GeoSP,0,West South Central,42131,train,42,131,Middle Atlantic,7
+GeoSP,0,West South Central,42133,train,42,133,Middle Atlantic,90
+GeoSP,0,West South Central,44001,train,44,001,New England,11
+GeoSP,0,West South Central,44003,train,44,003,New England,39
+GeoSP,0,West South Central,44005,train,44,005,New England,23
+GeoSP,0,West South Central,44007,train,44,007,New England,141
+GeoSP,0,West South Central,44009,train,44,009,New England,29
+GeoSP,0,West South Central,45001,train,45,001,South Atlantic,6
+GeoSP,0,West South Central,45003,train,45,003,South Atlantic,33
+GeoSP,0,West South Central,45007,train,45,007,South Atlantic,39
+GeoSP,0,West South Central,45009,train,45,009,South Atlantic,4
+GeoSP,0,West South Central,45011,train,45,011,South Atlantic,6
+GeoSP,0,West South Central,45013,train,45,013,South Atlantic,41
+GeoSP,0,West South Central,45015,train,45,015,South Atlantic,45
+GeoSP,0,West South Central,45019,train,45,019,South Atlantic,86
+GeoSP,0,West South Central,45021,train,45,021,South Atlantic,13
+GeoSP,0,West South Central,45023,train,45,023,South Atlantic,11
+GeoSP,0,West South Central,45025,train,45,025,South Atlantic,10
+GeoSP,0,West South Central,45027,train,45,027,South Atlantic,12
+GeoSP,0,West South Central,45029,train,45,029,South Atlantic,10
+GeoSP,0,West South Central,45031,train,45,031,South Atlantic,16
+GeoSP,0,West South Central,45033,train,45,033,South Atlantic,6
+GeoSP,0,West South Central,45035,train,45,035,South Atlantic,25
+GeoSP,0,West South Central,45037,train,45,037,South Atlantic,6
+GeoSP,0,West South Central,45039,train,45,039,South Atlantic,5
+GeoSP,0,West South Central,45041,train,45,041,South Atlantic,33
+GeoSP,0,West South Central,45043,train,45,043,South Atlantic,15
+GeoSP,0,West South Central,45045,train,45,045,South Atlantic,111
+GeoSP,0,West South Central,45047,train,45,047,South Atlantic,14
+GeoSP,0,West South Central,45049,train,45,049,South Atlantic,5
+GeoSP,0,West South Central,45051,train,45,051,South Atlantic,72
+GeoSP,0,West South Central,45053,train,45,053,South Atlantic,5
+GeoSP,0,West South Central,45055,train,45,055,South Atlantic,15
+GeoSP,0,West South Central,45057,train,45,057,South Atlantic,14
+GeoSP,0,West South Central,45059,train,45,059,South Atlantic,17
+GeoSP,0,West South Central,45061,train,45,061,South Atlantic,7
+GeoSP,0,West South Central,45063,train,45,063,South Atlantic,74
+GeoSP,0,West South Central,45067,train,45,067,South Atlantic,8
+GeoSP,0,West South Central,45069,train,45,069,South Atlantic,7
+GeoSP,0,West South Central,45075,train,45,075,South Atlantic,20
+GeoSP,0,West South Central,45077,train,45,077,South Atlantic,28
+GeoSP,0,West South Central,45079,train,45,079,South Atlantic,89
+GeoSP,0,West South Central,45081,train,45,081,South Atlantic,5
+GeoSP,0,West South Central,45083,train,45,083,South Atlantic,69
+GeoSP,0,West South Central,45085,train,45,085,South Atlantic,23
+GeoSP,0,West South Central,45087,train,45,087,South Atlantic,9
+GeoSP,0,West South Central,45089,train,45,089,South Atlantic,11
+GeoSP,0,West South Central,45091,train,45,091,South Atlantic,46
+GeoSP,0,West South Central,46005,train,46,005,West North Central,6
+GeoSP,0,West South Central,46011,train,46,011,West North Central,6
+GeoSP,0,West South Central,46013,train,46,013,West North Central,8
+GeoSP,0,West South Central,46029,train,46,029,West North Central,7
+GeoSP,0,West South Central,46035,train,46,035,West North Central,4
+GeoSP,0,West South Central,46081,train,46,081,West North Central,5
+GeoSP,0,West South Central,46083,train,46,083,West North Central,11
+GeoSP,0,West South Central,46093,train,46,093,West North Central,5
+GeoSP,0,West South Central,46099,train,46,099,West North Central,42
+GeoSP,0,West South Central,46103,train,46,103,West North Central,23
+GeoSP,0,West South Central,46109,train,46,109,West North Central,4
+GeoSP,0,West South Central,47001,train,47,001,East South Central,18
+GeoSP,0,West South Central,47003,train,47,003,East South Central,9
+GeoSP,0,West South Central,47005,train,47,005,East South Central,5
+GeoSP,0,West South Central,47009,train,47,009,East South Central,28
+GeoSP,0,West South Central,47011,train,47,011,East South Central,19
+GeoSP,0,West South Central,47013,train,47,013,East South Central,11
+GeoSP,0,West South Central,47017,train,47,017,East South Central,8
+GeoSP,0,West South Central,47019,train,47,019,East South Central,17
+GeoSP,0,West South Central,47021,train,47,021,East South Central,9
+GeoSP,0,West South Central,47025,train,47,025,East South Central,9
+GeoSP,0,West South Central,47029,train,47,029,East South Central,9
+GeoSP,0,West South Central,47031,train,47,031,East South Central,12
+GeoSP,0,West South Central,47033,train,47,033,East South Central,5
+GeoSP,0,West South Central,47035,train,47,035,East South Central,14
+GeoSP,0,West South Central,47037,train,47,037,East South Central,161
+GeoSP,0,West South Central,47039,train,47,039,East South Central,4
+GeoSP,0,West South Central,47041,train,47,041,East South Central,4
+GeoSP,0,West South Central,47043,train,47,043,East South Central,10
+GeoSP,0,West South Central,47047,train,47,047,East South Central,11
+GeoSP,0,West South Central,47049,train,47,049,East South Central,4
+GeoSP,0,West South Central,47051,train,47,051,East South Central,9
+GeoSP,0,West South Central,47055,train,47,055,East South Central,8
+GeoSP,0,West South Central,47059,train,47,059,East South Central,15
+GeoSP,0,West South Central,47061,train,47,061,East South Central,4
+GeoSP,0,West South Central,47063,train,47,063,East South Central,12
+GeoSP,0,West South Central,47065,train,47,065,East South Central,82
+GeoSP,0,West South Central,47069,train,47,069,East South Central,6
+GeoSP,0,West South Central,47071,train,47,071,East South Central,6
+GeoSP,0,West South Central,47073,train,47,073,East South Central,13
+GeoSP,0,West South Central,47077,train,47,077,East South Central,6
+GeoSP,0,West South Central,47079,train,47,079,East South Central,9
+GeoSP,0,West South Central,47081,train,47,081,East South Central,6
+GeoSP,0,West South Central,47085,train,47,085,East South Central,5
+GeoSP,0,West South Central,47087,train,47,087,East South Central,4
+GeoSP,0,West South Central,47089,train,47,089,East South Central,9
+GeoSP,0,West South Central,47091,train,47,091,East South Central,5
+GeoSP,0,West South Central,47093,train,47,093,East South Central,112
+GeoSP,0,West South Central,47099,train,47,099,East South Central,11
+GeoSP,0,West South Central,47103,train,47,103,East South Central,9
+GeoSP,0,West South Central,47105,train,47,105,East South Central,10
+GeoSP,0,West South Central,47107,train,47,107,East South Central,10
+GeoSP,0,West South Central,47109,train,47,109,East South Central,7
+GeoSP,0,West South Central,47111,train,47,111,East South Central,4
+GeoSP,0,West South Central,47113,train,47,113,East South Central,27
+GeoSP,0,West South Central,47115,train,47,115,East South Central,6
+GeoSP,0,West South Central,47117,train,47,117,East South Central,6
+GeoSP,0,West South Central,47119,train,47,119,East South Central,17
+GeoSP,0,West South Central,47123,train,47,123,East South Central,7
+GeoSP,0,West South Central,47125,train,47,125,East South Central,39
+GeoSP,0,West South Central,47129,train,47,129,East South Central,5
+GeoSP,0,West South Central,47131,train,47,131,East South Central,10
+GeoSP,0,West South Central,47133,train,47,133,East South Central,7
+GeoSP,0,West South Central,47139,train,47,139,East South Central,5
+GeoSP,0,West South Central,47141,train,47,141,East South Central,15
+GeoSP,0,West South Central,47143,train,47,143,East South Central,6
+GeoSP,0,West South Central,47145,train,47,145,East South Central,11
+GeoSP,0,West South Central,47147,train,47,147,East South Central,14
+GeoSP,0,West South Central,47149,train,47,149,East South Central,49
+GeoSP,0,West South Central,47151,train,47,151,East South Central,5
+GeoSP,0,West South Central,47155,train,47,155,East South Central,18
+GeoSP,0,West South Central,47157,train,47,157,East South Central,221
+GeoSP,0,West South Central,47159,train,47,159,East South Central,5
+GeoSP,0,West South Central,47163,train,47,163,East South Central,39
+GeoSP,0,West South Central,47165,train,47,165,East South Central,42
+GeoSP,0,West South Central,47167,train,47,167,East South Central,13
+GeoSP,0,West South Central,47171,train,47,171,East South Central,4
+GeoSP,0,West South Central,47173,train,47,173,East South Central,4
+GeoSP,0,West South Central,47177,train,47,177,East South Central,9
+GeoSP,0,West South Central,47181,train,47,181,East South Central,4
+GeoSP,0,West South Central,47185,train,47,185,East South Central,6
+GeoSP,0,West South Central,47187,train,47,187,East South Central,37
+GeoSP,0,West South Central,47189,train,47,189,East South Central,21
+GeoSP,0,West South Central,49003,train,49,003,Mountain,11
+GeoSP,0,West South Central,49005,train,49,005,Mountain,26
+GeoSP,0,West South Central,49007,train,49,007,Mountain,5
+GeoSP,0,West South Central,49011,train,49,011,Mountain,54
+GeoSP,0,West South Central,49021,train,49,021,Mountain,8
+GeoSP,0,West South Central,49035,train,49,035,Mountain,212
+GeoSP,0,West South Central,49037,train,49,037,Mountain,4
+GeoSP,0,West South Central,49039,train,49,039,Mountain,5
+GeoSP,0,West South Central,49041,train,49,041,Mountain,5
+GeoSP,0,West South Central,49043,train,49,043,Mountain,13
+GeoSP,0,West South Central,49045,train,49,045,Mountain,11
+GeoSP,0,West South Central,49047,train,49,047,Mountain,6
+GeoSP,0,West South Central,49049,train,49,049,Mountain,128
+GeoSP,0,West South Central,49051,train,49,051,Mountain,4
+GeoSP,0,West South Central,49053,train,49,053,Mountain,21
+GeoSP,0,West South Central,49057,train,49,057,Mountain,50
+GeoSP,0,West South Central,50001,train,50,001,New England,10
+GeoSP,0,West South Central,50003,train,50,003,New England,12
+GeoSP,0,West South Central,50005,train,50,005,New England,10
+GeoSP,0,West South Central,50011,train,50,011,New England,10
+GeoSP,0,West South Central,50015,train,50,015,New England,7
+GeoSP,0,West South Central,50017,train,50,017,New England,10
+GeoSP,0,West South Central,50019,train,50,019,New England,10
+GeoSP,0,West South Central,50021,train,50,021,New England,20
+GeoSP,0,West South Central,50025,train,50,025,New England,18
+GeoSP,0,West South Central,50027,train,50,027,New England,18
+GeoSP,0,West South Central,51003,train,51,003,South Atlantic,22
+GeoSP,0,West South Central,51005,train,51,005,South Atlantic,6
+GeoSP,0,West South Central,51009,train,51,009,South Atlantic,9
+GeoSP,0,West South Central,51013,train,51,013,South Atlantic,59
+GeoSP,0,West South Central,51015,train,51,015,South Atlantic,13
+GeoSP,0,West South Central,51023,train,51,023,South Atlantic,8
+GeoSP,0,West South Central,51025,train,51,025,South Atlantic,5
+GeoSP,0,West South Central,51027,train,51,027,South Atlantic,7
+GeoSP,0,West South Central,51029,train,51,029,South Atlantic,4
+GeoSP,0,West South Central,51031,train,51,031,South Atlantic,12
+GeoSP,0,West South Central,51033,train,51,033,South Atlantic,7
+GeoSP,0,West South Central,51041,train,51,041,South Atlantic,71
+GeoSP,0,West South Central,51047,train,51,047,South Atlantic,8
+GeoSP,0,West South Central,51051,train,51,051,South Atlantic,4
+GeoSP,0,West South Central,51059,train,51,059,South Atlantic,258
+GeoSP,0,West South Central,51061,train,51,061,South Atlantic,17
+GeoSP,0,West South Central,51065,train,51,065,South Atlantic,4
+GeoSP,0,West South Central,51067,train,51,067,South Atlantic,10
+GeoSP,0,West South Central,51069,train,51,069,South Atlantic,14
+GeoSP,0,West South Central,51073,train,51,073,South Atlantic,8
+GeoSP,0,West South Central,51075,train,51,075,South Atlantic,5
+GeoSP,0,West South Central,51077,train,51,077,South Atlantic,5
+GeoSP,0,West South Central,51083,train,51,083,South Atlantic,9
+GeoSP,0,West South Central,51087,train,51,087,South Atlantic,64
+GeoSP,0,West South Central,51089,train,51,089,South Atlantic,14
+GeoSP,0,West South Central,51095,train,51,095,South Atlantic,11
+GeoSP,0,West South Central,51099,train,51,099,South Atlantic,5
+GeoSP,0,West South Central,51101,train,51,101,South Atlantic,4
+GeoSP,0,West South Central,51105,train,51,105,South Atlantic,6
+GeoSP,0,West South Central,51107,train,51,107,South Atlantic,65
+GeoSP,0,West South Central,51109,train,51,109,South Atlantic,6
+GeoSP,0,West South Central,51117,train,51,117,South Atlantic,9
+GeoSP,0,West South Central,51121,train,51,121,South Atlantic,16
+GeoSP,0,West South Central,51139,train,51,139,South Atlantic,5
+GeoSP,0,West South Central,51141,train,51,141,South Atlantic,4
+GeoSP,0,West South Central,51143,train,51,143,South Atlantic,16
+GeoSP,0,West South Central,51145,train,51,145,South Atlantic,5
+GeoSP,0,West South Central,51147,train,51,147,South Atlantic,5
+GeoSP,0,West South Central,51149,train,51,149,South Atlantic,7
+GeoSP,0,West South Central,51153,train,51,153,South Atlantic,83
+GeoSP,0,West South Central,51161,train,51,161,South Atlantic,18
+GeoSP,0,West South Central,51163,train,51,163,South Atlantic,4
+GeoSP,0,West South Central,51165,train,51,165,South Atlantic,19
+GeoSP,0,West South Central,51167,train,51,167,South Atlantic,7
+GeoSP,0,West South Central,51169,train,51,169,South Atlantic,6
+GeoSP,0,West South Central,51171,train,51,171,South Atlantic,9
+GeoSP,0,West South Central,51173,train,51,173,South Atlantic,9
+GeoSP,0,West South Central,51175,train,51,175,South Atlantic,5
+GeoSP,0,West South Central,51179,train,51,179,South Atlantic,27
+GeoSP,0,West South Central,51183,train,51,183,South Atlantic,5
+GeoSP,0,West South Central,51187,train,51,187,South Atlantic,8
+GeoSP,0,West South Central,51191,train,51,191,South Atlantic,13
+GeoSP,0,West South Central,51193,train,51,193,South Atlantic,4
+GeoSP,0,West South Central,51195,train,51,195,South Atlantic,11
+GeoSP,0,West South Central,51197,train,51,197,South Atlantic,6
+GeoSP,0,West South Central,51510,train,51,510,South Atlantic,38
+GeoSP,0,West South Central,51520,train,51,520,South Atlantic,4
+GeoSP,0,West South Central,51550,train,51,550,South Atlantic,41
+GeoSP,0,West South Central,51570,train,51,570,South Atlantic,5
+GeoSP,0,West South Central,51590,train,51,590,South Atlantic,16
+GeoSP,0,West South Central,51600,train,51,600,South Atlantic,5
+GeoSP,0,West South Central,51630,train,51,630,South Atlantic,6
+GeoSP,0,West South Central,51650,train,51,650,South Atlantic,33
+GeoSP,0,West South Central,51660,train,51,660,South Atlantic,11
+GeoSP,0,West South Central,51680,train,51,680,South Atlantic,19
+GeoSP,0,West South Central,51690,train,51,690,South Atlantic,5
+GeoSP,0,West South Central,51700,train,51,700,South Atlantic,44
+GeoSP,0,West South Central,51710,train,51,710,South Atlantic,80
+GeoSP,0,West South Central,51730,train,51,730,South Atlantic,11
+GeoSP,0,West South Central,51735,train,51,735,South Atlantic,4
+GeoSP,0,West South Central,51740,train,51,740,South Atlantic,31
+GeoSP,0,West South Central,51760,train,51,760,South Atlantic,66
+GeoSP,0,West South Central,51770,train,51,770,South Atlantic,23
+GeoSP,0,West South Central,51775,train,51,775,South Atlantic,5
+GeoSP,0,West South Central,51790,train,51,790,South Atlantic,6
+GeoSP,0,West South Central,51820,train,51,820,South Atlantic,5
+GeoSP,0,West South Central,53001,train,53,001,Pacific,5
+GeoSP,0,West South Central,53003,train,53,003,Pacific,6
+GeoSP,0,West South Central,53005,train,53,005,Pacific,37
+GeoSP,0,West South Central,53007,train,53,007,Pacific,14
+GeoSP,0,West South Central,53009,train,53,009,Pacific,22
+GeoSP,0,West South Central,53011,train,53,011,Pacific,104
+GeoSP,0,West South Central,53015,train,53,015,Pacific,24
+GeoSP,0,West South Central,53017,train,53,017,Pacific,8
+GeoSP,0,West South Central,53025,train,53,025,Pacific,16
+GeoSP,0,West South Central,53027,train,53,027,Pacific,16
+GeoSP,0,West South Central,53029,train,53,029,Pacific,22
+GeoSP,0,West South Central,53033,train,53,033,Pacific,397
+GeoSP,0,West South Central,53035,train,53,035,Pacific,55
+GeoSP,0,West South Central,53041,train,53,041,Pacific,20
+GeoSP,0,West South Central,53043,train,53,043,Pacific,4
+GeoSP,0,West South Central,53045,train,53,045,Pacific,14
+GeoSP,0,West South Central,53047,train,53,047,Pacific,10
+GeoSP,0,West South Central,53049,train,53,049,Pacific,8
+GeoSP,0,West South Central,53051,train,53,051,Pacific,5
+GeoSP,0,West South Central,53055,train,53,055,Pacific,5
+GeoSP,0,West South Central,53057,train,53,057,Pacific,30
+GeoSP,0,West South Central,53059,train,53,059,Pacific,5
+GeoSP,0,West South Central,53061,train,53,061,Pacific,150
+GeoSP,0,West South Central,53065,train,53,065,Pacific,12
+GeoSP,0,West South Central,53067,train,53,067,Pacific,50
+GeoSP,0,West South Central,53071,train,53,071,Pacific,12
+GeoSP,0,West South Central,53073,train,53,073,Pacific,34
+GeoSP,0,West South Central,53075,train,53,075,Pacific,10
+GeoSP,0,West South Central,53077,train,53,077,Pacific,45
+GeoSP,0,West South Central,54001,train,54,001,South Atlantic,4
+GeoSP,0,West South Central,54003,train,54,003,South Atlantic,14
+GeoSP,0,West South Central,54005,train,54,005,South Atlantic,8
+GeoSP,0,West South Central,54009,train,54,009,South Atlantic,6
+GeoSP,0,West South Central,54011,train,54,011,South Atlantic,29
+GeoSP,0,West South Central,54019,train,54,019,South Atlantic,12
+GeoSP,0,West South Central,54025,train,54,025,South Atlantic,7
+GeoSP,0,West South Central,54027,train,54,027,South Atlantic,5
+GeoSP,0,West South Central,54029,train,54,029,South Atlantic,8
+GeoSP,0,West South Central,54033,train,54,033,South Atlantic,22
+GeoSP,0,West South Central,54037,train,54,037,South Atlantic,15
+GeoSP,0,West South Central,54039,train,54,039,South Atlantic,53
+GeoSP,0,West South Central,54041,train,54,041,South Atlantic,5
+GeoSP,0,West South Central,54043,train,54,043,South Atlantic,5
+GeoSP,0,West South Central,54049,train,54,049,South Atlantic,18
+GeoSP,0,West South Central,54051,train,54,051,South Atlantic,9
+GeoSP,0,West South Central,54053,train,54,053,South Atlantic,6
+GeoSP,0,West South Central,54057,train,54,057,South Atlantic,7
+GeoSP,0,West South Central,54059,train,54,059,South Atlantic,7
+GeoSP,0,West South Central,54061,train,54,061,South Atlantic,24
+GeoSP,0,West South Central,54065,train,54,065,South Atlantic,4
+GeoSP,0,West South Central,54067,train,54,067,South Atlantic,7
+GeoSP,0,West South Central,54069,train,54,069,South Atlantic,18
+GeoSP,0,West South Central,54075,train,54,075,South Atlantic,4
+GeoSP,0,West South Central,54077,train,54,077,South Atlantic,8
+GeoSP,0,West South Central,54079,train,54,079,South Atlantic,10
+GeoSP,0,West South Central,54081,train,54,081,South Atlantic,17
+GeoSP,0,West South Central,54083,train,54,083,South Atlantic,7
+GeoSP,0,West South Central,54087,train,54,087,South Atlantic,4
+GeoSP,0,West South Central,54089,train,54,089,South Atlantic,4
+GeoSP,0,West South Central,54091,train,54,091,South Atlantic,4
+GeoSP,0,West South Central,54097,train,54,097,South Atlantic,6
+GeoSP,0,West South Central,54099,train,54,099,South Atlantic,11
+GeoSP,0,West South Central,54103,train,54,103,South Atlantic,5
+GeoSP,0,West South Central,54107,train,54,107,South Atlantic,26
+GeoSP,0,West South Central,54109,train,54,109,South Atlantic,6
+GeoSP,0,West South Central,55001,train,55,001,East North Central,7
+GeoSP,0,West South Central,55003,train,55,003,East North Central,7
+GeoSP,0,West South Central,55009,train,55,009,East North Central,54
+GeoSP,0,West South Central,55011,train,55,011,East North Central,5
+GeoSP,0,West South Central,55013,train,55,013,East North Central,6
+GeoSP,0,West South Central,55015,train,55,015,East North Central,11
+GeoSP,0,West South Central,55017,train,55,017,East North Central,11
+GeoSP,0,West South Central,55019,train,55,019,East North Central,8
+GeoSP,0,West South Central,55021,train,55,021,East North Central,12
+GeoSP,0,West South Central,55023,train,55,023,East North Central,6
+GeoSP,0,West South Central,55025,train,55,025,East North Central,107
+GeoSP,0,West South Central,55027,train,55,027,East North Central,20
+GeoSP,0,West South Central,55029,train,55,029,East North Central,9
+GeoSP,0,West South Central,55033,train,55,033,East North Central,8
+GeoSP,0,West South Central,55035,train,55,035,East North Central,20
+GeoSP,0,West South Central,55039,train,55,039,East North Central,20
+GeoSP,0,West South Central,55043,train,55,043,East North Central,12
+GeoSP,0,West South Central,55045,train,55,045,East North Central,8
+GeoSP,0,West South Central,55049,train,55,049,East North Central,6
+GeoSP,0,West South Central,55053,train,55,053,East North Central,5
+GeoSP,0,West South Central,55059,train,55,059,East North Central,35
+GeoSP,0,West South Central,55061,train,55,061,East North Central,4
+GeoSP,0,West South Central,55065,train,55,065,East North Central,5
+GeoSP,0,West South Central,55069,train,55,069,East North Central,10
+GeoSP,0,West South Central,55073,train,55,073,East North Central,27
+GeoSP,0,West South Central,55075,train,55,075,East North Central,12
+GeoSP,0,West South Central,55077,train,55,077,East North Central,5
+GeoSP,0,West South Central,55079,train,55,079,East North Central,297
+GeoSP,0,West South Central,55081,train,55,081,East North Central,9
+GeoSP,0,West South Central,55083,train,55,083,East North Central,10
+GeoSP,0,West South Central,55085,train,55,085,East North Central,14
+GeoSP,0,West South Central,55087,train,55,087,East North Central,40
+GeoSP,0,West South Central,55089,train,55,089,East North Central,18
+GeoSP,0,West South Central,55093,train,55,093,East North Central,8
+GeoSP,0,West South Central,55095,train,55,095,East North Central,10
+GeoSP,0,West South Central,55097,train,55,097,East North Central,14
+GeoSP,0,West South Central,55099,train,55,099,East North Central,6
+GeoSP,0,West South Central,55101,train,55,101,East North Central,44
+GeoSP,0,West South Central,55103,train,55,103,East North Central,5
+GeoSP,0,West South Central,55107,train,55,107,East North Central,5
+GeoSP,0,West South Central,55109,train,55,109,East North Central,14
+GeoSP,0,West South Central,55111,train,55,111,East North Central,13
+GeoSP,0,West South Central,55113,train,55,113,East North Central,6
+GeoSP,0,West South Central,55115,train,55,115,East North Central,11
+GeoSP,0,West South Central,55117,train,55,117,East North Central,26
+GeoSP,0,West South Central,55119,train,55,119,East North Central,6
+GeoSP,0,West South Central,55121,train,55,121,East North Central,8
+GeoSP,0,West South Central,55123,train,55,123,East North Central,7
+GeoSP,0,West South Central,55125,train,55,125,East North Central,5
+GeoSP,0,West South Central,55127,train,55,127,East North Central,22
+GeoSP,0,West South Central,55131,train,55,131,East North Central,28
+GeoSP,0,West South Central,55133,train,55,133,East North Central,86
+GeoSP,0,West South Central,55135,train,55,135,East North Central,12
+GeoSP,0,West South Central,55137,train,55,137,East North Central,7
+GeoSP,0,West South Central,55139,train,55,139,East North Central,41
+GeoSP,0,West South Central,55141,train,55,141,East North Central,17
+GeoSP,0,West South Central,56001,train,56,001,Mountain,10
+GeoSP,0,West South Central,56005,train,56,005,Mountain,7
+GeoSP,0,West South Central,56007,train,56,007,Mountain,5
+GeoSP,0,West South Central,56013,train,56,013,Mountain,10
+GeoSP,0,West South Central,56015,train,56,015,Mountain,4
+GeoSP,0,West South Central,56021,train,56,021,Mountain,21
+GeoSP,0,West South Central,56023,train,56,023,Mountain,4
+GeoSP,0,West South Central,56025,train,56,025,Mountain,18
+GeoSP,0,West South Central,56029,train,56,029,Mountain,5
+GeoSP,0,West South Central,56033,train,56,033,Mountain,6
+GeoSP,0,West South Central,56037,train,56,037,Mountain,12
+GeoSP,0,West South Central,01021,val,01,021,East South Central,9
+GeoSP,0,West South Central,01033,val,01,033,East South Central,14
+GeoSP,0,West South Central,01047,val,01,047,East South Central,15
+GeoSP,0,West South Central,01101,val,01,101,East South Central,65
+GeoSP,0,West South Central,02198,val,02,198,Pacific,4
+GeoSP,0,West South Central,04007,val,04,007,Mountain,16
+GeoSP,0,West South Central,04013,val,04,013,Mountain,916
+GeoSP,0,West South Central,04021,val,04,021,Mountain,75
+GeoSP,0,West South Central,06067,val,06,067,Pacific,317
+GeoSP,0,West South Central,06077,val,06,077,Pacific,139
+GeoSP,0,West South Central,06107,val,06,107,Pacific,78
+GeoSP,0,West South Central,06115,val,06,115,Pacific,14
+GeoSP,0,West South Central,08001,val,08,001,Mountain,97
+GeoSP,0,West South Central,08013,val,08,013,Mountain,68
+GeoSP,0,West South Central,08051,val,08,051,Mountain,4
+GeoSP,0,West South Central,08067,val,08,067,Mountain,10
+GeoSP,0,West South Central,08083,val,08,083,Mountain,7
+GeoSP,0,West South Central,08099,val,08,099,Mountain,5
+GeoSP,0,West South Central,12005,val,12,005,South Atlantic,43
+GeoSP,0,West South Central,12041,val,12,041,South Atlantic,5
+GeoSP,0,West South Central,12061,val,12,061,South Atlantic,30
+GeoSP,0,West South Central,12091,val,12,091,South Atlantic,42
+GeoSP,0,West South Central,12105,val,12,105,South Atlantic,154
+GeoSP,0,West South Central,12107,val,12,107,South Atlantic,17
+GeoSP,0,West South Central,13075,val,13,075,South Atlantic,4
+GeoSP,0,West South Central,13145,val,13,145,South Atlantic,5
+GeoSP,0,West South Central,13147,val,13,147,South Atlantic,5
+GeoSP,0,West South Central,13211,val,13,211,South Atlantic,5
+GeoSP,0,West South Central,13237,val,13,237,South Atlantic,5
+GeoSP,0,West South Central,13275,val,13,275,South Atlantic,11
+GeoSP,0,West South Central,16049,val,16,049,Mountain,5
+GeoSP,0,West South Central,16083,val,16,083,Mountain,14
+GeoSP,0,West South Central,17007,val,17,007,East North Central,7
+GeoSP,0,West South Central,17019,val,17,019,East North Central,43
+GeoSP,0,West South Central,17027,val,17,027,East North Central,8
+GeoSP,0,West South Central,17045,val,17,045,East North Central,5
+GeoSP,0,West South Central,17055,val,17,055,East North Central,12
+GeoSP,0,West South Central,17103,val,17,103,East North Central,9
+GeoSP,0,West South Central,17139,val,17,139,East North Central,4
+GeoSP,0,West South Central,17183,val,17,183,East North Central,24
+GeoSP,0,West South Central,18015,val,18,015,East North Central,7
+GeoSP,0,West South Central,18031,val,18,031,East North Central,6
+GeoSP,0,West South Central,18075,val,18,075,East North Central,7
+GeoSP,0,West South Central,18105,val,18,105,East North Central,31
+GeoSP,0,West South Central,18129,val,18,129,East North Central,7
+GeoSP,0,West South Central,18169,val,18,169,East North Central,8
+GeoSP,0,West South Central,19017,val,19,017,West North Central,8
+GeoSP,0,West South Central,19083,val,19,083,West North Central,6
+GeoSP,0,West South Central,19117,val,19,117,West North Central,4
+GeoSP,0,West South Central,20009,val,20,009,West North Central,8
+GeoSP,0,West South Central,20045,val,20,045,West North Central,22
+GeoSP,0,West South Central,20161,val,20,161,West North Central,14
+GeoSP,0,West South Central,20177,val,20,177,West North Central,43
+GeoSP,0,West South Central,20205,val,20,205,West North Central,4
+GeoSP,0,West South Central,21017,val,21,017,East South Central,6
+GeoSP,0,West South Central,21019,val,21,019,East South Central,13
+GeoSP,0,West South Central,21045,val,21,045,East South Central,5
+GeoSP,0,West South Central,21055,val,21,055,East South Central,4
+GeoSP,0,West South Central,21065,val,21,065,East South Central,4
+GeoSP,0,West South Central,21079,val,21,079,East South Central,4
+GeoSP,0,West South Central,21099,val,21,099,East South Central,5
+GeoSP,0,West South Central,21107,val,21,107,East South Central,12
+GeoSP,0,West South Central,21117,val,21,117,East South Central,41
+GeoSP,0,West South Central,21177,val,21,177,East South Central,9
+GeoSP,0,West South Central,21203,val,21,203,East South Central,4
+GeoSP,0,West South Central,21207,val,21,207,East South Central,5
+GeoSP,0,West South Central,21219,val,21,219,East South Central,4
+GeoSP,0,West South Central,21235,val,21,235,East South Central,8
+GeoSP,0,West South Central,21239,val,21,239,East South Central,8
+GeoSP,0,West South Central,23029,val,23,029,New England,14
+GeoSP,0,West South Central,24005,val,24,005,South Atlantic,214
+GeoSP,0,West South Central,24043,val,24,043,South Atlantic,32
+GeoSP,0,West South Central,25001,val,25,001,New England,57
+GeoSP,0,West South Central,26021,val,26,021,East North Central,48
+GeoSP,0,West South Central,26033,val,26,033,East North Central,14
+GeoSP,0,West South Central,26041,val,26,041,East North Central,11
+GeoSP,0,West South Central,26111,val,26,111,East North Central,19
+GeoSP,0,West South Central,26119,val,26,119,East North Central,5
+GeoSP,0,West South Central,26135,val,26,135,East North Central,5
+GeoSP,0,West South Central,27001,val,27,001,West North Central,6
+GeoSP,0,West South Central,27035,val,27,035,West North Central,16
+GeoSP,0,West South Central,27043,val,27,043,West North Central,6
+GeoSP,0,West South Central,27093,val,27,093,West North Central,6
+GeoSP,0,West South Central,27117,val,27,117,West North Central,5
+GeoSP,0,West South Central,27129,val,27,129,West North Central,6
+GeoSP,0,West South Central,27131,val,27,131,West North Central,13
+GeoSP,0,West South Central,27157,val,27,157,West North Central,6
+GeoSP,0,West South Central,27163,val,27,163,West North Central,50
+GeoSP,0,West South Central,28047,val,28,047,East South Central,45
+GeoSP,0,West South Central,28095,val,28,095,East South Central,9
+GeoSP,0,West South Central,28139,val,28,139,East South Central,4
+GeoSP,0,West South Central,29001,val,29,001,West North Central,7
+GeoSP,0,West South Central,29003,val,29,003,West North Central,4
+GeoSP,0,West South Central,29009,val,29,009,West North Central,7
+GeoSP,0,West South Central,29093,val,29,093,West North Central,4
+GeoSP,0,West South Central,29101,val,29,101,West North Central,9
+GeoSP,0,West South Central,29141,val,29,141,West North Central,5
+GeoSP,0,West South Central,29161,val,29,161,West North Central,10
+GeoSP,0,West South Central,29169,val,29,169,West North Central,9
+GeoSP,0,West South Central,29177,val,29,177,West North Central,4
+GeoSP,0,West South Central,30081,val,30,081,Mountain,10
+GeoSP,0,West South Central,31079,val,31,079,West North Central,14
+GeoSP,0,West South Central,33013,val,33,013,New England,36
+GeoSP,0,West South Central,33019,val,33,019,New England,10
+GeoSP,0,West South Central,34001,val,34,001,Middle Atlantic,69
+GeoSP,0,West South Central,34025,val,34,025,Middle Atlantic,144
+GeoSP,0,West South Central,34031,val,34,031,Middle Atlantic,100
+GeoSP,0,West South Central,35061,val,35,061,Mountain,18
+GeoSP,0,West South Central,36001,val,36,001,Middle Atlantic,75
+GeoSP,0,West South Central,36009,val,36,009,Middle Atlantic,21
+GeoSP,0,West South Central,36013,val,36,013,Middle Atlantic,35
+GeoSP,0,West South Central,36025,val,36,025,Middle Atlantic,14
+GeoSP,0,West South Central,36041,val,36,041,Middle Atlantic,4
+GeoSP,0,West South Central,36069,val,36,069,Middle Atlantic,25
+GeoSP,0,West South Central,36101,val,36,101,Middle Atlantic,30
+GeoSP,0,West South Central,36117,val,36,117,Middle Atlantic,23
+GeoSP,0,West South Central,37021,val,37,021,South Atlantic,56
+GeoSP,0,West South Central,37033,val,37,033,South Atlantic,6
+GeoSP,0,West South Central,37049,val,37,049,South Atlantic,21
+GeoSP,0,West South Central,37065,val,37,065,South Atlantic,14
+GeoSP,0,West South Central,37101,val,37,101,South Atlantic,25
+GeoSP,0,West South Central,37131,val,37,131,South Atlantic,5
+GeoSP,0,West South Central,37133,val,37,133,South Atlantic,32
+GeoSP,0,West South Central,37149,val,37,149,South Atlantic,7
+GeoSP,0,West South Central,37155,val,37,155,South Atlantic,31
+GeoSP,0,West South Central,38017,val,38,017,West North Central,33
+GeoSP,0,West South Central,38099,val,38,099,West North Central,6
+GeoSP,0,West South Central,39017,val,39,017,East North Central,80
+GeoSP,0,West South Central,39031,val,39,031,East North Central,10
+GeoSP,0,West South Central,39041,val,39,041,East North Central,35
+GeoSP,0,West South Central,39053,val,39,053,East North Central,7
+GeoSP,0,West South Central,39081,val,39,081,East North Central,23
+GeoSP,0,West South Central,39103,val,39,103,East North Central,37
+GeoSP,0,West South Central,39123,val,39,123,East North Central,13
+GeoSP,0,West South Central,39157,val,39,157,East North Central,21
+GeoSP,0,West South Central,39169,val,39,169,East North Central,32
+GeoSP,0,West South Central,41003,val,41,003,Pacific,18
+GeoSP,0,West South Central,41013,val,41,013,Pacific,4
+GeoSP,0,West South Central,41051,val,41,051,Pacific,171
+GeoSP,0,West South Central,42075,val,42,075,Middle Atlantic,31
+GeoSP,0,West South Central,42103,val,42,103,Middle Atlantic,18
+GeoSP,0,West South Central,42109,val,42,109,Middle Atlantic,8
+GeoSP,0,West South Central,45071,val,45,071,South Atlantic,8
+GeoSP,0,West South Central,45073,val,45,073,South Atlantic,15
+GeoSP,0,West South Central,46065,val,46,065,West North Central,4
+GeoSP,0,West South Central,46135,val,46,135,West North Central,5
+GeoSP,0,West South Central,47045,val,47,045,East South Central,8
+GeoSP,0,West South Central,47053,val,47,053,East South Central,14
+GeoSP,0,West South Central,47057,val,47,057,East South Central,5
+GeoSP,0,West South Central,47075,val,47,075,East South Central,6
+GeoSP,0,West South Central,47097,val,47,097,East South Central,9
+GeoSP,0,West South Central,47179,val,47,179,East South Central,23
+GeoSP,0,West South Central,47183,val,47,183,East South Central,11
+GeoSP,0,West South Central,50007,val,50,007,New England,35
+GeoSP,0,West South Central,50023,val,50,023,New England,19
+GeoSP,0,West South Central,51001,val,51,001,South Atlantic,11
+GeoSP,0,West South Central,51035,val,51,035,South Atlantic,7
+GeoSP,0,West South Central,51071,val,51,071,South Atlantic,4
+GeoSP,0,West South Central,51085,val,51,085,South Atlantic,23
+GeoSP,0,West South Central,51093,val,51,093,South Atlantic,8
+GeoSP,0,West South Central,51119,val,51,119,South Atlantic,4
+GeoSP,0,West South Central,51135,val,51,135,South Atlantic,4
+GeoSP,0,West South Central,51137,val,51,137,South Atlantic,5
+GeoSP,0,West South Central,51177,val,51,177,South Atlantic,30
+GeoSP,0,West South Central,51185,val,51,185,South Atlantic,11
+GeoSP,0,West South Central,51199,val,51,199,South Atlantic,14
+GeoSP,0,West South Central,51540,val,51,540,South Atlantic,12
+GeoSP,0,West South Central,51670,val,51,670,South Atlantic,7
+GeoSP,0,West South Central,51683,val,51,683,South Atlantic,7
+GeoSP,0,West South Central,51800,val,51,800,South Atlantic,28
+GeoSP,0,West South Central,51810,val,51,810,South Atlantic,100
+GeoSP,0,West South Central,51840,val,51,840,South Atlantic,5
+GeoSP,0,West South Central,53021,val,53,021,Pacific,13
+GeoSP,0,West South Central,53031,val,53,031,Pacific,7
+GeoSP,0,West South Central,53037,val,53,037,Pacific,8
+GeoSP,0,West South Central,53053,val,53,053,Pacific,172
+GeoSP,0,West South Central,53063,val,53,063,Pacific,105
+GeoSP,0,West South Central,54035,val,54,035,South Atlantic,6
+GeoSP,0,West South Central,54045,val,54,045,South Atlantic,9
+GeoSP,0,West South Central,54047,val,54,047,South Atlantic,8
+GeoSP,0,West South Central,54055,val,54,055,South Atlantic,16
+GeoSP,0,West South Central,55005,val,55,005,East North Central,10
+GeoSP,0,West South Central,55007,val,55,007,East North Central,5
+GeoSP,0,West South Central,55031,val,55,031,East North Central,12
+GeoSP,0,West South Central,55041,val,55,041,East North Central,4
+GeoSP,0,West South Central,55047,val,55,047,East North Central,6
+GeoSP,0,West South Central,55055,val,55,055,East North Central,20
+GeoSP,0,West South Central,55057,val,55,057,East North Central,7
+GeoSP,0,West South Central,55063,val,55,063,East North Central,25
+GeoSP,0,West South Central,55067,val,55,067,East North Central,6
+GeoSP,0,West South Central,55071,val,55,071,East North Central,19
+GeoSP,0,West South Central,55105,val,55,105,East North Central,38
+GeoSP,0,West South Central,55129,val,55,129,East North Central,5
+GeoSP,0,West South Central,56009,val,56,009,Mountain,4
+GeoSP,0,West South Central,56039,val,56,039,Mountain,4

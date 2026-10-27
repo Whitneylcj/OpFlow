@@ -1,0 +1,16 @@
+model=raw_count_mlp
+split_name=GeoSP_EastNorthCentral
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1675, 'val': 187, 'test': 403}
+load_seconds=3.937
+fit_seconds=522.280
+eval_seconds=52.326
+aggregate_seconds=0.257
+checkpoint_seconds=0.001
+predict_seconds=26.719
+metric_seconds=25.481
+metric_rows=6795
+write_seconds=0.674
+total_seconds=579.491

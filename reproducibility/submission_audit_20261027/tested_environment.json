@@ -1,0 +1,8 @@
+{
+  "python": "3.10.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "torch": "2.1.0",
+  "device": "cpu",
+  "notes": "Recorded versions used for exact CI regression and checkpoint smoke inference; no environment installation performed."
+}

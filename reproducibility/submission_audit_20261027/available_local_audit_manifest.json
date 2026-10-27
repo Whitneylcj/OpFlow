@@ -1,0 +1,106 @@
+{
+  "status": "AVAILABLE_LOCAL_RUNS_ONLY_NOT_VERIFIED_SUBMISSION",
+  "paper": "https://arxiv.org/html/2607.03200v1#S5.T2",
+  "bootstrap": {
+    "unit": "county",
+    "within_split": true,
+    "paired": true,
+    "replicates": 20000,
+    "seed": 20261027,
+    "interval": "percentile 95%",
+    "aggregation": "equal weight counties"
+  },
+  "limitations": [
+    "PairMLP and ScaleMLP source metrics do not match published Table 2.",
+    "OpFlow source is a later run than the two baselines; all are explicitly identified, not a frozen submission bundle.",
+    "Only one training seed (2026); intervals do not estimate training randomness.",
+    "GeoSP here is SouthAtlantic only, not the nine-fold GeoSP protocol average.",
+    "Count metrics reuse saved all-cell county evaluations, not newly masked OD recomputation.",
+    "global_cpc is count-CPC within each county, summarized as a county mean, not a pooled OD-level CPC.",
+    "nrmse_mean divides by mean true flow; nrmse_official divides by true-flow population standard deviation.",
+    "No overall bootstrap pooling across splits because counties overlap between protocols.",
+    "County bootstrap assumes exchangeable counties; no spatial-block uncertainty correction."
+  ],
+  "split_file": {
+    "path": "data/opflow_large_commuting_od/splits.json",
+    "sha256": "0c8738f4f6fad7250e11a9dd26a090ff7537a76a7b45040e59ba04b18e62a159"
+  },
+  "source_files": [
+    {
+      "path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/RandSP_seed0/opflow_full/seed_2026/eval.json",
+      "sha256": "f22dc51ab843efbc8a912fc4049f62c2a72f89f5d11c39c5fb75ab9b38d50109",
+      "test_counties": 453
+    },
+    {
+      "path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/GeoSP_SouthAtlantic/opflow_full/seed_2026/eval.json",
+      "sha256": "49f0ffe2cb8549ffdf716da8bcda5b6512b107d166bddfccb00b38b8386d0912",
+      "test_counties": 459
+    },
+    {
+      "path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/OppSP/opflow_full/seed_2026/eval.json",
+      "sha256": "37a70d718e56112b030f0a5750a1c03cc6db2b27d834af2fc0ea3e88a5baead8",
+      "test_counties": 454
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/pair_mlp/seed_2026/eval.json",
+      "sha256": "7cc76c2c04278e1573ba04d25b4fd22dc936cbc3d6c0e5354ae2222b72eb6943",
+      "test_counties": 453
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/pair_mlp/seed_2026/eval.json",
+      "sha256": "15bcb1cd7aa46cfc52a578f7e0c7367ea1a08f90c837564293399c1e97ccbbc5",
+      "test_counties": 459
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/pair_mlp/seed_2026/eval.json",
+      "sha256": "9338aa02c54994037ff6e454ecc80d82884c2f6fdca5132b42630e651c6321d0",
+      "test_counties": 454
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/scale_aware_mlp/seed_2026/eval.json",
+      "sha256": "2e81550ce191f8b9cfe7310ecc9fadaa6d7fe0013a854087d15b9377be26dd65",
+      "test_counties": 453
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/scale_aware_mlp/seed_2026/eval.json",
+      "sha256": "5f036d7fc8711ea864a3e58e00770ed86e5155f12653a7b81c5e664cdd33bfef",
+      "test_counties": 459
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/scale_aware_mlp/seed_2026/eval.json",
+      "sha256": "5b0cdcf78c8a9ce671d0d9cb747c24e336bce02a2e473752590879da8a1c04a5",
+      "test_counties": 454
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/resolved_config.yaml",
+      "sha256": "b4c6861bab87819d98ff971ead8b5e66533f85bac8bf21b4eda2b765b5a2a89e"
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/resolved_config.yaml",
+      "sha256": "1a817c730e5105c3ae3a4783b93482b471c1b25edb084d993378ee4eb42f6dfb"
+    },
+    {
+      "path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/resolved_config.yaml",
+      "sha256": "9e44ab84b95b78ada6c2d9649767fbc33b151a53d0de8dd574e92b29baa70840"
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/resolved_config.yaml",
+      "sha256": "d3f719d782508f49e7a23e03fe6af5c330b934844e589a64f88aae3c5b8601c0"
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/resolved_config.yaml",
+      "sha256": "9db2b17007f25e46f1037cdf34285942b51a76a7fdabe036c081fdeb8d971d9d"
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/resolved_config.yaml",
+      "sha256": "02227e3f4114e1f1d2024120d7f9b3dae4c625c9ebf0564c3bd9ee0183959869"
+    }
+  ],
+  "checks": [
+    "unique IDs",
+    "exact saved/current test ID equality",
+    "same county node counts and true totals across models",
+    "recomputed county means equal saved summaries for all seven metrics"
+  ],
+  "county_metric_rows": 4098
+}

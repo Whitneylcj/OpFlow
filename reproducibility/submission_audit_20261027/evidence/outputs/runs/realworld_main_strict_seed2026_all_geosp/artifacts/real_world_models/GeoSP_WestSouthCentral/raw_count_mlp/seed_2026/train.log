@@ -1,0 +1,16 @@
+model=raw_count_mlp
+split_name=GeoSP_WestSouthCentral
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1753, 'val': 195, 'test': 317}
+load_seconds=3.263
+fit_seconds=938.842
+eval_seconds=41.532
+aggregate_seconds=0.183
+checkpoint_seconds=0.001
+predict_seconds=21.471
+metric_seconds=19.955
+metric_rows=6795
+write_seconds=0.499
+total_seconds=984.327

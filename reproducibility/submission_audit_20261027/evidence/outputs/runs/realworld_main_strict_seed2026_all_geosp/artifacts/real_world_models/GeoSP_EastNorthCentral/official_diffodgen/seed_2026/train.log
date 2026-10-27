@@ -1,0 +1,16 @@
+model=official_diffodgen
+split_name=GeoSP_EastNorthCentral
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1675, 'val': 187, 'test': 403}
+load_seconds=1.959
+fit_seconds=0.472
+eval_seconds=42.906
+aggregate_seconds=0.167
+checkpoint_seconds=0.000
+predict_seconds=16.937
+metric_seconds=25.895
+metric_rows=4530
+write_seconds=0.460
+total_seconds=45.966

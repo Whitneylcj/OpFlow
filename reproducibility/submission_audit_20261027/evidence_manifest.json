@@ -1,0 +1,1176 @@
+{
+  "status": "audit evidence, not a frozen submission code release",
+  "github_head": "d32a49dc048477711288526ea096dcc60b8872e2",
+  "files": [
+    {
+      "path": "data/opflow_large_commuting_od/splits.json",
+      "sha256": "0c8738f4f6fad7250e11a9dd26a090ff7537a76a7b45040e59ba04b18e62a159",
+      "bytes": 510942
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/GeoSP_EastNorthCentral.csv",
+      "sha256": "6b88387435a17e0c613b95128607499c5cf99e85537346e9efcf3f574d7fb5be",
+      "bytes": 146762
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/GeoSP_EastSouthCentral.csv",
+      "sha256": "a0313b39ea8c0763db8cabd10c3ac5b408ef630600a7474a44bcfb4065fe0f4c",
+      "bytes": 146856
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/GeoSP_MiddleAtlantic.csv",
+      "sha256": "512f4502530315062a999f7dc3b531d2a7cbd3f69081a22f375f7178a098d739",
+      "bytes": 140174
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/GeoSP_Mountain.csv",
+      "sha256": "cbd4c6d82a78bab6afab23a0dda58b8c7f94f527fd046590c456f1a249e5bff5",
+      "bytes": 124316
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/GeoSP_NewEngland.csv",
+      "sha256": "83c57dbdaa1fe3130038e9dff9fa9d4b05644ba20657fb822a95a8e787bd59b9",
+      "bytes": 131178
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/GeoSP_Pacific.csv",
+      "sha256": "8a03af13f55ce2ddfdc22c20745327073c7cb5a31432e166d09c7bf67c150716",
+      "bytes": 122067
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/GeoSP_SouthAtlantic.csv",
+      "sha256": "98ec257ba341cf2cfc9776ac4f79ca8fe10390b8cfac34aefa8c4262461edf58",
+      "bytes": 137658
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/GeoSP_WestNorthCentral.csv",
+      "sha256": "96e56f1b637eca9b9bbece400c3283bb0ba3eb0218d1358df4a74c4c59d5bf82",
+      "bytes": 146834
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/GeoSP_WestSouthCentral.csv",
+      "sha256": "d6a7e1310e5282b9b6bf5b6adb2c3cc279558160d194e880a1c288513b3aa1e9",
+      "bytes": 146832
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/GeoSP_all_folds.csv",
+      "sha256": "cfa4c930ee49c1c8ec3daa952a70d6916a6351a8d0438854d7c4c707d0c30beb",
+      "bytes": 1242053
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/OppSP.csv",
+      "sha256": "7e1cc1373edaa36ed0ccc49b68f2053086c665a942593a0447df32fedbcd6272",
+      "bytes": 180103
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/OppSP_scores.csv",
+      "sha256": "2ad82d306114674672387c2c2f3898198aa5797ada1ec9391872fd898ad92029",
+      "bytes": 155778
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/OppSP_summary.csv",
+      "sha256": "9bdf955c5ce4d1e5fce80438011403dcbf22e9053af69625eb8153a10d057999",
+      "bytes": 1904
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/OppSP_summary.json",
+      "sha256": "9df7702c57323cb08a1287f5e426e6d5de5a398c262a9a468c24695b7bdc8d6f",
+      "bytes": 4188
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/RandSP_seed0.csv",
+      "sha256": "a8be3090863157da26b06ce7503c04ac8e087501653af382bcd70cf10b4148e1",
+      "bytes": 110392
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/RandSP_seed1.csv",
+      "sha256": "646ba5f6a3a95550efbe5e27b896ff16940c5a21fd187da16e39c3b9192ba0eb",
+      "bytes": 110392
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/RandSP_seed2.csv",
+      "sha256": "1637ddd77942066441ccf257998bafd285c5ac560f1cc9f92ec1ffba575be521",
+      "bytes": 110392
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/RandSP_seed3.csv",
+      "sha256": "dc709b65fec21304f90f4554b53fe9f2a0e775882d4d13693ecb596316a9771d",
+      "bytes": 110392
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/RandSP_seed4.csv",
+      "sha256": "14b9b0c92fece9b6cf7b646e85cf16b087169c3538a4152231861969f184ae3f",
+      "bytes": 110392
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/county_inventory.csv",
+      "sha256": "4dd300e57be0d7f0f9db54b51eb0fa6612eb837f66deb5c4068b6408fe09f88a",
+      "bytes": 72765
+    },
+    {
+      "path": "data/opflow_large_commuting_od/splits/split_summary.csv",
+      "sha256": "1add162ddc0ee82865df5445c44e8172d394c8e5f3727db57696424d719ad27b",
+      "bytes": 10037
+    },
+    {
+      "path": "opflow_benchmark/real_spatial_splits.py",
+      "sha256": "6b618d2f6698d8cf3401588ce8996d64274c3bc15683e10349bc77a550722625",
+      "bytes": 30103
+    },
+    {
+      "path": "opflow_experiments/pipelines/realworld_upgrade.py",
+      "sha256": "5bb6c9a7bda8d959b56a19cdbc19fac8466910c5938abe7f3ae439a2af03acd3",
+      "bytes": 24110
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_EastNorthCentral/gravity/seed_2026/train.log",
+      "sha256": "e338d5307b564e545bca2fc9b80c76344c16ee380c07e13cb4584e44d663c753",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_EastNorthCentral/intervening_opportunity/seed_2026/train.log",
+      "sha256": "cfa72c2407f86dd5f885f662c6dcf133a91e83a6864006378df28ea7ef147747",
+      "bytes": 375
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_EastNorthCentral/radiation/seed_2026/train.log",
+      "sha256": "e8df96fb5ce3c56c568a2456dc69fe828679db478b370b0d7ea9c6c37264cf08",
+      "bytes": 360
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_EastSouthCentral/gravity/seed_2026/train.log",
+      "sha256": "9475a47a057742bcf45563adad8e28c942c0cd04b24ae8ff5d527634e998538b",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_EastSouthCentral/intervening_opportunity/seed_2026/train.log",
+      "sha256": "fa037dbc90a5da95f8ba6b5106be64340e7e1020fa3639d742f2e48d8b60a235",
+      "bytes": 375
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_EastSouthCentral/radiation/seed_2026/train.log",
+      "sha256": "2d1e8aaba35f239f861837c27107350038b54a6f725728b3e18f5a281956a17e",
+      "bytes": 360
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_MiddleAtlantic/gravity/seed_2026/train.log",
+      "sha256": "0bf45f6828d23296b3c740878674ee07f1689a82e344469cdd9699ce28a224dd",
+      "bytes": 356
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_MiddleAtlantic/intervening_opportunity/seed_2026/train.log",
+      "sha256": "e668dbd986ccbbf33b5a88e51af6e4e150031972334a7f205fed069d00e77c32",
+      "bytes": 373
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_MiddleAtlantic/radiation/seed_2026/train.log",
+      "sha256": "217c7f03b373fed4c6be72da4bb649d66a96fb0120d8f754f3e7bad65d03e011",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_Mountain/gravity/seed_2026/train.log",
+      "sha256": "a5e3ba33e457defcfb240c7e45a3de22cf27d96b67866b45496b59e3bbdb5bc8",
+      "bytes": 350
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_Mountain/intervening_opportunity/seed_2026/train.log",
+      "sha256": "cd8136d4435291d32de0eba4a090b3f153d0ee5cafd58d34918181e4bd7dd8b3",
+      "bytes": 367
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_Mountain/radiation/seed_2026/train.log",
+      "sha256": "4544e2a404f95dcf3f48387ec06b56248a8fefce2f830f533aba8ad3b7f07a0b",
+      "bytes": 352
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_NewEngland/gravity/seed_2026/train.log",
+      "sha256": "f669d4016724b735170440501366505b4e71b806b381e0fe308d81b94fe82c32",
+      "bytes": 351
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_NewEngland/intervening_opportunity/seed_2026/train.log",
+      "sha256": "7a1987c96f7e8d39fc8f79138511ab6c00ae9e44d8550fb3fb393ee87d6e3cbb",
+      "bytes": 368
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_NewEngland/radiation/seed_2026/train.log",
+      "sha256": "052b9e5a89cc6b7bb9f055df108ec9effb9d838da0d314f9e5b15868ee06299e",
+      "bytes": 353
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_Pacific/gravity/seed_2026/train.log",
+      "sha256": "081532eead10a140997724da1382c099dd27088b05c1cf92819f85cb06d01bf2",
+      "bytes": 349
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_Pacific/intervening_opportunity/seed_2026/train.log",
+      "sha256": "40a1974e7496aecf5466d057330d79ca24999cbe7c7eed061ac1002f9414c7b6",
+      "bytes": 366
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_Pacific/radiation/seed_2026/train.log",
+      "sha256": "1f14843a5c2cabf18ec16cd192c4ebb5bf2abc7b50d5da1014ece85b10f0a355",
+      "bytes": 351
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_SouthAtlantic/gravity/seed_2026/train.log",
+      "sha256": "d50469d43f718ad2c0f948ba03283ff794b7a3e109a68b886a61bdf40874834b",
+      "bytes": 355
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_SouthAtlantic/intervening_opportunity/seed_2026/train.log",
+      "sha256": "e97f58771be732abc54130bef597df45ad3ae7159781e0e50f607dccdde15abe",
+      "bytes": 372
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_SouthAtlantic/radiation/seed_2026/train.log",
+      "sha256": "5c7071f9139dd7c258a9e77349d414b56a20d9ecad4c0bc0125637dad6e790f9",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_WestNorthCentral/gravity/seed_2026/train.log",
+      "sha256": "ee82277e88e19d28ce87c51fa2fb6380d32b43232efa8d276fd4197aabcca21f",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_WestNorthCentral/intervening_opportunity/seed_2026/train.log",
+      "sha256": "6a6175dff0370800bbee4383bb218fdd3aa8cf3e026fcba2b6113026a0c8b4c1",
+      "bytes": 375
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_WestNorthCentral/radiation/seed_2026/train.log",
+      "sha256": "551fac593ff6acbf9f0575777ec180efbaf2c3f0bc053e093360f76c3feab835",
+      "bytes": 360
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_WestSouthCentral/gravity/seed_2026/train.log",
+      "sha256": "1d44bb1dd03602b1904000ead35c64e17b8feb4f0c46d9e31790a6eb0dfed4dd",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_WestSouthCentral/intervening_opportunity/seed_2026/train.log",
+      "sha256": "826f536de48bf8614d2f7a183a4a65b9a88fab726a5e6c33eb34cd7736faef06",
+      "bytes": 375
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/GeoSP_WestSouthCentral/radiation/seed_2026/train.log",
+      "sha256": "3309837052b8630484fb632bc0eac1a1e38c44d35a60eaeb959799a9540b2f35",
+      "bytes": 360
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/OppSP/gravity/seed_2026/train.log",
+      "sha256": "f4fe253d5c32983646987a21c8dd6c310544372d944451c98342b062f9e78141",
+      "bytes": 341
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/OppSP/intervening_opportunity/seed_2026/train.log",
+      "sha256": "d787a543c2dbb7359f1ef60734b0d533609cf5276b0435e27224bc90eab4a7ee",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/OppSP/radiation/seed_2026/train.log",
+      "sha256": "c8f67b460bbad3a2c230a9cbc8d2ce9700a1c49885670cd7e1d90ac5f8529fc4",
+      "bytes": 343
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/RandSP_seed0/gravity/seed_2026/train.log",
+      "sha256": "d7b6acf01efa583329a207d14e32b15a0ee3dd2892466d883e19e90f0be0e32f",
+      "bytes": 348
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/RandSP_seed0/intervening_opportunity/seed_2026/train.log",
+      "sha256": "7b94577c53d6adec15b69fde3e3327989e88c6259c75d6bf8b4f62bc26522656",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/artifacts/real_world_models/RandSP_seed0/radiation/seed_2026/train.log",
+      "sha256": "4d14bf7d2c692c8eb98e0d967330bea1f5a74aee8bb7ff3e067a8170390a0f5c",
+      "bytes": 350
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/logs/real_world_progress.log",
+      "sha256": "98b202baab268a224e87fdaf02eb5664e9282d64c68bdfc041bf0f42fb517277",
+      "bytes": 46337
+    },
+    {
+      "path": "outputs/runs/realworld_classical_si_3splits_geosp9_20260619/resolved_config.yaml",
+      "sha256": "d3f719d782508f49e7a23e03fe6af5c330b934844e589a64f88aae3c5b8601c0",
+      "bytes": 2728
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastNorthCentral/official_dgm/seed_2026/train.log",
+      "sha256": "3d3f0ba2fec5eb735bbbeced3a89d2dacb78c486b54e6b79ca2dc6308215ce3e",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastNorthCentral/official_diffodgen/seed_2026/train.log",
+      "sha256": "49d653f4dc05b0c5635325b544d24d361cbfb6314a89b456230f0932ceaeb44e",
+      "bytes": 371
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastNorthCentral/official_gmel/seed_2026/train.log",
+      "sha256": "da11e80abe873fb9eb4dc497352c6e3027b6183ef3b390703db1a6d47fdb5069",
+      "bytes": 367
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastNorthCentral/official_netgan/seed_2026/train.log",
+      "sha256": "6a4c702a732dbfaea9a4a7ad9f53495eeba5093965a38e594cce0ca56917663f",
+      "bytes": 368
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastNorthCentral/official_wedan/seed_2026/train.log",
+      "sha256": "04a15849f945147a26195dae38240a0ba13ddd9ce677e63fb60c3e42c8d4cf52",
+      "bytes": 367
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastNorthCentral/pair_mlp/seed_2026/train.log",
+      "sha256": "5f5abf3169403486ef2d1de6cda615ed970af748297aabf3684f2026df578bf2",
+      "bytes": 366
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastNorthCentral/raw_count_mlp/seed_2026/train.log",
+      "sha256": "be4375d5e4ae4a42416b582ddee17f84df5df9a22cf9f641cb5f526aae1fb47f",
+      "bytes": 369
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastSouthCentral/official_dgm/seed_2026/train.log",
+      "sha256": "783ce5ea2f0fd06bdc4bdff8b812afa6b8815dc4f4c065cc3c4829240005b5b2",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastSouthCentral/official_diffodgen/seed_2026/train.log",
+      "sha256": "b752d50113331d4cac666cb4f07baf261c2df8df47ecbe65aea3b60905300eb0",
+      "bytes": 371
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastSouthCentral/official_gmel/seed_2026/train.log",
+      "sha256": "9ce2de2654dbfc9f9f2ecedee18d7e5a8f198246d8a16e1112832fb4ddc78204",
+      "bytes": 368
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastSouthCentral/official_netgan/seed_2026/train.log",
+      "sha256": "aad1a1595eb89e31f9e6d02c9c24b60c94ecca79e07b5783c82ae50f5e1ad895",
+      "bytes": 368
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastSouthCentral/official_wedan/seed_2026/train.log",
+      "sha256": "5b76a2f1c6b447ff2d874ff638ddf1ab82398b190c686d2a828de53ae9d1c95c",
+      "bytes": 367
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastSouthCentral/pair_mlp/seed_2026/train.log",
+      "sha256": "4f1dc9f7599d5bc7e25e7046ee42f465fb1ca8efc03772e26753994b8eebbb70",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_EastSouthCentral/raw_count_mlp/seed_2026/train.log",
+      "sha256": "817c50657d3ee7b23d40e2f10bae4c2128276fb77e3f131b1903dd7ada12e154",
+      "bytes": 370
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_MiddleAtlantic/official_dgm/seed_2026/train.log",
+      "sha256": "ecf5fe4a931b1094cf6216d221a05d5a07da253a23c0221b1d4f73754bcf33f9",
+      "bytes": 363
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_MiddleAtlantic/official_diffodgen/seed_2026/train.log",
+      "sha256": "645ddc3a7cb74856e60f628dad8d0a66a5e7f177ac3901db640fa0a104612cec",
+      "bytes": 369
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_MiddleAtlantic/official_gmel/seed_2026/train.log",
+      "sha256": "3534174cc303eca63706828bc3b5679dc3bd2b33c64b89ecf0ad5cb417f639c5",
+      "bytes": 366
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_MiddleAtlantic/official_netgan/seed_2026/train.log",
+      "sha256": "a7be81f273081a4b84e46bcb829c48f3ccdd7b8ed4fd5ac479eb318cf1d8ca46",
+      "bytes": 366
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_MiddleAtlantic/official_wedan/seed_2026/train.log",
+      "sha256": "c194f56118b1e3c5803c8377a50bb2f2b84885061645369a93ffdeea2f9e70db",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_MiddleAtlantic/pair_mlp/seed_2026/train.log",
+      "sha256": "9178b26171b7cd9e9ba1b6cc4638e8367b1d5ce1f7a44c3ffc2e406d6c47076a",
+      "bytes": 362
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_MiddleAtlantic/raw_count_mlp/seed_2026/train.log",
+      "sha256": "1e3662aa38908c1de175c7316dc8c854aa6b03e4e9ae772d65ebf8f2787564bf",
+      "bytes": 369
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Mountain/official_dgm/seed_2026/train.log",
+      "sha256": "c1035affd547507f52f05687d988b8e6c7c8428dd4bb3b9a0c4dd83a2d9e4bfb",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Mountain/official_diffodgen/seed_2026/train.log",
+      "sha256": "09d8b20447c53771d2d5120c4259d3e43ec0166a75396eaac914b8721e6e8275",
+      "bytes": 363
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Mountain/official_gmel/seed_2026/train.log",
+      "sha256": "51c69cd720215f84833664368771de75c6e79891d8fea9c0d0ddd0bc1835036f",
+      "bytes": 360
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Mountain/official_netgan/seed_2026/train.log",
+      "sha256": "3f9ed7bc13776aed63f9e7c70acecff22cd60be387548da29840b188ad2f5f90",
+      "bytes": 360
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Mountain/official_wedan/seed_2026/train.log",
+      "sha256": "91a7d886a15f2f15cf0df1909a8ab39ccc91049a06d5485162b3abd6d44f3f28",
+      "bytes": 359
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Mountain/pair_mlp/seed_2026/train.log",
+      "sha256": "a0bf75ec086048c164e4c3dcd01c3d6bfa2be2e3b028c7dad7a6c18c03ab5b9a",
+      "bytes": 356
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Mountain/raw_count_mlp/seed_2026/train.log",
+      "sha256": "6a5a8d19f2467a902dc4af906a88a7102482a8f10589153eee7b9e26c6ffad14",
+      "bytes": 362
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_NewEngland/official_dgm/seed_2026/train.log",
+      "sha256": "fb16378782e8d9daceb3efd9886207eb5e75a6a64ce8deac574fafcde85c2edf",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_NewEngland/official_diffodgen/seed_2026/train.log",
+      "sha256": "ac774fbd1ad993281ed632ffe59b62c63b5ef78b3e36338308fe6de911209435",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_NewEngland/official_gmel/seed_2026/train.log",
+      "sha256": "69bd69bf063ace3db9e2caa3c562358d703e00b9ba7e42a98fa21280eb0c60a8",
+      "bytes": 361
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_NewEngland/official_netgan/seed_2026/train.log",
+      "sha256": "7d19f78de864f66716f1ab7336c8b6a539c4ac7f7965fb5afb69592504479efa",
+      "bytes": 361
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_NewEngland/official_wedan/seed_2026/train.log",
+      "sha256": "487f1ef33c971cd7dc0ae39d0dc5cea0383fcb341aec9d614c239474fef7fc8a",
+      "bytes": 360
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_NewEngland/pair_mlp/seed_2026/train.log",
+      "sha256": "28c51fd19a07d9a48b3f09cd81906d492d6a58b933ea0c0afb770bb4ea5a2db6",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_NewEngland/raw_count_mlp/seed_2026/train.log",
+      "sha256": "675ca3f9073fbc13adc4f4781a32b28f08b09e4cc228355a86e201c5b40935e9",
+      "bytes": 363
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Pacific/official_dgm/seed_2026/train.log",
+      "sha256": "b79eb2ccf0cb2ffd57856e16c1004c51be0704642ff4552131784c517bf962e9",
+      "bytes": 356
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Pacific/official_diffodgen/seed_2026/train.log",
+      "sha256": "76dd16646a855a38b8ff9f5d31979af97086d69d07dcebbfdf02387505bdc818",
+      "bytes": 362
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Pacific/official_gmel/seed_2026/train.log",
+      "sha256": "9ce54ebb4beff27237f7e43073d49c666da4a94700f18d34de4910c104188a87",
+      "bytes": 359
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Pacific/official_netgan/seed_2026/train.log",
+      "sha256": "a64ed920abbf8f67fed032be202a2b65f396fa5b7e19e3122dc1d05b170f1682",
+      "bytes": 359
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Pacific/official_wedan/seed_2026/train.log",
+      "sha256": "504087196be9b7f48d2fdc70003aa43b9eb63424a26b77365d5ff02c2f1e398d",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Pacific/pair_mlp/seed_2026/train.log",
+      "sha256": "e7093e516821871365aeb19d7f4f4b45ad0c5c830bfa788df58c763595a0894c",
+      "bytes": 355
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_Pacific/raw_count_mlp/seed_2026/train.log",
+      "sha256": "98f1e20f8bab71b539f669a9c946b08417b69ead3a071900239c972653fd5a4e",
+      "bytes": 360
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_SouthAtlantic/official_dgm/seed_2026/train.log",
+      "sha256": "47150b2148706425e5fd8215940923ead88464ee7d19839dfe7ad2b37638a329",
+      "bytes": 362
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_SouthAtlantic/official_diffodgen/seed_2026/train.log",
+      "sha256": "06b06103a4ccbdacdc42f8bfaa5ca8b45fe3bbc11614b629c25dbd44e4459044",
+      "bytes": 368
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_SouthAtlantic/official_gmel/seed_2026/train.log",
+      "sha256": "91a3714e6298c0f4651adf7b6e0260f5a434c68cdad79cfa7c56a7c146a8626f",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_SouthAtlantic/official_netgan/seed_2026/train.log",
+      "sha256": "8d9f5e8276abc7f76667ff78d64f99c4ab5acf2eddddbb848fadb52e9ae1d571",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_SouthAtlantic/official_wedan/seed_2026/train.log",
+      "sha256": "f4c756e2d59a214b08bbd53141c95cbb864353e7a26ae6e7369b21274ce1cdb0",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_SouthAtlantic/pair_mlp/seed_2026/train.log",
+      "sha256": "f3570fd3c315cde41ad3c24ad1cb85ac276d9528b099073dc2a5f0279b04e739",
+      "bytes": 361
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_SouthAtlantic/raw_count_mlp/seed_2026/train.log",
+      "sha256": "22aa41a27ab553d9ea1ee2f01903c8443973ab5f68a2a8b32414cb16e3e01357",
+      "bytes": 366
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestNorthCentral/official_dgm/seed_2026/train.log",
+      "sha256": "dafc71355bd57c2d35d4db496d574805afd00172b9bec60f7235c7938da09508",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestNorthCentral/official_diffodgen/seed_2026/train.log",
+      "sha256": "04dc83b0b6bbbc53a80e0a04dc28f2f8c25d217b6670a15cde768b837503e98d",
+      "bytes": 371
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestNorthCentral/official_gmel/seed_2026/train.log",
+      "sha256": "9479867c41ded1da73a888a95cd6d61293aebb00057698b61782e71694738024",
+      "bytes": 368
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestNorthCentral/official_netgan/seed_2026/train.log",
+      "sha256": "02b7a6fbb48700b9d1e0943b28aefd805710fc99d49027213198ac768caac095",
+      "bytes": 368
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestNorthCentral/official_wedan/seed_2026/train.log",
+      "sha256": "20ace4870a759d25e8c5bfbe57dd8113c2ba4cdae4cb9451a185120537b72033",
+      "bytes": 367
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestNorthCentral/pair_mlp/seed_2026/train.log",
+      "sha256": "a1f3e88ba22ee0aad9da154d55646bee95d0eec08c8ad21aa617356facf51385",
+      "bytes": 367
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestNorthCentral/raw_count_mlp/seed_2026/train.log",
+      "sha256": "b9d9c6e021cd088783d83517bba8067e2166922ae042b424104fc442877ebccf",
+      "bytes": 369
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestSouthCentral/official_dgm/seed_2026/train.log",
+      "sha256": "75259da6e4d726df5a958be81d67cb1fc85b263a60a3690fb7f37a336148bb7a",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestSouthCentral/official_diffodgen/seed_2026/train.log",
+      "sha256": "8f403f6bde55ae5425603082d8e5c568dcc5d1c991578b342b510ea49f0439ba",
+      "bytes": 371
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestSouthCentral/official_gmel/seed_2026/train.log",
+      "sha256": "e411b51d1c4681674d4042e0d2db4c4869927d8b99e303573d59c217edad540d",
+      "bytes": 368
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestSouthCentral/official_netgan/seed_2026/train.log",
+      "sha256": "d23da4cdb0c327d09e52242511761f20bb0661a2fb07834a75d7119de56fa22f",
+      "bytes": 368
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestSouthCentral/official_wedan/seed_2026/train.log",
+      "sha256": "466790e124325efbde9fa4399df202c46cbd4be8b023dd37f7c261a4ad35f636",
+      "bytes": 367
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestSouthCentral/pair_mlp/seed_2026/train.log",
+      "sha256": "a50fcf67e1e6a3f63cc341aa9cf23541e5d30a4e75aeac12fc37169cd344a9d0",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/GeoSP_WestSouthCentral/raw_count_mlp/seed_2026/train.log",
+      "sha256": "f00619998fe6e8d16809a4a08b103a7758d561f543476b11770303d1277e0e74",
+      "bytes": 369
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/OppSP/official_dgm/seed_2026/train.log",
+      "sha256": "6fa9d7dd9a5e564143d5574cb5f1a1860cec3f55fac3e220cda449d55a849e82",
+      "bytes": 348
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/OppSP/official_diffodgen/seed_2026/train.log",
+      "sha256": "6aceff5eb5193f7629e281bdb6a8412d24aee3dd5ac9cd984cd7d8f7223bc17d",
+      "bytes": 354
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/OppSP/official_gmel/seed_2026/train.log",
+      "sha256": "07c6c01eb80760f1d57321e3709d187f5da066319f78e9a1234a3316ff11e917",
+      "bytes": 349
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/OppSP/official_netgan/seed_2026/train.log",
+      "sha256": "6cf9430aaf236bf401d74a93bc8d97ecd3f1a2054cca2cbb231332d25a844287",
+      "bytes": 351
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/OppSP/official_wedan/seed_2026/train.log",
+      "sha256": "759ba8c3d496c6e245e005f01b0c00740143544febe4d4ac0ece9e4db090f66a",
+      "bytes": 350
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/OppSP/pair_mlp/seed_2026/train.log",
+      "sha256": "89349e7db81586a799f0cf28b08953610f2890e095c81224bf8af21db8bf3ab4",
+      "bytes": 346
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/OppSP/raw_count_mlp/seed_2026/train.log",
+      "sha256": "c637891483d47cb980ce4b9f7f10cc2fb05f4635a028bc0642260e2fc65f9ddd",
+      "bytes": 351
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/RandSP_seed0/official_dgm/seed_2026/train.log",
+      "sha256": "94d4704238c8101abc5d685097e2654e1eb53a00d40e0e7f3328cf48cc353129",
+      "bytes": 355
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/RandSP_seed0/official_diffodgen/seed_2026/train.log",
+      "sha256": "faca2220f5df0418e5566841e113a00c5574e90e5ce5c4c9259c23f2c8bfb233",
+      "bytes": 361
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/RandSP_seed0/official_gmel/seed_2026/train.log",
+      "sha256": "d954badc018f6a2196066578ca066aaf5889224ab092262d92b644a778502a1f",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/RandSP_seed0/official_netgan/seed_2026/train.log",
+      "sha256": "a07487173265c321469d537dfb1913132a9d771b1b02306a708cd49afb31b34e",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/RandSP_seed0/official_wedan/seed_2026/train.log",
+      "sha256": "712aba2efb9b2c4108bd03f1225132d32a1adb0e6c5aa339525facb28537b6a4",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/RandSP_seed0/pair_mlp/seed_2026/train.log",
+      "sha256": "8e4e2b11bfd7aec1f3f5c88dec9051bfd7036ce40b49d04aa5f01eb9e9b5e0ae",
+      "bytes": 354
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/artifacts/real_world_models/RandSP_seed0/raw_count_mlp/seed_2026/train.log",
+      "sha256": "184b44090c6b31bc46de1479e2068d8a1f575a5cd60ecc7a880f872ec6cccda7",
+      "bytes": 359
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/logs/real_world_progress.log",
+      "sha256": "0c3e0fa7a9acbd2ac4b645208f221987117438aeed54b8fdb9e4542426845273",
+      "bytes": 20743
+    },
+    {
+      "path": "outputs/runs/realworld_main_strict_seed2026_all_geosp/resolved_config.yaml",
+      "sha256": "1a817c730e5105c3ae3a4783b93482b471c1b25edb084d993378ee4eb42f6dfb",
+      "bytes": 3739
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/GeoSP_SouthAtlantic/official_dgm/seed_2026/train.log",
+      "sha256": "53dc032cea9bb1c582d426d294b1ccb1b5b5825121e2584738310989f8695422",
+      "bytes": 361
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/GeoSP_SouthAtlantic/official_diffodgen/seed_2026/train.log",
+      "sha256": "0f8b56e0f9e0ea585294fa4d3cbea4528c100d3f5bd7bfdfe7708cb0820a620c",
+      "bytes": 368
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/GeoSP_SouthAtlantic/official_gmel/seed_2026/train.log",
+      "sha256": "544e3afb2e002b825c08c35cc419d3fc27e9fafc06e3794c707f9276ba8bfe3d",
+      "bytes": 363
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/GeoSP_SouthAtlantic/official_netgan/seed_2026/train.log",
+      "sha256": "fb00957ecbdcf3e222050cde259bcdbbfe7c20cd009bf5026ca0c2affe27e88f",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/GeoSP_SouthAtlantic/official_wedan/seed_2026/train.log",
+      "sha256": "e6161b1c89ef7fbd1fe163e5c0f6baae0dc13ba1c5bf01eed99e87c61f8a1cdd",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/OppSP/official_dgm/seed_2026/train.log",
+      "sha256": "5e28d4e63ab4013b60bda2db73e2f90e1ec39d236fb7d5d5c1f6ba0c168ce48f",
+      "bytes": 347
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/OppSP/official_diffodgen/seed_2026/train.log",
+      "sha256": "15a1b375ad3f7c9a0c78430febf0d842b12a2ba6e45fef55c4e71cd2927d1bef",
+      "bytes": 354
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/OppSP/official_gmel/seed_2026/train.log",
+      "sha256": "80c5bd28578957bb0a9bcdf4257e4643e9c515e3f3149a1896e33026f5842983",
+      "bytes": 349
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/OppSP/official_netgan/seed_2026/train.log",
+      "sha256": "3336cf44b6413c31e96e9ab740e17abaf3f03be41927d496ca40c9761d5f8e89",
+      "bytes": 351
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/OppSP/official_wedan/seed_2026/train.log",
+      "sha256": "184c0cf7b28850b5bea84090deaada45a6b490e1d2674ce2e0b0ecb85a2683df",
+      "bytes": 350
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/RandSP_seed0/official_dgm/seed_2026/train.log",
+      "sha256": "afdba5cca9477154ce597e67c42d8b72d79f5e52653dff3edb5302a9c3daa994",
+      "bytes": 354
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/RandSP_seed0/official_diffodgen/seed_2026/train.log",
+      "sha256": "ed2c991b171312cc2af314f6fbbb5a73d3c34e193d526797d238fb09ace3e81d",
+      "bytes": 361
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/RandSP_seed0/official_gmel/seed_2026/train.log",
+      "sha256": "8f180fb6cc34b0e1a34c0e33425ae69e54974130ab451ce587431f1fc3a9490d",
+      "bytes": 356
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/RandSP_seed0/official_netgan/seed_2026/train.log",
+      "sha256": "c88c2188e9bdd05f7a8035fec6d04278fcf2d1192f6d385258b8b51a1b10f934",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_official_target_1seed_3splits_20260618/artifacts/real_world_models/RandSP_seed0/official_wedan/seed_2026/train.log",
+      "sha256": "04ef378c444366cf637de3d46b8a12144cad2fb8fbcb2cfe79fd608916afbf59",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/GeoSP_SouthAtlantic/opflow_full/seed_2026/train.log",
+      "sha256": "6181227be4e40693fa0a870aacd08155e1ca3f94dd1264701b7deb6798cb903d",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/OppSP/opflow_full/seed_2026/train.log",
+      "sha256": "c3883340e256f3d359319a7a452388d150a85dcec5625861ff4a03d87b4139cf",
+      "bytes": 348
+    },
+    {
+      "path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/RandSP_seed0/opflow_full/seed_2026/train.log",
+      "sha256": "45cb9d14b7952e4ad0c9607ad3ec76f039ede48b3058ab84a164c269908e5a73",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/logs/real_world_progress.log",
+      "sha256": "2ddb0d2e2cbfa6a74d556fab317e8762abf2eaa4e140d46377e7a9a1eb9c360a",
+      "bytes": 5963
+    },
+    {
+      "path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/resolved_config.yaml",
+      "sha256": "9e44ab84b95b78ada6c2d9649767fbc33b151a53d0de8dd574e92b29baa70840",
+      "bytes": 2707
+    },
+    {
+      "path": "outputs/runs/realworld_remote_deepgraph_cuda_seed2026_geosp9/metrics.csv",
+      "sha256": "d864ac4ca179d3be1ffda7fb7dfdd037e0c9651f8a51d360c4fa52682cf6664f",
+      "bytes": 163099
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_EastNorthCentral/official_gbrt/seed_2026/train.log",
+      "sha256": "64d97241442b58db04b00f596a50edc4e0cadcf1d29ed0599b0afd7166959d8b",
+      "bytes": 366
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_EastNorthCentral/official_gm_e/seed_2026/train.log",
+      "sha256": "96c56082407f7967af2ef3499f3345ad36e627cb3d03a73c3aef861a5c844e22",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_EastNorthCentral/official_gm_p/seed_2026/train.log",
+      "sha256": "9608effb38dfddbe7a0f31f0a5d1ea6cc3d751a68a70c5bbf2252d0e0b1bfd79",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_EastNorthCentral/official_rf/seed_2026/train.log",
+      "sha256": "6faf7043d5b3e8b3145b3c55fc28906c7d15a19789e77654a078160610bfd6c1",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_EastSouthCentral/official_gbrt/seed_2026/train.log",
+      "sha256": "d4f9c98d4208000472db4dbf97019f300ee77b345cb9a075dd47cf7eacd34bd5",
+      "bytes": 366
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_EastSouthCentral/official_gm_e/seed_2026/train.log",
+      "sha256": "c86d9b476e4373b4af15b8ba16bb5960d9d32f90553f2fa8e3c0e552d7246c50",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_EastSouthCentral/official_gm_p/seed_2026/train.log",
+      "sha256": "e004d131ac4d66e0f9a3e1c5c5554856e75d879e8e9458279a7ba36f1525aec7",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_EastSouthCentral/official_rf/seed_2026/train.log",
+      "sha256": "65d4b84e441bc4ae24595e0dc9a471a8d4281a2767c3d33d910b15b8c8794e89",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_MiddleAtlantic/official_gbrt/seed_2026/train.log",
+      "sha256": "0e922da72d4f93cf621a74393ef6ea380a5c8223e73d6cba315f3326607024ee",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_MiddleAtlantic/official_gm_e/seed_2026/train.log",
+      "sha256": "3ee328ad3a7bb2d35d022b1720b02e2207cc4e21f486c8b19b4a8364ea6eb3a0",
+      "bytes": 363
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_MiddleAtlantic/official_gm_p/seed_2026/train.log",
+      "sha256": "8d6c9ddbd7edfa1491b64766e53397582802203b0fa962d6b65dec01f3bbfc97",
+      "bytes": 363
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_MiddleAtlantic/official_rf/seed_2026/train.log",
+      "sha256": "b7f23f6a6213c49ab72b6524c23601001fbc5b9b5a91c1f0231cb47c4c04e052",
+      "bytes": 362
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_Mountain/official_gbrt/seed_2026/train.log",
+      "sha256": "c88f22f51cdff552e32ac0cd27b595566968807ff8a7bf7ded40be375fb22910",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_Mountain/official_gm_e/seed_2026/train.log",
+      "sha256": "eb7986a9c49227b2369f33e1592e4a2ea1c40bb574b8033aeb348c15fed51409",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_Mountain/official_gm_p/seed_2026/train.log",
+      "sha256": "f1afec7415b694533acabaaeb16b6f06f4a9cab841bf24af2812711922dec8d1",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_Mountain/official_rf/seed_2026/train.log",
+      "sha256": "19c2d2d18caa42ce6641d818c9dae5e969c4ab08e975666c7d34f9f619672cb3",
+      "bytes": 356
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_NewEngland/official_gbrt/seed_2026/train.log",
+      "sha256": "90a60ce56527159204f9de2dab751e3cf38e73af1c01010a2c39ac3690ec0255",
+      "bytes": 359
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_NewEngland/official_gm_e/seed_2026/train.log",
+      "sha256": "3742b0f24a33bc87ae95dcfec785b08c6d4cfe1b4cb25868c89cbe2e6ac5f482",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_NewEngland/official_gm_p/seed_2026/train.log",
+      "sha256": "4a4d04acd7c9433833d5e38da3bf05c3a61381edb51e9fcb156c47fce24a5a24",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_NewEngland/official_rf/seed_2026/train.log",
+      "sha256": "490215e6d1a92d33cb37f7b672ebf786efffcd08946ba154ef2486cb9821434f",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_Pacific/official_gbrt/seed_2026/train.log",
+      "sha256": "6d1a733c8af828e53b4fdbbf618dc6db87d3826e4a08b727934309665e6866e4",
+      "bytes": 357
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_Pacific/official_gm_e/seed_2026/train.log",
+      "sha256": "7a3c6fbd83222697f10e6edb9a4a46ff3a88a700f9d04ce2104e77962ea7c40f",
+      "bytes": 356
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_Pacific/official_gm_p/seed_2026/train.log",
+      "sha256": "f3fa1b3920aeb2b18dbc5ee21942693312b0a054aba64cd32a305ec2bddefb3d",
+      "bytes": 356
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_Pacific/official_rf/seed_2026/train.log",
+      "sha256": "4771b3f3539fd1cfd59de451a98e6a095ede42250ef1fd4587efa71bcebdd241",
+      "bytes": 355
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_SouthAtlantic/official_gbrt/seed_2026/train.log",
+      "sha256": "ad993613cc9aa70485e5e59209af88f2507ba253b552db6dada521ca6821fc58",
+      "bytes": 363
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_SouthAtlantic/official_gm_e/seed_2026/train.log",
+      "sha256": "bb5eccd43518ed5b45ee9307bc937627daf17581fe651a41d059241f8da5f7f9",
+      "bytes": 362
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_SouthAtlantic/official_gm_p/seed_2026/train.log",
+      "sha256": "b6cdae9056d6bee03b756dc8f9763c474f40fe3ccba6f37fd4832c110952ed38",
+      "bytes": 362
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_SouthAtlantic/official_rf/seed_2026/train.log",
+      "sha256": "ffb3306a62ae9714e1fd8fcad11e523ac2ec653886d4f0653d1fa23cb63d589e",
+      "bytes": 361
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_WestNorthCentral/official_gbrt/seed_2026/train.log",
+      "sha256": "64255b0112872e2e2fc54a1f53a3559ac1bb75b0fbe0814b38c4617dba13623f",
+      "bytes": 366
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_WestNorthCentral/official_gm_e/seed_2026/train.log",
+      "sha256": "1e8f7b5789c0b60296f4dea7e61f92eb26feb3b287381a18e2808c9da06d98d2",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_WestNorthCentral/official_gm_p/seed_2026/train.log",
+      "sha256": "250b5bc0059932a55be84e6faacb951957ef31ac6184d388f74e03fc01fe117f",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_WestNorthCentral/official_rf/seed_2026/train.log",
+      "sha256": "dfb55e0768b5a44d055008741c072c286985003ebd052ed0ceaa9572b9732867",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_WestSouthCentral/official_gbrt/seed_2026/train.log",
+      "sha256": "ae5164ab5996c4cc63e4aca736f526e65b3f99207cfd7103b69b3f4d22617dd4",
+      "bytes": 366
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_WestSouthCentral/official_gm_e/seed_2026/train.log",
+      "sha256": "acf34aadd6f76891d6a7da7846627f1ba482cc8fdd2dabd8d590226c4b6b8d4c",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_WestSouthCentral/official_gm_p/seed_2026/train.log",
+      "sha256": "6b234c8cacd9f108a26b3e6ac00f6e8fcfcd590dbab812144373d29523d16448",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/GeoSP_WestSouthCentral/official_rf/seed_2026/train.log",
+      "sha256": "bf1c9fa5c5de2e8f1915a9873645f011fac599bf27782577111ddff22936f794",
+      "bytes": 364
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/OppSP/official_gbrt/seed_2026/train.log",
+      "sha256": "013b216d6a9e3b7a329aa0bb216c1c187c952c38bbdd108e7efaf1cd5d6d6448",
+      "bytes": 349
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/OppSP/official_gm_e/seed_2026/train.log",
+      "sha256": "469a8a0a54cec464198f668ab1ba47037fe6dd042a7579f818313b1d21606916",
+      "bytes": 348
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/OppSP/official_gm_p/seed_2026/train.log",
+      "sha256": "935efb898ccc763e84f391ce3bd53759b023c81dd915b47ccda556d245033408",
+      "bytes": 348
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/OppSP/official_rf/seed_2026/train.log",
+      "sha256": "23bf8b48a4098dcc7a893acfddac8325d67abf3bdee31cea1b179142b86cd93d",
+      "bytes": 347
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/RandSP_seed0/official_gbrt/seed_2026/train.log",
+      "sha256": "1c3ebc5e88e2854d5f80fc3e81f037d7b7bc828547e8ba8c252823066559c225",
+      "bytes": 356
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/RandSP_seed0/official_gm_e/seed_2026/train.log",
+      "sha256": "3d0e509e664bffd14b3457d8e23294238ba142bb6ab144119859a89350132373",
+      "bytes": 355
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/RandSP_seed0/official_gm_p/seed_2026/train.log",
+      "sha256": "6fa30a1db74b0ae77e34b501c6a3de3e6afddd86f0e1f2ccc7652f36a4db2589",
+      "bytes": 355
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/artifacts/real_world_models/RandSP_seed0/official_rf/seed_2026/train.log",
+      "sha256": "cb6c1f7fb42a79c8bca306692119443ac7c806be70339e0eaac56c844f2650de",
+      "bytes": 354
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/logs/real_world_progress.log",
+      "sha256": "60a940d343e1e7f70c2ae95a3ba4b54b276830cc8a953aa039d6205a498e9c6f",
+      "bytes": 11834
+    },
+    {
+      "path": "outputs/runs/realworld_rf_gbrt_official_gm_seed2026_geosp9/resolved_config.yaml",
+      "sha256": "9db2b17007f25e46f1037cdf34285942b51a76a7fdabe036c081fdeb8d971d9d",
+      "bytes": 3498
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/distance_only/seed_2026/train.log",
+      "sha256": "0ed6ebe9202cb8d4ba3467069344a740bd8cc011e7a941bbf88c539d13bd35db",
+      "bytes": 362
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/gravity/seed_2026/train.log",
+      "sha256": "e2f66187450619dbdde7d97cac3f945759b4c07bc8da8f056d9443585109f901",
+      "bytes": 355
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/intervening_opportunity/seed_2026/train.log",
+      "sha256": "c128383217a45d6fe918ae3b3d559c22d55580a995c4386426f543d1df62dc9c",
+      "bytes": 372
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/opflow_full/seed_2026/train.log",
+      "sha256": "1070f4297e8e8b90e282833d6caf8b8ed9716df04c0b84fd72429afadedb9295",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/pair_mlp/seed_2026/train.log",
+      "sha256": "15c74bbdc310019f86169cdc97e28a18bc3429c1bc7599652bddb34d27fe6db3",
+      "bytes": 361
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/scale_aware_mlp/seed_2026/train.log",
+      "sha256": "f206c738431b1e6e445f28ad001d53419bb0c8a3663bc0b2e6c5657e61381af8",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/distance_only/seed_2026/train.log",
+      "sha256": "10d692907796a40d12507d64415570afacec2ed8dc9f8b4c4268839f9fb12c4e",
+      "bytes": 348
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/gravity/seed_2026/train.log",
+      "sha256": "023aa0a07f8e50a0c84a75232a6559f25d1fb92a72120dfc2f33f0cfa0871383",
+      "bytes": 341
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/intervening_opportunity/seed_2026/train.log",
+      "sha256": "523b5a793b015edcc1d1b50ad77f655212c078778f6ff3cf8d7d0cd9506afa47",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/opflow_full/seed_2026/train.log",
+      "sha256": "4b5bd489c5d89b891710e3e9f86ff19cd423ebf2cf824b3f8880ca42778f9891",
+      "bytes": 349
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/pair_mlp/seed_2026/train.log",
+      "sha256": "47beea0ec9c42f28d51758d032855b3efc9a0fb9d6462042917dc29d2b8715a4",
+      "bytes": 345
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/scale_aware_mlp/seed_2026/train.log",
+      "sha256": "8b7805fdb2010a897d4d24ba075fd78b161ed91e47690a877d898992f12103cd",
+      "bytes": 351
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/distance_only/seed_2026/train.log",
+      "sha256": "18465bb53df09cf7009105b9977d24e7630cfe41365e4c2ea06c282dfe7972b9",
+      "bytes": 355
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/gravity/seed_2026/train.log",
+      "sha256": "769fb81409d88d48b6674709eea5926ff8873495f57324d8525e826e89fd7311",
+      "bytes": 348
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/intervening_opportunity/seed_2026/train.log",
+      "sha256": "165db390d5396270d3f4a61fb3415acf7484ea43d91b889c6da02a494617e986",
+      "bytes": 365
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/opflow_full/seed_2026/train.log",
+      "sha256": "df693373649d5dd486fabd732e89d6a7ae09cbb7012d2a0e396640213c81c251",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/pair_mlp/seed_2026/train.log",
+      "sha256": "6789b38d8130c3720d9675c9f10e2bf49682b3514da367f9892c5abe8f45a558",
+      "bytes": 354
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/scale_aware_mlp/seed_2026/train.log",
+      "sha256": "c2524f1ba8296d344b443703011864211a71674c593339f4cb007feaef1c604f",
+      "bytes": 358
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/logs/real_world_progress.log",
+      "sha256": "6f6f0990c1110b23bc1bd6d2a715848d9cb0ae461f94c66e64b7eb04e5f57061",
+      "bytes": 20950
+    },
+    {
+      "path": "outputs/runs/realworld_seed2026_core3splits_20260613/resolved_config.yaml",
+      "sha256": "b4c6861bab87819d98ff971ead8b5e66533f85bac8bf21b4eda2b765b5a2a89e",
+      "bytes": 2108
+    },
+    {
+      "path": "results/realworld_upgrade/realworld_classical_si_3splits_geosp9_20260619/metrics_by_seed.csv",
+      "sha256": "efdead64474ded50ff7c7bacf6a8002df96c537a58d9c685a1f9bad260eab2e4",
+      "bytes": 163156
+    },
+    {
+      "path": "results/realworld_upgrade/realworld_main_strict_seed2026_all_geosp/metrics_by_seed.csv",
+      "sha256": "a44d04a99d3c88e8e72db961012a68f6b517842477588cf96221c1fc05c5649f",
+      "bytes": 325579
+    },
+    {
+      "path": "results/realworld_upgrade/realworld_opflow_strong_seed2026_3splits_20260619/metrics_by_seed.csv",
+      "sha256": "c1218a569fbb58f4bef888246ee1f668daee6ed5c4db5cea33f3baea9c8b63a3",
+      "bytes": 19971
+    },
+    {
+      "path": "results/realworld_upgrade/realworld_rf_gbrt_official_gm_seed2026_geosp9/metrics_by_seed.csv",
+      "sha256": "c3a5719d8337c650c7b3df979e52758704f55d8e98fb0968709028d70bca0c93",
+      "bytes": 163732
+    },
+    {
+      "path": "results/realworld_upgrade/realworld_seed2026_core3splits_20260613/metrics_by_seed.csv",
+      "sha256": "0410497e9921b726f287396a0da31aa45062d3aa1790384dd0e1043a74552ee7",
+      "bytes": 92303
+    },
+    {
+      "path": "scripts/make_real_spatial_splits.py",
+      "sha256": "1ae81ff9d1969cf1e69610feebe8dab82c0304c17aa2da264cedd05e53c9e115",
+      "bytes": 1301
+    },
+    {
+      "path": "scripts/make_tables.py",
+      "sha256": "538c9d6ad4b3ba33e1ee28290dd2ffa133ee8a365fa8fe6541b6edd379c8b2a7",
+      "bytes": 8272
+    },
+    {
+      "path": "tables/realworld_deep_baselines_11split_learned_scale_metrics.csv",
+      "sha256": "fe27e3513dbb5c610f16ec17b5a5276b55c72edae6db6568a4702c3f4a9cbdd3",
+      "bytes": 12013
+    },
+    {
+      "path": "tables/realworld_deep_baselines_protocol_learned_scale_metrics.csv",
+      "sha256": "89ddb2d14808aec1761d690174df000afa1708641fca6026bc87c52c3e871eb7",
+      "bytes": 4431
+    }
+  ]
+}

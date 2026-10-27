@@ -1,0 +1,16 @@
+model=raw_count_mlp
+split_name=GeoSP_MiddleAtlantic
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1908, 'val': 213, 'test': 144}
+load_seconds=3.153
+fit_seconds=702.320
+eval_seconds=159.146
+aggregate_seconds=0.530
+checkpoint_seconds=0.006
+predict_seconds=130.194
+metric_seconds=28.771
+metric_rows=6795
+write_seconds=0.804
+total_seconds=865.976

@@ -1,0 +1,21 @@
+# Commands reconstructed from saved configs; NOT captured original argv.
+
+# Run from repository root. These commands TRAIN models; no training was done during publication.
+
+# Use source_snapshot for this evidence version; do not silently substitute main code.
+
+conda activate opflow
+
+OPFLOW_AUDIT_BUNDLE="$(pwd)/reproducibility/submission_audit_20261027"
+
+python "$OPFLOW_AUDIT_BUNDLE/source_snapshot/experiments/real_world/run_large_commuting_od.py" --config "$OPFLOW_AUDIT_BUNDLE/saved_configs/realworld_classical_si_3splits_geosp9_20260619.yaml" --run-id audit_replay_realworld_classical_si_3splits_geosp9_20260619 --override "dataset.data_root=$(pwd)/data/opflow_large_commuting_od" --override "dataset.splits_file=$OPFLOW_AUDIT_BUNDLE/evidence/data/opflow_large_commuting_od/splits.json"
+
+python "$OPFLOW_AUDIT_BUNDLE/source_snapshot/experiments/real_world/run_large_commuting_od.py" --config "$OPFLOW_AUDIT_BUNDLE/saved_configs/realworld_main_strict_seed2026_all_geosp.yaml" --run-id audit_replay_realworld_main_strict_seed2026_all_geosp --override "dataset.data_root=$(pwd)/data/opflow_large_commuting_od" --override "dataset.splits_file=$OPFLOW_AUDIT_BUNDLE/evidence/data/opflow_large_commuting_od/splits.json"
+
+python "$OPFLOW_AUDIT_BUNDLE/source_snapshot/experiments/real_world/run_large_commuting_od.py" --config "$OPFLOW_AUDIT_BUNDLE/saved_configs/realworld_official_target_1seed_3splits_20260618.yaml" --run-id audit_replay_realworld_official_target_1seed_3splits_20260618 --override "dataset.data_root=$(pwd)/data/opflow_large_commuting_od" --override "dataset.splits_file=$OPFLOW_AUDIT_BUNDLE/evidence/data/opflow_large_commuting_od/splits.json"
+
+python "$OPFLOW_AUDIT_BUNDLE/source_snapshot/experiments/real_world/run_large_commuting_od.py" --config "$OPFLOW_AUDIT_BUNDLE/saved_configs/realworld_opflow_strong_seed2026_3splits_20260619.yaml" --run-id audit_replay_realworld_opflow_strong_seed2026_3splits_20260619 --override "dataset.data_root=$(pwd)/data/opflow_large_commuting_od" --override "dataset.splits_file=$OPFLOW_AUDIT_BUNDLE/evidence/data/opflow_large_commuting_od/splits.json"
+
+python "$OPFLOW_AUDIT_BUNDLE/source_snapshot/experiments/real_world/run_large_commuting_od.py" --config "$OPFLOW_AUDIT_BUNDLE/saved_configs/realworld_rf_gbrt_official_gm_seed2026_geosp9.yaml" --run-id audit_replay_realworld_rf_gbrt_official_gm_seed2026_geosp9 --override "dataset.data_root=$(pwd)/data/opflow_large_commuting_od" --override "dataset.splits_file=$OPFLOW_AUDIT_BUNDLE/evidence/data/opflow_large_commuting_od/splits.json"
+
+python "$OPFLOW_AUDIT_BUNDLE/source_snapshot/experiments/real_world/run_large_commuting_od.py" --config "$OPFLOW_AUDIT_BUNDLE/saved_configs/realworld_seed2026_core3splits_20260613.yaml" --run-id audit_replay_realworld_seed2026_core3splits_20260613 --override "dataset.data_root=$(pwd)/data/opflow_large_commuting_od" --override "dataset.splits_file=$OPFLOW_AUDIT_BUNDLE/evidence/data/opflow_large_commuting_od/splits.json"

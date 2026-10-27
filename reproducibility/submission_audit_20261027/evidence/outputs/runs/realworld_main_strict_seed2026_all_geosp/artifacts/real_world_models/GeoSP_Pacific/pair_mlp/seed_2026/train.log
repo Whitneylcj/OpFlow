@@ -1,0 +1,16 @@
+model=pair_mlp
+split_name=GeoSP_Pacific
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1922, 'val': 214, 'test': 129}
+load_seconds=2.501
+fit_seconds=635.576
+eval_seconds=84.235
+aggregate_seconds=0.302
+checkpoint_seconds=0.002
+predict_seconds=57.657
+metric_seconds=26.431
+metric_rows=6795
+write_seconds=0.795
+total_seconds=723.425

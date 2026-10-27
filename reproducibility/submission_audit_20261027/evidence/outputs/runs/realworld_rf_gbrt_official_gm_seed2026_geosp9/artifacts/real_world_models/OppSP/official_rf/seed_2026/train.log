@@ -1,0 +1,16 @@
+model=official_rf
+split_name=OppSP
+seed=2026
+epochs_requested=20
+epochs_completed=0
+area_counts={'train': 1585, 'val': 226, 'test': 454}
+load_seconds=0.963
+fit_seconds=12.436
+eval_seconds=44.622
+aggregate_seconds=0.120
+checkpoint_seconds=0.000
+predict_seconds=23.608
+metric_seconds=20.974
+metric_rows=4530
+write_seconds=0.365
+total_seconds=58.509

@@ -1,0 +1,16 @@
+model=opflow_full
+split_name=GeoSP_SouthAtlantic
+seed=2026
+epochs_requested=20
+epochs_completed=4
+area_counts={'train': 1625, 'val': 181, 'test': 459}
+load_seconds=1.037
+fit_seconds=8081.199
+eval_seconds=56.337
+aggregate_seconds=0.202
+checkpoint_seconds=0.001
+predict_seconds=39.205
+metric_seconds=17.086
+metric_rows=6795
+write_seconds=0.723
+total_seconds=8139.501

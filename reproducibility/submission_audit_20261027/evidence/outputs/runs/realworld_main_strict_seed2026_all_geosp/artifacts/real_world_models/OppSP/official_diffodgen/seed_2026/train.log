@@ -1,0 +1,16 @@
+model=official_diffodgen
+split_name=OppSP
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1585, 'val': 226, 'test': 454}
+load_seconds=1.880
+fit_seconds=0.371
+eval_seconds=31.589
+aggregate_seconds=0.115
+checkpoint_seconds=0.000
+predict_seconds=12.635
+metric_seconds=18.905
+metric_rows=4530
+write_seconds=0.341
+total_seconds=34.299

@@ -1,0 +1,16 @@
+model=official_gmel
+split_name=RandSP_seed0
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1585, 'val': 227, 'test': 453}
+load_seconds=1.988
+fit_seconds=85.123
+eval_seconds=24.623
+aggregate_seconds=0.195
+checkpoint_seconds=0.001
+predict_seconds=3.736
+metric_seconds=20.799
+metric_rows=4530
+write_seconds=0.399
+total_seconds=112.347

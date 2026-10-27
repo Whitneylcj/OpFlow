@@ -1,0 +1,290 @@
+[real-world][memory] requested_workers=4 resolved_workers=4 available_gb=NA per_worker_gb=1.25 max_n=1318 max_dense_matrix_mb=6.6
+[real-world][plan] logical_tasks=33 execution_tasks=33 dedup_skipped=0 workers=4 splits=11 models=3 seeds=1 progress_log=outputs/runs/realworld_classical_si_3splits_geosp9_20260619/logs/real_world_progress.log
+[real-world][parallel] process_workers=4 torch_num_threads_per_worker=1
+[real-world][fallback] process pool unavailable ([Errno 1] Operation not permitted); falling back to sequential execution
+[real-world][start] 0/33 0.0% elapsed=0s eta=unknown avg/task=unknown task=1 split=RandSP_seed0 model=gravity seed=2026
+[real-world][done] 1/33 3.0% elapsed=22s eta=11.5m avg/task=22s last=22s task=1 split=RandSP_seed0 model=gravity seed=2026
+[real-world][start] 1/33 3.0% elapsed=22s eta=11.6m avg/task=22s task=2 split=RandSP_seed0 model=intervening_opportunity seed=2026
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=17s train_loss=10.825 val_loss=10.7579 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=11s train_loss=10.818 val_loss=10.751 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=3/20 elapsed=1s eta=8s train_loss=10.8111 val_loss=10.7441 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=7s train_loss=10.8041 val_loss=10.7373 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=6s train_loss=10.7972 val_loss=10.7304 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=6/20 elapsed=2s eta=5s train_loss=10.7903 val_loss=10.7235 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=5s train_loss=10.7834 val_loss=10.7166 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=8/20 elapsed=3s eta=4s train_loss=10.7764 val_loss=10.7098 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=9/20 elapsed=3s eta=4s train_loss=10.7695 val_loss=10.7029 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=10.7626 val_loss=10.696 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=11/20 elapsed=4s eta=3s train_loss=10.7557 val_loss=10.6892 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=12/20 elapsed=4s eta=3s train_loss=10.7488 val_loss=10.6823 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=13/20 elapsed=4s eta=2s train_loss=10.7419 val_loss=10.6754 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=14/20 elapsed=5s eta=2s train_loss=10.735 val_loss=10.6686 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=15/20 elapsed=5s eta=2s train_loss=10.7281 val_loss=10.6617 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=16/20 elapsed=5s eta=1s train_loss=10.7212 val_loss=10.6549 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=17/20 elapsed=6s eta=1s train_loss=10.7143 val_loss=10.648 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=18/20 elapsed=6s eta=1s train_loss=10.7074 val_loss=10.6412 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=19/20 elapsed=6s eta=0s train_loss=10.7005 val_loss=10.6344 cache_mb=83.6
+[real-world][epoch] task split=RandSP_seed0 model=intervening_opportunity seed=2026 epoch=20/20 elapsed=6s eta=0s train_loss=10.6936 val_loss=10.6275 cache_mb=83.6
+[real-world][done] 2/33 6.1% elapsed=46s eta=11.8m avg/task=23s last=24s task=2 split=RandSP_seed0 model=intervening_opportunity seed=2026
+[real-world][start] 2/33 6.1% elapsed=46s eta=11.8m avg/task=23s task=3 split=RandSP_seed0 model=radiation seed=2026
+[real-world][done] 3/33 9.1% elapsed=1.1m eta=10.9m avg/task=22s last=20s task=3 split=RandSP_seed0 model=radiation seed=2026
+[real-world][start] 3/33 9.1% elapsed=1.1m eta=10.9m avg/task=22s task=4 split=GeoSP_EastNorthCentral model=gravity seed=2026
+[real-world][done] 4/33 12.1% elapsed=1.5m eta=10.5m avg/task=22s last=22s task=4 split=GeoSP_EastNorthCentral model=gravity seed=2026
+[real-world][start] 4/33 12.1% elapsed=1.5m eta=10.5m avg/task=22s task=5 split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=15s train_loss=10.8603 val_loss=10.7503 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=9s train_loss=10.8533 val_loss=10.7434 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=3/20 elapsed=1s eta=8s train_loss=10.8464 val_loss=10.7365 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=7s train_loss=10.8394 val_loss=10.7296 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=6s train_loss=10.8325 val_loss=10.7227 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=6/20 elapsed=2s eta=5s train_loss=10.8255 val_loss=10.7158 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=5s train_loss=10.8186 val_loss=10.709 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=8/20 elapsed=3s eta=4s train_loss=10.8116 val_loss=10.7021 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=9/20 elapsed=3s eta=4s train_loss=10.8047 val_loss=10.6952 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=10/20 elapsed=3s eta=3s train_loss=10.7977 val_loss=10.6883 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=11/20 elapsed=4s eta=3s train_loss=10.7908 val_loss=10.6815 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=12/20 elapsed=4s eta=3s train_loss=10.7839 val_loss=10.6746 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=13/20 elapsed=4s eta=2s train_loss=10.7769 val_loss=10.6678 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=14/20 elapsed=4s eta=2s train_loss=10.77 val_loss=10.6609 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=15/20 elapsed=5s eta=2s train_loss=10.7631 val_loss=10.654 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=16/20 elapsed=5s eta=1s train_loss=10.7561 val_loss=10.6472 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=17/20 elapsed=5s eta=1s train_loss=10.7492 val_loss=10.6404 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=18/20 elapsed=6s eta=1s train_loss=10.7423 val_loss=10.6335 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=19/20 elapsed=6s eta=0s train_loss=10.7354 val_loss=10.6267 cache_mb=77.2
+[real-world][epoch] task split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026 epoch=20/20 elapsed=6s eta=0s train_loss=10.7285 val_loss=10.6198 cache_mb=77.2
+[real-world][done] 5/33 15.2% elapsed=1.9m eta=10.4m avg/task=22s last=25s task=5 split=GeoSP_EastNorthCentral model=intervening_opportunity seed=2026
+[real-world][start] 5/33 15.2% elapsed=1.9m eta=10.4m avg/task=22s task=6 split=GeoSP_EastNorthCentral model=radiation seed=2026
+[real-world][done] 6/33 18.2% elapsed=2.2m eta=9.9m avg/task=22s last=20s task=6 split=GeoSP_EastNorthCentral model=radiation seed=2026
+[real-world][start] 6/33 18.2% elapsed=2.2m eta=9.9m avg/task=22s task=7 split=GeoSP_EastSouthCentral model=gravity seed=2026
+[real-world][done] 7/33 21.2% elapsed=2.6m eta=9.5m avg/task=22s last=23s task=7 split=GeoSP_EastSouthCentral model=gravity seed=2026
+[real-world][start] 7/33 21.2% elapsed=2.6m eta=9.5m avg/task=22s task=8 split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=18s train_loss=10.8175 val_loss=10.8518 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=12s train_loss=10.8106 val_loss=10.8449 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=3/20 elapsed=2s eta=9s train_loss=10.8036 val_loss=10.8379 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=8s train_loss=10.7967 val_loss=10.831 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=7s train_loss=10.7898 val_loss=10.824 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=6/20 elapsed=3s eta=6s train_loss=10.7829 val_loss=10.8171 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=6s train_loss=10.7759 val_loss=10.8102 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=8/20 elapsed=3s eta=5s train_loss=10.769 val_loss=10.8032 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=9/20 elapsed=4s eta=5s train_loss=10.7621 val_loss=10.7963 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=10.7552 val_loss=10.7894 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=11/20 elapsed=4s eta=4s train_loss=10.7483 val_loss=10.7824 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=12/20 elapsed=5s eta=3s train_loss=10.7414 val_loss=10.7755 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=13/20 elapsed=5s eta=3s train_loss=10.7345 val_loss=10.7686 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=14/20 elapsed=5s eta=2s train_loss=10.7276 val_loss=10.7617 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=15/20 elapsed=6s eta=2s train_loss=10.7207 val_loss=10.7547 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=16/20 elapsed=6s eta=2s train_loss=10.7138 val_loss=10.7478 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=17/20 elapsed=6s eta=1s train_loss=10.7069 val_loss=10.7409 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=18/20 elapsed=7s eta=1s train_loss=10.7 val_loss=10.734 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=19/20 elapsed=7s eta=0s train_loss=10.6932 val_loss=10.7271 cache_mb=99.5
+[real-world][epoch] task split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026 epoch=20/20 elapsed=7s eta=0s train_loss=10.6863 val_loss=10.7202 cache_mb=99.5
+[real-world][done] 8/33 24.2% elapsed=3.0m eta=9.4m avg/task=22s last=26s task=8 split=GeoSP_EastSouthCentral model=intervening_opportunity seed=2026
+[real-world][start] 8/33 24.2% elapsed=3.0m eta=9.4m avg/task=22s task=9 split=GeoSP_EastSouthCentral model=radiation seed=2026
+[real-world][done] 9/33 27.3% elapsed=3.3m eta=8.9m avg/task=22s last=20s task=9 split=GeoSP_EastSouthCentral model=radiation seed=2026
+[real-world][start] 9/33 27.3% elapsed=3.3m eta=8.9m avg/task=22s task=10 split=GeoSP_MiddleAtlantic model=gravity seed=2026
+[real-world][done] 10/33 30.3% elapsed=3.7m eta=8.5m avg/task=22s last=22s task=10 split=GeoSP_MiddleAtlantic model=gravity seed=2026
+[real-world][start] 10/33 30.3% elapsed=3.7m eta=8.5m avg/task=22s task=11 split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=16s train_loss=10.6904 val_loss=10.6194 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=10s train_loss=10.6836 val_loss=10.6126 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=3/20 elapsed=1s eta=8s train_loss=10.6767 val_loss=10.6058 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=7s train_loss=10.6699 val_loss=10.599 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=6s train_loss=10.663 val_loss=10.5922 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=6/20 elapsed=2s eta=6s train_loss=10.6562 val_loss=10.5854 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=5s train_loss=10.6494 val_loss=10.5786 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=8/20 elapsed=3s eta=5s train_loss=10.6425 val_loss=10.5718 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=9/20 elapsed=3s eta=4s train_loss=10.6357 val_loss=10.565 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=10.6289 val_loss=10.5583 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=11/20 elapsed=4s eta=3s train_loss=10.622 val_loss=10.5515 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=12/20 elapsed=4s eta=3s train_loss=10.6152 val_loss=10.5447 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=13/20 elapsed=5s eta=3s train_loss=10.6084 val_loss=10.5379 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=14/20 elapsed=5s eta=2s train_loss=10.6016 val_loss=10.5312 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=15/20 elapsed=5s eta=2s train_loss=10.5948 val_loss=10.5244 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=16/20 elapsed=6s eta=1s train_loss=10.5879 val_loss=10.5176 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=17/20 elapsed=6s eta=1s train_loss=10.5811 val_loss=10.5109 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=18/20 elapsed=6s eta=1s train_loss=10.5743 val_loss=10.5041 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=19/20 elapsed=7s eta=0s train_loss=10.5675 val_loss=10.4973 cache_mb=83.1
+[real-world][epoch] task split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026 epoch=20/20 elapsed=7s eta=0s train_loss=10.5607 val_loss=10.4906 cache_mb=83.1
+[real-world][done] 11/33 33.3% elapsed=4.1m eta=8.2m avg/task=22s last=25s task=11 split=GeoSP_MiddleAtlantic model=intervening_opportunity seed=2026
+[real-world][start] 11/33 33.3% elapsed=4.1m eta=8.2m avg/task=22s task=12 split=GeoSP_MiddleAtlantic model=radiation seed=2026
+[real-world][done] 12/33 36.4% elapsed=4.5m eta=7.8m avg/task=22s last=21s task=12 split=GeoSP_MiddleAtlantic model=radiation seed=2026
+[real-world][start] 12/33 36.4% elapsed=4.5m eta=7.8m avg/task=22s task=13 split=GeoSP_Mountain model=gravity seed=2026
+[real-world][done] 13/33 39.4% elapsed=4.8m eta=7.4m avg/task=22s last=23s task=13 split=GeoSP_Mountain model=gravity seed=2026
+[real-world][start] 13/33 39.4% elapsed=4.8m eta=7.4m avg/task=22s task=14 split=GeoSP_Mountain model=intervening_opportunity seed=2026
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=17s train_loss=10.8205 val_loss=10.6239 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=11s train_loss=10.8136 val_loss=10.6171 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=3/20 elapsed=2s eta=9s train_loss=10.8067 val_loss=10.6103 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=8s train_loss=10.7997 val_loss=10.6034 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=7s train_loss=10.7928 val_loss=10.5967 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=6/20 elapsed=3s eta=6s train_loss=10.7859 val_loss=10.5899 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=5s train_loss=10.779 val_loss=10.5831 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=8/20 elapsed=3s eta=5s train_loss=10.7721 val_loss=10.5763 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=9/20 elapsed=4s eta=4s train_loss=10.7651 val_loss=10.5695 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=10.7582 val_loss=10.5627 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=11/20 elapsed=4s eta=4s train_loss=10.7513 val_loss=10.5559 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=12/20 elapsed=5s eta=3s train_loss=10.7444 val_loss=10.5491 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=13/20 elapsed=5s eta=3s train_loss=10.7375 val_loss=10.5424 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=14/20 elapsed=5s eta=2s train_loss=10.7306 val_loss=10.5356 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=15/20 elapsed=6s eta=2s train_loss=10.7237 val_loss=10.5288 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=16/20 elapsed=6s eta=1s train_loss=10.7168 val_loss=10.5221 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=17/20 elapsed=6s eta=1s train_loss=10.7099 val_loss=10.5153 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=18/20 elapsed=7s eta=1s train_loss=10.703 val_loss=10.5086 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=19/20 elapsed=7s eta=0s train_loss=10.6962 val_loss=10.5018 cache_mb=91.2
+[real-world][epoch] task split=GeoSP_Mountain model=intervening_opportunity seed=2026 epoch=20/20 elapsed=7s eta=0s train_loss=10.6893 val_loss=10.495 cache_mb=91.2
+[real-world][done] 14/33 42.4% elapsed=5.3m eta=7.1m avg/task=23s last=26s task=14 split=GeoSP_Mountain model=intervening_opportunity seed=2026
+[real-world][start] 14/33 42.4% elapsed=5.3m eta=7.1m avg/task=23s task=15 split=GeoSP_Mountain model=radiation seed=2026
+[real-world][done] 15/33 45.5% elapsed=5.6m eta=6.7m avg/task=22s last=21s task=15 split=GeoSP_Mountain model=radiation seed=2026
+[real-world][start] 15/33 45.5% elapsed=5.6m eta=6.7m avg/task=22s task=16 split=GeoSP_NewEngland model=gravity seed=2026
+[real-world][done] 16/33 48.5% elapsed=6.0m eta=6.4m avg/task=23s last=24s task=16 split=GeoSP_NewEngland model=gravity seed=2026
+[real-world][start] 16/33 48.5% elapsed=6.0m eta=6.4m avg/task=23s task=17 split=GeoSP_NewEngland model=intervening_opportunity seed=2026
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=19s train_loss=10.7734 val_loss=10.7785 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=12s train_loss=10.7665 val_loss=10.7716 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=3/20 elapsed=2s eta=10s train_loss=10.7596 val_loss=10.7647 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=8s train_loss=10.7527 val_loss=10.7578 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=7s train_loss=10.7458 val_loss=10.7509 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=6/20 elapsed=3s eta=7s train_loss=10.7389 val_loss=10.744 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=6s train_loss=10.7321 val_loss=10.7371 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=8/20 elapsed=4s eta=5s train_loss=10.7252 val_loss=10.7302 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=9/20 elapsed=4s eta=5s train_loss=10.7183 val_loss=10.7233 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=10.7114 val_loss=10.7164 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=11/20 elapsed=5s eta=4s train_loss=10.7045 val_loss=10.7095 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=12/20 elapsed=5s eta=3s train_loss=10.6976 val_loss=10.7026 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=13/20 elapsed=5s eta=3s train_loss=10.6908 val_loss=10.6958 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=14/20 elapsed=6s eta=2s train_loss=10.6839 val_loss=10.6889 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=15/20 elapsed=6s eta=2s train_loss=10.677 val_loss=10.682 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=16/20 elapsed=6s eta=2s train_loss=10.6702 val_loss=10.6752 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=17/20 elapsed=7s eta=1s train_loss=10.6633 val_loss=10.6683 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=18/20 elapsed=7s eta=1s train_loss=10.6564 val_loss=10.6614 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=19/20 elapsed=8s eta=0s train_loss=10.6496 val_loss=10.6546 cache_mb=97.9
+[real-world][epoch] task split=GeoSP_NewEngland model=intervening_opportunity seed=2026 epoch=20/20 elapsed=8s eta=0s train_loss=10.6427 val_loss=10.6477 cache_mb=97.9
+[real-world][done] 17/33 51.5% elapsed=6.4m eta=6.1m avg/task=23s last=26s task=17 split=GeoSP_NewEngland model=intervening_opportunity seed=2026
+[real-world][start] 17/33 51.5% elapsed=6.4m eta=6.1m avg/task=23s task=18 split=GeoSP_NewEngland model=radiation seed=2026
+[real-world][done] 18/33 54.5% elapsed=6.8m eta=5.6m avg/task=23s last=20s task=18 split=GeoSP_NewEngland model=radiation seed=2026
+[real-world][start] 18/33 54.5% elapsed=6.8m eta=5.6m avg/task=23s task=19 split=GeoSP_Pacific model=gravity seed=2026
+[real-world][done] 19/33 57.6% elapsed=7.1m eta=5.3m avg/task=23s last=22s task=19 split=GeoSP_Pacific model=gravity seed=2026
+[real-world][start] 19/33 57.6% elapsed=7.1m eta=5.3m avg/task=23s task=20 split=GeoSP_Pacific model=intervening_opportunity seed=2026
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=18s train_loss=10.7419 val_loss=10.5623 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=12s train_loss=10.735 val_loss=10.5556 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=3/20 elapsed=2s eta=9s train_loss=10.7281 val_loss=10.5488 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=8s train_loss=10.7213 val_loss=10.542 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=7s train_loss=10.7144 val_loss=10.5353 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=6/20 elapsed=3s eta=6s train_loss=10.7075 val_loss=10.5285 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=6s train_loss=10.7006 val_loss=10.5217 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=8/20 elapsed=3s eta=5s train_loss=10.6938 val_loss=10.515 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=9/20 elapsed=4s eta=5s train_loss=10.6869 val_loss=10.5082 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=10.68 val_loss=10.5015 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=11/20 elapsed=4s eta=4s train_loss=10.6732 val_loss=10.4947 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=12/20 elapsed=5s eta=3s train_loss=10.6663 val_loss=10.488 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=13/20 elapsed=5s eta=3s train_loss=10.6595 val_loss=10.4812 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=14/20 elapsed=5s eta=2s train_loss=10.6526 val_loss=10.4745 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=15/20 elapsed=6s eta=2s train_loss=10.6458 val_loss=10.4678 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=16/20 elapsed=6s eta=2s train_loss=10.6389 val_loss=10.461 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=17/20 elapsed=6s eta=1s train_loss=10.6321 val_loss=10.4543 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=18/20 elapsed=7s eta=1s train_loss=10.6253 val_loss=10.4476 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=19/20 elapsed=7s eta=0s train_loss=10.6184 val_loss=10.4409 cache_mb=85.2
+[real-world][epoch] task split=GeoSP_Pacific model=intervening_opportunity seed=2026 epoch=20/20 elapsed=7s eta=0s train_loss=10.6116 val_loss=10.4341 cache_mb=85.2
+[real-world][done] 20/33 60.6% elapsed=7.6m eta=4.9m avg/task=23s last=26s task=20 split=GeoSP_Pacific model=intervening_opportunity seed=2026
+[real-world][start] 20/33 60.6% elapsed=7.6m eta=4.9m avg/task=23s task=21 split=GeoSP_Pacific model=radiation seed=2026
+[real-world][done] 21/33 63.6% elapsed=7.9m eta=4.5m avg/task=23s last=20s task=21 split=GeoSP_Pacific model=radiation seed=2026
+[real-world][start] 21/33 63.6% elapsed=7.9m eta=4.5m avg/task=23s task=22 split=GeoSP_SouthAtlantic model=gravity seed=2026
+[real-world][done] 22/33 66.7% elapsed=8.3m eta=4.1m avg/task=23s last=23s task=22 split=GeoSP_SouthAtlantic model=gravity seed=2026
+[real-world][start] 22/33 66.7% elapsed=8.3m eta=4.1m avg/task=23s task=23 split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=17s train_loss=10.5899 val_loss=10.5984 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=11s train_loss=10.5831 val_loss=10.5916 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=3/20 elapsed=1s eta=8s train_loss=10.5764 val_loss=10.5848 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=7s train_loss=10.5696 val_loss=10.578 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=6s train_loss=10.5628 val_loss=10.5713 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=6/20 elapsed=2s eta=6s train_loss=10.556 val_loss=10.5645 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=5s train_loss=10.5492 val_loss=10.5577 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=8/20 elapsed=3s eta=4s train_loss=10.5425 val_loss=10.5509 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=9/20 elapsed=3s eta=4s train_loss=10.5357 val_loss=10.5441 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=10.529 val_loss=10.5374 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=11/20 elapsed=4s eta=3s train_loss=10.5222 val_loss=10.5306 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=12/20 elapsed=4s eta=3s train_loss=10.5154 val_loss=10.5238 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=13/20 elapsed=4s eta=2s train_loss=10.5087 val_loss=10.5171 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=14/20 elapsed=5s eta=2s train_loss=10.5019 val_loss=10.5103 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=15/20 elapsed=5s eta=2s train_loss=10.4952 val_loss=10.5036 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=16/20 elapsed=5s eta=1s train_loss=10.4884 val_loss=10.4968 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=17/20 elapsed=6s eta=1s train_loss=10.4817 val_loss=10.4901 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=18/20 elapsed=6s eta=1s train_loss=10.475 val_loss=10.4833 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=19/20 elapsed=6s eta=0s train_loss=10.4682 val_loss=10.4766 cache_mb=88.8
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026 epoch=20/20 elapsed=7s eta=0s train_loss=10.4615 val_loss=10.4698 cache_mb=88.8
+[real-world][done] 23/33 69.7% elapsed=8.7m eta=3.8m avg/task=23s last=25s task=23 split=GeoSP_SouthAtlantic model=intervening_opportunity seed=2026
+[real-world][start] 23/33 69.7% elapsed=8.7m eta=3.8m avg/task=23s task=24 split=GeoSP_SouthAtlantic model=radiation seed=2026
+[real-world][done] 24/33 72.7% elapsed=9.1m eta=3.4m avg/task=23s last=20s task=24 split=GeoSP_SouthAtlantic model=radiation seed=2026
+[real-world][start] 24/33 72.7% elapsed=9.1m eta=3.4m avg/task=23s task=25 split=GeoSP_WestNorthCentral model=gravity seed=2026
+[real-world][done] 25/33 75.8% elapsed=9.4m eta=3.0m avg/task=23s last=23s task=25 split=GeoSP_WestNorthCentral model=gravity seed=2026
+[real-world][start] 25/33 75.8% elapsed=9.4m eta=3.0m avg/task=23s task=26 split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=18s train_loss=11.1173 val_loss=10.956 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=12s train_loss=11.1101 val_loss=10.949 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=3/20 elapsed=2s eta=9s train_loss=11.103 val_loss=10.9419 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=8s train_loss=11.0959 val_loss=10.9349 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=5/20 elapsed=2s eta=7s train_loss=11.0888 val_loss=10.9279 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=6/20 elapsed=3s eta=6s train_loss=11.0817 val_loss=10.9209 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=6s train_loss=11.0745 val_loss=10.9138 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=8/20 elapsed=3s eta=5s train_loss=11.0674 val_loss=10.9068 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=9/20 elapsed=4s eta=4s train_loss=11.0603 val_loss=10.8998 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=11.0532 val_loss=10.8928 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=11/20 elapsed=4s eta=4s train_loss=11.0461 val_loss=10.8858 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=12/20 elapsed=5s eta=3s train_loss=11.039 val_loss=10.8788 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=13/20 elapsed=5s eta=3s train_loss=11.0319 val_loss=10.8718 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=14/20 elapsed=5s eta=2s train_loss=11.0248 val_loss=10.8648 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=15/20 elapsed=6s eta=2s train_loss=11.0178 val_loss=10.8578 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=16/20 elapsed=6s eta=1s train_loss=11.0107 val_loss=10.8508 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=17/20 elapsed=6s eta=1s train_loss=11.0036 val_loss=10.8438 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=18/20 elapsed=7s eta=1s train_loss=10.9965 val_loss=10.8368 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=19/20 elapsed=7s eta=0s train_loss=10.9894 val_loss=10.8298 cache_mb=98.7
+[real-world][epoch] task split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026 epoch=20/20 elapsed=7s eta=0s train_loss=10.9824 val_loss=10.8228 cache_mb=98.7
+[real-world][done] 26/33 78.8% elapsed=9.9m eta=2.7m avg/task=23s last=26s task=26 split=GeoSP_WestNorthCentral model=intervening_opportunity seed=2026
+[real-world][start] 26/33 78.8% elapsed=9.9m eta=2.7m avg/task=23s task=27 split=GeoSP_WestNorthCentral model=radiation seed=2026
+[real-world][done] 27/33 81.8% elapsed=10.2m eta=2.3m avg/task=23s last=20s task=27 split=GeoSP_WestNorthCentral model=radiation seed=2026
+[real-world][start] 27/33 81.8% elapsed=10.2m eta=2.3m avg/task=23s task=28 split=GeoSP_WestSouthCentral model=gravity seed=2026
+[real-world][done] 28/33 84.8% elapsed=10.6m eta=1.9m avg/task=23s last=23s task=28 split=GeoSP_WestSouthCentral model=gravity seed=2026
+[real-world][start] 28/33 84.8% elapsed=10.6m eta=1.9m avg/task=23s task=29 split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=1/20 elapsed=1s eta=18s train_loss=10.9124 val_loss=10.7725 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=12s train_loss=10.9054 val_loss=10.7656 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=3/20 elapsed=2s eta=11s train_loss=10.8984 val_loss=10.7587 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=4/20 elapsed=2s eta=9s train_loss=10.8914 val_loss=10.7518 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=5/20 elapsed=3s eta=8s train_loss=10.8845 val_loss=10.7448 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=6/20 elapsed=3s eta=7s train_loss=10.8775 val_loss=10.7379 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=7/20 elapsed=3s eta=6s train_loss=10.8705 val_loss=10.731 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=8/20 elapsed=4s eta=6s train_loss=10.8635 val_loss=10.7241 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=9/20 elapsed=4s eta=5s train_loss=10.8565 val_loss=10.7172 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=10/20 elapsed=4s eta=4s train_loss=10.8496 val_loss=10.7103 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=11/20 elapsed=5s eta=4s train_loss=10.8426 val_loss=10.7035 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=12/20 elapsed=5s eta=3s train_loss=10.8356 val_loss=10.6966 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=13/20 elapsed=5s eta=3s train_loss=10.8287 val_loss=10.6897 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=14/20 elapsed=6s eta=3s train_loss=10.8217 val_loss=10.6828 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=15/20 elapsed=6s eta=2s train_loss=10.8148 val_loss=10.6759 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=16/20 elapsed=7s eta=2s train_loss=10.8078 val_loss=10.6691 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=17/20 elapsed=7s eta=1s train_loss=10.8009 val_loss=10.6622 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=18/20 elapsed=8s eta=1s train_loss=10.7939 val_loss=10.6553 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=19/20 elapsed=8s eta=0s train_loss=10.787 val_loss=10.6485 cache_mb=89.4
+[real-world][epoch] task split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026 epoch=20/20 elapsed=8s eta=0s train_loss=10.78 val_loss=10.6416 cache_mb=89.4
+[real-world][done] 29/33 87.9% elapsed=11.0m eta=1.5m avg/task=23s last=27s task=29 split=GeoSP_WestSouthCentral model=intervening_opportunity seed=2026
+[real-world][start] 29/33 87.9% elapsed=11.0m eta=1.5m avg/task=23s task=30 split=GeoSP_WestSouthCentral model=radiation seed=2026
+[real-world][done] 30/33 90.9% elapsed=11.4m eta=1.1m avg/task=23s last=20s task=30 split=GeoSP_WestSouthCentral model=radiation seed=2026
+[real-world][start] 30/33 90.9% elapsed=11.4m eta=1.1m avg/task=23s task=31 split=OppSP model=gravity seed=2026
+[real-world][done] 31/33 93.9% elapsed=11.7m eta=45s avg/task=23s last=21s task=31 split=OppSP model=gravity seed=2026
+[real-world][start] 31/33 93.9% elapsed=11.7m eta=45s avg/task=23s task=32 split=OppSP model=intervening_opportunity seed=2026
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=1/20 elapsed=0s eta=6s train_loss=10.6586 val_loss=10.7416 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=2/20 elapsed=1s eta=5s train_loss=10.6517 val_loss=10.7347 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=3/20 elapsed=1s eta=4s train_loss=10.6449 val_loss=10.7278 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=4/20 elapsed=1s eta=4s train_loss=10.6381 val_loss=10.7209 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=5/20 elapsed=1s eta=3s train_loss=10.6313 val_loss=10.714 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=6/20 elapsed=1s eta=3s train_loss=10.6244 val_loss=10.7071 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=7/20 elapsed=1s eta=3s train_loss=10.6176 val_loss=10.7003 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=8/20 elapsed=2s eta=2s train_loss=10.6108 val_loss=10.6934 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=9/20 elapsed=2s eta=2s train_loss=10.604 val_loss=10.6865 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=10/20 elapsed=2s eta=2s train_loss=10.5972 val_loss=10.6796 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=11/20 elapsed=2s eta=2s train_loss=10.5904 val_loss=10.6728 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=12/20 elapsed=2s eta=2s train_loss=10.5836 val_loss=10.6659 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=13/20 elapsed=3s eta=1s train_loss=10.5768 val_loss=10.6591 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=14/20 elapsed=3s eta=1s train_loss=10.57 val_loss=10.6522 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=15/20 elapsed=3s eta=1s train_loss=10.5632 val_loss=10.6454 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=16/20 elapsed=3s eta=1s train_loss=10.5564 val_loss=10.6385 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=17/20 elapsed=3s eta=1s train_loss=10.5496 val_loss=10.6317 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=18/20 elapsed=4s eta=0s train_loss=10.5428 val_loss=10.6248 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=19/20 elapsed=4s eta=0s train_loss=10.536 val_loss=10.618 cache_mb=14.7
+[real-world][epoch] task split=OppSP model=intervening_opportunity seed=2026 epoch=20/20 elapsed=4s eta=0s train_loss=10.5293 val_loss=10.6112 cache_mb=14.7
+[real-world][done] 32/33 97.0% elapsed=12.1m eta=23s avg/task=23s last=23s task=32 split=OppSP model=intervening_opportunity seed=2026
+[real-world][start] 32/33 97.0% elapsed=12.1m eta=23s avg/task=23s task=33 split=OppSP model=radiation seed=2026
+[real-world][done] 33/33 100.0% elapsed=12.4m eta=0s avg/task=23s last=20s task=33 split=OppSP model=radiation seed=2026

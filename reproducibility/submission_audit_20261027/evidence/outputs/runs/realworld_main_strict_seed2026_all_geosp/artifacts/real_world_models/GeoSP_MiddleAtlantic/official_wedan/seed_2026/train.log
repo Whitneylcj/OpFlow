@@ -1,0 +1,16 @@
+model=official_wedan
+split_name=GeoSP_MiddleAtlantic
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1908, 'val': 213, 'test': 144}
+load_seconds=2.105
+fit_seconds=0.577
+eval_seconds=51.239
+aggregate_seconds=0.536
+checkpoint_seconds=0.001
+predict_seconds=23.524
+metric_seconds=27.506
+metric_rows=4530
+write_seconds=0.437
+total_seconds=54.985

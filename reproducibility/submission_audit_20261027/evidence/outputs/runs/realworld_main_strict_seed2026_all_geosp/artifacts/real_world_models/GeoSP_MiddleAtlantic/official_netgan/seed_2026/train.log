@@ -1,0 +1,16 @@
+model=official_netgan
+split_name=GeoSP_MiddleAtlantic
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1908, 'val': 213, 'test': 144}
+load_seconds=2.749
+fit_seconds=0.526
+eval_seconds=47.932
+aggregate_seconds=0.179
+checkpoint_seconds=0.000
+predict_seconds=21.817
+metric_seconds=26.001
+metric_rows=4530
+write_seconds=0.505
+total_seconds=51.898

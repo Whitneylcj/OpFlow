@@ -1,0 +1,16 @@
+model=official_netgan
+split_name=GeoSP_SouthAtlantic
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1625, 'val': 181, 'test': 459}
+load_seconds=1.603
+fit_seconds=0.259
+eval_seconds=26.507
+aggregate_seconds=0.085
+checkpoint_seconds=0.000
+predict_seconds=10.739
+metric_seconds=15.730
+metric_rows=4530
+write_seconds=0.268
+total_seconds=28.724

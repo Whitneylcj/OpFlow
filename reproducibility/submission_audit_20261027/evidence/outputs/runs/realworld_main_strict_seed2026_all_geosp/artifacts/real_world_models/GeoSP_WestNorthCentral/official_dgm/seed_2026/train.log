@@ -1,0 +1,16 @@
+model=official_dgm
+split_name=GeoSP_WestNorthCentral
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1756, 'val': 196, 'test': 313}
+load_seconds=5.680
+fit_seconds=1.384
+eval_seconds=45.649
+aggregate_seconds=0.161
+checkpoint_seconds=0.001
+predict_seconds=19.296
+metric_seconds=26.234
+metric_rows=4530
+write_seconds=0.482
+total_seconds=53.375

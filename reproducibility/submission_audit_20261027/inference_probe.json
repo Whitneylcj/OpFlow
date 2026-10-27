@@ -1,0 +1,699 @@
+{
+  "created_at_utc": "2026-10-27T03:27:59.825427+00:00",
+  "python_env": "/opt/miniconda3/envs/opflow/bin/python",
+  "torch_version": "2.1.0",
+  "load_policy": "torch.load(weights_only=True,map_location=cpu); no unrestricted pickle",
+  "scope": "one small test county per split, each of three models; no training; not a full-split re-evaluation",
+  "metric_tolerance": {
+    "rtol": 1e-05,
+    "atol": 1e-05
+  },
+  "probes": [
+    {
+      "split": "RandSP_seed0",
+      "model": "opflow_full",
+      "seed": 2026,
+      "run_id": "realworld_opflow_strong_seed2026_3splits_20260619",
+      "area_id": "01093",
+      "checkpoint_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/RandSP_seed0/opflow_full/seed_2026/checkpoint.pt",
+      "eval_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/RandSP_seed0/opflow_full/seed_2026/eval.json",
+      "safe_load_ok": true,
+      "predict_ok": true,
+      "state_key_check": {
+        "missing_keys": [],
+        "extra_keys_after_compatibility_mapping": [],
+        "shape_mismatch_keys": []
+      },
+      "metrics": {
+        "row_kl": {
+          "saved": 0.3507804389414299,
+          "inference": 0.3507804389414299,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "row_cpc": {
+          "saved": 0.6598877575234001,
+          "inference": 0.6598877575234001,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "global_cpc": {
+          "saved": 0.6285733261890182,
+          "inference": 0.6285733261890182,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "rmse": {
+          "saved": 89.27299282986009,
+          "inference": 89.27299282986009,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_mean": {
+          "saved": 1.1765798066538398,
+          "inference": 1.1765798066538398,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_official": {
+          "saved": 0.7263140858975191,
+          "inference": 0.7263140858975191,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        }
+      },
+      "all_metrics_match_tolerance": true,
+      "exportability": {
+        "y_true_shape": [
+          8,
+          8
+        ],
+        "y_pred_shape": [
+          8,
+          8
+        ],
+        "valid_origin_shape": [
+          8
+        ],
+        "valid_origins": 8,
+        "region_meta_path": "data/opflow_large_commuting_od/01093/region_meta.csv",
+        "node_index_complete": true,
+        "geoid_count": 8,
+        "first_origin_destination_geoid": "01093964500",
+        "all_predictions_finite": true,
+        "mask_semantics": "all n*n count cells are used, including diagonal; valid_origin applies only to allocation metrics; no explicit per-OD candidate mask stored"
+      }
+    },
+    {
+      "split": "RandSP_seed0",
+      "model": "pair_mlp",
+      "seed": 2026,
+      "run_id": "realworld_seed2026_core3splits_20260613",
+      "area_id": "01093",
+      "checkpoint_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/pair_mlp/seed_2026/checkpoint.pt",
+      "eval_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/pair_mlp/seed_2026/eval.json",
+      "safe_load_ok": true,
+      "predict_ok": true,
+      "state_key_check": {
+        "missing_keys": [],
+        "extra_keys_after_compatibility_mapping": [],
+        "shape_mismatch_keys": []
+      },
+      "metrics": {
+        "row_kl": {
+          "saved": 0.3286298469428546,
+          "inference": 0.3286298469428546,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "row_cpc": {
+          "saved": 0.6638789199670803,
+          "inference": 0.6638789199670803,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "global_cpc": {
+          "saved": 0.6188173815510017,
+          "inference": 0.6188173815510017,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "rmse": {
+          "saved": 147.62583278890529,
+          "inference": 147.62583278890529,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_mean": {
+          "saved": 1.9456452426873843,
+          "inference": 1.9456452426873843,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_official": {
+          "saved": 1.2010656123211076,
+          "inference": 1.2010656123211076,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        }
+      },
+      "all_metrics_match_tolerance": true,
+      "exportability": {
+        "y_true_shape": [
+          8,
+          8
+        ],
+        "y_pred_shape": [
+          8,
+          8
+        ],
+        "valid_origin_shape": [
+          8
+        ],
+        "valid_origins": 8,
+        "region_meta_path": "data/opflow_large_commuting_od/01093/region_meta.csv",
+        "node_index_complete": true,
+        "geoid_count": 8,
+        "first_origin_destination_geoid": "01093964500",
+        "all_predictions_finite": true,
+        "mask_semantics": "all n*n count cells are used, including diagonal; valid_origin applies only to allocation metrics; no explicit per-OD candidate mask stored"
+      }
+    },
+    {
+      "split": "RandSP_seed0",
+      "model": "scale_aware_mlp",
+      "seed": 2026,
+      "run_id": "realworld_seed2026_core3splits_20260613",
+      "area_id": "01093",
+      "checkpoint_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/scale_aware_mlp/seed_2026/checkpoint.pt",
+      "eval_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/RandSP_seed0/scale_aware_mlp/seed_2026/eval.json",
+      "safe_load_ok": true,
+      "predict_ok": true,
+      "state_key_check": {
+        "missing_keys": [],
+        "extra_keys_after_compatibility_mapping": [],
+        "shape_mismatch_keys": []
+      },
+      "metrics": {
+        "row_kl": {
+          "saved": 0.32504874515036325,
+          "inference": 0.32504874515036325,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "row_cpc": {
+          "saved": 0.66602366252498,
+          "inference": 0.66602366252498,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "global_cpc": {
+          "saved": 0.6325316662400619,
+          "inference": 0.6325316662400619,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "rmse": {
+          "saved": 129.1578889487162,
+          "inference": 129.1578889487162,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_mean": {
+          "saved": 1.7022456533603452,
+          "inference": 1.7022456533603452,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_official": {
+          "saved": 1.0508126934539461,
+          "inference": 1.0508126934539461,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        }
+      },
+      "all_metrics_match_tolerance": true,
+      "exportability": {
+        "y_true_shape": [
+          8,
+          8
+        ],
+        "y_pred_shape": [
+          8,
+          8
+        ],
+        "valid_origin_shape": [
+          8
+        ],
+        "valid_origins": 8,
+        "region_meta_path": "data/opflow_large_commuting_od/01093/region_meta.csv",
+        "node_index_complete": true,
+        "geoid_count": 8,
+        "first_origin_destination_geoid": "01093964500",
+        "all_predictions_finite": true,
+        "mask_semantics": "all n*n count cells are used, including diagonal; valid_origin applies only to allocation metrics; no explicit per-OD candidate mask stored"
+      }
+    },
+    {
+      "split": "GeoSP_SouthAtlantic",
+      "model": "opflow_full",
+      "seed": 2026,
+      "run_id": "realworld_opflow_strong_seed2026_3splits_20260619",
+      "area_id": "13137",
+      "checkpoint_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/GeoSP_SouthAtlantic/opflow_full/seed_2026/checkpoint.pt",
+      "eval_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/GeoSP_SouthAtlantic/opflow_full/seed_2026/eval.json",
+      "safe_load_ok": true,
+      "predict_ok": true,
+      "state_key_check": {
+        "missing_keys": [],
+        "extra_keys_after_compatibility_mapping": [],
+        "shape_mismatch_keys": []
+      },
+      "metrics": {
+        "row_kl": {
+          "saved": 0.13788126884257812,
+          "inference": 0.13788126884257812,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "row_cpc": {
+          "saved": 0.7993042407979347,
+          "inference": 0.7993042407979347,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "global_cpc": {
+          "saved": 0.8090909002617492,
+          "inference": 0.8090909002617492,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "rmse": {
+          "saved": 58.865487356223085,
+          "inference": 58.865487356223085,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_mean": {
+          "saved": 0.5993304471521281,
+          "inference": 0.5993304471521281,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_official": {
+          "saved": 0.5813693923932228,
+          "inference": 0.5813693923932228,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        }
+      },
+      "all_metrics_match_tolerance": true,
+      "exportability": {
+        "y_true_shape": [
+          8,
+          8
+        ],
+        "y_pred_shape": [
+          8,
+          8
+        ],
+        "valid_origin_shape": [
+          8
+        ],
+        "valid_origins": 8,
+        "region_meta_path": "data/opflow_large_commuting_od/13137/region_meta.csv",
+        "node_index_complete": true,
+        "geoid_count": 8,
+        "first_origin_destination_geoid": "13137000100",
+        "all_predictions_finite": true,
+        "mask_semantics": "all n*n count cells are used, including diagonal; valid_origin applies only to allocation metrics; no explicit per-OD candidate mask stored"
+      }
+    },
+    {
+      "split": "GeoSP_SouthAtlantic",
+      "model": "pair_mlp",
+      "seed": 2026,
+      "run_id": "realworld_seed2026_core3splits_20260613",
+      "area_id": "13137",
+      "checkpoint_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/pair_mlp/seed_2026/checkpoint.pt",
+      "eval_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/pair_mlp/seed_2026/eval.json",
+      "safe_load_ok": true,
+      "predict_ok": true,
+      "state_key_check": {
+        "missing_keys": [],
+        "extra_keys_after_compatibility_mapping": [],
+        "shape_mismatch_keys": []
+      },
+      "metrics": {
+        "row_kl": {
+          "saved": 0.10883166507816819,
+          "inference": 0.10883166507816819,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "row_cpc": {
+          "saved": 0.82873691229542,
+          "inference": 0.82873691229542,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "global_cpc": {
+          "saved": 0.7274341489602566,
+          "inference": 0.7274341489602566,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "rmse": {
+          "saved": 114.74626213271596,
+          "inference": 114.74626213271596,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_mean": {
+          "saved": 1.1682724747842541,
+          "inference": 1.1682724747842541,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_official": {
+          "saved": 1.1332610616437575,
+          "inference": 1.1332610616437575,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        }
+      },
+      "all_metrics_match_tolerance": true,
+      "exportability": {
+        "y_true_shape": [
+          8,
+          8
+        ],
+        "y_pred_shape": [
+          8,
+          8
+        ],
+        "valid_origin_shape": [
+          8
+        ],
+        "valid_origins": 8,
+        "region_meta_path": "data/opflow_large_commuting_od/13137/region_meta.csv",
+        "node_index_complete": true,
+        "geoid_count": 8,
+        "first_origin_destination_geoid": "13137000100",
+        "all_predictions_finite": true,
+        "mask_semantics": "all n*n count cells are used, including diagonal; valid_origin applies only to allocation metrics; no explicit per-OD candidate mask stored"
+      }
+    },
+    {
+      "split": "GeoSP_SouthAtlantic",
+      "model": "scale_aware_mlp",
+      "seed": 2026,
+      "run_id": "realworld_seed2026_core3splits_20260613",
+      "area_id": "13137",
+      "checkpoint_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/scale_aware_mlp/seed_2026/checkpoint.pt",
+      "eval_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/GeoSP_SouthAtlantic/scale_aware_mlp/seed_2026/eval.json",
+      "safe_load_ok": true,
+      "predict_ok": true,
+      "state_key_check": {
+        "missing_keys": [],
+        "extra_keys_after_compatibility_mapping": [],
+        "shape_mismatch_keys": []
+      },
+      "metrics": {
+        "row_kl": {
+          "saved": 0.08692182437585193,
+          "inference": 0.08692182437585193,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "row_cpc": {
+          "saved": 0.8456047167726433,
+          "inference": 0.8456047167726433,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "global_cpc": {
+          "saved": 0.6903947983363278,
+          "inference": 0.6903947983363278,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "rmse": {
+          "saved": 139.08273643296792,
+          "inference": 139.08273643296792,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_mean": {
+          "saved": 1.4160507686461894,
+          "inference": 1.4160507686461894,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_official": {
+          "saved": 1.373613803332815,
+          "inference": 1.373613803332815,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        }
+      },
+      "all_metrics_match_tolerance": true,
+      "exportability": {
+        "y_true_shape": [
+          8,
+          8
+        ],
+        "y_pred_shape": [
+          8,
+          8
+        ],
+        "valid_origin_shape": [
+          8
+        ],
+        "valid_origins": 8,
+        "region_meta_path": "data/opflow_large_commuting_od/13137/region_meta.csv",
+        "node_index_complete": true,
+        "geoid_count": 8,
+        "first_origin_destination_geoid": "13137000100",
+        "all_predictions_finite": true,
+        "mask_semantics": "all n*n count cells are used, including diagonal; valid_origin applies only to allocation metrics; no explicit per-OD candidate mask stored"
+      }
+    },
+    {
+      "split": "OppSP",
+      "model": "opflow_full",
+      "seed": 2026,
+      "run_id": "realworld_opflow_strong_seed2026_3splits_20260619",
+      "area_id": "21121",
+      "checkpoint_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/OppSP/opflow_full/seed_2026/checkpoint.pt",
+      "eval_path": "outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/artifacts/real_world_models/OppSP/opflow_full/seed_2026/eval.json",
+      "safe_load_ok": true,
+      "predict_ok": true,
+      "state_key_check": {
+        "missing_keys": [],
+        "extra_keys_after_compatibility_mapping": [],
+        "shape_mismatch_keys": []
+      },
+      "metrics": {
+        "row_kl": {
+          "saved": 0.19020946270828942,
+          "inference": 0.19020946270828942,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "row_cpc": {
+          "saved": 0.7473925992399209,
+          "inference": 0.7473925992399209,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "global_cpc": {
+          "saved": 0.6914788666567102,
+          "inference": 0.6914788666567102,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "rmse": {
+          "saved": 66.20686067275231,
+          "inference": 66.20686067275231,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_mean": {
+          "saved": 1.2712988548023247,
+          "inference": 1.2712988548023247,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_official": {
+          "saved": 0.6954346013283773,
+          "inference": 0.6954346013283773,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        }
+      },
+      "all_metrics_match_tolerance": true,
+      "exportability": {
+        "y_true_shape": [
+          8,
+          8
+        ],
+        "y_pred_shape": [
+          8,
+          8
+        ],
+        "valid_origin_shape": [
+          8
+        ],
+        "valid_origins": 8,
+        "region_meta_path": "data/opflow_large_commuting_od/21121/region_meta.csv",
+        "node_index_complete": true,
+        "geoid_count": 8,
+        "first_origin_destination_geoid": "21121930200",
+        "all_predictions_finite": true,
+        "mask_semantics": "all n*n count cells are used, including diagonal; valid_origin applies only to allocation metrics; no explicit per-OD candidate mask stored"
+      }
+    },
+    {
+      "split": "OppSP",
+      "model": "pair_mlp",
+      "seed": 2026,
+      "run_id": "realworld_seed2026_core3splits_20260613",
+      "area_id": "21121",
+      "checkpoint_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/pair_mlp/seed_2026/checkpoint.pt",
+      "eval_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/pair_mlp/seed_2026/eval.json",
+      "safe_load_ok": true,
+      "predict_ok": true,
+      "state_key_check": {
+        "missing_keys": [],
+        "extra_keys_after_compatibility_mapping": [],
+        "shape_mismatch_keys": []
+      },
+      "metrics": {
+        "row_kl": {
+          "saved": 0.1682786506138473,
+          "inference": 0.1682786506138473,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "row_cpc": {
+          "saved": 0.7743595720509417,
+          "inference": 0.7743595720509417,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "global_cpc": {
+          "saved": 0.6417351499562308,
+          "inference": 0.6417351499562308,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "rmse": {
+          "saved": 118.25051814108724,
+          "inference": 118.25051814108724,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_mean": {
+          "saved": 2.270637012010076,
+          "inference": 2.270637012010076,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_official": {
+          "saved": 1.2420994003445536,
+          "inference": 1.2420994003445536,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        }
+      },
+      "all_metrics_match_tolerance": true,
+      "exportability": {
+        "y_true_shape": [
+          8,
+          8
+        ],
+        "y_pred_shape": [
+          8,
+          8
+        ],
+        "valid_origin_shape": [
+          8
+        ],
+        "valid_origins": 8,
+        "region_meta_path": "data/opflow_large_commuting_od/21121/region_meta.csv",
+        "node_index_complete": true,
+        "geoid_count": 8,
+        "first_origin_destination_geoid": "21121930200",
+        "all_predictions_finite": true,
+        "mask_semantics": "all n*n count cells are used, including diagonal; valid_origin applies only to allocation metrics; no explicit per-OD candidate mask stored"
+      }
+    },
+    {
+      "split": "OppSP",
+      "model": "scale_aware_mlp",
+      "seed": 2026,
+      "run_id": "realworld_seed2026_core3splits_20260613",
+      "area_id": "21121",
+      "checkpoint_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/scale_aware_mlp/seed_2026/checkpoint.pt",
+      "eval_path": "outputs/runs/realworld_seed2026_core3splits_20260613/artifacts/real_world_models/OppSP/scale_aware_mlp/seed_2026/eval.json",
+      "safe_load_ok": true,
+      "predict_ok": true,
+      "state_key_check": {
+        "missing_keys": [],
+        "extra_keys_after_compatibility_mapping": [],
+        "shape_mismatch_keys": []
+      },
+      "metrics": {
+        "row_kl": {
+          "saved": 0.10826819207235146,
+          "inference": 0.10826819207235146,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "row_cpc": {
+          "saved": 0.8182377048136006,
+          "inference": 0.8182377048136006,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "global_cpc": {
+          "saved": 0.6179903625273456,
+          "inference": 0.6179903625273456,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "rmse": {
+          "saved": 153.56339299397462,
+          "inference": 153.56339299397462,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_mean": {
+          "saved": 2.948712016685981,
+          "inference": 2.948712016685981,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        },
+        "nrmse_official": {
+          "saved": 1.6130246306837634,
+          "inference": 1.6130246306837634,
+          "abs_error": 0.0,
+          "matches_tolerance": true
+        }
+      },
+      "all_metrics_match_tolerance": true,
+      "exportability": {
+        "y_true_shape": [
+          8,
+          8
+        ],
+        "y_pred_shape": [
+          8,
+          8
+        ],
+        "valid_origin_shape": [
+          8
+        ],
+        "valid_origins": 8,
+        "region_meta_path": "data/opflow_large_commuting_od/21121/region_meta.csv",
+        "node_index_complete": true,
+        "geoid_count": 8,
+        "first_origin_destination_geoid": "21121930200",
+        "all_predictions_finite": true,
+        "mask_semantics": "all n*n count cells are used, including diagonal; valid_origin applies only to allocation metrics; no explicit per-OD candidate mask stored"
+      }
+    }
+  ],
+  "summary": {
+    "n_checkpoints": 9,
+    "safe_load_successes": 9,
+    "prediction_successes": 9,
+    "metric_matches": 9
+  },
+  "limitations": [
+    "These saved runs do not establish the provenance of the submitted Table 2 baseline numbers.",
+    "One county per split probes compatibility; it does not verify every saved checkpoint on the full dataset.",
+    "No OD prediction files were written; OD export requires a separate inference-only pass."
+  ]
+}

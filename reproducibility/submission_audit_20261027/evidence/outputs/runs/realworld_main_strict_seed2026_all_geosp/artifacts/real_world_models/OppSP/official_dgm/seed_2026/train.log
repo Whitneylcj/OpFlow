@@ -1,0 +1,16 @@
+model=official_dgm
+split_name=OppSP
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1585, 'val': 226, 'test': 454}
+load_seconds=1.718
+fit_seconds=0.404
+eval_seconds=31.083
+aggregate_seconds=0.114
+checkpoint_seconds=0.000
+predict_seconds=12.298
+metric_seconds=18.696
+metric_rows=4530
+write_seconds=0.323
+total_seconds=33.650

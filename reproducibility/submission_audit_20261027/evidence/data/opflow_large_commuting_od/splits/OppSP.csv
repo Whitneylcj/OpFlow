@@ -1,0 +1,2266 @@
+split_name,seed,fold_id,area_id,role,STATEFP,COUNTYFP,census_division,n_nodes,opp_concentration_hhi,opp_group
+OppSP,0,OppSP,01035,test,01,035,East South Central,5,0.008363874609757307,low_tail
+OppSP,0,OppSP,01079,test,01,079,East South Central,9,0.006901775939087092,low_tail
+OppSP,0,OppSP,01111,test,01,111,East South Central,6,0.009787588498797227,low_tail
+OppSP,0,OppSP,02020,test,02,020,Pacific,55,0.009076686469711416,low_tail
+OppSP,0,OppSP,02290,test,02,290,Pacific,4,0.293138969777945,high_tail
+OppSP,0,OppSP,04013,test,04,013,Mountain,916,0.0015891610288313806,low_tail
+OppSP,0,OppSP,04015,test,04,015,Mountain,43,0.14170773902370007,high_tail
+OppSP,0,OppSP,04027,test,04,027,Mountain,55,0.16002605394154706,high_tail
+OppSP,0,OppSP,05011,test,05,011,West South Central,5,0.2004856050567099,high_tail
+OppSP,0,OppSP,05015,test,05,015,West South Central,5,0.22874395314462906,high_tail
+OppSP,0,OppSP,05021,test,05,021,West South Central,6,0.010884353731130546,low_tail
+OppSP,0,OppSP,05043,test,05,043,West South Central,5,0.17297966864268036,high_tail
+OppSP,0,OppSP,05051,test,05,051,West South Central,20,0.009068828014971449,low_tail
+OppSP,0,OppSP,05057,test,05,057,West South Central,5,0.008921396738096957,low_tail
+OppSP,0,OppSP,05077,test,05,077,West South Central,4,0.0077563918361662765,low_tail
+OppSP,0,OppSP,05133,test,05,133,West South Central,4,0.0026783540268099,low_tail
+OppSP,0,OppSP,06001,test,06,001,Pacific,361,0.0024492917593378627,low_tail
+OppSP,0,OppSP,06013,test,06,013,Pacific,207,0.005139395158349437,low_tail
+OppSP,0,OppSP,06019,test,06,019,Pacific,199,0.008064458747593723,low_tail
+OppSP,0,OppSP,06027,test,06,027,Pacific,6,0.18390953044300487,high_tail
+OppSP,0,OppSP,06041,test,06,041,Pacific,55,0.00845657642145094,low_tail
+OppSP,0,OppSP,06043,test,06,043,Pacific,6,0.3955738453917852,high_tail
+OppSP,0,OppSP,06049,test,06,049,Pacific,4,0.19200102869991706,high_tail
+OppSP,0,OppSP,06053,test,06,053,Pacific,93,0.008923910138455587,low_tail
+OppSP,0,OppSP,06059,test,06,059,Pacific,582,0.0032536366110884445,low_tail
+OppSP,0,OppSP,06065,test,06,065,Pacific,453,0.005147878666917428,low_tail
+OppSP,0,OppSP,06071,test,06,071,Pacific,369,0.0034371381481309447,low_tail
+OppSP,0,OppSP,06073,test,06,073,Pacific,627,0.0031802878157355745,low_tail
+OppSP,0,OppSP,06075,test,06,075,Pacific,196,0.006216260737481977,low_tail
+OppSP,0,OppSP,06077,test,06,077,Pacific,139,0.009685592821009417,low_tail
+OppSP,0,OppSP,06081,test,06,081,Pacific,158,0.011571542424470695,low_tail
+OppSP,0,OppSP,06085,test,06,085,Pacific,372,0.0034789935842996405,low_tail
+OppSP,0,OppSP,06097,test,06,097,Pacific,99,0.008233004135447041,low_tail
+OppSP,0,OppSP,06111,test,06,111,Pacific,174,0.009446795162189561,low_tail
+OppSP,0,OppSP,08001,test,08,001,Mountain,97,0.010232515870137212,low_tail
+OppSP,0,OppSP,08003,test,08,003,Mountain,4,0.4014043888233066,high_tail
+OppSP,0,OppSP,08014,test,08,014,Mountain,18,0.1363829434560995,high_tail
+OppSP,0,OppSP,08031,test,08,031,Mountain,144,0.007083500551950399,low_tail
+OppSP,0,OppSP,08041,test,08,041,Mountain,130,0.010694591993994152,low_tail
+OppSP,0,OppSP,08051,test,08,051,Mountain,4,0.005621679001834782,low_tail
+OppSP,0,OppSP,08059,test,08,059,Mountain,138,0.005369058436583397,low_tail
+OppSP,0,OppSP,08067,test,08,067,Mountain,10,0.16448333152646472,high_tail
+OppSP,0,OppSP,08081,test,08,081,Mountain,4,0.0005470689725269503,low_tail
+OppSP,0,OppSP,08083,test,08,083,Mountain,7,0.17123812421048085,high_tail
+OppSP,0,OppSP,08085,test,08,085,Mountain,10,0.15226048747396587,high_tail
+OppSP,0,OppSP,08099,test,08,099,Mountain,5,0.2524883298471302,high_tail
+OppSP,0,OppSP,08113,test,08,113,Mountain,4,0.17451744394193427,high_tail
+OppSP,0,OppSP,08123,test,08,123,Mountain,77,0.010422237616630293,low_tail
+OppSP,0,OppSP,09001,test,09,001,New England,210,0.004583891786850019,low_tail
+OppSP,0,OppSP,09003,test,09,003,New England,224,0.005001080649749697,low_tail
+OppSP,0,OppSP,09007,test,09,007,New England,36,0.009763933206142687,low_tail
+OppSP,0,OppSP,09009,test,09,009,New England,189,0.005613878639913153,low_tail
+OppSP,0,OppSP,11001,test,11,001,South Atlantic,179,0.007032899892372494,low_tail
+OppSP,0,OppSP,12009,test,12,009,South Atlantic,113,0.008133364356532146,low_tail
+OppSP,0,OppSP,12037,test,12,037,South Atlantic,4,0.14012771389504666,high_tail
+OppSP,0,OppSP,12041,test,12,041,South Atlantic,5,0.13800400111009184,high_tail
+OppSP,0,OppSP,12051,test,12,051,South Atlantic,7,0.1844559902134909,high_tail
+OppSP,0,OppSP,12057,test,12,057,South Atlantic,320,0.005061342859418541,low_tail
+OppSP,0,OppSP,12086,test,12,086,South Atlantic,518,0.0016562651759758106,low_tail
+OppSP,0,OppSP,12099,test,12,099,South Atlantic,337,0.005496815850465833,low_tail
+OppSP,0,OppSP,12103,test,12,103,South Atlantic,245,0.0025918449137358234,low_tail
+OppSP,0,OppSP,13017,test,13,017,South Atlantic,5,0.15958980912341622,high_tail
+OppSP,0,OppSP,13033,test,13,033,South Atlantic,6,0.011302954781782936,low_tail
+OppSP,0,OppSP,13047,test,13,047,South Atlantic,11,0.1317332767559141,high_tail
+OppSP,0,OppSP,13067,test,13,067,South Atlantic,120,0.009939387983053997,low_tail
+OppSP,0,OppSP,13089,test,13,089,South Atlantic,145,0.01177028297150512,low_tail
+OppSP,0,OppSP,13121,test,13,121,South Atlantic,204,0.007420337390944141,low_tail
+OppSP,0,OppSP,13123,test,13,123,South Atlantic,5,0.19792219338436987,high_tail
+OppSP,0,OppSP,13145,test,13,145,South Atlantic,5,0.19239557860207035,high_tail
+OppSP,0,OppSP,13151,test,13,151,South Atlantic,25,0.22867892635677348,high_tail
+OppSP,0,OppSP,13169,test,13,169,South Atlantic,6,0.5451121437370195,high_tail
+OppSP,0,OppSP,13175,test,13,175,South Atlantic,13,0.010854165608757559,low_tail
+OppSP,0,OppSP,13187,test,13,187,South Atlantic,4,0.1743856332324115,high_tail
+OppSP,0,OppSP,13211,test,13,211,South Atlantic,5,0.27072065965872094,high_tail
+OppSP,0,OppSP,13237,test,13,237,South Atlantic,5,0.14523328720327536,high_tail
+OppSP,0,OppSP,13251,test,13,251,South Atlantic,5,0.008959999992831993,low_tail
+OppSP,0,OppSP,13279,test,13,279,South Atlantic,6,0.010712035277389608,low_tail
+OppSP,0,OppSP,13291,test,13,291,South Atlantic,6,0.16983431944824226,high_tail
+OppSP,0,OppSP,13303,test,13,303,South Atlantic,5,0.009784368129784095,low_tail
+OppSP,0,OppSP,13311,test,13,311,South Atlantic,5,0.2072876013125118,high_tail
+OppSP,0,OppSP,15003,test,15,003,Pacific,244,0.005999945002275524,low_tail
+OppSP,0,OppSP,16013,test,16,013,Mountain,4,0.1615874452445237,high_tail
+OppSP,0,OppSP,16049,test,16,049,Mountain,5,0.1620147599183147,high_tail
+OppSP,0,OppSP,16051,test,16,051,Mountain,4,0.1981749651730179,high_tail
+OppSP,0,OppSP,16067,test,16,067,Mountain,5,0.40365484369704707,high_tail
+OppSP,0,OppSP,16075,test,16,075,Mountain,4,0.19680739329065564,high_tail
+OppSP,0,OppSP,17005,test,17,005,East North Central,4,0.1845746690587459,high_tail
+OppSP,0,OppSP,17017,test,17,017,East North Central,5,0.2774079551147449,high_tail
+OppSP,0,OppSP,17019,test,17,019,East North Central,43,0.01026585536825852,low_tail
+OppSP,0,OppSP,17031,test,17,031,East North Central,1318,0.0013308708350097758,low_tail
+OppSP,0,OppSP,17039,test,17,039,East North Central,5,0.13324567159332487,high_tail
+OppSP,0,OppSP,17041,test,17,041,East North Central,5,0.15955678661962375,high_tail
+OppSP,0,OppSP,17043,test,17,043,East North Central,216,0.00626358101700664,low_tail
+OppSP,0,OppSP,17053,test,17,053,East North Central,5,0.19922570290923897,high_tail
+OppSP,0,OppSP,17073,test,17,073,East North Central,13,0.3386384965346602,high_tail
+OppSP,0,OppSP,17087,test,17,087,East North Central,4,0.1867756234700296,high_tail
+OppSP,0,OppSP,17091,test,17,091,East North Central,29,0.1805890143981929,high_tail
+OppSP,0,OppSP,17097,test,17,097,East North Central,153,0.008916411255772264,low_tail
+OppSP,0,OppSP,17131,test,17,131,East North Central,4,0.4266163601488239,high_tail
+OppSP,0,OppSP,17143,test,17,143,East North Central,48,0.005947022706724018,low_tail
+OppSP,0,OppSP,17147,test,17,147,East North Central,4,0.23660850924018254,high_tail
+OppSP,0,OppSP,17163,test,17,163,East North Central,60,0.008855283122007335,low_tail
+OppSP,0,OppSP,17173,test,17,173,East North Central,6,0.1425018598332063,high_tail
+OppSP,0,OppSP,17187,test,17,187,East North Central,5,0.21546326727578016,high_tail
+OppSP,0,OppSP,17189,test,17,189,East North Central,4,0.15845037220231592,high_tail
+OppSP,0,OppSP,17199,test,17,199,East North Central,15,0.13593869249030383,high_tail
+OppSP,0,OppSP,17201,test,17,201,East North Central,77,0.010216201006906766,low_tail
+OppSP,0,OppSP,18013,test,18,013,East North Central,4,0.5509615544268014,high_tail
+OppSP,0,OppSP,18015,test,18,015,East North Central,7,0.27644230732017383,high_tail
+OppSP,0,OppSP,18017,test,18,017,East North Central,11,0.15121187174048423,high_tail
+OppSP,0,OppSP,18049,test,18,049,East North Central,6,0.18095238078004552,high_tail
+OppSP,0,OppSP,18053,test,18,053,East North Central,16,0.13853646022711227,high_tail
+OppSP,0,OppSP,18059,test,18,059,East North Central,10,0.2826907074689659,high_tail
+OppSP,0,OppSP,18089,test,18,089,East North Central,117,0.008119485080314903,low_tail
+OppSP,0,OppSP,18097,test,18,097,East North Central,224,0.005898227846753436,low_tail
+OppSP,0,OppSP,18119,test,18,119,East North Central,5,0.29312906452423904,high_tail
+OppSP,0,OppSP,18143,test,18,143,East North Central,5,0.2223208101030436,high_tail
+OppSP,0,OppSP,18147,test,18,147,East North Central,5,0.17094729036452752,high_tail
+OppSP,0,OppSP,18149,test,18,149,East North Central,7,0.5293974725187425,high_tail
+OppSP,0,OppSP,18159,test,18,159,East North Central,4,0.4454755886144648,high_tail
+OppSP,0,OppSP,19005,test,19,005,West North Central,5,0.010900354972138218,low_tail
+OppSP,0,OppSP,19019,test,19,019,West North Central,6,0.010039159835783861,low_tail
+OppSP,0,OppSP,19025,test,19,025,West North Central,4,0.001206407989463291,low_tail
+OppSP,0,OppSP,19047,test,19,047,West North Central,5,0.2417576728243656,high_tail
+OppSP,0,OppSP,19067,test,19,067,West North Central,5,0.19120526257650391,high_tail
+OppSP,0,OppSP,19073,test,19,073,West North Central,4,0.0095999999923199,low_tail
+OppSP,0,OppSP,19079,test,19,079,West North Central,5,0.009626830902447411,low_tail
+OppSP,0,OppSP,19097,test,19,097,West North Central,6,0.31489257084296934,high_tail
+OppSP,0,OppSP,19099,test,19,099,West North Central,9,0.01001380100211072,low_tail
+OppSP,0,OppSP,19107,test,19,107,West North Central,4,0.005372796677889369,low_tail
+OppSP,0,OppSP,19109,test,19,109,West North Central,6,0.010275139993761418,low_tail
+OppSP,0,OppSP,19137,test,19,137,West North Central,4,0.15169551246210924,high_tail
+OppSP,0,OppSP,19141,test,19,141,West North Central,4,0.13170043035611853,high_tail
+OppSP,0,OppSP,19175,test,19,175,West North Central,4,0.20732763081108838,high_tail
+OppSP,0,OppSP,20001,test,20,001,West North Central,5,0.1334026723059612,high_tail
+OppSP,0,OppSP,20091,test,20,091,West North Central,130,0.007296519470771601,low_tail
+OppSP,0,OppSP,20115,test,20,115,West North Central,4,0.2572683041630337,high_tail
+OppSP,0,OppSP,20117,test,20,117,West North Central,4,0.17665612190762556,high_tail
+OppSP,0,OppSP,20149,test,20,149,West North Central,4,0.13851148476006822,high_tail
+OppSP,0,OppSP,20205,test,20,205,West North Central,4,0.006590357258232353,low_tail
+OppSP,0,OppSP,21003,test,21,003,East South Central,6,0.26101477898226444,high_tail
+OppSP,0,OppSP,21017,test,21,017,East South Central,6,0.1486929041866209,high_tail
+OppSP,0,OppSP,21043,test,21,043,East South Central,7,0.1334916237260741,high_tail
+OppSP,0,OppSP,21047,test,21,047,East South Central,19,0.18992287514509273,high_tail
+OppSP,0,OppSP,21079,test,21,079,East South Central,4,0.009766855694090562,low_tail
+OppSP,0,OppSP,21081,test,21,081,East South Central,4,0.21484416889628544,high_tail
+OppSP,0,OppSP,21087,test,21,087,East South Central,4,0.1878787877421487,high_tail
+OppSP,0,OppSP,21111,test,21,111,East South Central,191,0.008853146088029982,low_tail
+OppSP,0,OppSP,21113,test,21,113,East South Central,9,0.16450538537002446,high_tail
+OppSP,0,OppSP,21115,test,21,115,East South Central,6,0.38272443734255385,high_tail
+OppSP,0,OppSP,21121,test,21,121,East South Central,8,0.22125348482904325,high_tail
+OppSP,0,OppSP,21123,test,21,123,East South Central,4,0.3507805323861201,high_tail
+OppSP,0,OppSP,21133,test,21,133,East South Central,7,0.13148396872757828,high_tail
+OppSP,0,OppSP,21155,test,21,155,East South Central,6,0.175049309530041,high_tail
+OppSP,0,OppSP,21161,test,21,161,East South Central,5,0.3096395361177563,high_tail
+OppSP,0,OppSP,21163,test,21,163,East South Central,8,0.20667025458701932,high_tail
+OppSP,0,OppSP,21205,test,21,205,East South Central,4,0.1801651873074316,high_tail
+OppSP,0,OppSP,21207,test,21,207,East South Central,5,0.1460224905693036,high_tail
+OppSP,0,OppSP,21211,test,21,211,East South Central,9,0.13093498897232142,high_tail
+OppSP,0,OppSP,21215,test,21,215,East South Central,4,0.18430856873491916,high_tail
+OppSP,0,OppSP,21221,test,21,221,East South Central,5,0.15288008677802103,high_tail
+OppSP,0,OppSP,22017,test,22,017,West South Central,64,0.008931944885022226,low_tail
+OppSP,0,OppSP,22033,test,22,033,West South Central,92,0.009010752040366079,low_tail
+OppSP,0,OppSP,22047,test,22,047,West South Central,7,0.011823139683026705,low_tail
+OppSP,0,OppSP,22051,test,22,051,West South Central,126,0.011095517780587724,low_tail
+OppSP,0,OppSP,22065,test,22,065,West South Central,5,0.133641975160151,high_tail
+OppSP,0,OppSP,22093,test,22,093,West South Central,7,0.010710166406908745,low_tail
+OppSP,0,OppSP,22097,test,22,097,West South Central,19,0.010595892859427088,low_tail
+OppSP,0,OppSP,22101,test,22,101,West South Central,16,0.011306666648575995,low_tail
+OppSP,0,OppSP,22117,test,22,117,West South Central,11,0.011348476644370218,low_tail
+OppSP,0,OppSP,23003,test,23,003,New England,24,0.011401567110680704,low_tail
+OppSP,0,OppSP,23007,test,23,007,New England,9,0.13650202197211886,high_tail
+OppSP,0,OppSP,23031,test,23,031,New England,41,0.010328402576732874,low_tail
+OppSP,0,OppSP,24005,test,24,005,South Atlantic,214,0.0015171103468430928,low_tail
+OppSP,0,OppSP,24029,test,24,029,South Atlantic,5,0.25751621984474204,high_tail
+OppSP,0,OppSP,24031,test,24,031,South Atlantic,215,0.005345564302633474,low_tail
+OppSP,0,OppSP,24510,test,24,510,South Atlantic,200,0.005349989764657345,low_tail
+OppSP,0,OppSP,25005,test,25,005,New England,126,0.009460769250711447,low_tail
+OppSP,0,OppSP,25007,test,25,007,New England,4,0.009217421259733053,low_tail
+OppSP,0,OppSP,25009,test,25,009,New England,163,0.0096838242940321,low_tail
+OppSP,0,OppSP,25013,test,25,013,New England,103,0.005648956355932148,low_tail
+OppSP,0,OppSP,25017,test,25,017,New England,318,0.005630263684946116,low_tail
+OppSP,0,OppSP,25021,test,25,021,New England,130,0.0036966652906877543,low_tail
+OppSP,0,OppSP,25023,test,25,023,New England,100,0.00767494624924619,low_tail
+OppSP,0,OppSP,25025,test,25,025,New England,204,0.004912409704241714,low_tail
+OppSP,0,OppSP,25027,test,25,027,New England,172,0.004803892869500478,low_tail
+OppSP,0,OppSP,26007,test,26,007,East North Central,9,0.009624086128665405,low_tail
+OppSP,0,OppSP,26023,test,26,023,East North Central,12,0.00660734443982496,low_tail
+OppSP,0,OppSP,26041,test,26,041,East North Central,11,0.13980298487696707,high_tail
+OppSP,0,OppSP,26049,test,26,049,East North Central,131,0.008697157517719604,low_tail
+OppSP,0,OppSP,26051,test,26,051,East North Central,9,0.20409349159638263,high_tail
+OppSP,0,OppSP,26081,test,26,081,East North Central,128,0.008957124937057083,low_tail
+OppSP,0,OppSP,26091,test,26,091,East North Central,23,0.009271288821195838,low_tail
+OppSP,0,OppSP,26097,test,26,097,East North Central,5,0.13583031776720356,high_tail
+OppSP,0,OppSP,26099,test,26,099,East North Central,216,0.0026770971701233926,low_tail
+OppSP,0,OppSP,26101,test,26,101,East North Central,9,0.005193985305260766,low_tail
+OppSP,0,OppSP,26117,test,26,117,East North Central,13,0.009720802052463435,low_tail
+OppSP,0,OppSP,26119,test,26,119,East North Central,5,0.1472932777389764,high_tail
+OppSP,0,OppSP,26125,test,26,125,East North Central,338,0.0055986427086372375,low_tail
+OppSP,0,OppSP,26129,test,26,129,East North Central,7,0.21675601276508072,high_tail
+OppSP,0,OppSP,26131,test,26,131,East North Central,4,0.13178475767371575,high_tail
+OppSP,0,OppSP,26137,test,26,137,East North Central,6,0.18346921302462874,high_tail
+OppSP,0,OppSP,26161,test,26,161,East North Central,100,0.009226528627298333,low_tail
+OppSP,0,OppSP,26163,test,26,163,East North Central,611,0.001212965188614933,low_tail
+OppSP,0,OppSP,27003,test,27,003,West North Central,83,0.008017178748486148,low_tail
+OppSP,0,OppSP,27009,test,27,009,West North Central,9,0.13155346065410622,high_tail
+OppSP,0,OppSP,27037,test,27,037,West North Central,95,0.005805093918634263,low_tail
+OppSP,0,OppSP,27041,test,27,041,West North Central,9,0.1805897114916672,high_tail
+OppSP,0,OppSP,27045,test,27,045,West North Central,6,0.0003614335900272825,low_tail
+OppSP,0,OppSP,27053,test,27,053,West North Central,299,0.002174257101236442,low_tail
+OppSP,0,OppSP,27057,test,27,057,West North Central,7,0.2553359191471007,high_tail
+OppSP,0,OppSP,27059,test,27,059,West North Central,8,0.15789473672122892,high_tail
+OppSP,0,OppSP,27063,test,27,063,West North Central,4,0.243058503290248,high_tail
+OppSP,0,OppSP,27093,test,27,093,West North Central,6,0.011303344854060616,low_tail
+OppSP,0,OppSP,27123,test,27,123,West North Central,137,0.004060406352498982,low_tail
+OppSP,0,OppSP,27135,test,27,135,West North Central,5,0.15368945217543312,high_tail
+OppSP,0,OppSP,27147,test,27,147,West North Central,8,0.13463946564776874,high_tail
+OppSP,0,OppSP,27163,test,27,163,West North Central,50,0.008750112906919535,low_tail
+OppSP,0,OppSP,27173,test,27,173,West North Central,4,0.14176870732097183,high_tail
+OppSP,0,OppSP,28025,test,28,025,East South Central,5,0.0027629712925076114,low_tail
+OppSP,0,OppSP,28049,test,28,049,East South Central,64,0.010768609322261964,low_tail
+OppSP,0,OppSP,28051,test,28,051,East South Central,5,0.0024221453272948654,low_tail
+OppSP,0,OppSP,28073,test,28,073,East South Central,8,0.20330001953607876,high_tail
+OppSP,0,OppSP,28091,test,28,091,East South Central,6,0.008522035539849537,low_tail
+OppSP,0,OppSP,28095,test,28,095,East South Central,9,0.010733827413963287,low_tail
+OppSP,0,OppSP,28137,test,28,137,East South Central,5,0.011076336243415717,low_tail
+OppSP,0,OppSP,28153,test,28,153,East South Central,4,0.008516674208659461,low_tail
+OppSP,0,OppSP,29077,test,29,077,West North Central,62,0.008477396391337468,low_tail
+OppSP,0,OppSP,29095,test,29,095,West North Central,199,0.006776021715861277,low_tail
+OppSP,0,OppSP,29115,test,29,115,West North Central,5,0.19556446612878767,high_tail
+OppSP,0,OppSP,29131,test,29,131,West North Central,5,0.2515432097212695,high_tail
+OppSP,0,OppSP,29139,test,29,139,West North Central,4,0.26592336239204134,high_tail
+OppSP,0,OppSP,29151,test,29,151,West North Central,4,0.17769850690490396,high_tail
+OppSP,0,OppSP,29155,test,29,155,West North Central,6,0.1583904891373605,high_tail
+OppSP,0,OppSP,29169,test,29,169,West North Central,9,0.168533220227518,high_tail
+OppSP,0,OppSP,29189,test,29,189,West North Central,199,0.01173618340594953,low_tail
+OppSP,0,OppSP,29213,test,29,213,West North Central,10,0.1459280903544026,high_tail
+OppSP,0,OppSP,29229,test,29,229,West North Central,4,0.002313990743163815,low_tail
+OppSP,0,OppSP,29510,test,29,510,West North Central,106,0.009203363777344525,low_tail
+OppSP,0,OppSP,30009,test,30,009,Mountain,5,0.2052831200606517,high_tail
+OppSP,0,OppSP,31043,test,31,043,West North Central,4,0.002687566624684982,low_tail
+OppSP,0,OppSP,31047,test,31,047,West North Central,7,0.1433562854765751,high_tail
+OppSP,0,OppSP,31055,test,31,055,West North Central,156,0.007015200332500845,low_tail
+OppSP,0,OppSP,31109,test,31,109,West North Central,74,0.007921217431738079,low_tail
+OppSP,0,OppSP,31111,test,31,111,West North Central,8,0.2754619770051751,high_tail
+OppSP,0,OppSP,31151,test,31,151,West North Central,4,0.22179999991127994,high_tail
+OppSP,0,OppSP,31159,test,31,159,West North Central,4,0.01142091996982956,low_tail
+OppSP,0,OppSP,31177,test,31,177,West North Central,5,0.13940434388162454,high_tail
+OppSP,0,OppSP,32001,test,32,001,Mountain,7,0.13561389192229628,high_tail
+OppSP,0,OppSP,32003,test,32,003,Mountain,487,0.006601279430050772,low_tail
+OppSP,0,OppSP,32013,test,32,013,Mountain,4,0.23692317124964535,high_tail
+OppSP,0,OppSP,32023,test,32,023,Mountain,10,0.1421883988399161,high_tail
+OppSP,0,OppSP,33005,test,33,005,New England,16,0.5256465048864499,high_tail
+OppSP,0,OppSP,33011,test,33,011,New England,86,0.009433095293001102,low_tail
+OppSP,0,OppSP,33019,test,33,019,New England,10,0.15053160048307748,high_tail
+OppSP,0,OppSP,34003,test,34,003,Middle Atlantic,179,0.008503126169349671,low_tail
+OppSP,0,OppSP,34017,test,34,017,Middle Atlantic,166,0.006419459453454803,low_tail
+OppSP,0,OppSP,34021,test,34,021,Middle Atlantic,77,0.009777070195754314,low_tail
+OppSP,0,OppSP,34023,test,34,023,Middle Atlantic,175,0.004904830176966735,low_tail
+OppSP,0,OppSP,34025,test,34,025,Middle Atlantic,144,0.006328709058219846,low_tail
+OppSP,0,OppSP,34027,test,34,027,Middle Atlantic,100,0.008300104504958924,low_tail
+OppSP,0,OppSP,34035,test,34,035,Middle Atlantic,68,0.011537462396226711,low_tail
+OppSP,0,OppSP,35001,test,35,001,Mountain,153,0.009682647111885146,low_tail
+OppSP,0,OppSP,35028,test,35,028,Mountain,4,0.2193775240586747,high_tail
+OppSP,0,OppSP,36003,test,36,003,Middle Atlantic,13,0.1706003807720171,high_tail
+OppSP,0,OppSP,36005,test,36,005,Middle Atlantic,339,0.002834537048581833,low_tail
+OppSP,0,OppSP,36023,test,36,023,Middle Atlantic,12,0.009705855177137629,low_tail
+OppSP,0,OppSP,36029,test,36,029,Middle Atlantic,237,0.0066688859730104485,low_tail
+OppSP,0,OppSP,36047,test,36,047,Middle Atlantic,761,0.0018213413900032326,low_tail
+OppSP,0,OppSP,36059,test,36,059,Middle Atlantic,279,0.0035518616039718867,low_tail
+OppSP,0,OppSP,36061,test,36,061,Middle Atlantic,288,0.0030330025426659976,low_tail
+OppSP,0,OppSP,36067,test,36,067,Middle Atlantic,140,0.010060185378722941,low_tail
+OppSP,0,OppSP,36071,test,36,071,Middle Atlantic,79,0.008304656364707612,low_tail
+OppSP,0,OppSP,36081,test,36,081,Middle Atlantic,669,0.0013951873450537805,low_tail
+OppSP,0,OppSP,36085,test,36,085,Middle Atlantic,109,0.01038504360739556,low_tail
+OppSP,0,OppSP,36087,test,36,087,Middle Atlantic,65,0.011848435206904498,low_tail
+OppSP,0,OppSP,36103,test,36,103,Middle Atlantic,323,0.007077206687618651,low_tail
+OppSP,0,OppSP,36119,test,36,119,Middle Atlantic,223,0.0062652405002681325,low_tail
+OppSP,0,OppSP,37033,test,37,033,South Atlantic,6,0.21985152254017426,high_tail
+OppSP,0,OppSP,37037,test,37,037,South Atlantic,13,0.2162799599241806,high_tail
+OppSP,0,OppSP,37039,test,37,039,South Atlantic,7,0.1875104378499229,high_tail
+OppSP,0,OppSP,37063,test,37,063,South Atlantic,60,0.011145480001538954,low_tail
+OppSP,0,OppSP,37093,test,37,093,South Atlantic,9,0.17486180089382566,high_tail
+OppSP,0,OppSP,37119,test,37,119,South Atlantic,233,0.007326740681849208,low_tail
+OppSP,0,OppSP,37137,test,37,137,South Atlantic,4,0.23458420907115887,high_tail
+OppSP,0,OppSP,37183,test,37,183,South Atlantic,187,0.009375726245979954,low_tail
+OppSP,0,OppSP,37185,test,37,185,South Atlantic,6,0.14473399647593918,high_tail
+OppSP,0,OppSP,38003,test,38,003,West North Central,4,0.15558183279982574,high_tail
+OppSP,0,OppSP,38099,test,38,099,West North Central,6,0.13308946605317848,high_tail
+OppSP,0,OppSP,39019,test,39,019,East North Central,7,0.2146254267509841,high_tail
+OppSP,0,OppSP,39021,test,39,021,East North Central,10,0.3263342080954938,high_tail
+OppSP,0,OppSP,39035,test,39,035,East North Central,446,0.004161421749283088,low_tail
+OppSP,0,OppSP,39049,test,39,049,East North Central,284,0.011399023117402473,low_tail
+OppSP,0,OppSP,39061,test,39,061,East North Central,222,0.003453015746220183,low_tail
+OppSP,0,OppSP,39065,test,39,065,East North Central,7,0.19350184417587063,high_tail
+OppSP,0,OppSP,39095,test,39,095,East North Central,127,0.008964698370290375,low_tail
+OppSP,0,OppSP,39101,test,39,101,East North Central,18,0.1545123984112689,high_tail
+OppSP,0,OppSP,39105,test,39,105,East North Central,6,0.005274492053515878,low_tail
+OppSP,0,OppSP,39117,test,39,117,East North Central,6,0.6439238419398954,high_tail
+OppSP,0,OppSP,39123,test,39,123,East North Central,13,0.1640057139079649,high_tail
+OppSP,0,OppSP,39131,test,39,131,East North Central,6,0.17057767256283216,high_tail
+OppSP,0,OppSP,39137,test,39,137,East North Central,7,0.262543864528415,high_tail
+OppSP,0,OppSP,39151,test,39,151,East North Central,86,0.010035535268646877,low_tail
+OppSP,0,OppSP,39153,test,39,153,East North Central,135,0.006001011925653805,low_tail
+OppSP,0,OppSP,40005,test,40,005,West South Central,4,0.143982356522561,high_tail
+OppSP,0,OppSP,40013,test,40,013,West South Central,11,0.14247197224458888,high_tail
+OppSP,0,OppSP,40035,test,40,035,West South Central,5,0.27316719995331085,high_tail
+OppSP,0,OppSP,40049,test,40,049,West South Central,9,0.16415359640123864,high_tail
+OppSP,0,OppSP,40061,test,40,061,West South Central,4,0.1452855946169215,high_tail
+OppSP,0,OppSP,40087,test,40,087,West South Central,6,0.5239163815862261,high_tail
+OppSP,0,OppSP,40091,test,40,091,West South Central,6,0.1428953625895844,high_tail
+OppSP,0,OppSP,40095,test,40,095,West South Central,4,0.4575320511060772,high_tail
+OppSP,0,OppSP,40105,test,40,105,West South Central,4,0.2991808963600766,high_tail
+OppSP,0,OppSP,40109,test,40,109,West South Central,241,0.0036371744666663314,low_tail
+OppSP,0,OppSP,40141,test,40,141,West South Central,5,0.16755234332816907,high_tail
+OppSP,0,OppSP,40143,test,40,143,West South Central,175,0.005750524788429877,low_tail
+OppSP,0,OppSP,40149,test,40,149,West South Central,4,0.01013333331712,low_tail
+OppSP,0,OppSP,41027,test,41,027,Pacific,4,0.150298344441963,high_tail
+OppSP,0,OppSP,41039,test,41,039,Pacific,86,0.008278048173783878,low_tail
+OppSP,0,OppSP,41045,test,41,045,Pacific,8,0.16987054731853166,high_tail
+OppSP,0,OppSP,41051,test,41,051,Pacific,171,0.0064906219962851865,low_tail
+OppSP,0,OppSP,42003,test,42,003,Middle Atlantic,402,0.003441331242496571,low_tail
+OppSP,0,OppSP,42011,test,42,011,Middle Atlantic,90,0.01117121538434653,low_tail
+OppSP,0,OppSP,42017,test,42,017,Middle Atlantic,143,0.0077825848967351076,low_tail
+OppSP,0,OppSP,42029,test,42,029,Middle Atlantic,116,0.009261535708273922,low_tail
+OppSP,0,OppSP,42049,test,42,049,Middle Atlantic,71,0.007830059712200632,low_tail
+OppSP,0,OppSP,42055,test,42,055,Middle Atlantic,27,0.011733882119371108,low_tail
+OppSP,0,OppSP,42071,test,42,071,Middle Atlantic,98,0.010303500400708276,low_tail
+OppSP,0,OppSP,42077,test,42,077,Middle Atlantic,76,0.010498818904701548,low_tail
+OppSP,0,OppSP,42079,test,42,079,Middle Atlantic,104,0.011603317755981555,low_tail
+OppSP,0,OppSP,42091,test,42,091,Middle Atlantic,211,0.006449421115649443,low_tail
+OppSP,0,OppSP,42101,test,42,101,Middle Atlantic,384,0.003281206058360703,low_tail
+OppSP,0,OppSP,42133,test,42,133,Middle Atlantic,90,0.011592856639479062,low_tail
+OppSP,0,OppSP,44007,test,44,007,New England,141,0.006543636531317659,low_tail
+OppSP,0,OppSP,45019,test,45,019,South Atlantic,86,0.01149502926598854,low_tail
+OppSP,0,OppSP,45031,test,45,031,South Atlantic,16,0.009471633785718522,low_tail
+OppSP,0,OppSP,45039,test,45,039,South Atlantic,5,0.0031508264448487644,low_tail
+OppSP,0,OppSP,45045,test,45,045,South Atlantic,111,0.009479219128113213,low_tail
+OppSP,0,OppSP,45049,test,45,049,South Atlantic,5,0.17611940293250153,high_tail
+OppSP,0,OppSP,45063,test,45,063,South Atlantic,74,0.011623716068645634,low_tail
+OppSP,0,OppSP,46109,test,46,109,West North Central,4,0.3006365739488088,high_tail
+OppSP,0,OppSP,47013,test,47,013,East South Central,11,0.15604859000310461,high_tail
+OppSP,0,OppSP,47045,test,47,045,East South Central,8,0.18115407488468932,high_tail
+OppSP,0,OppSP,47051,test,47,051,East South Central,9,0.14168782698641327,high_tail
+OppSP,0,OppSP,47055,test,47,055,East South Central,8,0.010701545770399992,low_tail
+OppSP,0,OppSP,47061,test,47,061,East South Central,4,0.007780825694674827,low_tail
+OppSP,0,OppSP,47069,test,47,069,East South Central,6,0.007191171229887749,low_tail
+OppSP,0,OppSP,47077,test,47,077,East South Central,6,0.006095238091755106,low_tail
+OppSP,0,OppSP,47081,test,47,081,East South Central,6,0.009077851182954432,low_tail
+OppSP,0,OppSP,47085,test,47,085,East South Central,5,0.23802870908083348,high_tail
+OppSP,0,OppSP,47093,test,47,093,East South Central,112,0.011012963279552574,low_tail
+OppSP,0,OppSP,47099,test,47,099,East South Central,11,0.010922591556096517,low_tail
+OppSP,0,OppSP,47111,test,47,111,East South Central,4,0.2893084669935859,high_tail
+OppSP,0,OppSP,47129,test,47,129,East South Central,5,0.15004111513448715,high_tail
+OppSP,0,OppSP,47171,test,47,171,East South Central,4,0.00819155639096647,low_tail
+OppSP,0,OppSP,48003,test,48,003,West South Central,4,0.160849492015979,high_tail
+OppSP,0,OppSP,48007,test,48,007,West South Central,5,0.2461523377623629,high_tail
+OppSP,0,OppSP,48019,test,48,019,West South Central,5,0.29433452016961553,high_tail
+OppSP,0,OppSP,48021,test,48,021,West South Central,10,0.21450796706212344,high_tail
+OppSP,0,OppSP,48029,test,48,029,West South Central,366,0.005098209900980247,low_tail
+OppSP,0,OppSP,48035,test,48,035,West South Central,7,0.1658490658461247,high_tail
+OppSP,0,OppSP,48053,test,48,053,West South Central,8,0.1972685291309129,high_tail
+OppSP,0,OppSP,48085,test,48,085,West South Central,152,0.009774212134084241,low_tail
+OppSP,0,OppSP,48091,test,48,091,West South Central,24,0.23372139914824705,high_tail
+OppSP,0,OppSP,48113,test,48,113,West South Central,529,0.0025367552554641792,low_tail
+OppSP,0,OppSP,48121,test,48,121,West South Central,137,0.009517805073879726,low_tail
+OppSP,0,OppSP,48133,test,48,133,West South Central,5,0.17544233414708996,high_tail
+OppSP,0,OppSP,48143,test,48,143,West South Central,8,0.13902660550806087,high_tail
+OppSP,0,OppSP,48189,test,48,189,West South Central,9,0.13976744174345046,high_tail
+OppSP,0,OppSP,48201,test,48,201,West South Central,786,0.0028419426255400656,low_tail
+OppSP,0,OppSP,48245,test,48,245,West South Central,72,0.011076205735309305,low_tail
+OppSP,0,OppSP,48253,test,48,253,West South Central,6,0.16257439423415093,high_tail
+OppSP,0,OppSP,48281,test,48,281,West South Central,5,0.16355003643460403,high_tail
+OppSP,0,OppSP,48285,test,48,285,West South Central,6,0.16209366379395945,high_tail
+OppSP,0,OppSP,48297,test,48,297,West South Central,4,0.1648817382160701,high_tail
+OppSP,0,OppSP,48303,test,48,303,West South Central,68,0.008834231276601153,low_tail
+OppSP,0,OppSP,48313,test,48,313,West South Central,4,0.1854900165825372,high_tail
+OppSP,0,OppSP,48365,test,48,365,West South Central,6,0.14679752056106787,high_tail
+OppSP,0,OppSP,48399,test,48,399,West South Central,4,0.29251700643127077,high_tail
+OppSP,0,OppSP,48415,test,48,415,West South Central,4,0.14918368686179084,high_tail
+OppSP,0,OppSP,48423,test,48,423,West South Central,41,0.010237529105501023,low_tail
+OppSP,0,OppSP,48427,test,48,427,West South Central,15,0.2953650789712591,high_tail
+OppSP,0,OppSP,48439,test,48,439,West South Central,357,0.004851871037767596,low_tail
+OppSP,0,OppSP,48441,test,48,441,West South Central,38,0.011612731759104834,low_tail
+OppSP,0,OppSP,48453,test,48,453,West South Central,218,0.007181302073376271,low_tail
+OppSP,0,OppSP,48465,test,48,465,West South Central,10,0.17673369966158126,high_tail
+OppSP,0,OppSP,48491,test,48,491,West South Central,89,0.009844058247885786,low_tail
+OppSP,0,OppSP,48497,test,48,497,West South Central,11,0.1585075444524643,high_tail
+OppSP,0,OppSP,48507,test,48,507,West South Central,4,0.18744228914613417,high_tail
+OppSP,0,OppSP,49011,test,49,011,Mountain,54,0.007393074507807101,low_tail
+OppSP,0,OppSP,49035,test,49,035,Mountain,212,0.005657617585591172,low_tail
+OppSP,0,OppSP,49037,test,49,037,Mountain,4,0.18622945498991425,high_tail
+OppSP,0,OppSP,49041,test,49,041,Mountain,5,0.010166694419880967,low_tail
+OppSP,0,OppSP,49049,test,49,049,Mountain,128,0.01138853746295278,low_tail
+OppSP,0,OppSP,50011,test,50,011,New England,10,0.14611917604317107,high_tail
+OppSP,0,OppSP,50015,test,50,015,New England,7,0.1575643334082942,high_tail
+OppSP,0,OppSP,50019,test,50,019,New England,10,0.15041277161755787,high_tail
+OppSP,0,OppSP,51001,test,51,001,South Atlantic,11,0.18021752332020274,high_tail
+OppSP,0,OppSP,51013,test,51,013,South Atlantic,59,0.006774816422740329,low_tail
+OppSP,0,OppSP,51015,test,51,015,South Atlantic,13,0.009432098761798981,low_tail
+OppSP,0,OppSP,51059,test,51,059,South Atlantic,258,0.00441711343146393,low_tail
+OppSP,0,OppSP,51067,test,51,067,South Atlantic,10,0.00937443662696363,low_tail
+OppSP,0,OppSP,51075,test,51,075,South Atlantic,5,0.13484672356634086,high_tail
+OppSP,0,OppSP,51099,test,51,099,South Atlantic,5,0.3544230256563874,high_tail
+OppSP,0,OppSP,51147,test,51,147,South Atlantic,5,0.16269760434780123,high_tail
+OppSP,0,OppSP,51149,test,51,149,South Atlantic,7,0.26743749533637395,high_tail
+OppSP,0,OppSP,51167,test,51,167,South Atlantic,7,0.17198835854002603,high_tail
+OppSP,0,OppSP,51570,test,51,570,South Atlantic,5,0.14195365637808882,high_tail
+OppSP,0,OppSP,51670,test,51,670,South Atlantic,7,0.26110542955648514,high_tail
+OppSP,0,OppSP,51710,test,51,710,South Atlantic,80,0.004097491955063632,low_tail
+OppSP,0,OppSP,51735,test,51,735,South Atlantic,4,0.6874461357017024,high_tail
+OppSP,0,OppSP,51775,test,51,775,South Atlantic,5,0.13224309637682638,high_tail
+OppSP,0,OppSP,51790,test,51,790,South Atlantic,6,0.13037211404548213,high_tail
+OppSP,0,OppSP,51800,test,51,800,South Atlantic,28,0.008147849670725403,low_tail
+OppSP,0,OppSP,51810,test,51,810,South Atlantic,100,0.011794254764515679,low_tail
+OppSP,0,OppSP,53001,test,53,001,Pacific,5,0.1519487696294753,high_tail
+OppSP,0,OppSP,53003,test,53,003,Pacific,6,0.2751964936125824,high_tail
+OppSP,0,OppSP,53011,test,53,011,Pacific,104,0.006677060323275347,low_tail
+OppSP,0,OppSP,53033,test,53,033,Pacific,397,0.0028970133111722424,low_tail
+OppSP,0,OppSP,53037,test,53,037,Pacific,8,0.14281513485906808,high_tail
+OppSP,0,OppSP,53053,test,53,053,Pacific,172,0.006291574708105705,low_tail
+OppSP,0,OppSP,53061,test,53,061,Pacific,150,0.0103956245317561,low_tail
+OppSP,0,OppSP,53063,test,53,063,Pacific,105,0.007029910226234614,low_tail
+OppSP,0,OppSP,53067,test,53,067,Pacific,50,0.007755269092440308,low_tail
+OppSP,0,OppSP,54003,test,54,003,South Atlantic,14,0.15755799837622114,high_tail
+OppSP,0,OppSP,54009,test,54,009,South Atlantic,6,0.535423573379913,high_tail
+OppSP,0,OppSP,54019,test,54,019,South Atlantic,12,0.25867779111128447,high_tail
+OppSP,0,OppSP,54029,test,54,029,South Atlantic,8,0.38262560476061885,high_tail
+OppSP,0,OppSP,54047,test,54,047,South Atlantic,8,0.1518534056974096,high_tail
+OppSP,0,OppSP,54065,test,54,065,South Atlantic,4,0.2261191329855392,high_tail
+OppSP,0,OppSP,54067,test,54,067,South Atlantic,7,0.13809706883876088,high_tail
+OppSP,0,OppSP,54075,test,54,075,South Atlantic,4,0.13277786676123657,high_tail
+OppSP,0,OppSP,54089,test,54,089,South Atlantic,4,0.005774405990539429,low_tail
+OppSP,0,OppSP,54107,test,54,107,South Atlantic,26,0.22490230133069028,high_tail
+OppSP,0,OppSP,55011,test,55,011,East North Central,5,0.1854967317914246,high_tail
+OppSP,0,OppSP,55025,test,55,025,East North Central,107,0.006342290835409861,low_tail
+OppSP,0,OppSP,55033,test,55,033,East North Central,8,0.15672628139723135,high_tail
+OppSP,0,OppSP,55053,test,55,053,East North Central,5,0.18376991616995117,high_tail
+OppSP,0,OppSP,55067,test,55,067,East North Central,6,0.1312012971860303,high_tail
+OppSP,0,OppSP,55077,test,55,077,East North Central,5,0.2169777880439279,high_tail
+OppSP,0,OppSP,55079,test,55,079,East North Central,297,0.0037260324226256383,low_tail
+OppSP,0,OppSP,55081,test,55,081,East North Central,9,0.010780437040572004,low_tail
+OppSP,0,OppSP,55101,test,55,101,East North Central,44,0.009356004931381248,low_tail
+OppSP,0,OppSP,55103,test,55,103,East North Central,5,0.21839615740538998,high_tail
+OppSP,0,OppSP,55107,test,55,107,East North Central,5,0.316342044504646,high_tail
+OppSP,0,OppSP,55111,test,55,111,East North Central,13,0.13518914678878646,high_tail
+OppSP,0,OppSP,55113,test,55,113,East North Central,6,0.2687314583060916,high_tail
+OppSP,0,OppSP,55115,test,55,115,East North Central,11,0.16718556460395104,high_tail
+OppSP,0,OppSP,55133,test,55,133,East North Central,86,0.010970531689929433,low_tail
+OppSP,0,OppSP,55135,test,55,135,East North Central,12,0.272781276628224,high_tail
+OppSP,0,OppSP,56015,test,56,015,Mountain,4,0.1451446689647081,high_tail
+OppSP,0,OppSP,56023,test,56,023,Mountain,4,0.21063552785171055,high_tail
+OppSP,0,OppSP,56029,test,56,029,Mountain,5,0.4728142313922282,high_tail
+OppSP,0,OppSP,56039,test,56,039,Mountain,4,0.33825798814486463,high_tail
+OppSP,0,OppSP,01001,train,01,001,East South Central,12,0.05972441183464939,middle
+OppSP,0,OppSP,01003,train,01,003,East South Central,31,0.08459630725626446,middle
+OppSP,0,OppSP,01005,train,01,005,East South Central,9,0.024927802663825844,middle
+OppSP,0,OppSP,01007,train,01,007,East South Central,4,0.04887543249720131,middle
+OppSP,0,OppSP,01009,train,01,009,East South Central,9,0.12355090950927491,middle
+OppSP,0,OppSP,01013,train,01,013,East South Central,9,0.013009569628068925,middle
+OppSP,0,OppSP,01015,train,01,015,East South Central,31,0.030434756347899113,middle
+OppSP,0,OppSP,01017,train,01,017,East South Central,9,0.03297258808725105,middle
+OppSP,0,OppSP,01019,train,01,019,East South Central,6,0.018078423583017356,middle
+OppSP,0,OppSP,01021,train,01,021,East South Central,9,0.015546410596623147,middle
+OppSP,0,OppSP,01023,train,01,023,East South Central,4,0.029424787653611933,middle
+OppSP,0,OppSP,01025,train,01,025,East South Central,9,0.03676179149268113,middle
+OppSP,0,OppSP,01027,train,01,027,East South Central,4,0.03121587035924615,middle
+OppSP,0,OppSP,01033,train,01,033,East South Central,14,0.031521354325016696,middle
+OppSP,0,OppSP,01039,train,01,039,East South Central,14,0.04335362176582846,middle
+OppSP,0,OppSP,01041,train,01,041,East South Central,6,0.011851191791570058,middle
+OppSP,0,OppSP,01043,train,01,043,East South Central,18,0.029488248165464092,middle
+OppSP,0,OppSP,01045,train,01,045,East South Central,14,0.03400594370052245,middle
+OppSP,0,OppSP,01049,train,01,049,East South Central,14,0.015143806802060225,middle
+OppSP,0,OppSP,01053,train,01,053,East South Central,9,0.014477040807019875,middle
+OppSP,0,OppSP,01055,train,01,055,East South Central,30,0.018671061024642884,middle
+OppSP,0,OppSP,01059,train,01,059,East South Central,9,0.033142092726159145,middle
+OppSP,0,OppSP,01061,train,01,061,East South Central,6,0.04807570084434286,middle
+OppSP,0,OppSP,01067,train,01,067,East South Central,6,0.03180853275372991,middle
+OppSP,0,OppSP,01069,train,01,069,East South Central,22,0.02120640281905989,middle
+OppSP,0,OppSP,01071,train,01,071,East South Central,11,0.0444741617933038,middle
+OppSP,0,OppSP,01077,train,01,077,East South Central,22,0.08578536277996879,middle
+OppSP,0,OppSP,01081,train,01,081,East South Central,27,0.05173764726893649,middle
+OppSP,0,OppSP,01083,train,01,083,East South Central,16,0.04868823996972367,middle
+OppSP,0,OppSP,01085,train,01,085,East South Central,4,0.012628828561194997,middle
+OppSP,0,OppSP,01087,train,01,087,East South Central,12,0.028828031505379156,middle
+OppSP,0,OppSP,01089,train,01,089,East South Central,73,0.02546158335891057,middle
+OppSP,0,OppSP,01091,train,01,091,East South Central,6,0.02572201188396692,middle
+OppSP,0,OppSP,01093,train,01,093,East South Central,8,0.017888037557445977,middle
+OppSP,0,OppSP,01095,train,01,095,East South Central,18,0.01708438782691957,middle
+OppSP,0,OppSP,01097,train,01,097,East South Central,115,0.020611000875820396,middle
+OppSP,0,OppSP,01099,train,01,099,East South Central,7,0.04113095236038693,middle
+OppSP,0,OppSP,01101,train,01,101,East South Central,65,0.016384046415820384,middle
+OppSP,0,OppSP,01103,train,01,103,East South Central,27,0.024480345006424205,middle
+OppSP,0,OppSP,01107,train,01,107,East South Central,5,0.021433815302774467,middle
+OppSP,0,OppSP,01109,train,01,109,East South Central,8,0.09163573529420163,middle
+OppSP,0,OppSP,01113,train,01,113,East South Central,13,0.02273362731425641,middle
+OppSP,0,OppSP,01115,train,01,115,East South Central,13,0.06109478393562093,middle
+OppSP,0,OppSP,01117,train,01,117,East South Central,48,0.012296492121342276,middle
+OppSP,0,OppSP,01119,train,01,119,East South Central,4,0.08660009858602165,middle
+OppSP,0,OppSP,01121,train,01,121,East South Central,22,0.014465473429091784,middle
+OppSP,0,OppSP,01123,train,01,123,East South Central,10,0.09783381480579526,middle
+OppSP,0,OppSP,01125,train,01,125,East South Central,47,0.04618157278167813,middle
+OppSP,0,OppSP,01127,train,01,127,East South Central,18,0.016783918123681577,middle
+OppSP,0,OppSP,01129,train,01,129,East South Central,5,0.03396787624755884,middle
+OppSP,0,OppSP,01131,train,01,131,East South Central,4,0.03960504442513998,middle
+OppSP,0,OppSP,02090,train,02,090,Pacific,19,0.10028869865635055,middle
+OppSP,0,OppSP,02110,train,02,110,Pacific,6,0.0417235123578899,middle
+OppSP,0,OppSP,02122,train,02,122,Pacific,13,0.08917528072646497,middle
+OppSP,0,OppSP,02130,train,02,130,Pacific,4,0.09258851004298115,middle
+OppSP,0,OppSP,02170,train,02,170,Pacific,24,0.043070282771466926,middle
+OppSP,0,OppSP,02198,train,02,198,Pacific,4,0.01480781347168573,middle
+OppSP,0,OppSP,04001,train,04,001,Mountain,16,0.0372968933818358,middle
+OppSP,0,OppSP,04003,train,04,003,Mountain,32,0.014577184832466105,middle
+OppSP,0,OppSP,04005,train,04,005,Mountain,28,0.016498229583595453,middle
+OppSP,0,OppSP,04012,train,04,012,Mountain,9,0.08407202210756679,middle
+OppSP,0,OppSP,04017,train,04,017,Mountain,31,0.02484692309746244,middle
+OppSP,0,OppSP,04023,train,04,023,Mountain,10,0.08808465605109993,middle
+OppSP,0,OppSP,04025,train,04,025,Mountain,42,0.025820088713527395,middle
+OppSP,0,OppSP,05001,train,05,001,West South Central,8,0.09334727209595657,middle
+OppSP,0,OppSP,05005,train,05,005,West South Central,9,0.034587289959042866,middle
+OppSP,0,OppSP,05007,train,05,007,West South Central,49,0.015741315461363335,middle
+OppSP,0,OppSP,05009,train,05,009,West South Central,7,0.014557890785581848,middle
+OppSP,0,OppSP,05017,train,05,017,West South Central,4,0.08002639262329929,middle
+OppSP,0,OppSP,05019,train,05,019,West South Central,5,0.03978707027927027,middle
+OppSP,0,OppSP,05023,train,05,023,West South Central,7,0.02798316647960086,middle
+OppSP,0,OppSP,05027,train,05,027,West South Central,5,0.024746435616157664,middle
+OppSP,0,OppSP,05031,train,05,031,West South Central,17,0.03629385962747386,middle
+OppSP,0,OppSP,05033,train,05,033,West South Central,11,0.031127785109107957,middle
+OppSP,0,OppSP,05035,train,05,035,West South Central,20,0.037152404786194484,middle
+OppSP,0,OppSP,05037,train,05,037,West South Central,6,0.020370370353395038,middle
+OppSP,0,OppSP,05041,train,05,041,West South Central,5,0.048777777745259224,middle
+OppSP,0,OppSP,05045,train,05,045,West South Central,25,0.03096028371232232,middle
+OppSP,0,OppSP,05053,train,05,053,West South Central,4,0.0930666665922133,middle
+OppSP,0,OppSP,05055,train,05,055,West South Central,9,0.06854563518677054,middle
+OppSP,0,OppSP,05059,train,05,059,West South Central,7,0.029628027661327907,middle
+OppSP,0,OppSP,05065,train,05,065,West South Central,4,0.0434099047627227,middle
+OppSP,0,OppSP,05067,train,05,067,West South Central,5,0.0559670781478433,middle
+OppSP,0,OppSP,05069,train,05,069,West South Central,24,0.025858528802806195,middle
+OppSP,0,OppSP,05071,train,05,071,West South Central,6,0.018757217302740013,middle
+OppSP,0,OppSP,05075,train,05,075,West South Central,6,0.039999999956363594,middle
+OppSP,0,OppSP,05079,train,05,079,West South Central,4,0.036299577484679046,middle
+OppSP,0,OppSP,05081,train,05,081,West South Central,4,0.037796094133520475,middle
+OppSP,0,OppSP,05083,train,05,083,West South Central,6,0.020654281592485644,middle
+OppSP,0,OppSP,05085,train,05,085,West South Central,16,0.06603006543776407,middle
+OppSP,0,OppSP,05087,train,05,087,West South Central,4,0.06198089977406666,middle
+OppSP,0,OppSP,05089,train,05,089,West South Central,4,0.0813167305660764,middle
+OppSP,0,OppSP,05091,train,05,091,West South Central,12,0.05276816604340523,middle
+OppSP,0,OppSP,05093,train,05,093,West South Central,12,0.013731986524662834,middle
+OppSP,0,OppSP,05103,train,05,103,West South Central,6,0.023775002170265014,middle
+OppSP,0,OppSP,05107,train,05,107,West South Central,6,0.07927246090034103,middle
+OppSP,0,OppSP,05111,train,05,111,West South Central,7,0.0601565458433563,middle
+OppSP,0,OppSP,05115,train,05,115,West South Central,11,0.05875486923453511,middle
+OppSP,0,OppSP,05119,train,05,119,West South Central,95,0.01791120880844331,middle
+OppSP,0,OppSP,05121,train,05,121,West South Central,4,0.04173570017155518,middle
+OppSP,0,OppSP,05123,train,05,123,West South Central,6,0.021121705694535652,middle
+OppSP,0,OppSP,05125,train,05,125,West South Central,21,0.03683452010839326,middle
+OppSP,0,OppSP,05131,train,05,131,West South Central,26,0.02420224692777881,middle
+OppSP,0,OppSP,05135,train,05,135,West South Central,4,0.044561046252421375,middle
+OppSP,0,OppSP,05139,train,05,139,West South Central,10,0.012196376249552113,middle
+OppSP,0,OppSP,05141,train,05,141,West South Central,5,0.03455785665108877,middle
+OppSP,0,OppSP,05143,train,05,143,West South Central,32,0.032752118114767206,middle
+OppSP,0,OppSP,05145,train,05,145,West South Central,13,0.10060201230137165,middle
+OppSP,0,OppSP,05149,train,05,149,West South Central,6,0.029132864597951533,middle
+OppSP,0,OppSP,06005,train,06,005,Pacific,9,0.062088885104547506,middle
+OppSP,0,OppSP,06007,train,06,007,Pacific,51,0.029653151448643292,middle
+OppSP,0,OppSP,06011,train,06,011,Pacific,5,0.10255800113973958,middle
+OppSP,0,OppSP,06015,train,06,015,Pacific,7,0.032326896704278005,middle
+OppSP,0,OppSP,06017,train,06,017,Pacific,43,0.03177906816206355,middle
+OppSP,0,OppSP,06021,train,06,021,Pacific,6,0.0799378574556348,middle
+OppSP,0,OppSP,06023,train,06,023,Pacific,30,0.04087018009235696,middle
+OppSP,0,OppSP,06025,train,06,025,Pacific,31,0.016526578452406362,middle
+OppSP,0,OppSP,06029,train,06,029,Pacific,151,0.027486915889383567,middle
+OppSP,0,OppSP,06033,train,06,033,Pacific,15,0.014907110299236427,middle
+OppSP,0,OppSP,06035,train,06,035,Pacific,9,0.07466276956108482,middle
+OppSP,0,OppSP,06039,train,06,039,Pacific,23,0.03784286948285414,middle
+OppSP,0,OppSP,06045,train,06,045,Pacific,20,0.0344014373639332,middle
+OppSP,0,OppSP,06047,train,06,047,Pacific,49,0.05263914761857852,middle
+OppSP,0,OppSP,06055,train,06,055,Pacific,40,0.01825296435904622,middle
+OppSP,0,OppSP,06057,train,06,057,Pacific,20,0.06675657846095492,middle
+OppSP,0,OppSP,06061,train,06,061,Pacific,85,0.03855814576462827,middle
+OppSP,0,OppSP,06063,train,06,063,Pacific,7,0.04605237132579555,middle
+OppSP,0,OppSP,06067,train,06,067,Pacific,317,0.022356798336213082,middle
+OppSP,0,OppSP,06069,train,06,069,Pacific,11,0.033588296389169006,middle
+OppSP,0,OppSP,06079,train,06,079,Pacific,53,0.012150065623340216,middle
+OppSP,0,OppSP,06083,train,06,083,Pacific,90,0.032387229645967415,middle
+OppSP,0,OppSP,06087,train,06,087,Pacific,52,0.024227285937256267,middle
+OppSP,0,OppSP,06089,train,06,089,Pacific,48,0.020048293892757005,middle
+OppSP,0,OppSP,06095,train,06,095,Pacific,96,0.01344109500745045,middle
+OppSP,0,OppSP,06099,train,06,099,Pacific,94,0.018377634631318304,middle
+OppSP,0,OppSP,06101,train,06,101,Pacific,21,0.03173929503432989,middle
+OppSP,0,OppSP,06103,train,06,103,Pacific,11,0.02987967712504657,middle
+OppSP,0,OppSP,06105,train,06,105,Pacific,5,0.03179512280451095,middle
+OppSP,0,OppSP,06107,train,06,107,Pacific,78,0.019021843053975182,middle
+OppSP,0,OppSP,06109,train,06,109,Pacific,11,0.07978198772941966,middle
+OppSP,0,OppSP,06113,train,06,113,Pacific,41,0.04310428200622347,middle
+OppSP,0,OppSP,06115,train,06,115,Pacific,14,0.03235989916356548,middle
+OppSP,0,OppSP,08005,train,08,005,Mountain,147,0.013519086590081424,middle
+OppSP,0,OppSP,08007,train,08,007,Mountain,4,0.07818353695399176,middle
+OppSP,0,OppSP,08013,train,08,013,Mountain,68,0.012772258033961285,middle
+OppSP,0,OppSP,08015,train,08,015,Mountain,5,0.04651341909430534,middle
+OppSP,0,OppSP,08029,train,08,029,Mountain,7,0.04614825579517221,middle
+OppSP,0,OppSP,08035,train,08,035,Mountain,61,0.03872796540242667,middle
+OppSP,0,OppSP,08037,train,08,037,Mountain,14,0.12828951175165218,middle
+OppSP,0,OppSP,08039,train,08,039,Mountain,7,0.05744016644135469,middle
+OppSP,0,OppSP,08045,train,08,045,Mountain,11,0.06798299919233433,middle
+OppSP,0,OppSP,08069,train,08,069,Mountain,73,0.014130634588847099,middle
+OppSP,0,OppSP,08071,train,08,071,Mountain,6,0.02109855243864712,middle
+OppSP,0,OppSP,08075,train,08,075,Mountain,6,0.0440060311082011,middle
+OppSP,0,OppSP,08077,train,08,077,Mountain,29,0.022980760679951414,middle
+OppSP,0,OppSP,08087,train,08,087,Mountain,8,0.06703361169783235,middle
+OppSP,0,OppSP,08089,train,08,089,Mountain,7,0.08168359018172815,middle
+OppSP,0,OppSP,08093,train,08,093,Mountain,5,0.030288876268017642,middle
+OppSP,0,OppSP,08097,train,08,097,Mountain,4,0.045358177302038914,middle
+OppSP,0,OppSP,08101,train,08,101,Mountain,55,0.04105081104797394,middle
+OppSP,0,OppSP,08107,train,08,107,Mountain,8,0.08642478084511304,middle
+OppSP,0,OppSP,08117,train,08,117,Mountain,5,0.04113466849818115,middle
+OppSP,0,OppSP,08119,train,08,119,Mountain,6,0.05172752859999502,middle
+OppSP,0,OppSP,09005,train,09,005,New England,51,0.014681346019688847,middle
+OppSP,0,OppSP,09011,train,09,011,New England,66,0.012174038997970172,middle
+OppSP,0,OppSP,09013,train,09,013,New England,29,0.05627198540730006,middle
+OppSP,0,OppSP,09015,train,09,015,New England,25,0.03601305193307006,middle
+OppSP,0,OppSP,10001,train,10,001,South Atlantic,33,0.025528471273357244,middle
+OppSP,0,OppSP,10003,train,10,003,South Atlantic,131,0.01728139773660529,middle
+OppSP,0,OppSP,12001,train,12,001,South Atlantic,56,0.020777595499342754,middle
+OppSP,0,OppSP,12003,train,12,003,South Atlantic,4,0.027072053289020737,middle
+OppSP,0,OppSP,12005,train,12,005,South Atlantic,43,0.027797718151065687,middle
+OppSP,0,OppSP,12007,train,12,007,South Atlantic,4,0.06805428014799568,middle
+OppSP,0,OppSP,12011,train,12,011,South Atlantic,361,0.012611602718336628,middle
+OppSP,0,OppSP,12015,train,12,015,South Atlantic,38,0.030109949377814697,middle
+OppSP,0,OppSP,12017,train,12,017,South Atlantic,28,0.03727089344560306,middle
+OppSP,0,OppSP,12019,train,12,019,South Atlantic,30,0.02989988283733227,middle
+OppSP,0,OppSP,12023,train,12,023,South Atlantic,12,0.12129694848979652,middle
+OppSP,0,OppSP,12027,train,12,027,South Atlantic,9,0.10733695631173204,middle
+OppSP,0,OppSP,12031,train,12,031,South Atlantic,173,0.056796694695042706,middle
+OppSP,0,OppSP,12033,train,12,033,South Atlantic,71,0.03247940073431325,middle
+OppSP,0,OppSP,12039,train,12,039,South Atlantic,9,0.017610386591945852,middle
+OppSP,0,OppSP,12049,train,12,049,South Atlantic,6,0.1025202716458919,middle
+OppSP,0,OppSP,12053,train,12,053,South Atlantic,45,0.02403198649193322,middle
+OppSP,0,OppSP,12055,train,12,055,South Atlantic,27,0.038538257717815536,middle
+OppSP,0,OppSP,12061,train,12,061,South Atlantic,30,0.025083966321091732,middle
+OppSP,0,OppSP,12063,train,12,063,South Atlantic,11,0.023743891524494205,middle
+OppSP,0,OppSP,12073,train,12,073,South Atlantic,68,0.018307326371139392,middle
+OppSP,0,OppSP,12075,train,12,075,South Atlantic,10,0.07714473947738203,middle
+OppSP,0,OppSP,12079,train,12,079,South Atlantic,5,0.025750563648216616,middle
+OppSP,0,OppSP,12081,train,12,081,South Atlantic,78,0.016205916903751255,middle
+OppSP,0,OppSP,12083,train,12,083,South Atlantic,63,0.041840117015139386,middle
+OppSP,0,OppSP,12085,train,12,085,South Atlantic,35,0.029059653810158043,middle
+OppSP,0,OppSP,12087,train,12,087,South Atlantic,31,0.033001236435078025,middle
+OppSP,0,OppSP,12089,train,12,089,South Atlantic,12,0.05726806418347646,middle
+OppSP,0,OppSP,12091,train,12,091,South Atlantic,42,0.014489973683614375,middle
+OppSP,0,OppSP,12093,train,12,093,South Atlantic,12,0.06891595588349536,middle
+OppSP,0,OppSP,12095,train,12,095,South Atlantic,207,0.049309916477387146,middle
+OppSP,0,OppSP,12097,train,12,097,South Atlantic,41,0.09285001882558763,middle
+OppSP,0,OppSP,12105,train,12,105,South Atlantic,154,0.012093561810324543,middle
+OppSP,0,OppSP,12107,train,12,107,South Atlantic,17,0.04868597522165681,middle
+OppSP,0,OppSP,12109,train,12,109,South Atlantic,40,0.04542081371208823,middle
+OppSP,0,OppSP,12111,train,12,111,South Atlantic,44,0.012341141579596846,middle
+OppSP,0,OppSP,12113,train,12,113,South Atlantic,25,0.034010929895064546,middle
+OppSP,0,OppSP,12115,train,12,115,South Atlantic,94,0.022171865434056904,middle
+OppSP,0,OppSP,12117,train,12,117,South Atlantic,86,0.028642795022196313,middle
+OppSP,0,OppSP,12119,train,12,119,South Atlantic,19,0.04995813492510519,middle
+OppSP,0,OppSP,12121,train,12,121,South Atlantic,7,0.04746456058482667,middle
+OppSP,0,OppSP,12123,train,12,123,South Atlantic,4,0.08463126285473388,middle
+OppSP,0,OppSP,12127,train,12,127,South Atlantic,113,0.016268048817899047,middle
+OppSP,0,OppSP,12129,train,12,129,South Atlantic,4,0.013175104151147346,middle
+OppSP,0,OppSP,12133,train,12,133,South Atlantic,7,0.0923931009354939,middle
+OppSP,0,OppSP,13001,train,13,001,South Atlantic,5,0.06136998681141634,middle
+OppSP,0,OppSP,13009,train,13,009,South Atlantic,9,0.0831038716258261,middle
+OppSP,0,OppSP,13011,train,13,011,South Atlantic,4,0.019792941347196297,middle
+OppSP,0,OppSP,13013,train,13,013,South Atlantic,18,0.050862659065672174,middle
+OppSP,0,OppSP,13015,train,13,015,South Atlantic,15,0.05040378722820696,middle
+OppSP,0,OppSP,13019,train,13,019,South Atlantic,6,0.07514792890737375,middle
+OppSP,0,OppSP,13027,train,13,027,South Atlantic,5,0.018694877074828947,middle
+OppSP,0,OppSP,13031,train,13,031,South Atlantic,12,0.0480834738701421,middle
+OppSP,0,OppSP,13039,train,13,039,South Atlantic,10,0.034674735632227754,middle
+OppSP,0,OppSP,13045,train,13,045,South Atlantic,17,0.03267199900977936,middle
+OppSP,0,OppSP,13051,train,13,051,South Atlantic,71,0.0600216388319719,middle
+OppSP,0,OppSP,13053,train,13,053,South Atlantic,5,0.046173095667052175,middle
+OppSP,0,OppSP,13055,train,13,055,South Atlantic,6,0.034106139411680544,middle
+OppSP,0,OppSP,13057,train,13,057,South Atlantic,26,0.012064256966998307,middle
+OppSP,0,OppSP,13059,train,13,059,South Atlantic,30,0.06597192618953533,middle
+OppSP,0,OppSP,13063,train,13,063,South Atlantic,50,0.06369082811221356,middle
+OppSP,0,OppSP,13069,train,13,069,South Atlantic,9,0.012752203215656573,middle
+OppSP,0,OppSP,13071,train,13,071,South Atlantic,10,0.030916774403192064,middle
+OppSP,0,OppSP,13073,train,13,073,South Atlantic,20,0.03951077010361307,middle
+OppSP,0,OppSP,13075,train,13,075,South Atlantic,4,0.03224811812204879,middle
+OppSP,0,OppSP,13077,train,13,077,South Atlantic,20,0.040285513602369795,middle
+OppSP,0,OppSP,13081,train,13,081,South Atlantic,6,0.06698393809938903,middle
+OppSP,0,OppSP,13083,train,13,083,South Atlantic,4,0.08864066885006257,middle
+OppSP,0,OppSP,13091,train,13,091,South Atlantic,6,0.030982164064728167,middle
+OppSP,0,OppSP,13095,train,13,095,South Atlantic,27,0.02322848919278224,middle
+OppSP,0,OppSP,13097,train,13,097,South Atlantic,20,0.039133871294737804,middle
+OppSP,0,OppSP,13103,train,13,103,South Atlantic,10,0.11677690457988212,middle
+OppSP,0,OppSP,13105,train,13,105,South Atlantic,5,0.036959999970431964,middle
+OppSP,0,OppSP,13107,train,13,107,South Atlantic,6,0.09706032370673251,middle
+OppSP,0,OppSP,13111,train,13,111,South Atlantic,5,0.08510043416330382,middle
+OppSP,0,OppSP,13113,train,13,113,South Atlantic,20,0.04037722766961617,middle
+OppSP,0,OppSP,13115,train,13,115,South Atlantic,20,0.01700738357092826,middle
+OppSP,0,OppSP,13127,train,13,127,South Atlantic,15,0.05000924235897372,middle
+OppSP,0,OppSP,13129,train,13,129,South Atlantic,9,0.025873184195005533,middle
+OppSP,0,OppSP,13131,train,13,131,South Atlantic,6,0.0462129949656768,middle
+OppSP,0,OppSP,13133,train,13,133,South Atlantic,7,0.03497942382944666,middle
+OppSP,0,OppSP,13137,train,13,137,South Atlantic,8,0.022378892256429576,middle
+OppSP,0,OppSP,13139,train,13,139,South Atlantic,36,0.04068294902069634,middle
+OppSP,0,OppSP,13153,train,13,153,South Atlantic,23,0.026538363326140606,middle
+OppSP,0,OppSP,13177,train,13,177,South Atlantic,5,0.03616036331671624,middle
+OppSP,0,OppSP,13179,train,13,179,South Atlantic,15,0.0716601239625501,middle
+OppSP,0,OppSP,13185,train,13,185,South Atlantic,25,0.016700474210713,middle
+OppSP,0,OppSP,13189,train,13,189,South Atlantic,5,0.024555489437369758,middle
+OppSP,0,OppSP,13193,train,13,193,South Atlantic,4,0.07579743002539392,middle
+OppSP,0,OppSP,13195,train,13,195,South Atlantic,6,0.02201557091483055,middle
+OppSP,0,OppSP,13199,train,13,199,South Atlantic,4,0.013283553814520621,middle
+OppSP,0,OppSP,13205,train,13,205,South Atlantic,5,0.03314506536976198,middle
+OppSP,0,OppSP,13207,train,13,207,South Atlantic,5,0.08035614833268062,middle
+OppSP,0,OppSP,13215,train,13,215,South Atlantic,53,0.02719028067012567,middle
+OppSP,0,OppSP,13217,train,13,217,South Atlantic,13,0.10478860461838672,middle
+OppSP,0,OppSP,13219,train,13,219,South Atlantic,6,0.10411035856814246,middle
+OppSP,0,OppSP,13221,train,13,221,South Atlantic,4,0.07475708896137119,middle
+OppSP,0,OppSP,13223,train,13,223,South Atlantic,19,0.0744560077378786,middle
+OppSP,0,OppSP,13227,train,13,227,South Atlantic,6,0.08116140829184236,middle
+OppSP,0,OppSP,13229,train,13,229,South Atlantic,4,0.12599897117029765,middle
+OppSP,0,OppSP,13231,train,13,231,South Atlantic,4,0.032696759232011985,middle
+OppSP,0,OppSP,13233,train,13,233,South Atlantic,7,0.07174080408919166,middle
+OppSP,0,OppSP,13241,train,13,241,South Atlantic,5,0.01791726284844291,middle
+OppSP,0,OppSP,13245,train,13,245,South Atlantic,47,0.03117694695960995,middle
+OppSP,0,OppSP,13247,train,13,247,South Atlantic,15,0.06903997538376862,middle
+OppSP,0,OppSP,13255,train,13,255,South Atlantic,12,0.05577816731461035,middle
+OppSP,0,OppSP,13257,train,13,257,South Atlantic,5,0.03892429757526912,middle
+OppSP,0,OppSP,13261,train,13,261,South Atlantic,8,0.056321693081642143,middle
+OppSP,0,OppSP,13267,train,13,267,South Atlantic,5,0.05824183900655606,middle
+OppSP,0,OppSP,13273,train,13,273,South Atlantic,4,0.05882352935640137,middle
+OppSP,0,OppSP,13275,train,13,275,South Atlantic,11,0.11283809160911569,middle
+OppSP,0,OppSP,13277,train,13,277,South Atlantic,9,0.10658558583114916,middle
+OppSP,0,OppSP,13293,train,13,293,South Atlantic,7,0.030657092214403128,middle
+OppSP,0,OppSP,13295,train,13,295,South Atlantic,13,0.056420722102767426,middle
+OppSP,0,OppSP,13297,train,13,297,South Atlantic,15,0.05519542635527065,middle
+OppSP,0,OppSP,13299,train,13,299,South Atlantic,9,0.06430850869638371,middle
+OppSP,0,OppSP,13305,train,13,305,South Atlantic,6,0.08656198342385871,middle
+OppSP,0,OppSP,13313,train,13,313,South Atlantic,18,0.027284261875763865,middle
+OppSP,0,OppSP,13315,train,13,315,South Atlantic,4,0.024583333308749955,middle
+OppSP,0,OppSP,13317,train,13,317,South Atlantic,4,0.05889852692870671,middle
+OppSP,0,OppSP,13321,train,13,321,South Atlantic,5,0.024734076621024705,middle
+OppSP,0,OppSP,15001,train,15,001,Pacific,34,0.03189248801451871,middle
+OppSP,0,OppSP,15007,train,15,007,Pacific,17,0.04910040962993841,middle
+OppSP,0,OppSP,15009,train,15,009,Pacific,36,0.03288102315314307,middle
+OppSP,0,OppSP,16001,train,16,001,Mountain,59,0.027187235456157366,middle
+OppSP,0,OppSP,16005,train,16,005,Mountain,22,0.03132664301958163,middle
+OppSP,0,OppSP,16011,train,16,011,Mountain,8,0.08302512971416268,middle
+OppSP,0,OppSP,16017,train,16,017,Mountain,9,0.06424669609246529,middle
+OppSP,0,OppSP,16019,train,16,019,Mountain,21,0.03804984727932558,middle
+OppSP,0,OppSP,16031,train,16,031,Mountain,6,0.12332346379296755,middle
+OppSP,0,OppSP,16039,train,16,039,Mountain,5,0.11899535119459535,middle
+OppSP,0,OppSP,16053,train,16,053,Mountain,5,0.03895206712957424,middle
+OppSP,0,OppSP,16055,train,16,055,Mountain,25,0.03434023654769646,middle
+OppSP,0,OppSP,16057,train,16,057,Mountain,7,0.08454049044285233,middle
+OppSP,0,OppSP,16065,train,16,065,Mountain,6,0.029156411071328502,middle
+OppSP,0,OppSP,16069,train,16,069,Mountain,10,0.045648557576450116,middle
+OppSP,0,OppSP,16083,train,16,083,Mountain,14,0.03661616951810207,middle
+OppSP,0,OppSP,17001,train,17,001,East North Central,18,0.05201448788201772,middle
+OppSP,0,OppSP,17003,train,17,003,East North Central,4,0.12487725490932888,middle
+OppSP,0,OppSP,17007,train,17,007,East North Central,7,0.06716475800314622,middle
+OppSP,0,OppSP,17011,train,17,011,East North Central,10,0.022041023498911294,middle
+OppSP,0,OppSP,17015,train,17,015,East North Central,6,0.06172555774805923,middle
+OppSP,0,OppSP,17021,train,17,021,East North Central,10,0.026594345804657825,middle
+OppSP,0,OppSP,17023,train,17,023,East North Central,4,0.043226212950395894,middle
+OppSP,0,OppSP,17025,train,17,025,East North Central,4,0.04772627754824765,middle
+OppSP,0,OppSP,17027,train,17,027,East North Central,8,0.10643582431176576,middle
+OppSP,0,OppSP,17033,train,17,033,East North Central,6,0.017411764681300967,middle
+OppSP,0,OppSP,17037,train,17,037,East North Central,21,0.09908103880614276,middle
+OppSP,0,OppSP,17045,train,17,045,East North Central,5,0.08518439782906909,middle
+OppSP,0,OppSP,17049,train,17,049,East North Central,8,0.07597641604323213,middle
+OppSP,0,OppSP,17051,train,17,051,East North Central,7,0.017772857040617943,middle
+OppSP,0,OppSP,17055,train,17,055,East North Central,12,0.04137498813515596,middle
+OppSP,0,OppSP,17057,train,17,057,East North Central,12,0.02614440949432014,middle
+OppSP,0,OppSP,17061,train,17,061,East North Central,5,0.11048099122824631,middle
+OppSP,0,OppSP,17063,train,17,063,East North Central,10,0.03167873972969251,middle
+OppSP,0,OppSP,17067,train,17,067,East North Central,7,0.1003482113392478,middle
+OppSP,0,OppSP,17075,train,17,075,East North Central,9,0.018899999977319996,middle
+OppSP,0,OppSP,17077,train,17,077,East North Central,14,0.07011954357356702,middle
+OppSP,0,OppSP,17081,train,17,081,East North Central,11,0.04592933061785912,middle
+OppSP,0,OppSP,17083,train,17,083,East North Central,6,0.12473286925243786,middle
+OppSP,0,OppSP,17085,train,17,085,East North Central,6,0.05753792617365577,middle
+OppSP,0,OppSP,17093,train,17,093,East North Central,10,0.08323571546080599,middle
+OppSP,0,OppSP,17095,train,17,095,East North Central,16,0.06233501563703118,middle
+OppSP,0,OppSP,17099,train,17,099,East North Central,28,0.02850439056804372,middle
+OppSP,0,OppSP,17101,train,17,101,East North Central,5,0.028273219679485068,middle
+OppSP,0,OppSP,17103,train,17,103,East North Central,9,0.07700799757369318,middle
+OppSP,0,OppSP,17109,train,17,109,East North Central,10,0.04487735689871177,middle
+OppSP,0,OppSP,17111,train,17,111,East North Central,52,0.013960015572782989,middle
+OppSP,0,OppSP,17113,train,17,113,East North Central,41,0.01725711807579443,middle
+OppSP,0,OppSP,17115,train,17,115,East North Central,34,0.025434097199805914,middle
+OppSP,0,OppSP,17117,train,17,117,East North Central,13,0.058817578964886506,middle
+OppSP,0,OppSP,17119,train,17,119,East North Central,61,0.01744527542788386,middle
+OppSP,0,OppSP,17123,train,17,123,East North Central,5,0.041999999915999994,middle
+OppSP,0,OppSP,17125,train,17,125,East North Central,6,0.11684353728143045,middle
+OppSP,0,OppSP,17127,train,17,127,East North Central,4,0.07551156112550661,middle
+OppSP,0,OppSP,17133,train,17,133,East North Central,6,0.09465200461320156,middle
+OppSP,0,OppSP,17135,train,17,135,East North Central,8,0.0802548320508025,middle
+OppSP,0,OppSP,17137,train,17,137,East North Central,10,0.05961808164413616,middle
+OppSP,0,OppSP,17139,train,17,139,East North Central,4,0.06903353048702776,middle
+OppSP,0,OppSP,17145,train,17,145,East North Central,6,0.04362686246571638,middle
+OppSP,0,OppSP,17149,train,17,149,East North Central,5,0.07551793261172411,middle
+OppSP,0,OppSP,17157,train,17,157,East North Central,9,0.03177393181072105,middle
+OppSP,0,OppSP,17159,train,17,159,East North Central,5,0.056496152080984,middle
+OppSP,0,OppSP,17161,train,17,161,East North Central,40,0.01960524593052792,middle
+OppSP,0,OppSP,17165,train,17,165,East North Central,9,0.06512913893962247,middle
+OppSP,0,OppSP,17167,train,17,167,East North Central,53,0.013300050253119908,middle
+OppSP,0,OppSP,17177,train,17,177,East North Central,13,0.05063392283719035,middle
+OppSP,0,OppSP,17179,train,17,179,East North Central,30,0.04905344771951757,middle
+OppSP,0,OppSP,17181,train,17,181,East North Central,5,0.10206881100951526,middle
+OppSP,0,OppSP,17183,train,17,183,East North Central,24,0.01262877040611606,middle
+OppSP,0,OppSP,17185,train,17,185,East North Central,4,0.10148549199035546,middle
+OppSP,0,OppSP,17191,train,17,191,East North Central,5,0.03308382173619815,middle
+OppSP,0,OppSP,17193,train,17,193,East North Central,5,0.02949999997049993,middle
+OppSP,0,OppSP,17195,train,17,195,East North Central,18,0.03278059019405687,middle
+OppSP,0,OppSP,17197,train,17,197,East North Central,152,0.013810032529187803,middle
+OppSP,0,OppSP,17203,train,17,203,East North Central,9,0.05477314890765291,middle
+OppSP,0,OppSP,18001,train,18,001,East North Central,7,0.061923558500945115,middle
+OppSP,0,OppSP,18003,train,18,003,East North Central,96,0.01322293268061819,middle
+OppSP,0,OppSP,18005,train,18,005,East North Central,15,0.03032844955784855,middle
+OppSP,0,OppSP,18009,train,18,009,East North Central,4,0.09861186208442858,middle
+OppSP,0,OppSP,18011,train,18,011,East North Central,10,0.10086087784128595,middle
+OppSP,0,OppSP,18021,train,18,021,East North Central,6,0.02759907284524382,middle
+OppSP,0,OppSP,18027,train,18,027,East North Central,7,0.06671626978567291,middle
+OppSP,0,OppSP,18029,train,18,029,East North Central,10,0.06014327079830878,middle
+OppSP,0,OppSP,18031,train,18,031,East North Central,6,0.029987796140206635,middle
+OppSP,0,OppSP,18033,train,18,033,East North Central,9,0.09222588104427233,middle
+OppSP,0,OppSP,18035,train,18,035,East North Central,30,0.013414213905138495,middle
+OppSP,0,OppSP,18037,train,18,037,East North Central,7,0.0495356872672009,middle
+OppSP,0,OppSP,18039,train,18,039,East North Central,36,0.02450240017818086,middle
+OppSP,0,OppSP,18041,train,18,041,East North Central,7,0.06316812430237405,middle
+OppSP,0,OppSP,18043,train,18,043,East North Central,20,0.07388628701287722,middle
+OppSP,0,OppSP,18045,train,18,045,East North Central,5,0.09366343477980564,middle
+OppSP,0,OppSP,18047,train,18,047,East North Central,5,0.045681423587318644,middle
+OppSP,0,OppSP,18051,train,18,051,East North Central,7,0.0697751322169863,middle
+OppSP,0,OppSP,18055,train,18,055,East North Central,9,0.08387618543267214,middle
+OppSP,0,OppSP,18057,train,18,057,East North Central,39,0.029665016652624707,middle
+OppSP,0,OppSP,18065,train,18,065,East North Central,13,0.03639540754065731,middle
+OppSP,0,OppSP,18067,train,18,067,East North Central,20,0.036407089141048066,middle
+OppSP,0,OppSP,18069,train,18,069,East North Central,9,0.05254781570342296,middle
+OppSP,0,OppSP,18071,train,18,071,East North Central,10,0.06542658793843899,middle
+OppSP,0,OppSP,18073,train,18,073,East North Central,8,0.12016666275913164,middle
+OppSP,0,OppSP,18075,train,18,075,East North Central,7,0.04084743172333349,middle
+OppSP,0,OppSP,18077,train,18,077,East North Central,7,0.03986225892780115,middle
+OppSP,0,OppSP,18079,train,18,079,East North Central,6,0.1134782164626697,middle
+OppSP,0,OppSP,18081,train,18,081,East North Central,22,0.02865243642710326,middle
+OppSP,0,OppSP,18083,train,18,083,East North Central,10,0.05575595407167711,middle
+OppSP,0,OppSP,18087,train,18,087,East North Central,8,0.07309425824334759,middle
+OppSP,0,OppSP,18091,train,18,091,East North Central,28,0.039563529348216456,middle
+OppSP,0,OppSP,18093,train,18,093,East North Central,10,0.048776410359966195,middle
+OppSP,0,OppSP,18095,train,18,095,East North Central,37,0.021868574453171065,middle
+OppSP,0,OppSP,18099,train,18,099,East North Central,12,0.0706369820251895,middle
+OppSP,0,OppSP,18103,train,18,103,East North Central,10,0.059469074515707265,middle
+OppSP,0,OppSP,18105,train,18,105,East North Central,31,0.02024634983667119,middle
+OppSP,0,OppSP,18107,train,18,107,East North Central,9,0.021466666649493336,middle
+OppSP,0,OppSP,18109,train,18,109,East North Central,13,0.03897221401964693,middle
+OppSP,0,OppSP,18111,train,18,111,East North Central,4,0.09713498619057348,middle
+OppSP,0,OppSP,18113,train,18,113,East North Central,10,0.0698218727992164,middle
+OppSP,0,OppSP,18117,train,18,117,East North Central,6,0.07405294807091047,middle
+OppSP,0,OppSP,18121,train,18,121,East North Central,4,0.038579881633063216,middle
+OppSP,0,OppSP,18123,train,18,123,East North Central,5,0.04118334484825192,middle
+OppSP,0,OppSP,18125,train,18,125,East North Central,4,0.02248499504352049,middle
+OppSP,0,OppSP,18129,train,18,129,East North Central,7,0.10328145545484303,middle
+OppSP,0,OppSP,18133,train,18,133,East North Central,7,0.10632373108341507,middle
+OppSP,0,OppSP,18135,train,18,135,East North Central,8,0.07542084105993542,middle
+OppSP,0,OppSP,18137,train,18,137,East North Central,6,0.05492156043850209,middle
+OppSP,0,OppSP,18139,train,18,139,East North Central,5,0.03263533078428863,middle
+OppSP,0,OppSP,18141,train,18,141,East North Central,75,0.013323926233515866,middle
+OppSP,0,OppSP,18145,train,18,145,East North Central,10,0.08034896445680312,middle
+OppSP,0,OppSP,18151,train,18,151,East North Central,9,0.06844702009052628,middle
+OppSP,0,OppSP,18153,train,18,153,East North Central,5,0.0905612244251093,middle
+OppSP,0,OppSP,18157,train,18,157,East North Central,37,0.03185348263188136,middle
+OppSP,0,OppSP,18165,train,18,165,East North Central,5,0.08577777766340736,middle
+OppSP,0,OppSP,18167,train,18,167,East North Central,28,0.05185343820435811,middle
+OppSP,0,OppSP,18169,train,18,169,East North Central,8,0.0645172350966898,middle
+OppSP,0,OppSP,18173,train,18,173,East North Central,11,0.05372432994193324,middle
+OppSP,0,OppSP,18175,train,18,175,East North Central,6,0.026293872656345606,middle
+OppSP,0,OppSP,18177,train,18,177,East North Central,17,0.08515661913284694,middle
+OppSP,0,OppSP,18179,train,18,179,East North Central,7,0.08374274023653258,middle
+OppSP,0,OppSP,18181,train,18,181,East North Central,8,0.0508535651001149,middle
+OppSP,0,OppSP,18183,train,18,183,East North Central,7,0.12429698077317629,middle
+OppSP,0,OppSP,19007,train,19,007,West North Central,5,0.01596749809768261,middle
+OppSP,0,OppSP,19013,train,19,013,West North Central,38,0.02230819590279683,middle
+OppSP,0,OppSP,19015,train,19,015,West North Central,7,0.07128645762849206,middle
+OppSP,0,OppSP,19017,train,19,017,West North Central,8,0.04373565490837567,middle
+OppSP,0,OppSP,19021,train,19,021,West North Central,6,0.048274304605207326,middle
+OppSP,0,OppSP,19023,train,19,023,West North Central,5,0.04092302142131434,middle
+OppSP,0,OppSP,19027,train,19,027,West North Central,6,0.07625557407404643,middle
+OppSP,0,OppSP,19029,train,19,029,West North Central,5,0.018625287136727273,middle
+OppSP,0,OppSP,19031,train,19,031,West North Central,5,0.058053911870294544,middle
+OppSP,0,OppSP,19033,train,19,033,West North Central,11,0.031011258903251206,middle
+OppSP,0,OppSP,19035,train,19,035,West North Central,4,0.04351685067532888,middle
+OppSP,0,OppSP,19037,train,19,037,West North Central,4,0.07416636994521204,middle
+OppSP,0,OppSP,19041,train,19,041,West North Central,4,0.0862924022525154,middle
+OppSP,0,OppSP,19043,train,19,043,West North Central,6,0.01347616212954984,middle
+OppSP,0,OppSP,19045,train,19,045,West North Central,12,0.01616717110827371,middle
+OppSP,0,OppSP,19049,train,19,049,West North Central,15,0.09043990648179347,middle
+OppSP,0,OppSP,19055,train,19,055,West North Central,4,0.038769723850966255,middle
+OppSP,0,OppSP,19057,train,19,057,West North Central,11,0.07667479769266926,middle
+OppSP,0,OppSP,19059,train,19,059,West North Central,5,0.061372083327624685,middle
+OppSP,0,OppSP,19061,train,19,061,West North Central,26,0.08899824153908066,middle
+OppSP,0,OppSP,19063,train,19,063,West North Central,4,0.12962392980951667,middle
+OppSP,0,OppSP,19065,train,19,065,West North Central,7,0.04993386240612137,middle
+OppSP,0,OppSP,19075,train,19,075,West North Central,4,0.11807105082763436,middle
+OppSP,0,OppSP,19081,train,19,081,West North Central,4,0.016046947659906996,middle
+OppSP,0,OppSP,19083,train,19,083,West North Central,6,0.013652545382090563,middle
+OppSP,0,OppSP,19085,train,19,085,West North Central,5,0.072147106510521,middle
+OppSP,0,OppSP,19087,train,19,087,West North Central,5,0.06562019080492247,middle
+OppSP,0,OppSP,19095,train,19,095,West North Central,4,0.07503060909878172,middle
+OppSP,0,OppSP,19101,train,19,101,West North Central,4,0.08776235691359495,middle
+OppSP,0,OppSP,19103,train,19,103,West North Central,24,0.013530080227860548,middle
+OppSP,0,OppSP,19105,train,19,105,West North Central,5,0.055243598061504966,middle
+OppSP,0,OppSP,19111,train,19,111,West North Central,11,0.05036973450754128,middle
+OppSP,0,OppSP,19113,train,19,113,West North Central,45,0.013933173269512074,middle
+OppSP,0,OppSP,19117,train,19,117,West North Central,4,0.03168724278427063,middle
+OppSP,0,OppSP,19123,train,19,123,West North Central,7,0.030689336687849903,middle
+OppSP,0,OppSP,19125,train,19,125,West North Central,8,0.03166050461465576,middle
+OppSP,0,OppSP,19127,train,19,127,West North Central,10,0.03028986292549903,middle
+OppSP,0,OppSP,19129,train,19,129,West North Central,5,0.015205320239294468,middle
+OppSP,0,OppSP,19133,train,19,133,West North Central,4,0.01982624191286823,middle
+OppSP,0,OppSP,19139,train,19,139,West North Central,10,0.027562958529524104,middle
+OppSP,0,OppSP,19145,train,19,145,West North Central,6,0.06900397490496014,middle
+OppSP,0,OppSP,19147,train,19,147,West North Central,4,0.025306043426520725,middle
+OppSP,0,OppSP,19149,train,19,149,West North Central,6,0.058881199504003,middle
+OppSP,0,OppSP,19155,train,19,155,West North Central,30,0.058646250034686286,middle
+OppSP,0,OppSP,19157,train,19,157,West North Central,5,0.06081314875315484,middle
+OppSP,0,OppSP,19163,train,19,163,West North Central,47,0.015545205154162675,middle
+OppSP,0,OppSP,19165,train,19,165,West North Central,4,0.03524385899796482,middle
+OppSP,0,OppSP,19167,train,19,167,West North Central,7,0.08571534273412523,middle
+OppSP,0,OppSP,19169,train,19,169,West North Central,20,0.04922153822782414,middle
+OppSP,0,OppSP,19171,train,19,171,West North Central,6,0.016367307886570513,middle
+OppSP,0,OppSP,19179,train,19,179,West North Central,11,0.04685194814898164,middle
+OppSP,0,OppSP,19181,train,19,181,West North Central,12,0.04570197562896919,middle
+OppSP,0,OppSP,19183,train,19,183,West North Central,5,0.040741565782557235,middle
+OppSP,0,OppSP,19187,train,19,187,West North Central,12,0.03471228471423409,middle
+OppSP,0,OppSP,19191,train,19,191,West North Central,5,0.06297743052931494,middle
+OppSP,0,OppSP,19193,train,19,193,West North Central,26,0.02558782894405975,middle
+OppSP,0,OppSP,19197,train,19,197,West North Central,5,0.04878472218156821,middle
+OppSP,0,OppSP,20005,train,20,005,West North Central,4,0.02220242071890488,middle
+OppSP,0,OppSP,20009,train,20,009,West North Central,8,0.07324387473554979,middle
+OppSP,0,OppSP,20011,train,20,011,West North Central,5,0.03471083721738627,middle
+OppSP,0,OppSP,20015,train,20,015,West North Central,13,0.044557438260782095,middle
+OppSP,0,OppSP,20029,train,20,029,West North Central,4,0.07211851848005531,middle
+OppSP,0,OppSP,20035,train,20,035,West North Central,11,0.04747245698119585,middle
+OppSP,0,OppSP,20045,train,20,045,West North Central,22,0.028482561317193518,middle
+OppSP,0,OppSP,20055,train,20,055,West North Central,12,0.0433990157500273,middle
+OppSP,0,OppSP,20057,train,20,057,West North Central,7,0.08056640619125355,middle
+OppSP,0,OppSP,20059,train,20,059,West North Central,5,0.10205662840336319,middle
+OppSP,0,OppSP,20061,train,20,061,West North Central,8,0.07762691848896286,middle
+OppSP,0,OppSP,20079,train,20,079,West North Central,6,0.028599108371871084,middle
+OppSP,0,OppSP,20099,train,20,099,West North Central,8,0.09044662418151798,middle
+OppSP,0,OppSP,20103,train,20,103,West North Central,16,0.07555311637401338,middle
+OppSP,0,OppSP,20111,train,20,111,West North Central,8,0.037300338607919495,middle
+OppSP,0,OppSP,20121,train,20,121,West North Central,8,0.10994753535542826,middle
+OppSP,0,OppSP,20125,train,20,125,West North Central,13,0.04901778432513747,middle
+OppSP,0,OppSP,20133,train,20,133,West North Central,5,0.02098508495835795,middle
+OppSP,0,OppSP,20139,train,20,139,West North Central,5,0.0864583332612847,middle
+OppSP,0,OppSP,20155,train,20,155,West North Central,17,0.02864615381618556,middle
+OppSP,0,OppSP,20161,train,20,161,West North Central,14,0.04191717902387503,middle
+OppSP,0,OppSP,20169,train,20,169,West North Central,12,0.052923407927941285,middle
+OppSP,0,OppSP,20173,train,20,173,West North Central,124,0.013557950249405258,middle
+OppSP,0,OppSP,20175,train,20,175,West North Central,5,0.04713114750235146,middle
+OppSP,0,OppSP,20177,train,20,177,West North Central,43,0.039682194684875084,middle
+OppSP,0,OppSP,20191,train,20,191,West North Central,6,0.02762499997928126,middle
+OppSP,0,OppSP,20209,train,20,209,West North Central,70,0.0667561326708539,middle
+OppSP,0,OppSP,21001,train,21,001,East South Central,7,0.0733506943731312,middle
+OppSP,0,OppSP,21005,train,21,005,East South Central,5,0.02909052715800775,middle
+OppSP,0,OppSP,21009,train,21,009,East South Central,10,0.05228639141881698,middle
+OppSP,0,OppSP,21013,train,21,013,East South Central,9,0.03159357373959047,middle
+OppSP,0,OppSP,21015,train,21,015,East South Central,22,0.019220364666648625,middle
+OppSP,0,OppSP,21021,train,21,021,East South Central,7,0.0625166906458819,middle
+OppSP,0,OppSP,21025,train,21,025,East South Central,7,0.03985046434822683,middle
+OppSP,0,OppSP,21027,train,21,027,East South Central,6,0.04647989541835673,middle
+OppSP,0,OppSP,21031,train,21,031,East South Central,5,0.05001849107616557,middle
+OppSP,0,OppSP,21035,train,21,035,East South Central,9,0.04291886882281589,middle
+OppSP,0,OppSP,21037,train,21,037,East South Central,25,0.030027284545303234,middle
+OppSP,0,OppSP,21049,train,21,049,East South Central,10,0.03823578433832362,middle
+OppSP,0,OppSP,21051,train,21,051,East South Central,6,0.05725859337578651,middle
+OppSP,0,OppSP,21055,train,21,055,East South Central,4,0.0624589085486944,middle
+OppSP,0,OppSP,21059,train,21,059,East South Central,23,0.016636477770328544,middle
+OppSP,0,OppSP,21061,train,21,061,East South Central,4,0.08877574258092376,middle
+OppSP,0,OppSP,21065,train,21,065,East South Central,4,0.012881490280454303,middle
+OppSP,0,OppSP,21067,train,21,067,East South Central,82,0.02232723574225919,middle
+OppSP,0,OppSP,21069,train,21,069,East South Central,4,0.10034706495156824,middle
+OppSP,0,OppSP,21073,train,21,073,East South Central,11,0.04827234786060247,middle
+OppSP,0,OppSP,21085,train,21,085,East South Central,7,0.05716169392000584,middle
+OppSP,0,OppSP,21089,train,21,089,East South Central,9,0.08649077556666318,middle
+OppSP,0,OppSP,21093,train,21,093,East South Central,22,0.0189078501162534,middle
+OppSP,0,OppSP,21097,train,21,097,East South Central,5,0.059749999940249925,middle
+OppSP,0,OppSP,21099,train,21,099,East South Central,5,0.0978897004785461,middle
+OppSP,0,OppSP,21101,train,21,101,East South Central,11,0.04591836730184033,middle
+OppSP,0,OppSP,21103,train,21,103,East South Central,5,0.06666666655555549,middle
+OppSP,0,OppSP,21107,train,21,107,East South Central,12,0.049186473962359936,middle
+OppSP,0,OppSP,21117,train,21,117,East South Central,41,0.04507642958775059,middle
+OppSP,0,OppSP,21119,train,21,119,East South Central,5,0.06375739640065992,middle
+OppSP,0,OppSP,21125,train,21,125,East South Central,13,0.029744647141219386,middle
+OppSP,0,OppSP,21127,train,21,127,East South Central,5,0.025205761293533684,middle
+OppSP,0,OppSP,21135,train,21,135,East South Central,4,0.10600402176093948,middle
+OppSP,0,OppSP,21137,train,21,137,East South Central,6,0.0631357339922717,middle
+OppSP,0,OppSP,21141,train,21,141,East South Central,6,0.06951020402205242,middle
+OppSP,0,OppSP,21145,train,21,145,East South Central,17,0.10609166457428544,middle
+OppSP,0,OppSP,21147,train,21,147,East South Central,4,0.10280838686814198,middle
+OppSP,0,OppSP,21151,train,21,151,East South Central,19,0.055739119463234614,middle
+OppSP,0,OppSP,21153,train,21,153,East South Central,4,0.12393707474140547,middle
+OppSP,0,OppSP,21157,train,21,157,East South Central,6,0.032557262682514396,middle
+OppSP,0,OppSP,21167,train,21,167,East South Central,5,0.03145449133582282,middle
+OppSP,0,OppSP,21171,train,21,171,East South Central,4,0.07242798350690453,middle
+OppSP,0,OppSP,21173,train,21,173,East South Central,6,0.057769277997485824,middle
+OppSP,0,OppSP,21175,train,21,175,East South Central,5,0.061053755727378915,middle
+OppSP,0,OppSP,21177,train,21,177,East South Central,9,0.09418145942118043,middle
+OppSP,0,OppSP,21179,train,21,179,East South Central,9,0.0709566326074462,middle
+OppSP,0,OppSP,21183,train,21,183,East South Central,7,0.11743682368041156,middle
+OppSP,0,OppSP,21185,train,21,185,East South Central,14,0.12989508476253428,middle
+OppSP,0,OppSP,21193,train,21,193,East South Central,8,0.07855955672054818,middle
+OppSP,0,OppSP,21195,train,21,195,East South Central,19,0.04767517142750501,middle
+OppSP,0,OppSP,21199,train,21,199,East South Central,14,0.04091377913269864,middle
+OppSP,0,OppSP,21209,train,21,209,East South Central,14,0.05258572975067092,middle
+OppSP,0,OppSP,21213,train,21,213,East South Central,4,0.04212431088457317,middle
+OppSP,0,OppSP,21217,train,21,217,East South Central,5,0.1107117316494937,middle
+OppSP,0,OppSP,21225,train,21,225,East South Central,4,0.09498614248457282,middle
+OppSP,0,OppSP,21231,train,21,231,East South Central,5,0.03798828122625726,middle
+OppSP,0,OppSP,21233,train,21,233,East South Central,4,0.0715311691072602,middle
+OppSP,0,OppSP,21235,train,21,235,East South Central,8,0.03443261934527943,middle
+OppSP,0,OppSP,21239,train,21,239,East South Central,8,0.08146005823456015,middle
+OppSP,0,OppSP,22001,train,22,001,West South Central,12,0.024255908799157788,middle
+OppSP,0,OppSP,22003,train,22,003,West South Central,5,0.05594656703101334,middle
+OppSP,0,OppSP,22005,train,22,005,West South Central,14,0.045238679475100387,middle
+OppSP,0,OppSP,22007,train,22,007,West South Central,6,0.026429980235472605,middle
+OppSP,0,OppSP,22009,train,22,009,West South Central,9,0.017810650871133354,middle
+OppSP,0,OppSP,22013,train,22,013,West South Central,5,0.01358857368612583,middle
+OppSP,0,OppSP,22015,train,22,015,West South Central,22,0.024484112267438643,middle
+OppSP,0,OppSP,22019,train,22,019,West South Central,44,0.014532023745561055,middle
+OppSP,0,OppSP,22027,train,22,027,West South Central,5,0.03741825204859897,middle
+OppSP,0,OppSP,22029,train,22,029,West South Central,5,0.013234911539794884,middle
+OppSP,0,OppSP,22031,train,22,031,West South Central,7,0.028816618236327304,middle
+OppSP,0,OppSP,22037,train,22,037,West South Central,5,0.016735537174868455,middle
+OppSP,0,OppSP,22039,train,22,039,West South Central,8,0.04057963544547505,middle
+OppSP,0,OppSP,22041,train,22,041,West South Central,6,0.03210822057868007,middle
+OppSP,0,OppSP,22045,train,22,045,West South Central,15,0.04283312908342688,middle
+OppSP,0,OppSP,22049,train,22,049,West South Central,5,0.041573660677166266,middle
+OppSP,0,OppSP,22055,train,22,055,West South Central,43,0.02376302650401007,middle
+OppSP,0,OppSP,22057,train,22,057,West South Central,23,0.058010785559428964,middle
+OppSP,0,OppSP,22063,train,22,063,West South Central,17,0.050373670820822475,middle
+OppSP,0,OppSP,22067,train,22,067,West South Central,8,0.02490492269003289,middle
+OppSP,0,OppSP,22069,train,22,069,West South Central,9,0.08269328018300491,middle
+OppSP,0,OppSP,22071,train,22,071,West South Central,177,0.030451335904284695,middle
+OppSP,0,OppSP,22073,train,22,073,West South Central,40,0.021346819253952085,middle
+OppSP,0,OppSP,22075,train,22,075,West South Central,9,0.08108108094959822,middle
+OppSP,0,OppSP,22077,train,22,077,West South Central,6,0.02632384448970878,middle
+OppSP,0,OppSP,22079,train,22,079,West South Central,33,0.015892884546551134,middle
+OppSP,0,OppSP,22085,train,22,085,West South Central,7,0.027830033721132148,middle
+OppSP,0,OppSP,22095,train,22,095,West South Central,11,0.017302847049646162,middle
+OppSP,0,OppSP,22099,train,22,099,West South Central,11,0.038179012299015734,middle
+OppSP,0,OppSP,22105,train,22,105,West South Central,20,0.03311251236061548,middle
+OppSP,0,OppSP,22109,train,22,109,West South Central,21,0.03419717089929606,middle
+OppSP,0,OppSP,22111,train,22,111,West South Central,6,0.012137512826628172,middle
+OppSP,0,OppSP,22115,train,22,115,West South Central,12,0.06691919186342588,middle
+OppSP,0,OppSP,22119,train,22,119,West South Central,11,0.05275200263115351,middle
+OppSP,0,OppSP,22121,train,22,121,West South Central,5,0.06279296871075438,middle
+OppSP,0,OppSP,22127,train,22,127,West South Central,4,0.12055466658951164,middle
+OppSP,0,OppSP,23001,train,23,001,New England,28,0.015441859847973104,middle
+OppSP,0,OppSP,23009,train,23,009,New England,17,0.02674259253679994,middle
+OppSP,0,OppSP,23011,train,23,011,New England,31,0.05514940517747423,middle
+OppSP,0,OppSP,23013,train,23,013,New England,10,0.08204346747980037,middle
+OppSP,0,OppSP,23015,train,23,015,New England,10,0.09453459793059038,middle
+OppSP,0,OppSP,23017,train,23,017,New England,17,0.049217814435550435,middle
+OppSP,0,OppSP,23019,train,23,019,New England,46,0.032307635819246276,middle
+OppSP,0,OppSP,23021,train,23,021,New England,8,0.04685897805369864,middle
+OppSP,0,OppSP,23025,train,23,025,New England,17,0.03184769569162399,middle
+OppSP,0,OppSP,23027,train,23,027,New England,8,0.02968276935629729,middle
+OppSP,0,OppSP,24001,train,24,001,South Atlantic,23,0.03119769499961927,middle
+OppSP,0,OppSP,24003,train,24,003,South Atlantic,104,0.01286119609819436,middle
+OppSP,0,OppSP,24009,train,24,009,South Atlantic,18,0.048186837763880074,middle
+OppSP,0,OppSP,24013,train,24,013,South Atlantic,38,0.017460407235413793,middle
+OppSP,0,OppSP,24015,train,24,015,South Atlantic,19,0.10665103989276362,middle
+OppSP,0,OppSP,24017,train,24,017,South Atlantic,31,0.0371115296190955,middle
+OppSP,0,OppSP,24019,train,24,019,South Atlantic,9,0.032259881225875475,middle
+OppSP,0,OppSP,24021,train,24,021,South Atlantic,61,0.017425803579555393,middle
+OppSP,0,OppSP,24023,train,24,023,South Atlantic,7,0.042831292459596965,middle
+OppSP,0,OppSP,24025,train,24,025,South Atlantic,57,0.01248746489381367,middle
+OppSP,0,OppSP,24027,train,24,027,South Atlantic,55,0.016579142932829055,middle
+OppSP,0,OppSP,24035,train,24,035,South Atlantic,12,0.03763546926041284,middle
+OppSP,0,OppSP,24037,train,24,037,South Atlantic,17,0.029695346233148946,middle
+OppSP,0,OppSP,24039,train,24,039,South Atlantic,7,0.0764269985881831,middle
+OppSP,0,OppSP,24041,train,24,041,South Atlantic,10,0.02842355265556142,middle
+OppSP,0,OppSP,24043,train,24,043,South Atlantic,32,0.016015133117038644,middle
+OppSP,0,OppSP,24045,train,24,045,South Atlantic,19,0.021673769306784545,middle
+OppSP,0,OppSP,24047,train,24,047,South Atlantic,16,0.08393559398650711,middle
+OppSP,0,OppSP,25001,train,25,001,New England,57,0.024581712872075626,middle
+OppSP,0,OppSP,25003,train,25,003,New England,39,0.0201736994446254,middle
+OppSP,0,OppSP,25011,train,25,011,New England,18,0.028460953335815123,middle
+OppSP,0,OppSP,25015,train,25,015,New England,36,0.02242410002864454,middle
+OppSP,0,OppSP,25019,train,25,019,New England,5,0.05017261286368223,middle
+OppSP,0,OppSP,26001,train,26,001,East North Central,5,0.04797286995971796,middle
+OppSP,0,OppSP,26005,train,26,005,East North Central,24,0.017859909584223833,middle
+OppSP,0,OppSP,26009,train,26,009,East North Central,7,0.035578170358811875,middle
+OppSP,0,OppSP,26011,train,26,011,East North Central,5,0.04306859565153906,middle
+OppSP,0,OppSP,26015,train,26,015,East North Central,11,0.0853583949337352,middle
+OppSP,0,OppSP,26017,train,26,017,East North Central,27,0.023209916912094744,middle
+OppSP,0,OppSP,26019,train,26,019,East North Central,5,0.01646083594060918,middle
+OppSP,0,OppSP,26021,train,26,021,East North Central,48,0.030846177581529518,middle
+OppSP,0,OppSP,26025,train,26,025,East North Central,39,0.012550185990799361,middle
+OppSP,0,OppSP,26027,train,26,027,East North Central,11,0.05134188921145903,middle
+OppSP,0,OppSP,26031,train,26,031,East North Central,8,0.05583302506125493,middle
+OppSP,0,OppSP,26033,train,26,033,East North Central,14,0.07585774939102051,middle
+OppSP,0,OppSP,26035,train,26,035,East North Central,11,0.09630593123610735,middle
+OppSP,0,OppSP,26039,train,26,039,East North Central,5,0.032140248341986956,middle
+OppSP,0,OppSP,26043,train,26,043,East North Central,7,0.05292230041337665,middle
+OppSP,0,OppSP,26045,train,26,045,East North Central,28,0.0322840182977852,middle
+OppSP,0,OppSP,26047,train,26,047,East North Central,8,0.019510856697568992,middle
+OppSP,0,OppSP,26053,train,26,053,East North Central,7,0.034437151143701536,middle
+OppSP,0,OppSP,26055,train,26,055,East North Central,16,0.03950667253008895,middle
+OppSP,0,OppSP,26057,train,26,057,East North Central,10,0.04677579363408803,middle
+OppSP,0,OppSP,26059,train,26,059,East North Central,12,0.04472118191880732,middle
+OppSP,0,OppSP,26061,train,26,061,East North Central,10,0.0799387142768228,middle
+OppSP,0,OppSP,26063,train,26,063,East North Central,12,0.04423282027410241,middle
+OppSP,0,OppSP,26065,train,26,065,East North Central,81,0.014048852736688516,middle
+OppSP,0,OppSP,26067,train,26,067,East North Central,13,0.03236666664983598,middle
+OppSP,0,OppSP,26069,train,26,069,East North Central,9,0.066052117622668,middle
+OppSP,0,OppSP,26073,train,26,073,East North Central,15,0.06960133685605348,middle
+OppSP,0,OppSP,26075,train,26,075,East North Central,38,0.02384836259025167,middle
+OppSP,0,OppSP,26077,train,26,077,East North Central,57,0.014702241476411897,middle
+OppSP,0,OppSP,26079,train,26,079,East North Central,5,0.10442352290842831,middle
+OppSP,0,OppSP,26085,train,26,085,East North Central,4,0.013379729957559169,middle
+OppSP,0,OppSP,26087,train,26,087,East North Central,24,0.04447389232225056,middle
+OppSP,0,OppSP,26093,train,26,093,East North Central,61,0.028684975417168173,middle
+OppSP,0,OppSP,26105,train,26,105,East North Central,8,0.052002270638491464,middle
+OppSP,0,OppSP,26107,train,26,107,East North Central,11,0.054100185497842575,middle
+OppSP,0,OppSP,26111,train,26,111,East North Central,19,0.039463267464114556,middle
+OppSP,0,OppSP,26113,train,26,113,East North Central,4,0.016153971349118557,middle
+OppSP,0,OppSP,26115,train,26,115,East North Central,39,0.016529290813020354,middle
+OppSP,0,OppSP,26121,train,26,121,East North Central,42,0.028094684482347195,middle
+OppSP,0,OppSP,26123,train,26,123,East North Central,11,0.03832966339362176,middle
+OppSP,0,OppSP,26127,train,26,127,East North Central,7,0.06228308432870326,middle
+OppSP,0,OppSP,26133,train,26,133,East North Central,6,0.06424074071932719,middle
+OppSP,0,OppSP,26139,train,26,139,East North Central,53,0.022304545843781203,middle
+OppSP,0,OppSP,26141,train,26,141,East North Central,6,0.05868226281270311,middle
+OppSP,0,OppSP,26143,train,26,143,East North Central,10,0.054527115173431735,middle
+OppSP,0,OppSP,26145,train,26,145,East North Central,56,0.05158634488748502,middle
+OppSP,0,OppSP,26147,train,26,147,East North Central,49,0.01651047209927779,middle
+OppSP,0,OppSP,26149,train,26,149,East North Central,17,0.03978894432944249,middle
+OppSP,0,OppSP,26157,train,26,157,East North Central,13,0.04364006280193439,middle
+OppSP,0,OppSP,26165,train,26,165,East North Central,8,0.041118010586184174,middle
+OppSP,0,OppSP,27005,train,27,005,West North Central,10,0.06340852881171997,middle
+OppSP,0,OppSP,27007,train,27,007,West North Central,10,0.10675777335494148,middle
+OppSP,0,OppSP,27013,train,27,013,West North Central,16,0.05096306991261823,middle
+OppSP,0,OppSP,27015,train,27,015,West North Central,8,0.06129900558410063,middle
+OppSP,0,OppSP,27019,train,27,019,West North Central,19,0.04547722836755032,middle
+OppSP,0,OppSP,27021,train,27,021,West North Central,10,0.08277517878278912,middle
+OppSP,0,OppSP,27023,train,27,023,West North Central,4,0.10475199438264345,middle
+OppSP,0,OppSP,27025,train,27,025,West North Central,10,0.04172139861353104,middle
+OppSP,0,OppSP,27027,train,27,027,West North Central,13,0.01680770195480485,middle
+OppSP,0,OppSP,27033,train,27,033,West North Central,4,0.049232829613523744,middle
+OppSP,0,OppSP,27035,train,27,035,West North Central,16,0.03851851849283953,middle
+OppSP,0,OppSP,27039,train,27,039,West North Central,5,0.06035190313204028,middle
+OppSP,0,OppSP,27043,train,27,043,West North Central,6,0.07035897431567646,middle
+OppSP,0,OppSP,27047,train,27,047,West North Central,10,0.035336356722861076,middle
+OppSP,0,OppSP,27049,train,27,049,West North Central,10,0.05982314340466338,middle
+OppSP,0,OppSP,27055,train,27,055,West North Central,5,0.04394531247253412,middle
+OppSP,0,OppSP,27061,train,27,061,West North Central,11,0.05380035500436007,middle
+OppSP,0,OppSP,27071,train,27,071,West North Central,4,0.0733363512589696,middle
+OppSP,0,OppSP,27079,train,27,079,West North Central,6,0.053634319007466055,middle
+OppSP,0,OppSP,27083,train,27,083,West North Central,7,0.11237592330928205,middle
+OppSP,0,OppSP,27089,train,27,089,West North Central,4,0.06480380494936244,middle
+OppSP,0,OppSP,27091,train,27,091,West North Central,6,0.08069135795296571,middle
+OppSP,0,OppSP,27097,train,27,097,West North Central,8,0.0510904479506444,middle
+OppSP,0,OppSP,27099,train,27,099,West North Central,11,0.0363986293865963,middle
+OppSP,0,OppSP,27103,train,27,103,West North Central,7,0.05338996267006563,middle
+OppSP,0,OppSP,27105,train,27,105,West North Central,6,0.06800964184236481,middle
+OppSP,0,OppSP,27109,train,27,109,West North Central,33,0.03164543176766314,middle
+OppSP,0,OppSP,27111,train,27,111,West North Central,17,0.055688857995245714,middle
+OppSP,0,OppSP,27113,train,27,113,West North Central,5,0.10126953118670644,middle
+OppSP,0,OppSP,27115,train,27,115,West North Central,8,0.06493506490554905,middle
+OppSP,0,OppSP,27117,train,27,117,West North Central,5,0.04821091592392572,middle
+OppSP,0,OppSP,27119,train,27,119,West North Central,10,0.04835997126522178,middle
+OppSP,0,OppSP,27121,train,27,121,West North Central,4,0.12528925610722763,middle
+OppSP,0,OppSP,27129,train,27,129,West North Central,6,0.06989619367294932,middle
+OppSP,0,OppSP,27131,train,27,131,West North Central,13,0.04282537827571431,middle
+OppSP,0,OppSP,27137,train,27,137,West North Central,66,0.015750156669644088,middle
+OppSP,0,OppSP,27139,train,27,139,West North Central,21,0.05000628148123451,middle
+OppSP,0,OppSP,27141,train,27,141,West North Central,11,0.04423047121825467,middle
+OppSP,0,OppSP,27143,train,27,143,West North Central,4,0.054478300958351523,middle
+OppSP,0,OppSP,27145,train,27,145,West North Central,29,0.05355087724554511,middle
+OppSP,0,OppSP,27151,train,27,151,West North Central,4,0.10930468852870041,middle
+OppSP,0,OppSP,27153,train,27,153,West North Central,8,0.11887708245580884,middle
+OppSP,0,OppSP,27157,train,27,157,West North Central,6,0.016567003225135178,middle
+OppSP,0,OppSP,27161,train,27,161,West North Central,5,0.09733727803163394,middle
+OppSP,0,OppSP,27169,train,27,169,West North Central,10,0.03207063714148204,middle
+OppSP,0,OppSP,27171,train,27,171,West North Central,17,0.06890503039679244,middle
+OppSP,0,OppSP,28001,train,28,001,East South Central,9,0.033366206417463184,middle
+OppSP,0,OppSP,28003,train,28,003,East South Central,7,0.0465000640523893,middle
+OppSP,0,OppSP,28007,train,28,007,East South Central,6,0.01186158219077722,middle
+OppSP,0,OppSP,28011,train,28,011,East South Central,8,0.06594022125824292,middle
+OppSP,0,OppSP,28013,train,28,013,East South Central,5,0.03402537483358583,middle
+OppSP,0,OppSP,28017,train,28,017,East South Central,4,0.03843621397468685,middle
+OppSP,0,OppSP,28023,train,28,023,East South Central,4,0.012899408280054647,middle
+OppSP,0,OppSP,28027,train,28,027,East South Central,7,0.04021069956345735,middle
+OppSP,0,OppSP,28031,train,28,031,East South Central,4,0.07910126188974036,middle
+OppSP,0,OppSP,28033,train,28,033,East South Central,33,0.07131912118948258,middle
+OppSP,0,OppSP,28035,train,28,035,East South Central,17,0.022660030855637062,middle
+OppSP,0,OppSP,28039,train,28,039,East South Central,5,0.035346938755311946,middle
+OppSP,0,OppSP,28043,train,28,043,East South Central,5,0.030715541573317594,middle
+OppSP,0,OppSP,28045,train,28,045,East South Central,7,0.0551563041658803,middle
+OppSP,0,OppSP,28047,train,28,047,East South Central,45,0.019917882583807254,middle
+OppSP,0,OppSP,28057,train,28,057,East South Central,5,0.05182201553282979,middle
+OppSP,0,OppSP,28059,train,28,059,East South Central,28,0.04059890719574385,middle
+OppSP,0,OppSP,28061,train,28,061,East South Central,4,0.03489084573681992,middle
+OppSP,0,OppSP,28067,train,28,067,East South Central,14,0.02975468175159494,middle
+OppSP,0,OppSP,28075,train,28,075,East South Central,19,0.022000462677358366,middle
+OppSP,0,OppSP,28079,train,28,079,East South Central,5,0.027402692031209264,middle
+OppSP,0,OppSP,28081,train,28,081,East South Central,19,0.04928318984732545,middle
+OppSP,0,OppSP,28083,train,28,083,East South Central,8,0.03239222450981278,middle
+OppSP,0,OppSP,28085,train,28,085,East South Central,6,0.09721599995333631,middle
+OppSP,0,OppSP,28087,train,28,087,East South Central,14,0.0710155176972361,middle
+OppSP,0,OppSP,28089,train,28,089,East South Central,21,0.04019659339664898,middle
+OppSP,0,OppSP,28093,train,28,093,East South Central,6,0.048201051212609876,middle
+OppSP,0,OppSP,28099,train,28,099,East South Central,7,0.041846445925441976,middle
+OppSP,0,OppSP,28101,train,28,101,East South Central,5,0.02128701578471285,middle
+OppSP,0,OppSP,28105,train,28,105,East South Central,8,0.06355811403855041,middle
+OppSP,0,OppSP,28107,train,28,107,East South Central,6,0.024999999987068953,middle
+OppSP,0,OppSP,28113,train,28,113,East South Central,8,0.033259951183654025,middle
+OppSP,0,OppSP,28115,train,28,115,East South Central,6,0.05584767225447268,middle
+OppSP,0,OppSP,28117,train,28,117,East South Central,5,0.047833095628527465,middle
+OppSP,0,OppSP,28123,train,28,123,East South Central,6,0.0349287702684004,middle
+OppSP,0,OppSP,28127,train,28,127,East South Central,5,0.035280241253975095,middle
+OppSP,0,OppSP,28133,train,28,133,East South Central,7,0.09875594459786079,middle
+OppSP,0,OppSP,28135,train,28,135,East South Central,4,0.03658818095950567,middle
+OppSP,0,OppSP,28139,train,28,139,East South Central,4,0.1074076603516827,middle
+OppSP,0,OppSP,28145,train,28,145,East South Central,6,0.08004571423082572,middle
+OppSP,0,OppSP,28149,train,28,149,East South Central,12,0.05243959496039341,middle
+OppSP,0,OppSP,28151,train,28,151,East South Central,19,0.021282093138796074,middle
+OppSP,0,OppSP,28159,train,28,159,East South Central,5,0.026079999979135987,middle
+OppSP,0,OppSP,28163,train,28,163,East South Central,6,0.028396694199386917,middle
+OppSP,0,OppSP,29001,train,29,001,West North Central,7,0.0207093333217361,middle
+OppSP,0,OppSP,29003,train,29,003,West North Central,4,0.12187017909397246,middle
+OppSP,0,OppSP,29007,train,29,007,West North Central,7,0.04550959238637357,middle
+OppSP,0,OppSP,29009,train,29,009,West North Central,7,0.03948045263651336,middle
+OppSP,0,OppSP,29013,train,29,013,West North Central,4,0.06553436946994728,middle
+OppSP,0,OppSP,29015,train,29,015,West North Central,6,0.07710257651833961,middle
+OppSP,0,OppSP,29019,train,29,019,West North Central,29,0.02927887183678776,middle
+OppSP,0,OppSP,29021,train,29,021,West North Central,25,0.03465207347171794,middle
+OppSP,0,OppSP,29027,train,29,027,West North Central,8,0.021895760179205106,middle
+OppSP,0,OppSP,29029,train,29,029,West North Central,11,0.07859224122120147,middle
+OppSP,0,OppSP,29031,train,29,031,West North Central,16,0.037930440736867625,middle
+OppSP,0,OppSP,29037,train,29,037,West North Central,20,0.04527405789685797,middle
+OppSP,0,OppSP,29043,train,29,043,West North Central,14,0.030937499945859363,middle
+OppSP,0,OppSP,29049,train,29,049,West North Central,4,0.12320808807191093,middle
+OppSP,0,OppSP,29051,train,29,051,West North Central,15,0.12661385641277229,middle
+OppSP,0,OppSP,29053,train,29,053,West North Central,5,0.024021050236204232,middle
+OppSP,0,OppSP,29055,train,29,055,West North Central,6,0.07341281237289837,middle
+OppSP,0,OppSP,29065,train,29,065,West North Central,4,0.025576044873164266,middle
+OppSP,0,OppSP,29069,train,29,069,West North Central,10,0.03975195512272381,middle
+OppSP,0,OppSP,29071,train,29,071,West North Central,17,0.04932079599200778,middle
+OppSP,0,OppSP,29073,train,29,073,West North Central,5,0.1083140430594403,middle
+OppSP,0,OppSP,29079,train,29,079,West North Central,4,0.10586523831898605,middle
+OppSP,0,OppSP,29083,train,29,083,West North Central,6,0.05860439056095731,middle
+OppSP,0,OppSP,29091,train,29,091,West North Central,8,0.12847414400040608,middle
+OppSP,0,OppSP,29093,train,29,093,West North Central,4,0.05199211038965864,middle
+OppSP,0,OppSP,29097,train,29,097,West North Central,22,0.014000685918855144,middle
+OppSP,0,OppSP,29099,train,29,099,West North Central,42,0.0429051144621424,middle
+OppSP,0,OppSP,29105,train,29,105,West North Central,6,0.10199652773527923,middle
+OppSP,0,OppSP,29107,train,29,107,West North Central,7,0.12581997080054527,middle
+OppSP,0,OppSP,29109,train,29,109,West North Central,7,0.11055732836417581,middle
+OppSP,0,OppSP,29111,train,29,111,West North Central,4,0.021751910613177976,middle
+OppSP,0,OppSP,29113,train,29,113,West North Central,7,0.12320383377353354,middle
+OppSP,0,OppSP,29117,train,29,117,West North Central,5,0.03416980755379821,middle
+OppSP,0,OppSP,29119,train,29,119,West North Central,4,0.058055300432629554,middle
+OppSP,0,OppSP,29121,train,29,121,West North Central,5,0.07793964615158938,middle
+OppSP,0,OppSP,29127,train,29,127,West North Central,8,0.07971168199529743,middle
+OppSP,0,OppSP,29133,train,29,133,West North Central,4,0.025419145460399733,middle
+OppSP,0,OppSP,29135,train,29,135,West North Central,4,0.07859574244129959,middle
+OppSP,0,OppSP,29141,train,29,141,West North Central,5,0.03124999996093742,middle
+OppSP,0,OppSP,29143,train,29,143,West North Central,6,0.10481740953577914,middle
+OppSP,0,OppSP,29145,train,29,145,West North Central,12,0.041092372736550475,middle
+OppSP,0,OppSP,29147,train,29,147,West North Central,5,0.08335458110744001,middle
+OppSP,0,OppSP,29157,train,29,157,West North Central,5,0.031639125980302135,middle
+OppSP,0,OppSP,29161,train,29,161,West North Central,10,0.09732720244731072,middle
+OppSP,0,OppSP,29163,train,29,163,West North Central,5,0.06014116260134178,middle
+OppSP,0,OppSP,29165,train,29,165,West North Central,20,0.023948500165400306,middle
+OppSP,0,OppSP,29167,train,29,167,West North Central,4,0.045048560512696824,middle
+OppSP,0,OppSP,29175,train,29,175,West North Central,6,0.06783235392807445,middle
+OppSP,0,OppSP,29177,train,29,177,West North Central,4,0.0335638387412082,middle
+OppSP,0,OppSP,29183,train,29,183,West North Central,79,0.02844700698174519,middle
+OppSP,0,OppSP,29186,train,29,186,West North Central,4,0.07943114800711622,middle
+OppSP,0,OppSP,29187,train,29,187,West North Central,11,0.0340569758543135,middle
+OppSP,0,OppSP,29195,train,29,195,West North Central,8,0.029017982615694344,middle
+OppSP,0,OppSP,29201,train,29,201,West North Central,10,0.05958679761109907,middle
+OppSP,0,OppSP,29207,train,29,207,West North Central,8,0.042698112591896785,middle
+OppSP,0,OppSP,29209,train,29,209,West North Central,6,0.12395041315553115,middle
+OppSP,0,OppSP,29215,train,29,215,West North Central,4,0.01426587551435595,middle
+OppSP,0,OppSP,29217,train,29,217,West North Central,6,0.03842824341331412,middle
+OppSP,0,OppSP,29219,train,29,219,West North Central,5,0.0863540905478899,middle
+OppSP,0,OppSP,29221,train,29,221,West North Central,5,0.10011490946634026,middle
+OppSP,0,OppSP,29223,train,29,223,West North Central,4,0.027407105241309182,middle
+OppSP,0,OppSP,30003,train,30,003,Mountain,5,0.06121796074380469,middle
+OppSP,0,OppSP,30005,train,30,005,Mountain,4,0.057692307647928986,middle
+OppSP,0,OppSP,30017,train,30,017,Mountain,6,0.043523110457169535,middle
+OppSP,0,OppSP,30029,train,30,029,Mountain,19,0.038488329023682544,middle
+OppSP,0,OppSP,30035,train,30,035,Mountain,4,0.08862950648192536,middle
+OppSP,0,OppSP,30041,train,30,041,Mountain,6,0.10688857238520713,middle
+OppSP,0,OppSP,30047,train,30,047,Mountain,8,0.04266860563835438,middle
+OppSP,0,OppSP,30049,train,30,049,Mountain,14,0.03927598068327264,middle
+OppSP,0,OppSP,30053,train,30,053,Mountain,5,0.04566750705397221,middle
+OppSP,0,OppSP,30063,train,30,063,Mountain,20,0.030154199974660924,middle
+OppSP,0,OppSP,30067,train,30,067,Mountain,6,0.07733693603101541,middle
+OppSP,0,OppSP,30081,train,30,081,Mountain,10,0.0702988128386368,middle
+OppSP,0,OppSP,30083,train,30,083,Mountain,4,0.0658355088680862,middle
+OppSP,0,OppSP,30087,train,30,087,Mountain,4,0.04832158200414264,middle
+OppSP,0,OppSP,30093,train,30,093,Mountain,8,0.027365563025581987,middle
+OppSP,0,OppSP,30111,train,30,111,Mountain,32,0.03807871852535,middle
+OppSP,0,OppSP,31001,train,31,001,West North Central,9,0.0243537808439027,middle
+OppSP,0,OppSP,31025,train,31,025,West North Central,6,0.06199176951977317,middle
+OppSP,0,OppSP,31053,train,31,053,West North Central,9,0.02877211237179686,middle
+OppSP,0,OppSP,31067,train,31,067,West North Central,7,0.09112162100370333,middle
+OppSP,0,OppSP,31079,train,31,079,West North Central,14,0.019492606150609444,middle
+OppSP,0,OppSP,31089,train,31,089,West North Central,4,0.028271514747813347,middle
+OppSP,0,OppSP,31119,train,31,119,West North Central,9,0.04457998536910866,middle
+OppSP,0,OppSP,31131,train,31,131,West North Central,5,0.12443940535228168,middle
+OppSP,0,OppSP,31141,train,31,141,West North Central,7,0.021521158248787982,middle
+OppSP,0,OppSP,31185,train,31,185,West North Central,4,0.06322962959590717,middle
+OppSP,0,OppSP,32007,train,32,007,Mountain,14,0.029819353438657596,middle
+OppSP,0,OppSP,32019,train,32,019,Mountain,10,0.042460734181550955,middle
+OppSP,0,OppSP,32031,train,32,031,Mountain,112,0.01823242562935532,middle
+OppSP,0,OppSP,32510,train,32,510,Mountain,14,0.06723984609765497,middle
+OppSP,0,OppSP,33001,train,33,001,New England,15,0.03618672228272072,middle
+OppSP,0,OppSP,33003,train,33,003,New England,11,0.08872619960756015,middle
+OppSP,0,OppSP,33007,train,33,007,New England,11,0.06078499859035189,middle
+OppSP,0,OppSP,33009,train,33,009,New England,19,0.04999755912012856,middle
+OppSP,0,OppSP,33013,train,33,013,New England,36,0.016040822964575558,middle
+OppSP,0,OppSP,33017,train,33,017,New England,25,0.015315060155115407,middle
+OppSP,0,OppSP,34001,train,34,001,Middle Atlantic,69,0.014554155613855375,middle
+OppSP,0,OppSP,34005,train,34,005,Middle Atlantic,114,0.016970357561356463,middle
+OppSP,0,OppSP,34007,train,34,007,Middle Atlantic,127,0.013341877249349376,middle
+OppSP,0,OppSP,34009,train,34,009,Middle Atlantic,33,0.06415667449390845,middle
+OppSP,0,OppSP,34011,train,34,011,Middle Atlantic,35,0.03379244387942005,middle
+OppSP,0,OppSP,34013,train,34,013,Middle Atlantic,210,0.012656579321178658,middle
+OppSP,0,OppSP,34015,train,34,015,Middle Atlantic,63,0.026613018599482813,middle
+OppSP,0,OppSP,34019,train,34,019,Middle Atlantic,26,0.023612804868690045,middle
+OppSP,0,OppSP,34029,train,34,029,Middle Atlantic,126,0.01652150727224182,middle
+OppSP,0,OppSP,34031,train,34,031,Middle Atlantic,100,0.0262101170721041,middle
+OppSP,0,OppSP,34033,train,34,033,Middle Atlantic,24,0.04581205098170406,middle
+OppSP,0,OppSP,34037,train,34,037,Middle Atlantic,41,0.01647637288968051,middle
+OppSP,0,OppSP,34041,train,34,041,Middle Atlantic,23,0.06783500984246056,middle
+OppSP,0,OppSP,35005,train,35,005,Mountain,16,0.05496088309451609,middle
+OppSP,0,OppSP,35006,train,35,006,Mountain,7,0.06202060045033352,middle
+OppSP,0,OppSP,35009,train,35,009,Mountain,12,0.08445187401550948,middle
+OppSP,0,OppSP,35013,train,35,013,Mountain,41,0.03361479666055885,middle
+OppSP,0,OppSP,35017,train,35,017,Mountain,8,0.07688197847035395,middle
+OppSP,0,OppSP,35025,train,35,025,Mountain,18,0.06478000720562434,middle
+OppSP,0,OppSP,35029,train,35,029,Mountain,6,0.025366391166124633,middle
+OppSP,0,OppSP,35031,train,35,031,Mountain,17,0.03306558549555059,middle
+OppSP,0,OppSP,35035,train,35,035,Mountain,16,0.038878530550368794,middle
+OppSP,0,OppSP,35039,train,35,039,Mountain,9,0.03814026760112401,middle
+OppSP,0,OppSP,35041,train,35,041,Mountain,5,0.1260048033882634,middle
+OppSP,0,OppSP,35045,train,35,045,Mountain,33,0.021779299793631097,middle
+OppSP,0,OppSP,35047,train,35,047,Mountain,7,0.0411946557496874,middle
+OppSP,0,OppSP,35049,train,35,049,Mountain,50,0.022075920207929,middle
+OppSP,0,OppSP,35051,train,35,051,Mountain,4,0.060586734679452046,middle
+OppSP,0,OppSP,35053,train,35,053,Mountain,6,0.09360996165486038,middle
+OppSP,0,OppSP,35055,train,35,055,Mountain,6,0.047209606795297565,middle
+OppSP,0,OppSP,35057,train,35,057,Mountain,4,0.09140038328684101,middle
+OppSP,0,OppSP,35061,train,35,061,Mountain,18,0.04256843940838741,middle
+OppSP,0,OppSP,36001,train,36,001,Middle Atlantic,75,0.03389851235326645,middle
+OppSP,0,OppSP,36007,train,36,007,Middle Atlantic,55,0.03723377568347665,middle
+OppSP,0,OppSP,36009,train,36,009,Middle Atlantic,21,0.07812732485336366,middle
+OppSP,0,OppSP,36011,train,36,011,Middle Atlantic,19,0.03749039623706251,middle
+OppSP,0,OppSP,36013,train,36,013,Middle Atlantic,35,0.026027730133364173,middle
+OppSP,0,OppSP,36015,train,36,015,Middle Atlantic,22,0.03703833740204029,middle
+OppSP,0,OppSP,36017,train,36,017,Middle Atlantic,12,0.01725443984296875,middle
+OppSP,0,OppSP,36019,train,36,019,Middle Atlantic,19,0.040580484383835005,middle
+OppSP,0,OppSP,36021,train,36,021,Middle Atlantic,21,0.06810368085596795,middle
+OppSP,0,OppSP,36025,train,36,025,Middle Atlantic,14,0.048341171293471784,middle
+OppSP,0,OppSP,36027,train,36,027,Middle Atlantic,79,0.013686825371148762,middle
+OppSP,0,OppSP,36031,train,36,031,Middle Atlantic,13,0.04467223311855466,middle
+OppSP,0,OppSP,36033,train,36,033,Middle Atlantic,14,0.05165251185324614,middle
+OppSP,0,OppSP,36035,train,36,035,Middle Atlantic,15,0.0333314699627535,middle
+OppSP,0,OppSP,36037,train,36,037,Middle Atlantic,15,0.050133275121104375,middle
+OppSP,0,OppSP,36039,train,36,039,Middle Atlantic,15,0.10765060814502161,middle
+OppSP,0,OppSP,36041,train,36,041,Middle Atlantic,4,0.03836090647591265,middle
+OppSP,0,OppSP,36045,train,36,045,Middle Atlantic,26,0.03330567432096733,middle
+OppSP,0,OppSP,36051,train,36,051,Middle Atlantic,15,0.03371939854114551,middle
+OppSP,0,OppSP,36055,train,36,055,Middle Atlantic,192,0.01242158024106913,middle
+OppSP,0,OppSP,36057,train,36,057,Middle Atlantic,16,0.08844434827554022,middle
+OppSP,0,OppSP,36063,train,36,063,Middle Atlantic,61,0.020995548117818345,middle
+OppSP,0,OppSP,36069,train,36,069,Middle Atlantic,25,0.028054467817603356,middle
+OppSP,0,OppSP,36073,train,36,073,Middle Atlantic,10,0.04973330721305087,middle
+OppSP,0,OppSP,36075,train,36,075,Middle Atlantic,29,0.035075507026418457,middle
+OppSP,0,OppSP,36079,train,36,079,Middle Atlantic,19,0.05262894870398623,middle
+OppSP,0,OppSP,36083,train,36,083,Middle Atlantic,42,0.02938055889002146,middle
+OppSP,0,OppSP,36089,train,36,089,Middle Atlantic,28,0.03262110715891528,middle
+OppSP,0,OppSP,36091,train,36,091,Middle Atlantic,50,0.03627859070424577,middle
+OppSP,0,OppSP,36095,train,36,095,Middle Atlantic,8,0.044673015825364634,middle
+OppSP,0,OppSP,36097,train,36,097,Middle Atlantic,5,0.1186016080498218,middle
+OppSP,0,OppSP,36099,train,36,099,Middle Atlantic,10,0.045812566728123304,middle
+OppSP,0,OppSP,36105,train,36,105,Middle Atlantic,24,0.022941637479824074,middle
+OppSP,0,OppSP,36107,train,36,107,Middle Atlantic,10,0.025160697869671893,middle
+OppSP,0,OppSP,36109,train,36,109,Middle Atlantic,23,0.020054364317862384,middle
+OppSP,0,OppSP,36111,train,36,111,Middle Atlantic,47,0.014767966219778907,middle
+OppSP,0,OppSP,36113,train,36,113,Middle Atlantic,19,0.021838230672378542,middle
+OppSP,0,OppSP,36115,train,36,115,Middle Atlantic,17,0.03416053053388068,middle
+OppSP,0,OppSP,36117,train,36,117,Middle Atlantic,23,0.056013630299266565,middle
+OppSP,0,OppSP,36121,train,36,121,Middle Atlantic,11,0.09499409312953258,middle
+OppSP,0,OppSP,36123,train,36,123,Middle Atlantic,5,0.053698224810764666,middle
+OppSP,0,OppSP,37001,train,37,001,South Atlantic,36,0.025378956282163516,middle
+OppSP,0,OppSP,37009,train,37,009,South Atlantic,6,0.029919856471675242,middle
+OppSP,0,OppSP,37011,train,37,011,South Atlantic,5,0.04738649323009603,middle
+OppSP,0,OppSP,37013,train,37,013,South Atlantic,11,0.05356945696374533,middle
+OppSP,0,OppSP,37015,train,37,015,South Atlantic,4,0.06734693873702617,middle
+OppSP,0,OppSP,37017,train,37,017,South Atlantic,6,0.04214895053154864,middle
+OppSP,0,OppSP,37021,train,37,021,South Atlantic,56,0.017335130038172088,middle
+OppSP,0,OppSP,37023,train,37,023,South Atlantic,18,0.05543925686108807,middle
+OppSP,0,OppSP,37025,train,37,025,South Atlantic,37,0.023526506684015215,middle
+OppSP,0,OppSP,37027,train,37,027,South Atlantic,17,0.027640674405156208,middle
+OppSP,0,OppSP,37035,train,37,035,South Atlantic,31,0.0186656309654251,middle
+OppSP,0,OppSP,37045,train,37,045,South Atlantic,22,0.03015197228245873,middle
+OppSP,0,OppSP,37047,train,37,047,South Atlantic,13,0.03856923220579833,middle
+OppSP,0,OppSP,37049,train,37,049,South Atlantic,21,0.028359316294317195,middle
+OppSP,0,OppSP,37051,train,37,051,South Atlantic,68,0.026511612269035315,middle
+OppSP,0,OppSP,37053,train,37,053,South Atlantic,8,0.08562252102677623,middle
+OppSP,0,OppSP,37055,train,37,055,South Atlantic,11,0.10988124740247585,middle
+OppSP,0,OppSP,37059,train,37,059,South Atlantic,7,0.10624541357397645,middle
+OppSP,0,OppSP,37061,train,37,061,South Atlantic,11,0.03146773859561113,middle
+OppSP,0,OppSP,37065,train,37,065,South Atlantic,14,0.050265880576607365,middle
+OppSP,0,OppSP,37067,train,37,067,South Atlantic,93,0.02081479169596682,middle
+OppSP,0,OppSP,37069,train,37,069,South Atlantic,12,0.02818770114396086,middle
+OppSP,0,OppSP,37071,train,37,071,South Atlantic,65,0.018469234923383458,middle
+OppSP,0,OppSP,37077,train,37,077,South Atlantic,13,0.03128333330622106,middle
+OppSP,0,OppSP,37079,train,37,079,South Atlantic,4,0.0470096729040231,middle
+OppSP,0,OppSP,37081,train,37,081,South Atlantic,119,0.01241032775533178,middle
+OppSP,0,OppSP,37083,train,37,083,South Atlantic,12,0.02314650381950098,middle
+OppSP,0,OppSP,37085,train,37,085,South Atlantic,27,0.030246927607644268,middle
+OppSP,0,OppSP,37087,train,37,087,South Atlantic,16,0.012382590406811007,middle
+OppSP,0,OppSP,37091,train,37,091,South Atlantic,5,0.04512442729892645,middle
+OppSP,0,OppSP,37097,train,37,097,South Atlantic,44,0.01828922273811774,middle
+OppSP,0,OppSP,37099,train,37,099,South Atlantic,9,0.12301358435136966,middle
+OppSP,0,OppSP,37101,train,37,101,South Atlantic,25,0.025696841213763755,middle
+OppSP,0,OppSP,37105,train,37,105,South Atlantic,13,0.022858224958239116,middle
+OppSP,0,OppSP,37107,train,37,107,South Atlantic,15,0.027110806807205092,middle
+OppSP,0,OppSP,37109,train,37,109,South Atlantic,18,0.0776076201066215,middle
+OppSP,0,OppSP,37111,train,37,111,South Atlantic,10,0.027911949726722236,middle
+OppSP,0,OppSP,37113,train,37,113,South Atlantic,9,0.029438545495728278,middle
+OppSP,0,OppSP,37115,train,37,115,South Atlantic,6,0.05582041297701636,middle
+OppSP,0,OppSP,37121,train,37,121,South Atlantic,4,0.024961962971071856,middle
+OppSP,0,OppSP,37123,train,37,123,South Atlantic,6,0.02924137929824496,middle
+OppSP,0,OppSP,37125,train,37,125,South Atlantic,18,0.05611226113382131,middle
+OppSP,0,OppSP,37127,train,37,127,South Atlantic,18,0.0915599938610614,middle
+OppSP,0,OppSP,37129,train,37,129,South Atlantic,45,0.026043662433081104,middle
+OppSP,0,OppSP,37131,train,37,131,South Atlantic,5,0.08048737877276557,middle
+OppSP,0,OppSP,37133,train,37,133,South Atlantic,32,0.08144034023743436,middle
+OppSP,0,OppSP,37135,train,37,135,South Atlantic,28,0.02215361326466193,middle
+OppSP,0,OppSP,37139,train,37,139,South Atlantic,10,0.05484819538544843,middle
+OppSP,0,OppSP,37141,train,37,141,South Atlantic,16,0.03859074491544927,middle
+OppSP,0,OppSP,37145,train,37,145,South Atlantic,7,0.012353458259827014,middle
+OppSP,0,OppSP,37147,train,37,147,South Atlantic,32,0.03375282583799727,middle
+OppSP,0,OppSP,37149,train,37,149,South Atlantic,7,0.03928092734076331,middle
+OppSP,0,OppSP,37151,train,37,151,South Atlantic,28,0.03608499587603276,middle
+OppSP,0,OppSP,37153,train,37,153,South Atlantic,11,0.06282032634833705,middle
+OppSP,0,OppSP,37155,train,37,155,South Atlantic,31,0.018658251245900856,middle
+OppSP,0,OppSP,37157,train,37,157,South Atlantic,21,0.029046577674799744,middle
+OppSP,0,OppSP,37159,train,37,159,South Atlantic,30,0.025031888500616006,middle
+OppSP,0,OppSP,37163,train,37,163,South Atlantic,11,0.032847753266998486,middle
+OppSP,0,OppSP,37165,train,37,165,South Atlantic,7,0.0507433884008282,middle
+OppSP,0,OppSP,37167,train,37,167,South Atlantic,13,0.023007992959998717,middle
+OppSP,0,OppSP,37169,train,37,169,South Atlantic,9,0.03483371995459722,middle
+OppSP,0,OppSP,37171,train,37,171,South Atlantic,22,0.10054719803212313,middle
+OppSP,0,OppSP,37173,train,37,173,South Atlantic,5,0.06997569539119029,middle
+OppSP,0,OppSP,37175,train,37,175,South Atlantic,7,0.042362869843206606,middle
+OppSP,0,OppSP,37179,train,37,179,South Atlantic,41,0.043934740178878794,middle
+OppSP,0,OppSP,37181,train,37,181,South Atlantic,10,0.06767871659504611,middle
+OppSP,0,OppSP,37189,train,37,189,South Atlantic,13,0.10843896757468034,middle
+OppSP,0,OppSP,37191,train,37,191,South Atlantic,26,0.02501273758812566,middle
+OppSP,0,OppSP,37195,train,37,195,South Atlantic,19,0.050412539378184365,middle
+OppSP,0,OppSP,37197,train,37,197,South Atlantic,7,0.06400133160215757,middle
+OppSP,0,OppSP,37199,train,37,199,South Atlantic,5,0.06630586793110516,middle
+OppSP,0,OppSP,38015,train,38,015,West North Central,19,0.016202628048932254,middle
+OppSP,0,OppSP,38035,train,38,035,West North Central,18,0.026034286812495453,middle
+OppSP,0,OppSP,38053,train,38,053,West North Central,4,0.09215450880041587,middle
+OppSP,0,OppSP,38059,train,38,059,West North Central,5,0.06132200324905978,middle
+OppSP,0,OppSP,38067,train,38,067,West North Central,5,0.0424758884437125,middle
+OppSP,0,OppSP,38077,train,38,077,West North Central,6,0.0786776859074981,middle
+OppSP,0,OppSP,38079,train,38,079,West North Central,4,0.08689015767287511,middle
+OppSP,0,OppSP,38089,train,38,089,West North Central,8,0.08194369428410349,middle
+OppSP,0,OppSP,38093,train,38,093,West North Central,6,0.01616671057352278,middle
+OppSP,0,OppSP,38097,train,38,097,West North Central,4,0.0967261904071004,middle
+OppSP,0,OppSP,38101,train,38,101,West North Central,13,0.04351424316057129,middle
+OppSP,0,OppSP,38105,train,38,105,West North Central,7,0.026134672602713398,middle
+OppSP,0,OppSP,39003,train,39,003,East North Central,33,0.07398470218963703,middle
+OppSP,0,OppSP,39005,train,39,005,East North Central,11,0.10787242358023538,middle
+OppSP,0,OppSP,39007,train,39,007,East North Central,25,0.015007487757484566,middle
+OppSP,0,OppSP,39009,train,39,009,East North Central,15,0.04426848529209126,middle
+OppSP,0,OppSP,39013,train,39,013,East North Central,20,0.016809324329158937,middle
+OppSP,0,OppSP,39015,train,39,015,East North Central,9,0.023854547697825565,middle
+OppSP,0,OppSP,39017,train,39,017,East North Central,80,0.025638910786036802,middle
+OppSP,0,OppSP,39023,train,39,023,East North Central,44,0.015154013623053079,middle
+OppSP,0,OppSP,39025,train,39,025,East North Central,40,0.012176856611209078,middle
+OppSP,0,OppSP,39027,train,39,027,East North Central,9,0.018597881316524352,middle
+OppSP,0,OppSP,39029,train,39,029,East North Central,24,0.02966251069745102,middle
+OppSP,0,OppSP,39031,train,39,031,East North Central,10,0.03378684804842886,middle
+OppSP,0,OppSP,39037,train,39,037,East North Central,12,0.050239725743231,middle
+OppSP,0,OppSP,39039,train,39,039,East North Central,9,0.0222510572725705,middle
+OppSP,0,OppSP,39041,train,39,041,East North Central,35,0.03791604528225661,middle
+OppSP,0,OppSP,39043,train,39,043,East North Central,19,0.048521176335172445,middle
+OppSP,0,OppSP,39045,train,39,045,East North Central,28,0.031149352049783113,middle
+OppSP,0,OppSP,39047,train,39,047,East North Central,7,0.04903855213935635,middle
+OppSP,0,OppSP,39051,train,39,051,East North Central,9,0.09545291730097652,middle
+OppSP,0,OppSP,39053,train,39,053,East North Central,7,0.020277958189766118,middle
+OppSP,0,OppSP,39055,train,39,055,East North Central,21,0.057445733877877984,middle
+OppSP,0,OppSP,39057,train,39,057,East North Central,35,0.026883089382017722,middle
+OppSP,0,OppSP,39059,train,39,059,East North Central,10,0.030538097110449698,middle
+OppSP,0,OppSP,39063,train,39,063,East North Central,13,0.0282984429394309,middle
+OppSP,0,OppSP,39067,train,39,067,East North Central,5,0.030234709182427634,middle
+OppSP,0,OppSP,39069,train,39,069,East North Central,7,0.035966468379459465,middle
+OppSP,0,OppSP,39071,train,39,071,East North Central,9,0.020451963122179832,middle
+OppSP,0,OppSP,39073,train,39,073,East North Central,7,0.06914464656323663,middle
+OppSP,0,OppSP,39075,train,39,075,East North Central,8,0.10462857134486862,middle
+OppSP,0,OppSP,39077,train,39,077,East North Central,13,0.025700113362775195,middle
+OppSP,0,OppSP,39079,train,39,079,East North Central,7,0.04789806544625415,middle
+OppSP,0,OppSP,39081,train,39,081,East North Central,23,0.07766703603898711,middle
+OppSP,0,OppSP,39083,train,39,083,East North Central,12,0.1052843864778231,middle
+OppSP,0,OppSP,39085,train,39,085,East North Central,59,0.016677842746780955,middle
+OppSP,0,OppSP,39087,train,39,087,East North Central,16,0.03041353350532054,middle
+OppSP,0,OppSP,39089,train,39,089,East North Central,32,0.017898320377085785,middle
+OppSP,0,OppSP,39091,train,39,091,East North Central,11,0.01947758983616012,middle
+OppSP,0,OppSP,39093,train,39,093,East North Central,73,0.017045931938929306,middle
+OppSP,0,OppSP,39097,train,39,097,East North Central,12,0.02280457634342694,middle
+OppSP,0,OppSP,39099,train,39,099,East North Central,70,0.01736881587155211,middle
+OppSP,0,OppSP,39103,train,39,103,East North Central,37,0.021323880087222864,middle
+OppSP,0,OppSP,39107,train,39,107,East North Central,9,0.06753395504676148,middle
+OppSP,0,OppSP,39115,train,39,115,East North Central,4,0.03210770750823196,middle
+OppSP,0,OppSP,39119,train,39,119,East North Central,19,0.026031911075717368,middle
+OppSP,0,OppSP,39125,train,39,125,East North Central,5,0.05223580299096996,middle
+OppSP,0,OppSP,39127,train,39,127,East North Central,6,0.08736912447445994,middle
+OppSP,0,OppSP,39129,train,39,129,East North Central,13,0.11656595975933859,middle
+OppSP,0,OppSP,39133,train,39,133,East North Central,35,0.05394567493561902,middle
+OppSP,0,OppSP,39139,train,39,139,East North Central,30,0.020027394146710998,middle
+OppSP,0,OppSP,39141,train,39,141,East North Central,17,0.06999425391454055,middle
+OppSP,0,OppSP,39143,train,39,143,East North Central,15,0.016315785940070267,middle
+OppSP,0,OppSP,39145,train,39,145,East North Central,20,0.05778383994458225,middle
+OppSP,0,OppSP,39147,train,39,147,East North Central,14,0.027814883153677035,middle
+OppSP,0,OppSP,39149,train,39,149,East North Central,10,0.03375332563729414,middle
+OppSP,0,OppSP,39155,train,39,155,East North Central,55,0.08858481967230933,middle
+OppSP,0,OppSP,39157,train,39,157,East North Central,21,0.017612464742280964,middle
+OppSP,0,OppSP,39159,train,39,159,East North Central,10,0.03775867912612021,middle
+OppSP,0,OppSP,39161,train,39,161,East North Central,9,0.026471010047125425,middle
+OppSP,0,OppSP,39165,train,39,165,East North Central,33,0.040519981831775014,middle
+OppSP,0,OppSP,39167,train,39,167,East North Central,16,0.06410041124589709,middle
+OppSP,0,OppSP,39169,train,39,169,East North Central,32,0.02525201833016597,middle
+OppSP,0,OppSP,39173,train,39,173,East North Central,28,0.03874904575120013,middle
+OppSP,0,OppSP,39175,train,39,175,East North Central,6,0.026732019967461218,middle
+OppSP,0,OppSP,40001,train,40,001,West South Central,5,0.03144217412750644,middle
+OppSP,0,OppSP,40009,train,40,009,West South Central,4,0.07824049031875598,middle
+OppSP,0,OppSP,40011,train,40,011,West South Central,5,0.094328703660033,middle
+OppSP,0,OppSP,40015,train,40,015,West South Central,8,0.04626423071666297,middle
+OppSP,0,OppSP,40017,train,40,017,West South Central,29,0.019467075539900847,middle
+OppSP,0,OppSP,40019,train,40,019,West South Central,11,0.09430971792836766,middle
+OppSP,0,OppSP,40021,train,40,021,West South Central,9,0.07652851778879059,middle
+OppSP,0,OppSP,40023,train,40,023,West South Central,5,0.04048442904192949,middle
+OppSP,0,OppSP,40031,train,40,031,West South Central,32,0.038092347747518074,middle
+OppSP,0,OppSP,40037,train,40,037,West South Central,21,0.024836661702266217,middle
+OppSP,0,OppSP,40039,train,40,039,West South Central,5,0.0255482890591709,middle
+OppSP,0,OppSP,40041,train,40,041,West South Central,9,0.11831756817590466,middle
+OppSP,0,OppSP,40047,train,40,047,West South Central,12,0.01817002583120155,middle
+OppSP,0,OppSP,40051,train,40,051,West South Central,10,0.04620822632323193,middle
+OppSP,0,OppSP,40063,train,40,063,West South Central,5,0.029595478845525942,middle
+OppSP,0,OppSP,40065,train,40,065,West South Central,8,0.07596253892383602,middle
+OppSP,0,OppSP,40071,train,40,071,West South Central,11,0.021594135789272693,middle
+OppSP,0,OppSP,40073,train,40,073,West South Central,4,0.06767412842942422,middle
+OppSP,0,OppSP,40081,train,40,081,West South Central,7,0.05380416833750651,middle
+OppSP,0,OppSP,40089,train,40,089,West South Central,8,0.1210779909235377,middle
+OppSP,0,OppSP,40097,train,40,097,West South Central,9,0.0622148759923354,middle
+OppSP,0,OppSP,40101,train,40,101,West South Central,16,0.03908844021484949,middle
+OppSP,0,OppSP,40103,train,40,103,West South Central,4,0.05870470894862049,middle
+OppSP,0,OppSP,40107,train,40,107,West South Central,4,0.05979686052212855,middle
+OppSP,0,OppSP,40111,train,40,111,West South Central,10,0.055156804026798165,middle
+OppSP,0,OppSP,40115,train,40,115,West South Central,9,0.040577449685368555,middle
+OppSP,0,OppSP,40117,train,40,117,West South Central,5,0.08072696525363895,middle
+OppSP,0,OppSP,40119,train,40,119,West South Central,17,0.07074606260107799,middle
+OppSP,0,OppSP,40123,train,40,123,West South Central,10,0.03047001536959455,middle
+OppSP,0,OppSP,40125,train,40,125,West South Central,16,0.048404040357103134,middle
+OppSP,0,OppSP,40131,train,40,131,West South Central,28,0.06175828339006187,middle
+OppSP,0,OppSP,40133,train,40,133,West South Central,9,0.018887374930339738,middle
+OppSP,0,OppSP,40135,train,40,135,West South Central,9,0.04524843772139105,middle
+OppSP,0,OppSP,40137,train,40,137,West South Central,11,0.0313177490475228,middle
+OppSP,0,OppSP,40139,train,40,139,West South Central,5,0.07884247445459833,middle
+OppSP,0,OppSP,40145,train,40,145,West South Central,22,0.0792339913265876,middle
+OppSP,0,OppSP,40147,train,40,147,West South Central,13,0.05877711006439899,middle
+OppSP,0,OppSP,40153,train,40,153,West South Central,5,0.059336419720121755,middle
+OppSP,0,OppSP,41001,train,41,001,Pacific,6,0.02859895792580168,middle
+OppSP,0,OppSP,41003,train,41,003,Pacific,18,0.07531051892116866,middle
+OppSP,0,OppSP,41007,train,41,007,Pacific,11,0.07733635902643347,middle
+OppSP,0,OppSP,41009,train,41,009,Pacific,10,0.05612227380368672,middle
+OppSP,0,OppSP,41011,train,41,011,Pacific,13,0.053512356079692916,middle
+OppSP,0,OppSP,41013,train,41,013,Pacific,4,0.12647890973103185,middle
+OppSP,0,OppSP,41015,train,41,015,Pacific,5,0.018396371967732972,middle
+OppSP,0,OppSP,41017,train,41,017,Pacific,24,0.030439819928237632,middle
+OppSP,0,OppSP,41019,train,41,019,Pacific,22,0.01960148451743649,middle
+OppSP,0,OppSP,41033,train,41,033,Pacific,16,0.030173205289765193,middle
+OppSP,0,OppSP,41035,train,41,035,Pacific,20,0.04996787364850511,middle
+OppSP,0,OppSP,41041,train,41,041,Pacific,18,0.0621072941027413,middle
+OppSP,0,OppSP,41043,train,41,043,Pacific,21,0.028584619433315573,middle
+OppSP,0,OppSP,41053,train,41,053,Pacific,12,0.022483482105854623,middle
+OppSP,0,OppSP,41057,train,41,057,Pacific,8,0.028066191518625074,middle
+OppSP,0,OppSP,41059,train,41,059,Pacific,15,0.0967736168513263,middle
+OppSP,0,OppSP,41061,train,41,061,Pacific,8,0.05625044606235826,middle
+OppSP,0,OppSP,41065,train,41,065,Pacific,8,0.08130887752236411,middle
+OppSP,0,OppSP,41067,train,41,067,Pacific,104,0.013406894614249218,middle
+OppSP,0,OppSP,41071,train,41,071,Pacific,17,0.059679579661256116,middle
+OppSP,0,OppSP,42001,train,42,001,Middle Atlantic,23,0.03332720351296211,middle
+OppSP,0,OppSP,42005,train,42,005,Middle Atlantic,19,0.0291895361169621,middle
+OppSP,0,OppSP,42007,train,42,007,Middle Atlantic,51,0.03461668225433019,middle
+OppSP,0,OppSP,42009,train,42,009,Middle Atlantic,11,0.02082745825007898,middle
+OppSP,0,OppSP,42013,train,42,013,Middle Atlantic,34,0.013773992911276983,middle
+OppSP,0,OppSP,42015,train,42,015,Middle Atlantic,14,0.03523504134348276,middle
+OppSP,0,OppSP,42021,train,42,021,Middle Atlantic,42,0.027604769268780856,middle
+OppSP,0,OppSP,42025,train,42,025,Middle Atlantic,12,0.020614627529141977,middle
+OppSP,0,OppSP,42027,train,42,027,Middle Atlantic,31,0.022673756478928504,middle
+OppSP,0,OppSP,42031,train,42,031,Middle Atlantic,10,0.04798143463517025,middle
+OppSP,0,OppSP,42033,train,42,033,Middle Atlantic,20,0.036917514687062995,middle
+OppSP,0,OppSP,42035,train,42,035,Middle Atlantic,9,0.046587755086067904,middle
+OppSP,0,OppSP,42037,train,42,037,Middle Atlantic,15,0.03773270623724964,middle
+OppSP,0,OppSP,42039,train,42,039,Middle Atlantic,23,0.03835200616540258,middle
+OppSP,0,OppSP,42041,train,42,041,Middle Atlantic,49,0.017010863541104333,middle
+OppSP,0,OppSP,42043,train,42,043,Middle Atlantic,65,0.014719092898564101,middle
+OppSP,0,OppSP,42045,train,42,045,Middle Atlantic,144,0.013529023901558624,middle
+OppSP,0,OppSP,42051,train,42,051,Middle Atlantic,36,0.02809096990499887,middle
+OppSP,0,OppSP,42059,train,42,059,Middle Atlantic,9,0.026701383016947147,middle
+OppSP,0,OppSP,42061,train,42,061,Middle Atlantic,12,0.017596185586533277,middle
+OppSP,0,OppSP,42063,train,42,063,Middle Atlantic,23,0.04816847604792417,middle
+OppSP,0,OppSP,42065,train,42,065,Middle Atlantic,13,0.02392568204420931,middle
+OppSP,0,OppSP,42067,train,42,067,Middle Atlantic,5,0.030617935733858737,middle
+OppSP,0,OppSP,42069,train,42,069,Middle Atlantic,59,0.023922263586400823,middle
+OppSP,0,OppSP,42073,train,42,073,Middle Atlantic,28,0.027964409851428566,middle
+OppSP,0,OppSP,42075,train,42,075,Middle Atlantic,31,0.04331829718965147,middle
+OppSP,0,OppSP,42081,train,42,081,Middle Atlantic,29,0.01776749699226464,middle
+OppSP,0,OppSP,42083,train,42,083,Middle Atlantic,12,0.05549583442581095,middle
+OppSP,0,OppSP,42085,train,42,085,Middle Atlantic,30,0.022934214737499,middle
+OppSP,0,OppSP,42095,train,42,095,Middle Atlantic,68,0.014615467415730549,middle
+OppSP,0,OppSP,42097,train,42,097,Middle Atlantic,24,0.013011566019337976,middle
+OppSP,0,OppSP,42099,train,42,099,Middle Atlantic,10,0.014461723007521148,middle
+OppSP,0,OppSP,42103,train,42,103,Middle Atlantic,18,0.015671985852389946,middle
+OppSP,0,OppSP,42105,train,42,105,Middle Atlantic,5,0.02249238902598219,middle
+OppSP,0,OppSP,42107,train,42,107,Middle Atlantic,40,0.03797046748694414,middle
+OppSP,0,OppSP,42117,train,42,117,Middle Atlantic,10,0.0960485756373932,middle
+OppSP,0,OppSP,42119,train,42,119,Middle Atlantic,10,0.04887389932002094,middle
+OppSP,0,OppSP,42121,train,42,121,Middle Atlantic,16,0.02208078211597487,middle
+OppSP,0,OppSP,42123,train,42,123,Middle Atlantic,13,0.0436939999772791,middle
+OppSP,0,OppSP,42125,train,42,125,Middle Atlantic,59,0.043827538387055366,middle
+OppSP,0,OppSP,42127,train,42,127,Middle Atlantic,14,0.022859250141934406,middle
+OppSP,0,OppSP,42129,train,42,129,Middle Atlantic,100,0.015288296248862875,middle
+OppSP,0,OppSP,42131,train,42,131,Middle Atlantic,7,0.09266302527688558,middle
+OppSP,0,OppSP,44001,train,44,001,New England,11,0.04153322530725558,middle
+OppSP,0,OppSP,44003,train,44,003,New England,39,0.016347450841972165,middle
+OppSP,0,OppSP,44009,train,44,009,New England,29,0.017115107553834767,middle
+OppSP,0,OppSP,45001,train,45,001,South Atlantic,6,0.07615158598463459,middle
+OppSP,0,OppSP,45003,train,45,003,South Atlantic,33,0.03229498597023078,middle
+OppSP,0,OppSP,45009,train,45,009,South Atlantic,4,0.09441361317544887,middle
+OppSP,0,OppSP,45011,train,45,011,South Atlantic,6,0.07135388494968575,middle
+OppSP,0,OppSP,45013,train,45,013,South Atlantic,41,0.023346728576908064,middle
+OppSP,0,OppSP,45015,train,45,015,South Atlantic,45,0.02095780217129651,middle
+OppSP,0,OppSP,45021,train,45,021,South Atlantic,13,0.026607934017857604,middle
+OppSP,0,OppSP,45023,train,45,023,South Atlantic,11,0.014390936603621677,middle
+OppSP,0,OppSP,45025,train,45,025,South Atlantic,10,0.025287901221081027,middle
+OppSP,0,OppSP,45027,train,45,027,South Atlantic,12,0.09208870708644035,middle
+OppSP,0,OppSP,45029,train,45,029,South Atlantic,10,0.04964554635476613,middle
+OppSP,0,OppSP,45033,train,45,033,South Atlantic,6,0.02182342572200576,middle
+OppSP,0,OppSP,45035,train,45,035,South Atlantic,25,0.03615889538932848,middle
+OppSP,0,OppSP,45037,train,45,037,South Atlantic,6,0.0928376861977166,middle
+OppSP,0,OppSP,45041,train,45,041,South Atlantic,33,0.02338568678048689,middle
+OppSP,0,OppSP,45043,train,45,043,South Atlantic,15,0.019657127235659388,middle
+OppSP,0,OppSP,45047,train,45,047,South Atlantic,14,0.031535263346772285,middle
+OppSP,0,OppSP,45051,train,45,051,South Atlantic,72,0.016110637037619,middle
+OppSP,0,OppSP,45057,train,45,057,South Atlantic,14,0.08032539740480643,middle
+OppSP,0,OppSP,45071,train,45,071,South Atlantic,8,0.10398262204209106,middle
+OppSP,0,OppSP,45073,train,45,073,South Atlantic,15,0.017459849291535875,middle
+OppSP,0,OppSP,45075,train,45,075,South Atlantic,20,0.03236705042511022,middle
+OppSP,0,OppSP,45077,train,45,077,South Atlantic,28,0.022118533816041588,middle
+OppSP,0,OppSP,45079,train,45,079,South Atlantic,89,0.017670691150161632,middle
+OppSP,0,OppSP,45081,train,45,081,South Atlantic,5,0.058876896945686125,middle
+OppSP,0,OppSP,45083,train,45,083,South Atlantic,69,0.023420285319553657,middle
+OppSP,0,OppSP,45085,train,45,085,South Atlantic,23,0.09742660375911909,middle
+OppSP,0,OppSP,45087,train,45,087,South Atlantic,9,0.017272250841917393,middle
+OppSP,0,OppSP,45089,train,45,089,South Atlantic,11,0.027487073243738,middle
+OppSP,0,OppSP,45091,train,45,091,South Atlantic,46,0.012921061811932933,middle
+OppSP,0,OppSP,46005,train,46,005,West North Central,6,0.020299884635863984,middle
+OppSP,0,OppSP,46011,train,46,011,West North Central,6,0.09959862058172504,middle
+OppSP,0,OppSP,46013,train,46,013,West North Central,8,0.04049967126059438,middle
+OppSP,0,OppSP,46029,train,46,029,West North Central,7,0.04094954703139439,middle
+OppSP,0,OppSP,46035,train,46,035,West North Central,4,0.10967110275006808,middle
+OppSP,0,OppSP,46065,train,46,065,West North Central,4,0.10457577944737569,middle
+OppSP,0,OppSP,46081,train,46,081,West North Central,5,0.1073247479586742,middle
+OppSP,0,OppSP,46083,train,46,083,West North Central,11,0.11495374993677539,middle
+OppSP,0,OppSP,46099,train,46,099,West North Central,42,0.03519844658564441,middle
+OppSP,0,OppSP,46135,train,46,135,West North Central,5,0.018471098546859466,middle
+OppSP,0,OppSP,47001,train,47,001,East South Central,18,0.05113423569217723,middle
+OppSP,0,OppSP,47003,train,47,003,East South Central,9,0.026624982048293694,middle
+OppSP,0,OppSP,47005,train,47,005,East South Central,5,0.017076218224974238,middle
+OppSP,0,OppSP,47009,train,47,009,East South Central,28,0.033685353980754305,middle
+OppSP,0,OppSP,47011,train,47,011,East South Central,19,0.032060440631801815,middle
+OppSP,0,OppSP,47017,train,47,017,East South Central,8,0.03991734756871442,middle
+OppSP,0,OppSP,47019,train,47,019,East South Central,17,0.03715245861648564,middle
+OppSP,0,OppSP,47025,train,47,025,East South Central,9,0.05555802773644103,middle
+OppSP,0,OppSP,47029,train,47,029,East South Central,9,0.01653964496125379,middle
+OppSP,0,OppSP,47031,train,47,031,East South Central,12,0.02182273759270866,middle
+OppSP,0,OppSP,47033,train,47,033,East South Central,5,0.031249999947916655,middle
+OppSP,0,OppSP,47035,train,47,035,East South Central,14,0.061044064498220876,middle
+OppSP,0,OppSP,47037,train,47,037,East South Central,161,0.020118489360313394,middle
+OppSP,0,OppSP,47039,train,47,039,East South Central,4,0.04119425544073718,middle
+OppSP,0,OppSP,47041,train,47,041,East South Central,4,0.034741458892149,middle
+OppSP,0,OppSP,47043,train,47,043,East South Central,10,0.02082677097652274,middle
+OppSP,0,OppSP,47047,train,47,047,East South Central,11,0.027101870897792604,middle
+OppSP,0,OppSP,47049,train,47,049,East South Central,4,0.025841137695444976,middle
+OppSP,0,OppSP,47053,train,47,053,East South Central,14,0.056836046587373394,middle
+OppSP,0,OppSP,47057,train,47,057,East South Central,5,0.01555654562231907,middle
+OppSP,0,OppSP,47059,train,47,059,East South Central,15,0.015640511976806073,middle
+OppSP,0,OppSP,47063,train,47,063,East South Central,12,0.033636276422095726,middle
+OppSP,0,OppSP,47071,train,47,071,East South Central,6,0.12013223137219527,middle
+OppSP,0,OppSP,47073,train,47,073,East South Central,13,0.027575526717134955,middle
+OppSP,0,OppSP,47075,train,47,075,East South Central,6,0.05528124995853908,middle
+OppSP,0,OppSP,47087,train,47,087,East South Central,4,0.08686217366963112,middle
+OppSP,0,OppSP,47089,train,47,089,East South Central,9,0.046572231809254114,middle
+OppSP,0,OppSP,47091,train,47,091,East South Central,5,0.01914020043784853,middle
+OppSP,0,OppSP,47097,train,47,097,East South Central,9,0.03682649524829999,middle
+OppSP,0,OppSP,47103,train,47,103,East South Central,9,0.043537047006898734,middle
+OppSP,0,OppSP,47105,train,47,105,East South Central,10,0.07798242880347538,middle
+OppSP,0,OppSP,47109,train,47,109,East South Central,7,0.028735999967815704,middle
+OppSP,0,OppSP,47113,train,47,113,East South Central,27,0.04217347274368047,middle
+OppSP,0,OppSP,47115,train,47,115,East South Central,6,0.019986183435204596,middle
+OppSP,0,OppSP,47119,train,47,119,East South Central,17,0.028475307162317855,middle
+OppSP,0,OppSP,47123,train,47,123,East South Central,7,0.017994684915648654,middle
+OppSP,0,OppSP,47125,train,47,125,East South Central,39,0.025208391265070088,middle
+OppSP,0,OppSP,47131,train,47,131,East South Central,10,0.09674981098433486,middle
+OppSP,0,OppSP,47133,train,47,133,East South Central,7,0.023674498134062798,middle
+OppSP,0,OppSP,47141,train,47,141,East South Central,15,0.05274781968491217,middle
+OppSP,0,OppSP,47143,train,47,143,East South Central,6,0.10678682916544147,middle
+OppSP,0,OppSP,47145,train,47,145,East South Central,11,0.016682822731373663,middle
+OppSP,0,OppSP,47147,train,47,147,East South Central,14,0.06034254802412328,middle
+OppSP,0,OppSP,47149,train,47,149,East South Central,49,0.031101278031272217,middle
+OppSP,0,OppSP,47151,train,47,151,East South Central,5,0.05314198170342118,middle
+OppSP,0,OppSP,47155,train,47,155,East South Central,18,0.1024564199653096,middle
+OppSP,0,OppSP,47157,train,47,157,East South Central,221,0.028128695147431326,middle
+OppSP,0,OppSP,47159,train,47,159,East South Central,5,0.045638266200950656,middle
+OppSP,0,OppSP,47163,train,47,163,East South Central,39,0.016083752716615888,middle
+OppSP,0,OppSP,47165,train,47,165,East South Central,42,0.03903718899711129,middle
+OppSP,0,OppSP,47167,train,47,167,East South Central,13,0.023283312689060587,middle
+OppSP,0,OppSP,47173,train,47,173,East South Central,4,0.0269395305583963,middle
+OppSP,0,OppSP,47177,train,47,177,East South Central,9,0.1028214275006295,middle
+OppSP,0,OppSP,47179,train,47,179,East South Central,23,0.045511378364660605,middle
+OppSP,0,OppSP,47181,train,47,181,East South Central,4,0.019703509090348275,middle
+OppSP,0,OppSP,47183,train,47,183,East South Central,11,0.05795074552753002,middle
+OppSP,0,OppSP,47189,train,47,189,East South Central,21,0.027429898062712253,middle
+OppSP,0,OppSP,48001,train,48,001,West South Central,11,0.041806110257325425,middle
+OppSP,0,OppSP,48005,train,48,005,West South Central,17,0.10678864589274688,middle
+OppSP,0,OppSP,48015,train,48,015,West South Central,6,0.1210703379219643,middle
+OppSP,0,OppSP,48025,train,48,025,West South Central,7,0.1107596252901775,middle
+OppSP,0,OppSP,48027,train,48,027,West South Central,65,0.02817024027557812,middle
+OppSP,0,OppSP,48037,train,48,037,West South Central,18,0.03386101690333475,middle
+OppSP,0,OppSP,48039,train,48,039,West South Central,51,0.031244428319290765,middle
+OppSP,0,OppSP,48041,train,48,041,West South Central,42,0.018752623350737907,middle
+OppSP,0,OppSP,48049,train,48,049,West South Central,12,0.04777174612378202,middle
+OppSP,0,OppSP,48051,train,48,051,West South Central,5,0.05868039830787725,middle
+OppSP,0,OppSP,48055,train,48,055,West South Central,8,0.043361562264803366,middle
+OppSP,0,OppSP,48057,train,48,057,West South Central,5,0.034510618621620345,middle
+OppSP,0,OppSP,48061,train,48,061,West South Central,86,0.02660381427341862,middle
+OppSP,0,OppSP,48071,train,48,071,West South Central,6,0.12031728856852023,middle
+OppSP,0,OppSP,48073,train,48,073,West South Central,12,0.04670254540971097,middle
+OppSP,0,OppSP,48089,train,48,089,West South Central,5,0.03355555553318512,middle
+OppSP,0,OppSP,48097,train,48,097,West South Central,8,0.05942625998333151,middle
+OppSP,0,OppSP,48099,train,48,099,West South Central,19,0.09356035685985106,middle
+OppSP,0,OppSP,48115,train,48,115,West South Central,4,0.10365987278432431,middle
+OppSP,0,OppSP,48117,train,48,117,West South Central,4,0.014753451658370498,middle
+OppSP,0,OppSP,48123,train,48,123,West South Central,5,0.06415507374031168,middle
+OppSP,0,OppSP,48135,train,48,135,West South Central,28,0.03256069794412903,middle
+OppSP,0,OppSP,48139,train,48,139,West South Central,31,0.03850482794667145,middle
+OppSP,0,OppSP,48145,train,48,145,West South Central,6,0.04307663299722636,middle
+OppSP,0,OppSP,48147,train,48,147,West South Central,9,0.02374570243226363,middle
+OppSP,0,OppSP,48149,train,48,149,West South Central,7,0.05715843738923907,middle
+OppSP,0,OppSP,48157,train,48,157,West South Central,76,0.023748190887524355,middle
+OppSP,0,OppSP,48161,train,48,161,West South Central,7,0.07054169005558232,middle
+OppSP,0,OppSP,48167,train,48,167,West South Central,66,0.041457520673249856,middle
+OppSP,0,OppSP,48171,train,48,171,West South Central,5,0.026714837059703678,middle
+OppSP,0,OppSP,48177,train,48,177,West South Central,6,0.0238604058142154,middle
+OppSP,0,OppSP,48179,train,48,179,West South Central,7,0.04325866664244176,middle
+OppSP,0,OppSP,48181,train,48,181,West South Central,26,0.06976944858287018,middle
+OppSP,0,OppSP,48183,train,48,183,West South Central,25,0.018835163998991128,middle
+OppSP,0,OppSP,48185,train,48,185,West South Central,6,0.06561771877130672,middle
+OppSP,0,OppSP,48187,train,48,187,West South Central,29,0.07490375554729921,middle
+OppSP,0,OppSP,48199,train,48,199,West South Central,11,0.048490184362000956,middle
+OppSP,0,OppSP,48209,train,48,209,West South Central,25,0.04926105033312387,middle
+OppSP,0,OppSP,48213,train,48,213,West South Central,17,0.05731183187181264,middle
+OppSP,0,OppSP,48215,train,48,215,West South Central,113,0.013417843872732382,middle
+OppSP,0,OppSP,48217,train,48,217,West South Central,11,0.058154246231455174,middle
+OppSP,0,OppSP,48219,train,48,219,West South Central,7,0.0864030052752199,middle
+OppSP,0,OppSP,48221,train,48,221,West South Central,10,0.07325580846163461,middle
+OppSP,0,OppSP,48223,train,48,223,West South Central,9,0.031878002128245174,middle
+OppSP,0,OppSP,48225,train,48,225,West South Central,7,0.10272623474685239,middle
+OppSP,0,OppSP,48227,train,48,227,West South Central,10,0.03364839316544752,middle
+OppSP,0,OppSP,48231,train,48,231,West South Central,19,0.05758953165557256,middle
+OppSP,0,OppSP,48241,train,48,241,West South Central,8,0.026675484979178914,middle
+OppSP,0,OppSP,48249,train,48,249,West South Central,7,0.0672385080934824,middle
+OppSP,0,OppSP,48251,train,48,251,West South Central,28,0.0567432400452934,middle
+OppSP,0,OppSP,48255,train,48,255,West South Central,4,0.12656420587571326,middle
+OppSP,0,OppSP,48257,train,48,257,West South Central,18,0.01778010904615634,middle
+OppSP,0,OppSP,48259,train,48,259,West South Central,6,0.08318518515745679,middle
+OppSP,0,OppSP,48265,train,48,265,West South Central,10,0.0819413640189246,middle
+OppSP,0,OppSP,48277,train,48,277,West South Central,12,0.013621959743701315,middle
+OppSP,0,OppSP,48279,train,48,279,West South Central,5,0.035174227391729374,middle
+OppSP,0,OppSP,48287,train,48,287,West South Central,4,0.05444300506958181,middle
+OppSP,0,OppSP,48291,train,48,291,West South Central,14,0.024393414379582135,middle
+OppSP,0,OppSP,48293,train,48,293,West South Central,8,0.09367898311305768,middle
+OppSP,0,OppSP,48299,train,48,299,West South Central,6,0.07907495807519972,middle
+OppSP,0,OppSP,48309,train,48,309,West South Central,51,0.01927374944664028,middle
+OppSP,0,OppSP,48315,train,48,315,West South Central,4,0.07667652854062353,middle
+OppSP,0,OppSP,48321,train,48,321,West South Central,10,0.036571990965663936,middle
+OppSP,0,OppSP,48323,train,48,323,West South Central,9,0.05874089587302099,middle
+OppSP,0,OppSP,48325,train,48,325,West South Central,8,0.05036613524566306,middle
+OppSP,0,OppSP,48329,train,48,329,West South Central,27,0.01728917881924722,middle
+OppSP,0,OppSP,48331,train,48,331,West South Central,7,0.053611166162452296,middle
+OppSP,0,OppSP,48337,train,48,337,West South Central,6,0.09896193754162426,middle
+OppSP,0,OppSP,48341,train,48,341,West South Central,4,0.06325889784064172,middle
+OppSP,0,OppSP,48347,train,48,347,West South Central,13,0.06018867624316176,middle
+OppSP,0,OppSP,48349,train,48,349,West South Central,10,0.05744691782454326,middle
+OppSP,0,OppSP,48351,train,48,351,West South Central,4,0.12574302679130897,middle
+OppSP,0,OppSP,48353,train,48,353,West South Central,5,0.12163940170006778,middle
+OppSP,0,OppSP,48355,train,48,355,West South Central,81,0.012164095901132701,middle
+OppSP,0,OppSP,48361,train,48,361,West South Central,21,0.016132735025492756,middle
+OppSP,0,OppSP,48363,train,48,363,West South Central,9,0.03610257550786326,middle
+OppSP,0,OppSP,48367,train,48,367,West South Central,19,0.051363697962672906,middle
+OppSP,0,OppSP,48371,train,48,371,West South Central,4,0.02175688719277306,middle
+OppSP,0,OppSP,48373,train,48,373,West South Central,10,0.12297622247239036,middle
+OppSP,0,OppSP,48375,train,48,375,West South Central,34,0.05451006409737652,middle
+OppSP,0,OppSP,48381,train,48,381,West South Central,29,0.017579590192267857,middle
+OppSP,0,OppSP,48387,train,48,387,West South Central,4,0.07682889494862932,middle
+OppSP,0,OppSP,48389,train,48,389,West South Central,5,0.06730340828125049,middle
+OppSP,0,OppSP,48397,train,48,397,West South Central,11,0.06632254813172823,middle
+OppSP,0,OppSP,48401,train,48,401,West South Central,13,0.033948989413785775,middle
+OppSP,0,OppSP,48407,train,48,407,West South Central,4,0.07160970890939271,middle
+OppSP,0,OppSP,48409,train,48,409,West South Central,16,0.036815920368703736,middle
+OppSP,0,OppSP,48419,train,48,419,West South Central,6,0.03114047684279305,middle
+OppSP,0,OppSP,48449,train,48,449,West South Central,8,0.03688046645122865,middle
+OppSP,0,OppSP,48451,train,48,451,West South Central,25,0.037289886822785785,middle
+OppSP,0,OppSP,48455,train,48,455,West South Central,5,0.06976744169821518,middle
+OppSP,0,OppSP,48457,train,48,457,West South Central,5,0.04128086415930779,middle
+OppSP,0,OppSP,48463,train,48,463,West South Central,5,0.019549146179113838,middle
+OppSP,0,OppSP,48467,train,48,467,West South Central,10,0.05926964255715557,middle
+OppSP,0,OppSP,48469,train,48,469,West South Central,23,0.027024224567207787,middle
+OppSP,0,OppSP,48471,train,48,471,West South Central,10,0.10077097499910595,middle
+OppSP,0,OppSP,48477,train,48,477,West South Central,6,0.03615032662525236,middle
+OppSP,0,OppSP,48481,train,48,481,West South Central,11,0.06812611925988604,middle
+OppSP,0,OppSP,48485,train,48,485,West South Central,37,0.02150417447949898,middle
+OppSP,0,OppSP,48487,train,48,487,West South Central,4,0.07750342929787128,middle
+OppSP,0,OppSP,48489,train,48,489,West South Central,5,0.05859607362269842,middle
+OppSP,0,OppSP,48499,train,48,499,West South Central,10,0.11820831802802279,middle
+OppSP,0,OppSP,48503,train,48,503,West South Central,4,0.04265927974246971,middle
+OppSP,0,OppSP,49003,train,49,003,Mountain,11,0.02825040111348332,middle
+OppSP,0,OppSP,49005,train,49,005,Mountain,26,0.014356958817584342,middle
+OppSP,0,OppSP,49007,train,49,007,Mountain,5,0.0910064919241875,middle
+OppSP,0,OppSP,49021,train,49,021,Mountain,8,0.04173839596555621,middle
+OppSP,0,OppSP,49039,train,49,039,Mountain,5,0.025474214107223808,middle
+OppSP,0,OppSP,49043,train,49,043,Mountain,13,0.09916830138974501,middle
+OppSP,0,OppSP,49045,train,49,045,Mountain,11,0.03222270099372645,middle
+OppSP,0,OppSP,49047,train,49,047,Mountain,6,0.01688093051217875,middle
+OppSP,0,OppSP,49051,train,49,051,Mountain,4,0.07248309051900637,middle
+OppSP,0,OppSP,49053,train,49,053,Mountain,21,0.02419291369252535,middle
+OppSP,0,OppSP,49057,train,49,057,Mountain,50,0.014909018699724289,middle
+OppSP,0,OppSP,50001,train,50,001,New England,10,0.046944340952929806,middle
+OppSP,0,OppSP,50003,train,50,003,New England,12,0.06790340688182851,middle
+OppSP,0,OppSP,50005,train,50,005,New England,10,0.11617428377775632,middle
+OppSP,0,OppSP,50007,train,50,007,New England,35,0.031754854347922794,middle
+OppSP,0,OppSP,50021,train,50,021,New England,20,0.0440399581997452,middle
+OppSP,0,OppSP,50023,train,50,023,New England,19,0.03767976000759791,middle
+OppSP,0,OppSP,50025,train,50,025,New England,18,0.03487635646268943,middle
+OppSP,0,OppSP,50027,train,50,027,New England,18,0.03736545710926285,middle
+OppSP,0,OppSP,51003,train,51,003,South Atlantic,22,0.03457752838227652,middle
+OppSP,0,OppSP,51005,train,51,005,South Atlantic,6,0.05398584175959131,middle
+OppSP,0,OppSP,51009,train,51,009,South Atlantic,9,0.09933928115060363,middle
+OppSP,0,OppSP,51023,train,51,023,South Atlantic,8,0.08304867972537146,middle
+OppSP,0,OppSP,51025,train,51,025,South Atlantic,5,0.07263779016643136,middle
+OppSP,0,OppSP,51027,train,51,027,South Atlantic,7,0.03359999997311994,middle
+OppSP,0,OppSP,51029,train,51,029,South Atlantic,4,0.045725068928464584,middle
+OppSP,0,OppSP,51031,train,51,031,South Atlantic,12,0.10232700444964714,middle
+OppSP,0,OppSP,51033,train,51,033,South Atlantic,7,0.1183596204532348,middle
+OppSP,0,OppSP,51035,train,51,035,South Atlantic,7,0.01369201450583672,middle
+OppSP,0,OppSP,51041,train,51,041,South Atlantic,71,0.012715031096922062,middle
+OppSP,0,OppSP,51047,train,51,047,South Atlantic,8,0.09729774640060913,middle
+OppSP,0,OppSP,51051,train,51,051,South Atlantic,4,0.03416955015291068,middle
+OppSP,0,OppSP,51061,train,51,061,South Atlantic,17,0.07550328790378058,middle
+OppSP,0,OppSP,51065,train,51,065,South Atlantic,4,0.02380408162177113,middle
+OppSP,0,OppSP,51071,train,51,071,South Atlantic,4,0.013528125894248197,middle
+OppSP,0,OppSP,51073,train,51,073,South Atlantic,8,0.06045288529160838,middle
+OppSP,0,OppSP,51077,train,51,077,South Atlantic,5,0.0290977883683817,middle
+OppSP,0,OppSP,51083,train,51,083,South Atlantic,9,0.031006113408514262,middle
+OppSP,0,OppSP,51085,train,51,085,South Atlantic,23,0.03983475150456952,middle
+OppSP,0,OppSP,51087,train,51,087,South Atlantic,64,0.015140286124533399,middle
+OppSP,0,OppSP,51093,train,51,093,South Atlantic,8,0.08408222876061612,middle
+OppSP,0,OppSP,51095,train,51,095,South Atlantic,11,0.036356452802321144,middle
+OppSP,0,OppSP,51101,train,51,101,South Atlantic,4,0.05827057627686427,middle
+OppSP,0,OppSP,51105,train,51,105,South Atlantic,6,0.0195081360834198,middle
+OppSP,0,OppSP,51107,train,51,107,South Atlantic,65,0.015603954978394858,middle
+OppSP,0,OppSP,51109,train,51,109,South Atlantic,6,0.03592900378343317,middle
+OppSP,0,OppSP,51117,train,51,117,South Atlantic,9,0.054657193434599766,middle
+OppSP,0,OppSP,51119,train,51,119,South Atlantic,4,0.09901912976367762,middle
+OppSP,0,OppSP,51121,train,51,121,South Atlantic,16,0.04463815164666591,middle
+OppSP,0,OppSP,51135,train,51,135,South Atlantic,4,0.05507246374896028,middle
+OppSP,0,OppSP,51137,train,51,137,South Atlantic,5,0.08099331939612778,middle
+OppSP,0,OppSP,51139,train,51,139,South Atlantic,5,0.058422742569344786,middle
+OppSP,0,OppSP,51141,train,51,141,South Atlantic,4,0.10099192613471193,middle
+OppSP,0,OppSP,51143,train,51,143,South Atlantic,16,0.024512570387555853,middle
+OppSP,0,OppSP,51145,train,51,145,South Atlantic,5,0.07830127421194925,middle
+OppSP,0,OppSP,51153,train,51,153,South Atlantic,83,0.012533274377313816,middle
+OppSP,0,OppSP,51161,train,51,161,South Atlantic,18,0.012657650309750516,middle
+OppSP,0,OppSP,51163,train,51,163,South Atlantic,4,0.08630611762547809,middle
+OppSP,0,OppSP,51165,train,51,165,South Atlantic,19,0.032360362694288866,middle
+OppSP,0,OppSP,51169,train,51,169,South Atlantic,6,0.013751018553412764,middle
+OppSP,0,OppSP,51171,train,51,171,South Atlantic,9,0.05012993946321687,middle
+OppSP,0,OppSP,51173,train,51,173,South Atlantic,9,0.032904173187738084,middle
+OppSP,0,OppSP,51175,train,51,175,South Atlantic,5,0.05634765621478268,middle
+OppSP,0,OppSP,51177,train,51,177,South Atlantic,30,0.03857696580018745,middle
+OppSP,0,OppSP,51179,train,51,179,South Atlantic,27,0.020995645096553234,middle
+OppSP,0,OppSP,51183,train,51,183,South Atlantic,5,0.08238815368951075,middle
+OppSP,0,OppSP,51185,train,51,185,South Atlantic,11,0.04885918060693565,middle
+OppSP,0,OppSP,51187,train,51,187,South Atlantic,8,0.06948627695852805,middle
+OppSP,0,OppSP,51191,train,51,191,South Atlantic,13,0.046551543667799934,middle
+OppSP,0,OppSP,51193,train,51,193,South Atlantic,4,0.06926267222709015,middle
+OppSP,0,OppSP,51195,train,51,195,South Atlantic,11,0.06723952962645094,middle
+OppSP,0,OppSP,51197,train,51,197,South Atlantic,6,0.06814486860652046,middle
+OppSP,0,OppSP,51199,train,51,199,South Atlantic,14,0.03901547540342634,middle
+OppSP,0,OppSP,51510,train,51,510,South Atlantic,38,0.0167369777437824,middle
+OppSP,0,OppSP,51520,train,51,520,South Atlantic,4,0.0980077978625536,middle
+OppSP,0,OppSP,51540,train,51,540,South Atlantic,12,0.04086695497321049,middle
+OppSP,0,OppSP,51550,train,51,550,South Atlantic,41,0.016266326686111405,middle
+OppSP,0,OppSP,51630,train,51,630,South Atlantic,6,0.07985055038473808,middle
+OppSP,0,OppSP,51650,train,51,650,South Atlantic,33,0.02954044625088887,middle
+OppSP,0,OppSP,51660,train,51,660,South Atlantic,11,0.020511813846354473,middle
+OppSP,0,OppSP,51680,train,51,680,South Atlantic,19,0.01419122367887166,middle
+OppSP,0,OppSP,51683,train,51,683,South Atlantic,7,0.015795025711676423,middle
+OppSP,0,OppSP,51700,train,51,700,South Atlantic,44,0.024401790685425178,middle
+OppSP,0,OppSP,51730,train,51,730,South Atlantic,11,0.054748736555513725,middle
+OppSP,0,OppSP,51740,train,51,740,South Atlantic,31,0.017136237706060622,middle
+OppSP,0,OppSP,51760,train,51,760,South Atlantic,66,0.028067251065792224,middle
+OppSP,0,OppSP,51770,train,51,770,South Atlantic,23,0.0495721369506692,middle
+OppSP,0,OppSP,51820,train,51,820,South Atlantic,5,0.0694748802543961,middle
+OppSP,0,OppSP,51840,train,51,840,South Atlantic,5,0.06061111916819458,middle
+OppSP,0,OppSP,53005,train,53,005,Pacific,37,0.023551269571661655,middle
+OppSP,0,OppSP,53007,train,53,007,Pacific,14,0.08662271938754135,middle
+OppSP,0,OppSP,53009,train,53,009,Pacific,22,0.020060324823708977,middle
+OppSP,0,OppSP,53015,train,53,015,Pacific,24,0.06855294675583042,middle
+OppSP,0,OppSP,53017,train,53,017,Pacific,8,0.04521261946434052,middle
+OppSP,0,OppSP,53021,train,53,021,Pacific,13,0.043158385213122395,middle
+OppSP,0,OppSP,53025,train,53,025,Pacific,16,0.04517316367429511,middle
+OppSP,0,OppSP,53027,train,53,027,Pacific,16,0.05564910703626898,middle
+OppSP,0,OppSP,53035,train,53,035,Pacific,55,0.050843756732626914,middle
+OppSP,0,OppSP,53041,train,53,041,Pacific,20,0.023373812329792056,middle
+OppSP,0,OppSP,53043,train,53,043,Pacific,4,0.020550154996718268,middle
+OppSP,0,OppSP,53045,train,53,045,Pacific,14,0.03589218773044998,middle
+OppSP,0,OppSP,53047,train,53,047,Pacific,10,0.05616826782751611,middle
+OppSP,0,OppSP,53049,train,53,049,Pacific,8,0.06455952746772937,middle
+OppSP,0,OppSP,53051,train,53,051,Pacific,5,0.07524677016805426,middle
+OppSP,0,OppSP,53055,train,53,055,Pacific,5,0.11176046793961919,middle
+OppSP,0,OppSP,53057,train,53,057,Pacific,30,0.08247303241312208,middle
+OppSP,0,OppSP,53059,train,53,059,Pacific,5,0.11384916296123933,middle
+OppSP,0,OppSP,53065,train,53,065,Pacific,12,0.03965856526448691,middle
+OppSP,0,OppSP,53071,train,53,071,Pacific,12,0.03979395489757521,middle
+OppSP,0,OppSP,53073,train,53,073,Pacific,34,0.01487205635437793,middle
+OppSP,0,OppSP,54001,train,54,001,South Atlantic,4,0.024226929619239446,middle
+OppSP,0,OppSP,54005,train,54,005,South Atlantic,8,0.015519864731532631,middle
+OppSP,0,OppSP,54011,train,54,011,South Atlantic,29,0.0244570805721849,middle
+OppSP,0,OppSP,54025,train,54,025,South Atlantic,7,0.045977605669897295,middle
+OppSP,0,OppSP,54027,train,54,027,South Atlantic,5,0.0637547031480426,middle
+OppSP,0,OppSP,54033,train,54,033,South Atlantic,22,0.05012945284410189,middle
+OppSP,0,OppSP,54035,train,54,035,South Atlantic,6,0.07498859619579791,middle
+OppSP,0,OppSP,54037,train,54,037,South Atlantic,15,0.03823296148241877,middle
+OppSP,0,OppSP,54041,train,54,041,South Atlantic,5,0.05391917430461371,middle
+OppSP,0,OppSP,54043,train,54,043,South Atlantic,5,0.07599999993919998,middle
+OppSP,0,OppSP,54045,train,54,045,South Atlantic,9,0.09976396917773597,middle
+OppSP,0,OppSP,54049,train,54,049,South Atlantic,18,0.017347238047766524,middle
+OppSP,0,OppSP,54051,train,54,051,South Atlantic,9,0.1124370542805713,middle
+OppSP,0,OppSP,54053,train,54,053,South Atlantic,6,0.07224269611254282,middle
+OppSP,0,OppSP,54055,train,54,055,South Atlantic,16,0.015631100601604685,middle
+OppSP,0,OppSP,54057,train,54,057,South Atlantic,7,0.10292581861107099,middle
+OppSP,0,OppSP,54059,train,54,059,South Atlantic,7,0.05190476187015864,middle
+OppSP,0,OppSP,54061,train,54,061,South Atlantic,24,0.024026709831845676,middle
+OppSP,0,OppSP,54077,train,54,077,South Atlantic,8,0.0318121004700365,middle
+OppSP,0,OppSP,54079,train,54,079,South Atlantic,10,0.023821754572574495,middle
+OppSP,0,OppSP,54081,train,54,081,South Atlantic,17,0.020438145784372343,middle
+OppSP,0,OppSP,54083,train,54,083,South Atlantic,7,0.057050873256773146,middle
+OppSP,0,OppSP,54091,train,54,091,South Atlantic,4,0.04584792492849821,middle
+OppSP,0,OppSP,54099,train,54,099,South Atlantic,11,0.05997314041916343,middle
+OppSP,0,OppSP,54103,train,54,103,South Atlantic,5,0.07086204129467949,middle
+OppSP,0,OppSP,54109,train,54,109,South Atlantic,6,0.0585829071935561,middle
+OppSP,0,OppSP,55001,train,55,001,East North Central,7,0.047359112982192454,middle
+OppSP,0,OppSP,55003,train,55,003,East North Central,7,0.13030283918696037,middle
+OppSP,0,OppSP,55005,train,55,005,East North Central,10,0.08131704368234605,middle
+OppSP,0,OppSP,55007,train,55,007,East North Central,5,0.06466231277574806,middle
+OppSP,0,OppSP,55009,train,55,009,East North Central,54,0.03794750351571903,middle
+OppSP,0,OppSP,55013,train,55,013,East North Central,6,0.06547655684335076,middle
+OppSP,0,OppSP,55015,train,55,015,East North Central,11,0.03462313779794807,middle
+OppSP,0,OppSP,55017,train,55,017,East North Central,11,0.03788882079228578,middle
+OppSP,0,OppSP,55019,train,55,019,East North Central,8,0.0402919768186805,middle
+OppSP,0,OppSP,55023,train,55,023,East North Central,6,0.032580566390977894,middle
+OppSP,0,OppSP,55027,train,55,027,East North Central,20,0.035484760297468596,middle
+OppSP,0,OppSP,55029,train,55,029,East North Central,9,0.06959246567713523,middle
+OppSP,0,OppSP,55031,train,55,031,East North Central,12,0.03969303199777552,middle
+OppSP,0,OppSP,55035,train,55,035,East North Central,20,0.036092534200161314,middle
+OppSP,0,OppSP,55039,train,55,039,East North Central,20,0.034134530659475554,middle
+OppSP,0,OppSP,55041,train,55,041,East North Central,4,0.06670160416592726,middle
+OppSP,0,OppSP,55045,train,55,045,East North Central,8,0.031185570226664034,middle
+OppSP,0,OppSP,55047,train,55,047,East North Central,6,0.08657988157688477,middle
+OppSP,0,OppSP,55049,train,55,049,East North Central,6,0.01747063011253499,middle
+OppSP,0,OppSP,55057,train,55,057,East North Central,7,0.02019689196601739,middle
+OppSP,0,OppSP,55059,train,55,059,East North Central,35,0.07581434903229584,middle
+OppSP,0,OppSP,55063,train,55,063,East North Central,25,0.05207309864873799,middle
+OppSP,0,OppSP,55065,train,55,065,East North Central,5,0.015958411956290622,middle
+OppSP,0,OppSP,55071,train,55,071,East North Central,19,0.07350892769445877,middle
+OppSP,0,OppSP,55075,train,55,075,East North Central,12,0.03465991838528453,middle
+OppSP,0,OppSP,55083,train,55,083,East North Central,10,0.06342592587307097,middle
+OppSP,0,OppSP,55085,train,55,085,East North Central,14,0.09363338703744344,middle
+OppSP,0,OppSP,55087,train,55,087,East North Central,40,0.0306497739495689,middle
+OppSP,0,OppSP,55089,train,55,089,East North Central,18,0.04032720018179805,middle
+OppSP,0,OppSP,55093,train,55,093,East North Central,8,0.06864521474466352,middle
+OppSP,0,OppSP,55095,train,55,095,East North Central,10,0.09959519082373774,middle
+OppSP,0,OppSP,55097,train,55,097,East North Central,14,0.05916205913630993,middle
+OppSP,0,OppSP,55105,train,55,105,East North Central,38,0.025810040555379415,middle
+OppSP,0,OppSP,55117,train,55,117,East North Central,26,0.030206559924297584,middle
+OppSP,0,OppSP,55119,train,55,119,East North Central,6,0.05582658922895281,middle
+OppSP,0,OppSP,55121,train,55,121,East North Central,8,0.08568814003445281,middle
+OppSP,0,OppSP,55123,train,55,123,East North Central,7,0.044214884415924194,middle
+OppSP,0,OppSP,55125,train,55,125,East North Central,5,0.11551475219813312,middle
+OppSP,0,OppSP,55127,train,55,127,East North Central,22,0.021222219358171153,middle
+OppSP,0,OppSP,55129,train,55,129,East North Central,5,0.08131880200783773,middle
+OppSP,0,OppSP,55131,train,55,131,East North Central,28,0.01342145647085383,middle
+OppSP,0,OppSP,55137,train,55,137,East North Central,7,0.09898972247287102,middle
+OppSP,0,OppSP,55139,train,55,139,East North Central,41,0.01671750234915365,middle
+OppSP,0,OppSP,55141,train,55,141,East North Central,17,0.04586510528439272,middle
+OppSP,0,OppSP,56005,train,56,005,Mountain,7,0.03910108426151891,middle
+OppSP,0,OppSP,56007,train,56,007,Mountain,5,0.057965847235010304,middle
+OppSP,0,OppSP,56009,train,56,009,Mountain,4,0.03032104635245399,middle
+OppSP,0,OppSP,56013,train,56,013,Mountain,10,0.0420978057120796,middle
+OppSP,0,OppSP,56021,train,56,021,Mountain,21,0.06065136443129511,middle
+OppSP,0,OppSP,56033,train,56,033,Mountain,6,0.0408069020878025,middle
+OppSP,0,OppSP,01029,val,01,029,East South Central,4,0.03451484540720188,middle
+OppSP,0,OppSP,01031,val,01,031,East South Central,14,0.028659731526501565,middle
+OppSP,0,OppSP,01047,val,01,047,East South Central,15,0.023908030653855702,middle
+OppSP,0,OppSP,01051,val,01,051,East South Central,15,0.10742655506986389,middle
+OppSP,0,OppSP,01057,val,01,057,East South Central,5,0.0314097881495666,middle
+OppSP,0,OppSP,01065,val,01,065,East South Central,6,0.06835969402616679,middle
+OppSP,0,OppSP,01073,val,01,073,East South Central,163,0.020829538848338353,middle
+OppSP,0,OppSP,01133,val,01,133,East South Central,7,0.03230512467708854,middle
+OppSP,0,OppSP,02150,val,02,150,Pacific,5,0.07293095560198595,middle
+OppSP,0,OppSP,04007,val,04,007,Mountain,16,0.05023491283797898,middle
+OppSP,0,OppSP,04009,val,04,009,Mountain,9,0.04354984501162927,middle
+OppSP,0,OppSP,04021,val,04,021,Mountain,75,0.021225194961222084,middle
+OppSP,0,OppSP,05003,val,05,003,West South Central,7,0.05176013036246159,middle
+OppSP,0,OppSP,05029,val,05,029,West South Central,6,0.06655983146747275,middle
+OppSP,0,OppSP,05063,val,05,063,West South Central,8,0.07390016317806825,middle
+OppSP,0,OppSP,05113,val,05,113,West South Central,6,0.05109123649736869,middle
+OppSP,0,OppSP,06009,val,06,009,Pacific,10,0.061370658785373663,middle
+OppSP,0,OppSP,06031,val,06,031,Pacific,27,0.058235888105270174,middle
+OppSP,0,OppSP,06093,val,06,093,Pacific,14,0.01952621588149828,middle
+OppSP,0,OppSP,08043,val,08,043,Mountain,14,0.055984430102103425,middle
+OppSP,0,OppSP,10005,val,10,005,South Atlantic,53,0.012341219864043705,middle
+OppSP,0,OppSP,12021,val,12,021,South Atlantic,74,0.021494350839149023,middle
+OppSP,0,OppSP,12035,val,12,035,South Atlantic,20,0.03037052097101075,middle
+OppSP,0,OppSP,12059,val,12,059,South Atlantic,4,0.07529300532081347,middle
+OppSP,0,OppSP,12069,val,12,069,South Atlantic,56,0.024093570768510063,middle
+OppSP,0,OppSP,12071,val,12,071,South Atlantic,167,0.014087547113079225,middle
+OppSP,0,OppSP,12101,val,12,101,South Atlantic,133,0.013159193470855502,middle
+OppSP,0,OppSP,12131,val,12,131,South Atlantic,11,0.11613613176898016,middle
+OppSP,0,OppSP,13021,val,13,021,South Atlantic,44,0.017735166610417227,middle
+OppSP,0,OppSP,13087,val,13,087,South Atlantic,7,0.02617701512959399,middle
+OppSP,0,OppSP,13099,val,13,099,South Atlantic,5,0.04125595813751378,middle
+OppSP,0,OppSP,13117,val,13,117,South Atlantic,45,0.037200484983691565,middle
+OppSP,0,OppSP,13119,val,13,119,South Atlantic,5,0.06047982447077098,middle
+OppSP,0,OppSP,13135,val,13,135,South Atlantic,113,0.021211336590778233,middle
+OppSP,0,OppSP,13143,val,13,143,South Atlantic,5,0.10977362554051337,middle
+OppSP,0,OppSP,13147,val,13,147,South Atlantic,5,0.11454726446757622,middle
+OppSP,0,OppSP,13157,val,13,157,South Atlantic,11,0.0635950607702693,middle
+OppSP,0,OppSP,13163,val,13,163,South Atlantic,4,0.029990751736772642,middle
+OppSP,0,OppSP,13213,val,13,213,South Atlantic,8,0.09154759664115548,middle
+OppSP,0,OppSP,13225,val,13,225,South Atlantic,6,0.09295835581615298,middle
+OppSP,0,OppSP,13285,val,13,285,South Atlantic,14,0.016317709335277507,middle
+OppSP,0,OppSP,16027,val,16,027,Mountain,29,0.024835229469853642,middle
+OppSP,0,OppSP,17029,val,17,029,East North Central,12,0.03314704568974154,middle
+OppSP,0,OppSP,17089,val,17,089,East North Central,82,0.018102536067316467,middle
+OppSP,0,OppSP,17105,val,17,105,East North Central,10,0.02770750171548386,middle
+OppSP,0,OppSP,17107,val,17,107,East North Central,8,0.01745006310335898,middle
+OppSP,0,OppSP,17121,val,17,121,East North Central,12,0.047892758811140905,middle
+OppSP,0,OppSP,17141,val,17,141,East North Central,11,0.05404627123930252,middle
+OppSP,0,OppSP,18019,val,18,019,East North Central,26,0.03692151936886392,middle
+OppSP,0,OppSP,18023,val,18,023,East North Central,8,0.06457122150032693,middle
+OppSP,0,OppSP,18061,val,18,061,East North Central,6,0.05459515569007368,middle
+OppSP,0,OppSP,18063,val,18,063,East North Central,21,0.0761671785704835,middle
+OppSP,0,OppSP,18085,val,18,085,East North Central,19,0.062750411103755,middle
+OppSP,0,OppSP,18127,val,18,127,East North Central,32,0.06277324024305936,middle
+OppSP,0,OppSP,18131,val,18,131,East North Central,4,0.07208333326125005,middle
+OppSP,0,OppSP,18163,val,18,163,East North Central,49,0.03906354039454751,middle
+OppSP,0,OppSP,19011,val,19,011,West North Central,7,0.03634588349588987,middle
+OppSP,0,OppSP,19091,val,19,091,West North Central,4,0.028162511512368187,middle
+OppSP,0,OppSP,19153,val,19,153,West North Central,98,0.021029010048923515,middle
+OppSP,0,OppSP,19161,val,19,161,West North Central,4,0.01877419824854069,middle
+OppSP,0,OppSP,20021,val,20,021,West North Central,6,0.08939820290641763,middle
+OppSP,0,OppSP,20037,val,20,037,West North Central,11,0.043471886674833246,middle
+OppSP,0,OppSP,20041,val,20,041,West North Central,6,0.05827882760432673,middle
+OppSP,0,OppSP,20051,val,20,051,West North Central,6,0.08136574072378953,middle
+OppSP,0,OppSP,20087,val,20,087,West North Central,4,0.01619834709958427,middle
+OppSP,0,OppSP,20113,val,20,113,West North Central,7,0.019587235222407438,middle
+OppSP,0,OppSP,21019,val,21,019,East South Central,13,0.07601085983227565,middle
+OppSP,0,OppSP,21029,val,21,029,East South Central,18,0.04378739890914398,middle
+OppSP,0,OppSP,21045,val,21,045,East South Central,5,0.05341058356259171,middle
+OppSP,0,OppSP,21071,val,21,071,East South Central,10,0.04255971943914536,middle
+OppSP,0,OppSP,21083,val,21,083,East South Central,9,0.07706441446274413,middle
+OppSP,0,OppSP,21095,val,21,095,East South Central,11,0.03190091946504476,middle
+OppSP,0,OppSP,21203,val,21,203,East South Central,4,0.07312722943827137,middle
+OppSP,0,OppSP,21219,val,21,219,East South Central,4,0.09031672265596298,middle
+OppSP,0,OppSP,21227,val,21,227,East South Central,24,0.03165343066659863,middle
+OppSP,0,OppSP,22011,val,22,011,West South Central,7,0.03745498967551956,middle
+OppSP,0,OppSP,22043,val,22,043,West South Central,5,0.05798611106278925,middle
+OppSP,0,OppSP,22053,val,22,053,West South Central,7,0.06771199992416248,middle
+OppSP,0,OppSP,22061,val,22,061,West South Central,10,0.10680496710619845,middle
+OppSP,0,OppSP,22083,val,22,083,West South Central,6,0.022877050353617635,middle
+OppSP,0,OppSP,22087,val,22,087,West South Central,17,0.046070771943646574,middle
+OppSP,0,OppSP,22089,val,22,089,West South Central,13,0.025829707145387217,middle
+OppSP,0,OppSP,22103,val,22,103,West South Central,43,0.013625143860672184,middle
+OppSP,0,OppSP,22113,val,22,113,West South Central,12,0.01365313861471971,middle
+OppSP,0,OppSP,23005,val,23,005,New England,66,0.06452110453710679,middle
+OppSP,0,OppSP,23029,val,23,029,New England,14,0.0805017525,middle
+OppSP,0,OppSP,24011,val,24,011,South Atlantic,9,0.03897972082300352,middle
+OppSP,0,OppSP,24033,val,24,033,South Atlantic,218,0.02890246062773203,middle
+OppSP,0,OppSP,26029,val,26,029,East North Central,13,0.017786285563467882,middle
+OppSP,0,OppSP,26037,val,26,037,East North Central,22,0.02942556821130902,middle
+OppSP,0,OppSP,26071,val,26,071,East North Central,5,0.08097660626183972,middle
+OppSP,0,OppSP,26089,val,26,089,East North Central,6,0.01769279671130116,middle
+OppSP,0,OppSP,26103,val,26,103,East North Central,24,0.03808874360752658,middle
+OppSP,0,OppSP,26109,val,26,109,East North Central,7,0.03953256786468908,middle
+OppSP,0,OppSP,26135,val,26,135,East North Central,5,0.055070153041556595,middle
+OppSP,0,OppSP,26151,val,26,151,East North Central,12,0.023822553647196588,middle
+OppSP,0,OppSP,26155,val,26,155,East North Central,17,0.06402814372152141,middle
+OppSP,0,OppSP,26159,val,26,159,East North Central,15,0.02581518643764601,middle
+OppSP,0,OppSP,27001,val,27,001,West North Central,6,0.11133333327766665,middle
+OppSP,0,OppSP,27017,val,27,017,West North Central,7,0.0707684981500662,middle
+OppSP,0,OppSP,27065,val,27,065,West North Central,4,0.06397306389552086,middle
+OppSP,0,OppSP,27067,val,27,067,West North Central,12,0.053106371488922416,middle
+OppSP,0,OppSP,27085,val,27,085,West North Central,7,0.0631428835542431,middle
+OppSP,0,OppSP,27095,val,27,095,West North Central,7,0.09662922770800328,middle
+OppSP,0,OppSP,27127,val,27,127,West North Central,6,0.06361429062840003,middle
+OppSP,0,OppSP,28029,val,28,029,East South Central,6,0.02935528118538837,middle
+OppSP,0,OppSP,28071,val,28,071,East South Central,10,0.056476833540780556,middle
+OppSP,0,OppSP,28109,val,28,109,East South Central,9,0.10074162833835194,middle
+OppSP,0,OppSP,28121,val,28,121,East South Central,27,0.03320876152723921,middle
+OppSP,0,OppSP,28141,val,28,141,East South Central,4,0.05010088571918262,middle
+OppSP,0,OppSP,29023,val,29,023,West North Central,10,0.050187783401901456,middle
+OppSP,0,OppSP,29047,val,29,047,West North Central,44,0.023216790635324183,middle
+OppSP,0,OppSP,29101,val,29,101,West North Central,9,0.03160797057595947,middle
+OppSP,0,OppSP,29159,val,29,159,West North Central,11,0.045268815984396416,middle
+OppSP,0,OppSP,29181,val,29,181,West North Central,4,0.01820804036525085,middle
+OppSP,0,OppSP,29225,val,29,225,West North Central,8,0.05914634357241856,middle
+OppSP,0,OppSP,30013,val,30,013,Mountain,22,0.02163339983471531,middle
+OppSP,0,OppSP,30031,val,30,031,Mountain,22,0.023143224749178615,middle
+OppSP,0,OppSP,31019,val,31,019,West North Central,11,0.05111517903882436,middle
+OppSP,0,OppSP,31041,val,31,041,West North Central,4,0.05296073527425212,middle
+OppSP,0,OppSP,31153,val,31,153,West North Central,43,0.036161931647231305,middle
+OppSP,0,OppSP,31155,val,31,155,West North Central,5,0.02198539737595706,middle
+OppSP,0,OppSP,31157,val,31,157,West North Central,11,0.037800039655146576,middle
+OppSP,0,OppSP,32005,val,32,005,Mountain,17,0.12728962345534653,middle
+OppSP,0,OppSP,33015,val,33,015,New England,65,0.017875526863001596,middle
+OppSP,0,OppSP,34039,val,34,039,Middle Atlantic,108,0.016449629351457575,middle
+OppSP,0,OppSP,35015,val,35,015,Mountain,12,0.039682846249502156,middle
+OppSP,0,OppSP,35027,val,35,027,Mountain,5,0.01647648838714058,middle
+OppSP,0,OppSP,35043,val,35,043,Mountain,28,0.028660848423902152,middle
+OppSP,0,OppSP,36043,val,36,043,Middle Atlantic,19,0.05143274848657892,middle
+OppSP,0,OppSP,36049,val,36,049,Middle Atlantic,7,0.033927863621621736,middle
+OppSP,0,OppSP,36077,val,36,077,Middle Atlantic,17,0.04822827219875057,middle
+OppSP,0,OppSP,36093,val,36,093,Middle Atlantic,43,0.023287090253391762,middle
+OppSP,0,OppSP,36101,val,36,101,Middle Atlantic,30,0.028734273961573888,middle
+OppSP,0,OppSP,37003,val,37,003,South Atlantic,7,0.06597441395307574,middle
+OppSP,0,OppSP,37007,val,37,007,South Atlantic,6,0.013925925913547264,middle
+OppSP,0,OppSP,37019,val,37,019,South Atlantic,33,0.021675695202933158,middle
+OppSP,0,OppSP,37031,val,37,031,South Atlantic,38,0.024762145060194463,middle
+OppSP,0,OppSP,37057,val,37,057,South Atlantic,34,0.029958571984906597,middle
+OppSP,0,OppSP,37089,val,37,089,South Atlantic,27,0.026247575370212134,middle
+OppSP,0,OppSP,37117,val,37,117,South Atlantic,6,0.04524391560481789,middle
+OppSP,0,OppSP,37161,val,37,161,South Atlantic,13,0.028784353142538955,middle
+OppSP,0,OppSP,37193,val,37,193,South Atlantic,14,0.01415890337452653,middle
+OppSP,0,OppSP,38005,val,38,005,West North Central,4,0.06444444435851852,middle
+OppSP,0,OppSP,38017,val,38,017,West North Central,33,0.06657704740135915,middle
+OppSP,0,OppSP,39001,val,39,001,East North Central,6,0.05458401566130406,middle
+OppSP,0,OppSP,39011,val,39,011,East North Central,11,0.033414501302502446,middle
+OppSP,0,OppSP,39033,val,39,033,East North Central,13,0.05367146687581482,middle
+OppSP,0,OppSP,39109,val,39,109,East North Central,21,0.030816403549849297,middle
+OppSP,0,OppSP,39111,val,39,111,East North Central,4,0.02999693906966816,middle
+OppSP,0,OppSP,39113,val,39,113,East North Central,153,0.015030778184155933,middle
+OppSP,0,OppSP,39135,val,39,135,East North Central,12,0.04011867704137086,middle
+OppSP,0,OppSP,39171,val,39,171,East North Central,9,0.036208365437093507,middle
+OppSP,0,OppSP,40027,val,40,027,West South Central,62,0.022172232943817295,middle
+OppSP,0,OppSP,40079,val,40,079,West South Central,12,0.026755006490398622,middle
+OppSP,0,OppSP,40083,val,40,083,West South Central,8,0.08352156963825529,middle
+OppSP,0,OppSP,40113,val,40,113,West South Central,11,0.08673660895164086,middle
+OppSP,0,OppSP,40121,val,40,121,West South Central,13,0.041242730638045434,middle
+OppSP,0,OppSP,41005,val,41,005,Pacific,80,0.032759081152240827,middle
+OppSP,0,OppSP,41029,val,41,029,Pacific,41,0.014359087359486883,middle
+OppSP,0,OppSP,41031,val,41,031,Pacific,6,0.020759769878155497,middle
+OppSP,0,OppSP,41047,val,41,047,Pacific,58,0.032605700500450724,middle
+OppSP,0,OppSP,42019,val,42,019,Middle Atlantic,44,0.03917487696792492,middle
+OppSP,0,OppSP,42047,val,42,047,Middle Atlantic,9,0.027168367335295207,middle
+OppSP,0,OppSP,42087,val,42,087,Middle Atlantic,12,0.026401051738771726,middle
+OppSP,0,OppSP,42089,val,42,089,Middle Atlantic,33,0.026674150043958792,middle
+OppSP,0,OppSP,42093,val,42,093,Middle Atlantic,4,0.12161582820965385,middle
+OppSP,0,OppSP,42109,val,42,109,Middle Atlantic,8,0.04686593126427944,middle
+OppSP,0,OppSP,42111,val,42,111,Middle Atlantic,21,0.05896106314047892,middle
+OppSP,0,OppSP,42115,val,42,115,Middle Atlantic,11,0.049941404578094185,middle
+OppSP,0,OppSP,44005,val,44,005,New England,23,0.02161264065932703,middle
+OppSP,0,OppSP,45007,val,45,007,South Atlantic,39,0.013035356458703264,middle
+OppSP,0,OppSP,45053,val,45,053,South Atlantic,5,0.08735342974830883,middle
+OppSP,0,OppSP,45055,val,45,055,South Atlantic,15,0.0891950871703238,middle
+OppSP,0,OppSP,45059,val,45,059,South Atlantic,17,0.029287101089608438,middle
+OppSP,0,OppSP,45061,val,45,061,South Atlantic,7,0.09953913207574297,middle
+OppSP,0,OppSP,45067,val,45,067,South Atlantic,8,0.025011149084502988,middle
+OppSP,0,OppSP,45069,val,45,069,South Atlantic,7,0.03353333330985993,middle
+OppSP,0,OppSP,46093,val,46,093,West North Central,5,0.0624902468537409,middle
+OppSP,0,OppSP,46103,val,46,103,West North Central,23,0.023445904626528447,middle
+OppSP,0,OppSP,47021,val,47,021,East South Central,9,0.08069554344942373,middle
+OppSP,0,OppSP,47065,val,47,065,East South Central,82,0.01374191503463046,middle
+OppSP,0,OppSP,47079,val,47,079,East South Central,9,0.05046208775280129,middle
+OppSP,0,OppSP,47107,val,47,107,East South Central,10,0.04016654192056348,middle
+OppSP,0,OppSP,47117,val,47,117,East South Central,6,0.04814660555153035,middle
+OppSP,0,OppSP,47139,val,47,139,East South Central,5,0.12985474795540505,middle
+OppSP,0,OppSP,47185,val,47,185,East South Central,6,0.06380387753526191,middle
+OppSP,0,OppSP,47187,val,47,187,East South Central,37,0.02541725982356627,middle
+OppSP,0,OppSP,48013,val,48,013,West South Central,8,0.11834319508420574,middle
+OppSP,0,OppSP,48067,val,48,067,West South Central,7,0.07470899465918873,middle
+OppSP,0,OppSP,48093,val,48,093,West South Central,4,0.07311000449582454,middle
+OppSP,0,OppSP,48141,val,48,141,West South Central,161,0.012039319006250737,middle
+OppSP,0,OppSP,48203,val,48,203,West South Central,14,0.015642202780959496,middle
+OppSP,0,OppSP,48233,val,48,233,West South Central,7,0.051830150425170085,middle
+OppSP,0,OppSP,48273,val,48,273,West South Central,5,0.04148150620743654,middle
+OppSP,0,OppSP,48339,val,48,339,West South Central,59,0.03497465675450791,middle
+OppSP,0,OppSP,48395,val,48,395,West South Central,5,0.08425154521446723,middle
+OppSP,0,OppSP,48459,val,48,459,West South Central,7,0.0245553266058773,middle
+OppSP,0,OppSP,48473,val,48,473,West South Central,6,0.07174778079520645,middle
+OppSP,0,OppSP,48479,val,48,479,West South Central,61,0.04329124102315865,middle
+OppSP,0,OppSP,48493,val,48,493,West South Central,11,0.11461224465781931,middle
+OppSP,0,OppSP,50017,val,50,017,New England,10,0.041397145150419916,middle
+OppSP,0,OppSP,51069,val,51,069,South Atlantic,14,0.04134869883118414,middle
+OppSP,0,OppSP,51089,val,51,089,South Atlantic,14,0.046586282929112884,middle
+OppSP,0,OppSP,51590,val,51,590,South Atlantic,16,0.09999057788848618,middle
+OppSP,0,OppSP,51600,val,51,600,South Atlantic,5,0.017301636262194095,middle
+OppSP,0,OppSP,51690,val,51,690,South Atlantic,5,0.1245404410848968,middle
+OppSP,0,OppSP,53029,val,53,029,Pacific,22,0.040754208636560825,middle
+OppSP,0,OppSP,53031,val,53,031,Pacific,7,0.1283207906944709,middle
+OppSP,0,OppSP,53075,val,53,075,Pacific,10,0.03388251394861159,middle
+OppSP,0,OppSP,53077,val,53,077,Pacific,45,0.020323131730711007,middle
+OppSP,0,OppSP,54039,val,54,039,South Atlantic,53,0.02692055014304997,middle
+OppSP,0,OppSP,54069,val,54,069,South Atlantic,18,0.09010534400667777,middle
+OppSP,0,OppSP,54087,val,54,087,South Atlantic,4,0.023263626423459065,middle
+OppSP,0,OppSP,54097,val,54,097,South Atlantic,6,0.11912122019657148,middle
+OppSP,0,OppSP,55021,val,55,021,East North Central,12,0.04022495693466436,middle
+OppSP,0,OppSP,55043,val,55,043,East North Central,12,0.05752881057541087,middle
+OppSP,0,OppSP,55055,val,55,055,East North Central,20,0.028208496572549258,middle
+OppSP,0,OppSP,55061,val,55,061,East North Central,4,0.0747485257929128,middle
+OppSP,0,OppSP,55069,val,55,069,East North Central,10,0.08343161053699286,middle
+OppSP,0,OppSP,55073,val,55,073,East North Central,27,0.0307000593607472,middle
+OppSP,0,OppSP,55099,val,55,099,East North Central,6,0.027237841633278012,middle
+OppSP,0,OppSP,55109,val,55,109,East North Central,14,0.05342213779624287,middle
+OppSP,0,OppSP,56001,val,56,001,Mountain,10,0.05120400277820976,middle
+OppSP,0,OppSP,56025,val,56,025,Mountain,18,0.04913395626464486,middle
+OppSP,0,OppSP,56037,val,56,037,Mountain,12,0.03339168603925185,middle

@@ -1,0 +1,16 @@
+model=official_gbrt
+split_name=GeoSP_WestNorthCentral
+seed=2026
+epochs_requested=20
+epochs_completed=0
+area_counts={'train': 1756, 'val': 196, 'test': 313}
+load_seconds=1.900
+fit_seconds=25.697
+eval_seconds=47.829
+aggregate_seconds=0.111
+checkpoint_seconds=0.000
+predict_seconds=26.988
+metric_seconds=20.793
+metric_rows=4530
+write_seconds=0.373
+total_seconds=75.911

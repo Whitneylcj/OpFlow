@@ -1,0 +1,16 @@
+model=official_rf
+split_name=GeoSP_MiddleAtlantic
+seed=2026
+epochs_requested=20
+epochs_completed=0
+area_counts={'train': 1908, 'val': 213, 'test': 144}
+load_seconds=1.060
+fit_seconds=11.936
+eval_seconds=39.103
+aggregate_seconds=0.103
+checkpoint_seconds=0.000
+predict_seconds=20.105
+metric_seconds=18.959
+metric_rows=4530
+write_seconds=0.338
+total_seconds=52.543

@@ -1,0 +1,202 @@
+{
+  "checks": {
+    "all_scores_assigned": true,
+    "every_valid_county_once": true,
+    "no_county_multiple_roles": true,
+    "no_od_label_loaded_or_used": true,
+    "test_has_high_tail": true,
+    "test_has_low_tail": true,
+    "train_only_middle": true,
+    "validation_only_middle": true
+  },
+  "fold_id": "OppSP",
+  "poi_columns": [
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130
+  ],
+  "quantiles": {
+    "q_high": 0.13034440410207343,
+    "q_low": 0.011849537840770722,
+    "tail_quantile": 0.1
+  },
+  "roles": {
+    "test": {
+      "census_division_distribution": {
+        "East North Central": 83,
+        "East South Central": 46,
+        "Middle Atlantic": 33,
+        "Mountain": 38,
+        "New England": 23,
+        "Pacific": 34,
+        "South Atlantic": 75,
+        "West North Central": 58,
+        "West South Central": 64
+      },
+      "n_counties": 454,
+      "n_nodes": {
+        "max": 1318,
+        "median": 9.0,
+        "min": 4
+      },
+      "opp_concentration_hhi": {
+        "max": 0.6874461357017024,
+        "median": 0.07111027462619332,
+        "min": 0.0003614335900272825
+      },
+      "opp_group_distribution": {
+        "high_tail": 227,
+        "low_tail": 227
+      },
+      "poi_nonzero_nodes": {
+        "max": 1317,
+        "median": 9.0,
+        "min": 2,
+        "sum": 33723
+      },
+      "poi_total": {
+        "max": 229714.0,
+        "median": 517.5,
+        "min": 19.0,
+        "sum": 2803361.0
+      },
+      "tract_nodes": 33984
+    },
+    "train": {
+      "census_division_distribution": {
+        "East North Central": 280,
+        "East South Central": 211,
+        "Middle Atlantic": 97,
+        "Mountain": 97,
+        "New England": 36,
+        "Pacific": 83,
+        "South Atlantic": 336,
+        "West North Central": 223,
+        "West South Central": 222
+      },
+      "n_counties": 1585,
+      "n_nodes": {
+        "max": 361,
+        "median": 10.0,
+        "min": 4
+      },
+      "opp_concentration_hhi": {
+        "max": 0.13030283918696037,
+        "median": 0.041092372736550475,
+        "min": 0.011851191791570058
+      },
+      "opp_group_distribution": {
+        "middle": 1585
+      },
+      "poi_nonzero_nodes": {
+        "max": 359,
+        "median": 10.0,
+        "min": 4,
+        "sum": 29136
+      },
+      "poi_total": {
+        "max": 36503.0,
+        "median": 406.0,
+        "min": 39.0,
+        "sum": 1742682.0
+      },
+      "tract_nodes": 29375
+    },
+    "val": {
+      "census_division_distribution": {
+        "East North Central": 40,
+        "East South Central": 30,
+        "Middle Atlantic": 14,
+        "Mountain": 14,
+        "New England": 5,
+        "Pacific": 12,
+        "South Atlantic": 48,
+        "West North Central": 32,
+        "West South Central": 31
+      },
+      "n_counties": 226,
+      "n_nodes": {
+        "max": 218,
+        "median": 11.0,
+        "min": 4
+      },
+      "opp_concentration_hhi": {
+        "max": 0.12985474795540505,
+        "median": 0.04048958278561259,
+        "min": 0.012039319006250737
+      },
+      "opp_group_distribution": {
+        "middle": 226
+      },
+      "poi_nonzero_nodes": {
+        "max": 218,
+        "median": 11.0,
+        "min": 4,
+        "sum": 4867
+      },
+      "poi_total": {
+        "max": 29531.0,
+        "median": 410.0,
+        "min": 60.0,
+        "sum": 280813.0
+      },
+      "tract_nodes": 4928
+    }
+  },
+  "seed": 0,
+  "split_name": "OppSP",
+  "stratification": "division",
+  "strict_leakage_rule": {
+    "loaded_files": [
+      "node_feat.npy",
+      "region_meta.csv",
+      "feature metadata"
+    ],
+    "not_loaded_or_used": [
+      "od.npy",
+      "row sums",
+      "column sums",
+      "total OD flow",
+      "allocation entropy from OD",
+      "distance-flow correlation",
+      "evaluation metrics",
+      "model outputs"
+    ],
+    "uses_od_labels": false
+  },
+  "valid_counties": 2265,
+  "warnings": {
+    "skipped_counties": []
+  }
+}

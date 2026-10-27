@@ -1,0 +1,16 @@
+model=raw_count_mlp
+split_name=GeoSP_SouthAtlantic
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1625, 'val': 181, 'test': 459}
+load_seconds=2.627
+fit_seconds=646.801
+eval_seconds=58.745
+aggregate_seconds=0.258
+checkpoint_seconds=0.002
+predict_seconds=31.965
+metric_seconds=26.640
+metric_rows=6795
+write_seconds=0.843
+total_seconds=709.285

@@ -1,0 +1,16 @@
+model=official_dgm
+split_name=GeoSP_EastSouthCentral
+seed=2026
+epochs_requested=20
+epochs_completed=18
+area_counts={'train': 1780, 'val': 198, 'test': 287}
+load_seconds=2.776
+fit_seconds=0.313
+eval_seconds=44.096
+aggregate_seconds=0.178
+checkpoint_seconds=0.000
+predict_seconds=17.988
+metric_seconds=25.952
+metric_rows=4530
+write_seconds=0.463
+total_seconds=49.058

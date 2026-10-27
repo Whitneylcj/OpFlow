@@ -1,0 +1,16 @@
+model=gravity
+split_name=GeoSP_SouthAtlantic
+seed=2026
+epochs_requested=20
+epochs_completed=0
+area_counts={'train': 1625, 'val': 181, 'test': 459}
+load_seconds=1.772
+fit_seconds=1.621
+eval_seconds=18.406
+aggregate_seconds=0.130
+checkpoint_seconds=0.000
+predict_seconds=1.246
+metric_seconds=17.106
+metric_rows=6795
+write_seconds=0.450
+total_seconds=22.381

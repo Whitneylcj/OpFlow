@@ -1,0 +1,16 @@
+model=official_dgm
+split_name=RandSP_seed0
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1585, 'val': 227, 'test': 453}
+load_seconds=1.805
+fit_seconds=0.626
+eval_seconds=34.426
+aggregate_seconds=0.134
+checkpoint_seconds=0.001
+predict_seconds=15.307
+metric_seconds=19.016
+metric_rows=4530
+write_seconds=0.386
+total_seconds=38.206

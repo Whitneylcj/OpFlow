@@ -1,0 +1,36 @@
+[real-world][memory] requested_workers=1 resolved_workers=1 available_gb=NA per_worker_gb=1.25 max_n=1318 max_dense_matrix_mb=6.6
+[real-world][plan] logical_tasks=3 execution_tasks=3 dedup_skipped=0 workers=1 splits=3 models=1 seeds=1 progress_log=outputs/runs/realworld_opflow_strong_seed2026_3splits_20260619/logs/real_world_progress.log
+[real-world][start] 0/3 0.0% elapsed=0s eta=unknown avg/task=unknown task=1 split=RandSP_seed0 model=opflow_full seed=2026
+[real-world][leo] task split=RandSP_seed0 model=opflow_full seed=2026 folds=4/9 train_areas=1585 group_key=census_division fold_epochs=8 metric=joint_selection_score fold_rank_prefix=hard
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=1/4 heldout_group=East North Central heldout_areas=282 epochs=8 best=2.26047
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=2/4 heldout_group=Middle Atlantic heldout_areas=101 epochs=7 best=3.1579
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=3/4 heldout_group=Pacific heldout_areas=91 epochs=6 best=2.92912
+[real-world][leo-fold] task split=RandSP_seed0 model=opflow_full seed=2026 fold=4/4 heldout_group=West South Central heldout_areas=221 epochs=6 best=2.15871
+[real-world][leo-selected] task split=RandSP_seed0 model=opflow_full seed=2026 selected_epoch=3 complete_epochs=6 capped=1
+[real-world][epoch] task split=RandSP_seed0 model=opflow_full seed=2026 epoch=1/3 elapsed=2.3m eta=4.6m train_loss=2.6787 val_alloc_obj=2.24876 selection_joint_selection_score=2.2609 alloc_max=2.48844 vrex=0
+[real-world][epoch] task split=RandSP_seed0 model=opflow_full seed=2026 epoch=2/3 elapsed=4.5m eta=2.3m train_loss=2.52936 val_alloc_obj=2.23634 selection_joint_selection_score=2.24681 alloc_max=2.44299 vrex=0
+[real-world][epoch] task split=RandSP_seed0 model=opflow_full seed=2026 epoch=3/3 elapsed=6.8m eta=0s train_loss=2.4909 val_alloc_obj=2.23577 selection_joint_selection_score=2.24613 alloc_max=2.41289 vrex=0
+[real-world][done] 1/3 33.3% elapsed=24.0m eta=48.1m avg/task=24.0m last=24.0m task=1 split=RandSP_seed0 model=opflow_full seed=2026
+[real-world][start] 1/3 33.3% elapsed=24.0m eta=48.1m avg/task=24.0m task=2 split=GeoSP_SouthAtlantic model=opflow_full seed=2026
+[real-world][leo] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 folds=4/8 train_areas=1625 group_key=census_division fold_epochs=8 metric=joint_selection_score fold_rank_prefix=hard
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=1/4 heldout_group=East North Central heldout_areas=362 epochs=8 best=2.26851
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=2/4 heldout_group=Middle Atlantic heldout_areas=130 epochs=7 best=3.15695
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=3/4 heldout_group=New England heldout_areas=58 epochs=8 best=2.872
+[real-world][leo-fold] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 fold=4/4 heldout_group=West South Central heldout_areas=285 epochs=7 best=2.12109
+[real-world][leo-selected] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 selected_epoch=4 complete_epochs=7 capped=1
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 epoch=1/4 elapsed=2.5m eta=7.4m train_loss=2.62767 val_alloc_obj=2.2339 selection_joint_selection_score=2.2452 alloc_max=2.44834 vrex=0
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 epoch=2/4 elapsed=5.0m eta=5.0m train_loss=2.47436 val_alloc_obj=2.22172 selection_joint_selection_score=2.23201 alloc_max=2.43718 vrex=0
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 epoch=3/4 elapsed=7.6m eta=2.5m train_loss=2.44257 val_alloc_obj=2.219 selection_joint_selection_score=2.22868 alloc_max=2.41447 vrex=0
+[real-world][epoch] task split=GeoSP_SouthAtlantic model=opflow_full seed=2026 epoch=4/4 elapsed=10.3m eta=0s train_loss=2.41932 val_alloc_obj=2.21963 selection_joint_selection_score=2.229 alloc_max=2.3774 vrex=0
+[real-world][done] 2/3 66.7% elapsed=54.1m eta=27.1m avg/task=27.1m last=30.1m task=2 split=GeoSP_SouthAtlantic model=opflow_full seed=2026
+[real-world][start] 2/3 66.7% elapsed=54.1m eta=27.1m avg/task=27.1m task=3 split=OppSP model=opflow_full seed=2026
+[real-world][leo] task split=OppSP model=opflow_full seed=2026 folds=4/9 train_areas=1585 group_key=census_division fold_epochs=8 metric=joint_selection_score fold_rank_prefix=hard
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=1/4 heldout_group=East North Central heldout_areas=280 epochs=6 best=2.20278
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=2/4 heldout_group=Middle Atlantic heldout_areas=97 epochs=7 best=2.74978
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=3/4 heldout_group=Pacific heldout_areas=83 epochs=5 best=2.60533
+[real-world][leo-fold] task split=OppSP model=opflow_full seed=2026 fold=4/4 heldout_group=West South Central heldout_areas=222 epochs=6 best=2.05275
+[real-world][leo-selected] task split=OppSP model=opflow_full seed=2026 selected_epoch=3 complete_epochs=5 capped=1
+[real-world][epoch] task split=OppSP model=opflow_full seed=2026 epoch=1/3 elapsed=10s eta=21s train_loss=2.5597 val_alloc_obj=2.23592 selection_joint_selection_score=2.24828 alloc_max=1.82544 vrex=0
+[real-world][epoch] task split=OppSP model=opflow_full seed=2026 epoch=2/3 elapsed=21s eta=10s train_loss=2.41266 val_alloc_obj=2.22111 selection_joint_selection_score=2.23282 alloc_max=1.81019 vrex=0
+[real-world][epoch] task split=OppSP model=opflow_full seed=2026 epoch=3/3 elapsed=31s eta=0s train_loss=2.38093 val_alloc_obj=2.21715 selection_joint_selection_score=2.22877 alloc_max=1.78469 vrex=0
+[real-world][done] 3/3 100.0% elapsed=58.8m eta=0s avg/task=19.6m last=4.7m task=3 split=OppSP model=opflow_full seed=2026

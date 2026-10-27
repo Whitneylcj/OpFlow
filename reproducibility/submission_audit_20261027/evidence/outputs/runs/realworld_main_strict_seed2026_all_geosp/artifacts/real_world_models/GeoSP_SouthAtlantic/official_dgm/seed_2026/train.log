@@ -1,0 +1,16 @@
+model=official_dgm
+split_name=GeoSP_SouthAtlantic
+seed=2026
+epochs_requested=20
+epochs_completed=20
+area_counts={'train': 1625, 'val': 181, 'test': 459}
+load_seconds=3.250
+fit_seconds=0.448
+eval_seconds=42.566
+aggregate_seconds=0.162
+checkpoint_seconds=0.001
+predict_seconds=17.791
+metric_seconds=24.677
+metric_rows=4530
+write_seconds=0.438
+total_seconds=46.879

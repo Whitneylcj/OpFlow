@@ -1,0 +1,94 @@
+area_limits:
+  max_regions: null
+  max_test_areas: null
+  max_train_areas: null
+  max_val_areas: null
+dataset:
+  data_root: data/opflow_large_commuting_od
+  name: large_commuting_od
+  splits_file: splits.json
+models:
+- distance_only
+- gravity
+- intervening_opportunity
+- pair_mlp
+- scale_aware_mlp
+- opflow_full
+prepare:
+  raw_parent: data/raw
+  zip_path: /Users/liuchangjian/Downloads/CommutingODGen-Dataset-main.zip
+reporting:
+  response_max_areas_per_part: 4
+  response_max_points_per_split: 20000
+  upgrade_output_root: results/realworld_upgrade
+seed: 2026
+seeds:
+- 2026
+splits:
+- RandSP_seed0
+- GeoSP_SouthAtlantic
+- OppSP
+stage: train
+suite: realworld_upgrade
+training:
+  alpha: 1.0
+  area_batch_size: 4
+  benefit_skip: 1.15
+  cache_area_max_mb: 64
+  cache_area_tensors: false
+  competition_skip: 0.45
+  crowding_fallback_weight: 1.0
+  crowding_gate_temperature: 0.5
+  crowding_gate_threshold: 1.5
+  detach_count_allocation: true
+  deterrence_skip: -0.35
+  device: auto
+  epochs: 20
+  eta_residual: 0.2
+  exposure_skip: -0.65
+  grad_clip: 5.0
+  hidden_dim: 32
+  io_cache_max_mb: 256
+  lambda_anchor: 0.005
+  lambda_count: 0.1
+  lambda_op: 0.01
+  lambda_scale: 1.0
+  lambda_selection_scale: 0.1
+  lambda_smooth: 0.0005
+  lambda_vrex: 0.1
+  leo_max_epochs: 20
+  leo_max_folds: 8
+  leo_patience: 5
+  leo_selection_metric: joint_selection_score
+  lr: 0.001
+  omega_grid:
+  - 10000.0
+  - 25000.0
+  - 50000.0
+  omega_selection: fixed
+  opp_recon_delta_scale: 0.25
+  origin_gate_rho: 0.5
+  patience: 15
+  process_workers: 1
+  rank_prefix_mode: soft
+  rank_prefix_row_chunk_size: 128
+  rank_prefix_temperature: 0.05
+  residual_hidden_dim: 16
+  row_chunk_size: 16
+  selection_protocol: leo
+  tau: 1.0
+  topk: 5
+  torch_num_threads_per_worker: 1
+  use_competition: true
+  use_crowding_shift_gate: true
+  use_groupdro: true
+  use_learned_opportunity_reconstruction: true
+  use_monotone_penalty: true
+  use_opportunity_field: true
+  use_origin_gates: true
+  use_rank_exposure: true
+  use_residual_interaction: true
+  use_row_center: true
+  use_sit_operator_potential: true
+  use_vrex: true
+  weight_decay: 1.0e-05
